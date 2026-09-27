@@ -1,0 +1,5 @@
+# Confidential matter dossiers: never committed.
+matters/
+__pycache__/
+*.pyc
+.DS_Store
