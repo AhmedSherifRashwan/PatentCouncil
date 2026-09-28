@@ -51,6 +51,7 @@ class Api:
         self.company = os.environ.get("PAPERCLIP_COMPANY_ID", "")
         self.created: list[dict] = []
         self._agents: dict[str, str] | None = None
+        self._existing: dict[str, dict] | None = None
 
     def call(self, method: str, path: str, body: dict | None = None):
         headers = {"Content-Type": "application/json"}
@@ -65,8 +66,11 @@ class Api:
                 raw = resp.read()
                 return json.loads(raw) if raw else {}
         except urllib.error.HTTPError as exc:
-            raise SystemExit(json.dumps({"ok": False, "error": f"{method} {path} -> {exc.code}",
-                                         "body": exc.read()[:500].decode(errors="replace")}))
+            out = {"ok": False, "error": f"{method} {path} -> {exc.code}",
+                   "body": exc.read()[:500].decode(errors="replace"), "created": self.created}
+            if exc.code == 429:
+                out["resume"] = "Write budget spent for this run. Re-run the same command on the next heartbeat; it reuses what exists."
+            raise SystemExit(json.dumps(out))
 
     def agent(self, name: str) -> str:
         if self._agents is None:
@@ -89,6 +93,19 @@ class Api:
         # before its blockers exist could start without its inputs.
         blockers = body.pop("blockedByIssueIds")
         body["status"] = "backlog"
+        # Resumable: a heartbeat can run out of write budget part-way through a plan. Re-running the same
+        # command reuses the tasks it already created (matched by title) and finishes only what is missing.
+        existing = self.existing(matter_issue["id"]).get(title)
+        if existing:
+            issue = self.call("GET", f"/issues/{existing['id']}")
+            saved = sorted(b["id"] for b in issue.get("blockedBy") or [])
+            if blockers and saved != sorted(blockers):
+                self.call("PATCH", f"/issues/{issue['id']}", {"blockedByIssueIds": blockers})
+            if not issue.get("assigneeAgentId"):
+                self.call("PATCH", f"/issues/{issue['id']}", {"assigneeAgentId": self.agent(agent), "status": "todo"})
+            self.created.append({"key": key, "id": issue["id"], "identifier": issue.get("identifier"), "agent": agent,
+                                 "title": title, "blocked_by": blockers, "reused": True})
+            return issue["id"]
         issue = self.call("POST", f"/companies/{self.company}/issues", body)
         if blockers:
             echoed = self.call("PATCH", f"/issues/{issue['id']}", {"blockedByIssueIds": blockers}).get("blockedByIssueIds") or []
@@ -100,6 +117,14 @@ class Api:
         self.created.append({"key": key, "id": issue["id"], "identifier": issue.get("identifier"), "agent": agent,
                              "title": title, "blocked_by": body["blockedByIssueIds"]})
         return issue["id"]
+
+    def existing(self, parent_id: str) -> dict:
+        """Children of the matter issue already created, by title (fetched once per invocation)."""
+        if self._existing is None:
+            found = self.call("GET", f"/companies/{self.company}/issues?parentId={parent_id}")
+            found = found if isinstance(found, list) else found.get("items", [])
+            self._existing = {i["title"]: i for i in found if i.get("parentId") == parent_id}
+        return self._existing
 
     def matter_issue(self, issue_id: str) -> dict:
         if self.dry:
