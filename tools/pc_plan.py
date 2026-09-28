@@ -84,8 +84,19 @@ class Api:
             fake = f"dry-{len(self.created) + 1}"
             self.created.append({"key": key, "id": fake, "agent": agent, "title": title, "blocked_by": body["blockedByIssueIds"]})
             return fake
-        body["assigneeAgentId"] = self.agent(agent)
+        # Proven order: create unassigned in backlog, set the dependencies (verified from the echo), and only
+        # then assign and open it. Dependencies given at creation are not reliably stored, and an agent assigned
+        # before its blockers exist could start without its inputs.
+        blockers = body.pop("blockedByIssueIds")
+        body["status"] = "backlog"
         issue = self.call("POST", f"/companies/{self.company}/issues", body)
+        if blockers:
+            echoed = self.call("PATCH", f"/issues/{issue['id']}", {"blockedByIssueIds": blockers}).get("blockedByIssueIds") or []
+            if sorted(echoed) != sorted(blockers):
+                raise SystemExit(json.dumps({"ok": False, "error": f"dependencies not saved on {issue.get('identifier')}",
+                                             "wanted": blockers, "saved": echoed}))
+        self.call("PATCH", f"/issues/{issue['id']}", {"assigneeAgentId": self.agent(agent), "status": "todo"})
+        body["blockedByIssueIds"] = blockers
         self.created.append({"key": key, "id": issue["id"], "identifier": issue.get("identifier"), "agent": agent,
                              "title": title, "blocked_by": body["blockedByIssueIds"]})
         return issue["id"]
