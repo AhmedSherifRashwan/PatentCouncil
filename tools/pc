@@ -1,0 +1,3 @@
+#!/bin/sh
+# Patent Council tools. See `pc --help`. Runs with the IP Filing Ecosystem's environment.
+exec uv run --quiet --project "$HOME/IP-Filing-Ecosystem" python "$HOME/PatentCouncil/tools/patent_tools.py" "$@"

@@ -1,0 +1,3 @@
+#!/bin/sh
+# Patent Council run planner. See `pc-plan --help`.
+exec python3 "$HOME/PatentCouncil/tools/pc_plan.py" "$@"
