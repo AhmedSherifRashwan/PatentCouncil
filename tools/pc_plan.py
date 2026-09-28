@@ -339,7 +339,7 @@ def stage_init(args, api: Api) -> dict:
           f"Debate 3, round 1. Answer every `disclosure_requests` item in the envelopes of `{p.r}/P5/25.md` and "
           f"`{p.r}/P5/26.md` (x-p4-revise): add the disclosure, or answer `cannot support without new matter`. Save the "
           f"reply as `{p.r}/loop/inner-1/x-p4-revise.md` and the revised description as `{p.r}/description.v2.md` (never "
-          "overwrite description.md).", ["P5d"], [pr("x-p4-revise", "loop/inner-1")])
+          "overwrite description.md).", ["P5d", "P5e"], [pr("x-p4-revise", "loop/inner-1")])
         T("IL1b", "Inner loop 1 · claims answer the description", "Claims Architect",
           f"Debate 3, round 1. x-p5-revise against `{p.r}/description.v2.md`: tighten claims to what is now supported, "
           f"push back in `open_disagreements` where the drafter refused support you need. Save the reply as "
@@ -370,8 +370,9 @@ def stage_review(args, api: Api) -> dict:
         for g in groups:
             key = f"R{args.round}-{reviewer[:3]}-{g.split()[0]}"
             prompts = [pr(x, f"review/r{args.round}") for x in REVIEW_GROUPS[g]]
-            what = (f"Review round {args.round}, group {g}, as the **{reviewer}**. Read ONLY `{package}/` and the prompt "
-                    f"files. Write each reply to `{rdir}/<id>{suffix}.md` and its envelope with "
+            what = (f"Review round {args.round}, group {g}, as the **{reviewer}**. Read ONLY `{package}/`, the saved prior "
+                    f"art (`{p.r}/prior-art/INDEX.md` and `{p.r}/prior-art/refs/`) and the prompt files. Write each reply to "
+                    f"`{rdir}/<id>{suffix}.md` and its envelope with "
                     f"`{PC} contract --kind review --reply {rdir}/<id>{suffix}.md --write-envelope {rdir}/<id>{suffix}.envelope.json`.")
             if args.round > 1:
                 what += (f" This is a re-review after loop-back: `{rdir}/CHANGED.md` lists what changed. Review the whole "
