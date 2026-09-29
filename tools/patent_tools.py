@@ -39,6 +39,9 @@ Gates, review and loop-backs
                                                      owner-only loop-back plan for upheld findings
   findings-report --findings F --title T --out F     readable report (with rulings when present)
 
+  assemble-description --parts F [F ...] --out F
+                                                     stitch parallel description parts, number paragraphs
+
 Deliverables (the two documents the requester receives)
   assemble --title T --abstract F --description F --figures-list F --claims F --out F
                                                      the patent application: Abstract, Detailed
@@ -572,6 +575,29 @@ def cmd_assessment_check(args: argparse.Namespace) -> int:
                   "references_in_index": len(refs), "missing_references": missing_refs, "problems": problems}, ok=ok)
 
 
+def cmd_assemble_description(args: argparse.Namespace) -> int:
+    """Stitch the parallel description parts into one description with [0001]-style paragraph numbers.
+
+    Each part is a compose reply; its Deliverable is taken in the order given. Headings, tables and lists
+    stay unnumbered; every prose paragraph is numbered sequentially across the whole description.
+    """
+    blocks: list[str] = []
+    for part in args.parts:
+        body = _deliverable(part, "compose")
+        body = re.sub(r"^\s*###\s+.*\n", "", body, count=1)  # the part's own H3 wrapper
+        blocks += [b.strip() for b in re.split(r"\n[ \t]*\n", body) if b.strip()]
+    out, n = [], 0
+    for b in blocks:
+        b = re.sub(r"^\[(\d{3,4}[a-z]?)\]\s*|^¶\d+\s*", "", b)
+        if b.startswith(("#", "|", "- ", "* ", "```", ">")) or re.match(r"^\d+\.\s", b):
+            out.append(b)
+        else:
+            n += 1
+            out.append(f"[{n:04d}] {b}")
+    _write(args.out, "\n\n".join(out) + "\n")
+    return _emit({"parts": len(args.parts), "paragraphs": n, "written": args.out}, ok=n > 0)
+
+
 def cmd_export(args: argparse.Namespace) -> int:
     written = export.export_markdown(Path(args.source).expanduser(), Path(args.out).expanduser(), args.title)
     return _emit({"written": [str(p) for p in written]}, ok=len(written) == 2)
@@ -618,6 +644,7 @@ def main() -> int:
     add("findings-report", "--findings:req", "--title:req", "--out:req")
     add("mark", "--matter:req", "--stage:req", "--event:req", "--note")
     add("scorecard", "--matter:req", "--run:req", "--out")
+    add("assemble-description", "--parts:many", "--out:req")
     add("assemble", "--title:req", "--abstract:req", "--description:req", "--figures-list:req", "--claims:req", "--out:req")
     add("assessment-check", "--assessment:req", "--findings:req", "--index")
     add("export", "--source:req", "--out:req", "--title:default=")
@@ -628,7 +655,7 @@ def main() -> int:
         "antecedent": cmd_antecedent, "claims-format": cmd_claims_format, "confirm": cmd_confirm,
         "review-package": cmd_review_package, "merge-findings": cmd_merge, "apply-rulings": cmd_apply_rulings,
         "route": cmd_route, "findings-report": cmd_report, "mark": cmd_mark, "scorecard": cmd_scorecard,
-        "assemble": cmd_assemble, "assessment-check": cmd_assessment_check, "export": cmd_export,
+        "assemble": cmd_assemble, "assemble-description": cmd_assemble_description, "assessment-check": cmd_assessment_check, "export": cmd_export,
     }
     try:
         return handlers[args.cmd](args)
