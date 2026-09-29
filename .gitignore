@@ -3,3 +3,4 @@ matters/
 __pycache__/
 *.pyc
 .DS_Store
+watch.log

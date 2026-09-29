@@ -1,0 +1,46 @@
+#!/usr/bin/env python3
+"""Watch a Patent Council run. Logs every task status change; stops when the package checkpoint
+is done, a working task is blocked for over 10 minutes, or runs keep failing. Session-limit
+failures are reported with their reset time.
+
+    ~/PatentCouncil/tools/pc-watch [--log FILE] [--hours 6]
+"""
+import argparse, datetime as dt, json, time, urllib.request
+
+p = argparse.ArgumentParser(); p.add_argument("--log", default=str(__import__("pathlib").Path.home() / "PatentCouncil/watch.log"))
+p.add_argument("--hours", type=float, default=6); a = p.parse_args()
+get = lambda u: json.load(urllib.request.urlopen("http://127.0.0.1:3100/api" + u, timeout=30))
+C = [c for c in get("/companies") if c["name"] == "Patent Council"][0]["id"]
+def log(msg):
+    line = f"{dt.datetime.now().strftime('%m-%d %H:%M:%S')} {msg}"
+    open(a.log, "a").write(line + "\n"); print(line, flush=True)
+seen, blocked_since, failed, t0 = {}, {}, set(), time.time()
+log("watch started")
+while time.time() - t0 < a.hours * 3600:
+    try:
+        ag = {x["id"]: x["name"] for x in get(f"/companies/{C}/agents")}
+        issues = get(f"/companies/{C}/issues")
+        for i in issues:
+            k, st = i["identifier"], i["status"]
+            if seen.get(k) != st and (seen or st not in ("done", "cancelled")):
+                log(f"{k:<7} {st:<11} {ag.get(i.get('assigneeAgentId'), '-'):<22} {i['title'][:90]}")
+            seen[k] = st
+            working = " · r" in i["title"]  # run tasks; request and matter issues wait by design
+            if st == "blocked" and working: blocked_since.setdefault(k, time.time())
+            else: blocked_since.pop(k, None)
+        runs = get(f"/companies/{C}/heartbeat-runs?limit=60"); runs = runs if isinstance(runs, list) else runs.get("runs", runs)
+        new_fail = [r for r in runs if r.get("status") == "failed" and r["id"] not in failed]
+        for r in new_fail:
+            failed.add(r["id"]); err = (r.get("error") or "")
+            kind = "SESSION LIMIT" if "session limit" in err.lower() else "RUN FAILED"
+            log(f"{kind} {ag.get(r['agentId'])}: {err[:200]}")
+            if kind == "SESSION LIMIT": log("STOPPING: Claude session limit reached; resume after the reset time"); raise SystemExit
+        if any("Checkpoint · assemble the package" in i["title"] and i["status"] == "done" for i in issues):
+            log("FINISHED: package checkpoint done"); break
+        stuck = [k for k, t in blocked_since.items() if time.time() - t > 600]
+        if stuck: log(f"STOPPING: blocked for over 10 minutes: {stuck}"); break
+        if len(failed) >= 3: log("STOPPING: 3 or more failed runs since the watch started"); break
+    except SystemExit: break
+    except Exception as e: log(f"poll error {e}")
+    time.sleep(60)
+log(f"watch ended after {(time.time() - t0) / 60:.0f} min")
