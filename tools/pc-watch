@@ -19,6 +19,7 @@ seen, blocked_since, failed, t0 = {}, {}, set(), time.time()
 seen = {i["identifier"]: i["status"] for i in get(f"/companies/{C}/issues")}
 _r = get(f"/companies/{C}/heartbeat-runs?limit=200"); _r = _r if isinstance(_r, list) else _r.get("runs", _r)
 failed = {r["id"] for r in _r if r.get("status") == "failed"}
+new_failures = 0
 log(f"watch started ({len(seen)} tasks, {sum(1 for v in seen.values() if v == 'done')} done)")
 while time.time() - t0 < a.hours * 3600:
     try:
@@ -35,7 +36,7 @@ while time.time() - t0 < a.hours * 3600:
         runs = get(f"/companies/{C}/heartbeat-runs?limit=60"); runs = runs if isinstance(runs, list) else runs.get("runs", runs)
         new_fail = [r for r in runs if r.get("status") == "failed" and r["id"] not in failed]
         for r in new_fail:
-            failed.add(r["id"]); err = (r.get("error") or "")
+            failed.add(r["id"]); new_failures += 1; err = (r.get("error") or "")
             kind = "SESSION LIMIT" if "session limit" in err.lower() else "RUN FAILED"
             log(f"{kind} {ag.get(r['agentId'])}: {err[:200]}")
             if kind == "SESSION LIMIT": log("STOPPING: Claude session limit reached; resume after the reset time"); raise SystemExit
@@ -43,7 +44,7 @@ while time.time() - t0 < a.hours * 3600:
             log("FINISHED: package checkpoint done"); break
         stuck = [k for k, t in blocked_since.items() if time.time() - t > 600]
         if stuck: log(f"STOPPING: blocked for over 10 minutes: {stuck}"); break
-        if len(failed) >= 3: log("STOPPING: 3 or more failed runs since the watch started"); break
+        if new_failures >= 3: log("STOPPING: 3 or more failed runs since the watch started"); break
     except SystemExit: break
     except Exception as e: log(f"poll error {e}")
     time.sleep(60)
