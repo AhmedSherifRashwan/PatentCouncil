@@ -14,4 +14,9 @@ filing package for qualified patent counsel.
   answers), `runs/<rN>/` (every phase output, versioned, never overwritten), `timeline.jsonl`.
   **Git-ignored and confidential: never committed, never uploaded.**
 
+**Two deliverables per matter** (Word and PDF each): the **Patent Application** (Abstract, Detailed
+Description, List of Figures, Claims) and the **Prosecution Assessment** (likelihood of grant out of 10, and a
+table of every deficiency and prior-art reference the application will face). Everything else stays in the dossier.
+- `agents/` — every agent's AGENTS.md, under version control; the source of truth for their instructions.
+
 AI drafting is a drafting and analysis aid, not a substitute for a qualified patent attorney or agent.

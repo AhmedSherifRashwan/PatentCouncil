@@ -39,6 +39,14 @@ Gates, review and loop-backs
                                                      owner-only loop-back plan for upheld findings
   findings-report --findings F --title T --out F     readable report (with rulings when present)
 
+Deliverables (the two documents the requester receives)
+  assemble --title T --abstract F --description F --figures-list F --claims F --out F
+                                                     the patent application: Abstract, Detailed
+                                                     Description, List of Figures, Claims
+  assessment-check --assessment F --findings F [--index INDEX.md]
+                                                     the prosecution assessment has a score out of 10 and
+                                                     lists every open finding and every reference
+
 Run records
   mark --matter DIR --stage NAME --event start|end [--note TEXT]
   scorecard --matter DIR --run rN [--out FILE]
@@ -519,6 +527,51 @@ def cmd_scorecard(args: argparse.Namespace) -> int:
     return _emit({**card, "written": str(out)})
 
 
+def _strip_title(text: str) -> str:
+    """Drop a leading H1/H2 title line: the assembled document supplies its own headings."""
+    lines = text.strip().splitlines()
+    while lines and (lines[0].startswith("# ") or lines[0].startswith("## ") or not lines[0].strip()):
+        lines.pop(0)
+    return "\n".join(lines).strip()
+
+
+def cmd_assemble(args: argparse.Namespace) -> int:
+    """Deliverable 1: the patent application, in the order counsel asked for."""
+    parts = [f"# {args.title}", "", "## Abstract", "", _strip_title(_read(args.abstract)), "",
+             "## Detailed Description", "", _strip_title(_read(args.description)), "",
+             "## List of Figures", "", _strip_title(_read(args.figures_list)), "",
+             "## Claims", "", _strip_title(_read(args.claims)), ""]
+    _write(args.out, "\n".join(parts))
+    claims = support_check.parse_claims(_read(args.claims))
+    return _emit({"written": args.out, "claims": len(claims),
+                  "abstract_words": len(_strip_title(_read(args.abstract)).split())})
+
+
+_PUB = re.compile(r"\b(?:US|EP|WO|GB|DE|FR|CN|JP|KR|CA|AU)\s?-?\d{4,}(?:[/-]?\d+)?\s?(?:[A-Z]\d?)?\b")
+
+
+def cmd_assessment_check(args: argparse.Namespace) -> int:
+    """Deliverable 2 completeness: a score out of 10, every open finding and every reference listed."""
+    text = _read(args.assessment)
+    score = re.search(r"(\d{1,2}(?:\.\d)?)\s*/\s*10\b", text)
+    rows = [l for l in text.splitlines() if l.startswith("|") and not re.match(r"^\|\s*-", l)]
+    _, items = _load_findings(args.findings)
+    open_ids = [i["id"] for i in items if i.get("ruling") in ("upheld", "unclear")]
+    missing_findings = [fid for fid in open_ids if fid not in text]
+    refs = sorted({re.sub(r"\s|-", "", m.group(0)) for m in _PUB.finditer(_read(args.index))}) if args.index else []
+    flat = re.sub(r"\s|-", "", text)
+    missing_refs = [r for r in refs if r not in flat]
+    problems = []
+    if not score:
+        problems.append("no 'N / 10' likelihood-of-grant score found")
+    elif float(score.group(1)) > 10:
+        problems.append("score above 10")
+    ok = not (problems or missing_findings or missing_refs)
+    return _emit({"score": score.group(1) if score else None, "table_rows": len(rows),
+                  "open_findings": len(open_ids), "missing_findings": missing_findings,
+                  "references_in_index": len(refs), "missing_references": missing_refs, "problems": problems}, ok=ok)
+
+
 def cmd_export(args: argparse.Namespace) -> int:
     written = export.export_markdown(Path(args.source).expanduser(), Path(args.out).expanduser(), args.title)
     return _emit({"written": [str(p) for p in written]}, ok=len(written) == 2)
@@ -565,6 +618,8 @@ def main() -> int:
     add("findings-report", "--findings:req", "--title:req", "--out:req")
     add("mark", "--matter:req", "--stage:req", "--event:req", "--note")
     add("scorecard", "--matter:req", "--run:req", "--out")
+    add("assemble", "--title:req", "--abstract:req", "--description:req", "--figures-list:req", "--claims:req", "--out:req")
+    add("assessment-check", "--assessment:req", "--findings:req", "--index")
     add("export", "--source:req", "--out:req", "--title:default=")
     args = parser.parse_args()
     handlers = {
@@ -573,7 +628,7 @@ def main() -> int:
         "antecedent": cmd_antecedent, "claims-format": cmd_claims_format, "confirm": cmd_confirm,
         "review-package": cmd_review_package, "merge-findings": cmd_merge, "apply-rulings": cmd_apply_rulings,
         "route": cmd_route, "findings-report": cmd_report, "mark": cmd_mark, "scorecard": cmd_scorecard,
-        "export": cmd_export,
+        "assemble": cmd_assemble, "assessment-check": cmd_assessment_check, "export": cmd_export,
     }
     try:
         return handlers[args.cmd](args)

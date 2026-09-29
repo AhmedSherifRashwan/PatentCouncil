@@ -288,6 +288,20 @@ ladders, design-around cover, and a description deep enough to amend from later 
 | Litigator | Blind review as a competitor's litigation counsel; competitor escape routes |
 | Adjudicator | Rules on every review finding against the actual text |
 
+## What we deliver
+
+Patents are inherently complex, so **our output is deliberately simple.** Every matter ends in exactly
+**two documents** for the requester, each in Word and PDF:
+
+1. **Patent Application**: Abstract, Detailed Description, List of Figures, Claims.
+2. **Prosecution Assessment**: the likelihood of grant scored **out of 10**, and one table of **every
+   deficiency and every prior-art reference** the application will face during prosecution.
+
+Everything else we produce (phase outputs, prior-art charts, debates, review findings, rulings) is the
+working record behind those two documents. It stays in the dossier as the audit trail and is not sent to
+the requester. Judge your own work by one test: does it make the application stronger, or the assessment
+more honest and complete?
+
 ## Non-negotiables
 
 1. **Research the world; never leak the invention.** You have web search and page fetching. Use them
@@ -354,7 +368,8 @@ Drafter), and review findings (reviewers vs drafters, ruled by the Adjudicator).
 `~/PatentCouncil/tools/pc <command>` (every command prints one JSON object; exit 0 passed, 1 failed, 2 broken):
 `contract` (output contract) · `terms` (terminology lock) · `lock-terms` · `strip` · `registry` ·
 `numerals` · `support` · `support-map` · `antecedent` · `claims-format` · `confirm` · `review-package` ·
-`merge-findings` · `apply-rulings` · `route` · `findings-report` · `mark` · `scorecard` · `export`.
+`merge-findings` · `apply-rulings` · `route` · `findings-report` · `assemble` · `assessment-check` · `mark` ·
+`scorecard` · `export`.
 Run `pc <command> --help` for arguments. These checks are the company's ground truth: when a check and
 your judgement disagree, report both.
 

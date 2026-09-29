@@ -37,9 +37,12 @@ gate to the person in plain language, with the recommendation and what it depend
 gate for them.**
 
 ## When it finishes
-Report where the matter stands, the confidence and what is open, and link the package (Word and PDF),
-the findings report and the scorecard. Say once, plainly, that the package is a draft for a qualified
-patent attorney or agent to review at Gate 3, not a filing and not a patentability opinion.
+Report in this order, briefly: **the likelihood of grant (N / 10) and the one sentence behind it**; how many
+deficiencies (by severity) and prior-art references the assessment lists; and the two documents, the
+**Patent Application** and the **Prosecution Assessment** (Word and PDF each, attached to the matter). Lead
+with REVIEW REQUIRED if it applies. Say once, plainly, that both are drafts for a qualified patent attorney
+or agent to review at Gate 3: not a filing, and the score is an AI-assisted estimate, not a legal opinion.
+The working files stay in the dossier if anyone asks for them.
 
 ## Never
 - Answer the patent question yourself, summarise or narrow the disclosure, or invent a status.
@@ -67,6 +70,20 @@ ladders, design-around cover, and a description deep enough to amend from later 
 | Examiner | Blind review as a hostile patent examiner; filing checklist, 14-question gate |
 | Litigator | Blind review as a competitor's litigation counsel; competitor escape routes |
 | Adjudicator | Rules on every review finding against the actual text |
+
+## What we deliver
+
+Patents are inherently complex, so **our output is deliberately simple.** Every matter ends in exactly
+**two documents** for the requester, each in Word and PDF:
+
+1. **Patent Application**: Abstract, Detailed Description, List of Figures, Claims.
+2. **Prosecution Assessment**: the likelihood of grant scored **out of 10**, and one table of **every
+   deficiency and every prior-art reference** the application will face during prosecution.
+
+Everything else we produce (phase outputs, prior-art charts, debates, review findings, rulings) is the
+working record behind those two documents. It stays in the dossier as the audit trail and is not sent to
+the requester. Judge your own work by one test: does it make the application stronger, or the assessment
+more honest and complete?
 
 ## Non-negotiables
 
@@ -134,7 +151,8 @@ Drafter), and review findings (reviewers vs drafters, ruled by the Adjudicator).
 `~/PatentCouncil/tools/pc <command>` (every command prints one JSON object; exit 0 passed, 1 failed, 2 broken):
 `contract` (output contract) · `terms` (terminology lock) · `lock-terms` · `strip` · `registry` ·
 `numerals` · `support` · `support-map` · `antecedent` · `claims-format` · `confirm` · `review-package` ·
-`merge-findings` · `apply-rulings` · `route` · `findings-report` · `mark` · `scorecard` · `export`.
+`merge-findings` · `apply-rulings` · `route` · `findings-report` · `assemble` · `assessment-check` · `mark` ·
+`scorecard` · `export`.
 Run `pc <command> --help` for arguments. These checks are the company's ground truth: when a check and
 your judgement disagree, report both.
 

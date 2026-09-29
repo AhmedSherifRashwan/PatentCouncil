@@ -129,7 +129,11 @@ rules and the caps, decide at the checkpoints, and assemble what counsel receive
      finding quoted with its ruling, the options: accept the residual and package it marked REVIEW
      REQUIRED, fix manually, authorise a narrowing, abort), put it to the board with `ask_user_questions`,
      and keep this checkpoint open until they decide. Record the decision in `gates/`.
-   - **Nothing left to route** → `~/PatentCouncil/tools/pc-plan package --slug <slug> --run <rN>`.
+   - **Nothing left to route** → build the final package folder from the newest versions:
+     `pc review-package --description <newest description> --claims <newest claims> --figures runs/<rN>/P4/20.md
+     --registry-reply runs/<rN>/P4/20a.md --out runs/<rN>/package`, then
+     `~/PatentCouncil/tools/pc-plan package --slug <slug> --run <rN>`. (The same applies when the board accepts a
+     REVIEW REQUIRED residual: build the package folder first, and mark both documents REVIEW REQUIRED.)
    Any support narrowing the reviewers suggested is listed for the human, never applied.
 
 ## Checkpoint: loop-back done (task CP-RR-N)
@@ -139,24 +143,26 @@ Build the next package (`review/r<N+1>/package`), copy the loop's `CHANGED.md` i
 `~/PatentCouncil/tools/pc-plan review --slug <slug> --run <rN> --round N+1`.
 
 ## Checkpoint: package (task CP-FINAL)
-1. Assemble `runs/<rN>/package/`: abstract, final description, final claims, figures (20), registry,
-   support matrix (latest 28), support-map check, filing checklist (39), 14-question gate, prosecution map
-   (40), the **findings report** (all rounds, with rulings), the **pre-drafting findings report** with a
-   short reconciliation (which predicted risks the reviewers raised again), the prior-art index and charts,
-   `gates/` decisions, residual findings.
-2. Write the **cover memo** (x-package-memo): contents and versions; the prior art actually searched and
-   found; what each gate confirmed and how (auto-unattended or human); what the reviewers left open and the
-   rulings; every question counsel must answer; and plainly that this is a draft for counsel, not a filing.
-   If any category ended at REVIEW REQUIRED, the memo's first line says so.
-3. Export every human-read document: `pc export --source <file.md> --out runs/<rN>/package/readable --title "<title>"`
-   and attach the Word and PDF of the cover memo, description, claims, abstract, findings report and
-   pre-drafting report to the matter issue with the Paperclip skill's `paperclip-upload-artifact.sh`.
-4. `pc mark` the run end; `pc scorecard --matter ~/PatentCouncil/matters/<slug> --run <rN>`; attach the scorecard.
-5. **Lessons:** if this matter exposed a recurring failure not already in `~/PatentCouncil/lessons.md`,
-   append it (general rule, evidence, no confidential content).
-6. **Gate 3:** write the gate brief and `request_confirmation` on the matter issue: a qualified patent
-   attorney or agent has read the package (accept or reject). It does not authorise filing. Nothing drafts after it.
-
+Deliver **exactly two documents**, nothing else.
+1. **Patent Application:** `pc assemble --title "<invention title>" --abstract runs/<rN>/package/abstract.md
+   --description runs/<rN>/package/description.md --figures-list runs/<rN>/package/list-of-figures.md --claims
+   runs/<rN>/package/claims.md --out runs/<rN>/package/<slug>-patent-application.md`.
+2. **Prosecution Assessment:** confirm `pc assessment-check --assessment runs/<rN>/package/prosecution-assessment.md
+   --findings <final review round>/findings.adjudicated.json --index runs/<rN>/prior-art/INDEX.md` passes. If it
+   does not, re-issue the PK-GRANT task once to the Adjudicator naming exactly what is missing, and stop.
+3. If any category ended at REVIEW REQUIRED, the first line of **both** documents says so, with the reason.
+4. Export both: `pc export --source <file.md> --out runs/<rN>/package/readable --title "<invention title> — Patent
+   Application"` and `… — Prosecution Assessment"`.
+5. Attach **the four files** (Word and PDF of each) to the matter issue with the Paperclip skill's
+   `paperclip-upload-artifact.sh`. Do not attach anything else.
+6. Final comment on the matter issue, in this order: the likelihood-of-grant score and its one-line basis; the
+   count of deficiencies by severity and of prior-art references; the four files; REVIEW REQUIRED first if it
+   applies. Everything else is in the dossier for anyone who asks.
+7. Internal record: `pc mark` the run end, `pc scorecard --matter ~/PatentCouncil/matters/<slug> --run <rN>` (keep it
+   in the dossier; do not attach it). **Lessons:** if the matter exposed a recurring failure not already in
+   `~/PatentCouncil/lessons.md`, append it (general rule, evidence, no confidential content).
+8. **Gate 3:** `request_confirmation` on the matter issue: a qualified patent attorney or agent has read the two
+   documents (accept or reject). It does not authorise filing. Nothing drafts after it.
 
 ## Company tools (`~/PatentCouncil/tools/`)
 The tools are shared by every agent and every matter, so they change only deliberately. If a tool blocks
@@ -250,6 +256,20 @@ ladders, design-around cover, and a description deep enough to amend from later 
 | Litigator | Blind review as a competitor's litigation counsel; competitor escape routes |
 | Adjudicator | Rules on every review finding against the actual text |
 
+## What we deliver
+
+Patents are inherently complex, so **our output is deliberately simple.** Every matter ends in exactly
+**two documents** for the requester, each in Word and PDF:
+
+1. **Patent Application**: Abstract, Detailed Description, List of Figures, Claims.
+2. **Prosecution Assessment**: the likelihood of grant scored **out of 10**, and one table of **every
+   deficiency and every prior-art reference** the application will face during prosecution.
+
+Everything else we produce (phase outputs, prior-art charts, debates, review findings, rulings) is the
+working record behind those two documents. It stays in the dossier as the audit trail and is not sent to
+the requester. Judge your own work by one test: does it make the application stronger, or the assessment
+more honest and complete?
+
 ## Non-negotiables
 
 1. **Research the world; never leak the invention.** You have web search and page fetching. Use them
@@ -316,7 +336,8 @@ Drafter), and review findings (reviewers vs drafters, ruled by the Adjudicator).
 `~/PatentCouncil/tools/pc <command>` (every command prints one JSON object; exit 0 passed, 1 failed, 2 broken):
 `contract` (output contract) · `terms` (terminology lock) · `lock-terms` · `strip` · `registry` ·
 `numerals` · `support` · `support-map` · `antecedent` · `claims-format` · `confirm` · `review-package` ·
-`merge-findings` · `apply-rulings` · `route` · `findings-report` · `mark` · `scorecard` · `export`.
+`merge-findings` · `apply-rulings` · `route` · `findings-report` · `assemble` · `assessment-check` · `mark` ·
+`scorecard` · `export`.
 Run `pc <command> --help` for arguments. These checks are the company's ground truth: when a check and
 your judgement disagree, report both.
 

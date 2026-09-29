@@ -49,7 +49,6 @@ MODEL_OVERRIDES = [
     (r"^(G1|G2|QF)$", SONNET),                       # gates' mechanical steps, posting the question form
     (r"^(CP-REVIEW|CP-ADJ-\d+|CP-RR-\d+)$", SONNET),  # mechanical checkpoints (not rulings, not the package)
     (r"^R\d+-\w+-G4$", SONNET),                     # formal and consistency audits (37, 38, 40a)
-    (r"^PK-(39|40)$", SONNET),                        # filing checklist, prosecution map
     (r"^D1a$", OPUS),                                 # the Researcher's debate attack needs judgement
 ]
 
@@ -554,29 +553,50 @@ def stage_loopback(args, api: Api) -> dict:
 
 
 def stage_package(args, api: Api) -> dict:
+    """The deliverables stage. Counsel asked for two documents and nothing else:
+    (1) the patent application: Abstract, Detailed Description, List of Figures, Claims;
+    (2) the prosecution assessment: likelihood of grant out of 10, and every deficiency and every
+    prior-art reference the application will face. Working files stay in the dossier."""
     p = Paths(args.slug, args.run, None, "P1")
-    run_meta = json.loads((p.r / "run.json").read_text())
+    run_meta = json.loads((p.r / "run.json").read_text()) if (p.r / "run.json").exists() else {"profile": "full", "matter_issue": "X"}
     full = run_meta["profile"] == "full"
     mi = api.matter_issue(run_meta["matter_issue"])
     pkg = p.r / "package"
     ids = []
-    api.issue(mi, "PK-39a", f"{args.slug} · {args.run} · package · abstract", "Specification Drafter",
+    api.issue(mi, "PK-39a", f"{args.slug} · {args.run} · package · abstract and list of figures", "Specification Drafter",
               body(p, "PK-39a", "Specification Drafter", run_meta["profile"],
-                   f"Draft the Abstract from the FINAL description and claims only. Reply `{pkg}/39a.md`; abstract text to `{pkg}/abstract.md`.",
-                   [pr("39a", "package")], [str(pkg / "description.md"), str(pkg / "claims.md")], [CHECKS], full), [])
+                   f"From the FINAL description and claims in `{pkg}/` only: (1) the Abstract (Prompt 39a): reply `{pkg}/39a.md`, "
+                   f"abstract text alone in `{pkg}/abstract.md`; (2) the List of Figures: `{pkg}/list-of-figures.md`, one line "
+                   "per figure, `Fig. N — <what it shows>`, matching the figures and reference numerals the description uses.",
+                   [pr("39a", "package")], [str(pkg / "description.md"), str(pkg / "claims.md"), str(pkg / "figures.md")],
+                   [CHECKS, "list-of-figures.md has one line for every figure the description refers to."], full), [])
     ids.append(api.created[-1]["id"])
-    for pid in ("39", "gate14", "40"):
-        api.issue(mi, f"PK-{pid}", f"{args.slug} · {args.run} · package · {prompt(pid)['title'].lower()}", "Examiner",
-                  body(p, f"PK-{pid}", "Examiner", run_meta["profile"],
-                       f"Run Prompt {pid} on the final package in `{pkg}/` only. Reply `{pkg}/{pid}.md`, envelope via "
-                       f"`{PC} contract --kind review --reply {pkg}/{pid}.md --write-envelope {pkg}/{pid}.envelope.json`.",
-                       [pr(pid, "package")], [str(pkg)], ["Reply validated; envelope written."], full), [])
-        ids.append(api.created[-1]["id"])
-    api.issue(mi, "CP-FINAL", f"{args.slug} · {args.run} · Checkpoint · assemble the package", "Orchestrator",
+    api.issue(mi, "PK-gate14", f"{args.slug} · {args.run} · package · 14-question filing gate", "Examiner",
+              body(p, "PK-gate14", "Examiner", run_meta["profile"],
+                   f"Run the 14-question filing gate on the final package in `{pkg}/` and the saved prior art. Reply `{pkg}/gate14.md`, "
+                   f"envelope via `{PC} contract --kind review --reply {pkg}/gate14.md --write-envelope {pkg}/gate14.envelope.json`. "
+                   "It is an input to the grant-likelihood score.",
+                   [pr("gate14", "package")], [str(pkg)], ["Reply validated; envelope written."], full), [])
+    gate14 = api.created[-1]["id"]
+    ids.append(gate14)
+    api.issue(mi, "PK-GRANT", f"{args.slug} · {args.run} · package · prosecution assessment (grant likelihood)", "Adjudicator",
+              body(p, "PK-GRANT", "Adjudicator", run_meta["profile"],
+                   f"Write the **Prosecution Assessment** to `{pkg}/prosecution-assessment.md` exactly as 'The prosecution "
+                   f"assessment' in your AGENTS.md defines: the likelihood-of-grant score out of 10 from the rubric, then one table "
+                   f"listing EVERY deficiency still open after review (every finding ruled upheld or unclear in the final review "
+                   f"round, all severities) and EVERY prior-art reference in the index. Then run `{PC} assessment-check "
+                   f"--assessment {pkg}/prosecution-assessment.md --findings <final round>/findings.adjudicated.json "
+                   f"--index {p.r}/prior-art/INDEX.md` and fix anything it reports missing.",
+                   [], [str(pkg), str(p.r / "review"), str(p.r / "prior-art" / "INDEX.md"), str(p.r / "prior-art" / "refs"),
+                        str(pkg / "gate14.md")],
+                   ["`pc assessment-check` passes (score present, no finding or reference missing)."], full),
+              [gate14], "high")
+    ids.append(api.created[-1]["id"])
+    api.issue(mi, "CP-FINAL", f"{args.slug} · {args.run} · Checkpoint · deliver the two documents", "Orchestrator",
               body(p, "CP-FINAL", "Orchestrator", run_meta["profile"],
-                   "Write the cover memo, assemble and export the package, attach it, write the scorecard, and put Gate 3 to "
-                   "the board. See 'Checkpoint: package' in your AGENTS.md.", [], [str(pkg)],
-                   ["Word and PDF attached to the matter issue; Gate 3 requested."], full), ids, "high")
+                   "Assemble the patent application, export both documents to Word and PDF, attach the four files, and put "
+                   "Gate 3 to the board. See 'Checkpoint: package' in your AGENTS.md.", [], [str(pkg)],
+                   ["Exactly two documents (Word + PDF each) attached to the matter issue; Gate 3 requested."], full), ids, "high")
     return {"stage": "package", "tasks": len(api.created)}
 
 
