@@ -49,6 +49,7 @@ MODEL_OVERRIDES = [
     (r"^(G1|G2|QF)$", SONNET),                       # gates' mechanical steps, posting the question form
     (r"^(CP-REVIEW|CP-ADJ-\d+|CP-RR-\d+|CP-PKG-\d+)$", SONNET),  # mechanical checkpoints (not rulings, not the package)
     (r"^P4-stitch$", SONNET),                          # mechanical stitching and join checks
+    (r"^(P1-02|P1b|P3-13|P3-14|P3-15|P4-18|P4-19|P4-20)$", SONNET),  # supporting analyses (value map, questions, parameter/combination/failure maps, examples, definitions, drawings)
     (r"^R\d+-\w+-G4$", SONNET),                     # formal and consistency audits (37, 38, 40a)
 ]
 
