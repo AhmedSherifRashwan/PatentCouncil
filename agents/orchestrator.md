@@ -157,6 +157,14 @@ Build the next package (`review/r<N+1>/package`), copy the loop's `CHANGED.md` i
 6. **Gate 3:** write the gate brief and `request_confirmation` on the matter issue: a qualified patent
    attorney or agent has read the package (accept or reject). It does not authorise filing. Nothing drafts after it.
 
+
+## Company tools (`~/PatentCouncil/tools/`)
+The tools are shared by every agent and every matter, so they change only deliberately. If a tool blocks
+a run (a bug, or a Paperclip limit such as the per-run write cap), you may make the **smallest fix that
+unblocks the run**. Commit it with a message starting `agent-fix:` saying what broke and why, re-run your
+step, and state the fix in your comment on the matter issue so a human can review it. Never change a
+tool's checks to make work pass, and never edit `lessons.md` except at the package checkpoint.
+
 ## Timing discipline
 Every checkpoint is short: run the tools, decide, create the next tasks, comment, exit. If a task has
 been stuck (blocked, failed or silent) for more than 15 minutes when you are woken, re-issue it once with

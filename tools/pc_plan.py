@@ -41,6 +41,31 @@ ROUND2_GROUPS = ["G1 support, amendment basis and priority", "G2 jurisdictions a
                  "G4 claims, specification and formal audits"]
 
 
+# Per-task model overrides (applied with the assignment). Light, mechanical tasks run on Sonnet 5 to save
+# Claude quota; the Prior-Art Researcher is a Sonnet agent, so its one judgement task, the Debate 1 attack,
+# is lifted to Opus. Everything not listed runs on its agent's own model.
+SONNET, OPUS = "claude-sonnet-5", "claude-opus-5-5"
+MODEL_OVERRIDES = [
+    (r"^(G1|G2|QF)$", SONNET),                       # gates' mechanical steps, posting the question form
+    (r"^(CP-REVIEW|CP-ADJ-\d+|CP-RR-\d+)$", SONNET),  # mechanical checkpoints (not rulings, not the package)
+    (r"^R\d+-\w+-G4$", SONNET),                     # formal and consistency audits (37, 38, 40a)
+    (r"^PK-(39|40)$", SONNET),                        # filing checklist, prosecution map
+    (r"^D1a$", OPUS),                                 # the Researcher's debate attack needs judgement
+]
+
+
+def model_for(key: str) -> str | None:
+    return next((m for pattern, m in MODEL_OVERRIDES if re.match(pattern, key)), None)
+
+
+def _assignment(agent_id: str, key: str) -> dict:
+    body = {"assigneeAgentId": agent_id, "status": "todo"}
+    model = model_for(key)
+    if model:
+        body["assigneeAdapterOverrides"] = {"adapterConfig": {"model": model}}
+    return body
+
+
 # -- Paperclip -------------------------------------------------------------------------------
 
 
@@ -86,7 +111,8 @@ class Api:
                 "status": "todo", "priority": priority, "blockedByIssueIds": [b for b in blocked_by if b]}
         if self.dry:
             fake = f"dry-{len(self.created) + 1}"
-            self.created.append({"key": key, "id": fake, "agent": agent, "title": title, "blocked_by": body["blockedByIssueIds"]})
+            self.created.append({"key": key, "id": fake, "agent": agent, "title": title, "blocked_by": body["blockedByIssueIds"],
+                                 "model": model_for(key)})
             return fake
         # Proven order: create unassigned in backlog, set the dependencies (verified from the echo), and only
         # then assign and open it. Dependencies given at creation are not reliably stored, and an agent assigned
@@ -102,7 +128,7 @@ class Api:
             if blockers and saved != sorted(blockers):
                 self.call("PATCH", f"/issues/{issue['id']}", {"blockedByIssueIds": blockers})
             if not issue.get("assigneeAgentId"):
-                self.call("PATCH", f"/issues/{issue['id']}", {"assigneeAgentId": self.agent(agent), "status": "todo"})
+                self.call("PATCH", f"/issues/{issue['id']}", _assignment(self.agent(agent), key))
             self.created.append({"key": key, "id": issue["id"], "identifier": issue.get("identifier"), "agent": agent,
                                  "title": title, "blocked_by": blockers, "reused": True})
             return issue["id"]
@@ -112,7 +138,7 @@ class Api:
             if sorted(echoed) != sorted(blockers):
                 raise SystemExit(json.dumps({"ok": False, "error": f"dependencies not saved on {issue.get('identifier')}",
                                              "wanted": blockers, "saved": echoed}))
-        self.call("PATCH", f"/issues/{issue['id']}", {"assigneeAgentId": self.agent(agent), "status": "todo"})
+        self.call("PATCH", f"/issues/{issue['id']}", _assignment(self.agent(agent), key))
         body["blockedByIssueIds"] = blockers
         self.created.append({"key": key, "id": issue["id"], "identifier": issue.get("identifier"), "agent": agent,
                              "title": title, "blocked_by": body["blockedByIssueIds"]})
