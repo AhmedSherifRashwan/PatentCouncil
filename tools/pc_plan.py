@@ -42,14 +42,13 @@ ROUND2_GROUPS = ["G1 support, amendment basis and priority", "G2 jurisdictions a
 
 
 # Per-task model overrides (applied with the assignment). Light, mechanical tasks run on Sonnet 5 to save
-# Claude quota; the Prior-Art Researcher is a Sonnet agent, so its one judgement task, the Debate 1 attack,
+# Claude quota; the Prior-Art Analyst is a Sonnet agent, so its one judgement task, the Debate 1 attack,
 # is lifted to Opus. Everything not listed runs on its agent's own model.
 SONNET, OPUS = "claude-sonnet-5", "claude-opus-5-5"
 MODEL_OVERRIDES = [
     (r"^(G1|G2|QF)$", SONNET),                       # gates' mechanical steps, posting the question form
     (r"^(CP-REVIEW|CP-ADJ-\d+|CP-RR-\d+)$", SONNET),  # mechanical checkpoints (not rulings, not the package)
     (r"^R\d+-\w+-G4$", SONNET),                     # formal and consistency audits (37, 38, 40a)
-    (r"^D1a$", OPUS),                                 # the Researcher's debate attack needs judgement
 ]
 
 
@@ -291,7 +290,7 @@ def stage_init(args, api: Api) -> dict:
                        [ids.get(b) for b in blocked], prio))
 
     if start <= 0:  # ---------------------------------------------------------------- P1
-        T("P1a", "P1 · 01–04 invention, value map, nucleus, terminology", "Disclosure Analyst",
+        T("P1a", "P1 · 01–04 invention, value map, nucleus, terminology", "Invention Analyst",
           "Run Prompts 01, 02, 03 and 04 in order, each reading the previous replies. Prompt 04's Terminology "
           "Table becomes the locked vocabulary at Gate 1, so make it complete.", [],
           [pr("01", "P1"), pr("02", "P1"), pr("03", "P1"), pr("04", "P1")])
@@ -300,7 +299,7 @@ def stage_init(args, api: Api) -> dict:
           f"decision in `{p.r}/gates/gate-1.md` (auto-unattended unless the matter is attended; if attended, put the "
           "terminology and the reading of the disclosure to the board with request_confirmation and wait).",
           ["P1a"], done=["LOCKED.md exists and `lock-terms` reported ok.", "gate-1.md records who decided and when."])
-        T("P1b", "P1 · 05 inventor interrogation and top-10 questions", "Disclosure Analyst",
+        T("P1b", "P1 · 05 inventor interrogation and top-10 questions", "Invention Analyst",
           f"Run Prompt 05. Then write `{p.r}/P1/top10-questions.md`: the ten questions whose answers would change the "
           "claims most, each with 2–4 multiple-choice answers where possible plus 'other', and what each answer "
           "would change.", ["P1a"], [pr("05", "P1")])
@@ -309,46 +308,46 @@ def stage_init(args, api: Api) -> dict:
           f"(supersedeOnUserComment false). Do not wait for answers. When they arrive (on any later wake-up), write "
           f"them to `{p.m}/intake/answers.md` and note it in the matter issue.", ["P1b"],
           done=["The question card exists on the matter issue."], prio="low")
-        T("RES1", "Prior-art search · landscape pass", "Prior-Art Researcher",
+        T("RES1", "Prior-art search · landscape pass", "Prior-Art Analyst",
           "Landscape pass, in parallel with Phase 1. From your own reading of the disclosure, formulate GENERIC "
           "technical search queries (never disclosure text) and search patent databases and the literature. Fetch "
           f"the full text and claims of the strongest candidates into `{p.r}/prior-art/refs/` and log every query "
           f"in `{p.r}/prior-art/search-log.md`.", [],
           extra=[str(p.m / "intake" / "disclosure.md")], done=["search-log.md lists every query run and every result kept or dropped."]) if full else None
     if start <= 1:  # ---------------------------------------------------------------- P2
-        T("P2a", "P2 · 06 search concept decomposition", "Prior-Art Strategist",
+        T("P2a", "P2 · 06 search concept decomposition", "Prior-Art Analyst",
           "Run Prompt 06: the searchable concepts, keyword families, CPC/IPC themes and search strings the "
           "Researcher will use.", ["G1"], [pr("06", "P2")])
-        T("RES2", "Prior-art search · targeted pass and index", "Prior-Art Researcher",
+        T("RES2", "Prior-art search · targeted pass and index", "Prior-Art Analyst",
           "Targeted pass using Prompt 06's strings and classes. Finalise the reference set: the "
           f"{'10–20' if full else '5–8'} closest references, each saved with full text and claims in "
           f"`{p.r}/prior-art/refs/<publication-number>.md`, and `{p.r}/prior-art/INDEX.md` listing them with "
           "publication number, title, assignee, dates, URL, why it matters, and the concepts it hits.",
           ["P2a", "RES1"], extra=[str(p.r / "P2" / "06.md")],
           done=["INDEX.md lists every reference with a source URL and access date.", "Every listed reference has its full text saved."])
-        T("P2b", "P2 · 07–09 charts, novelty attack, differentiation", "Prior-Art Strategist",
+        T("P2b", "P2 · 07–09 charts, novelty attack, differentiation", "Prior-Art Analyst",
           "Run Prompts 07, 08 and 09 in order against the references in INDEX.md.", ["RES2"],
           [pr("07", "P2"), pr("08", "P2"), pr("09", "P2")])
         if full:
-            T("D1a", "Debate 1 · attack the differentiation", "Prior-Art Researcher",
+            T("D1a", "Debate 1 · attack the differentiation", "Litigator",
               f"Attack Prompt 09's differentiation matrix: for each claimed distinction, find the closest disclosure "
               f"(in the reference set or by new generic searches) that erodes it. Write `{p.r}/debate/d1-attack.md`: "
               "per distinction, the reference, the exact passage, and how strong the attack is. Add any newly found "
               "references to refs/ and INDEX.md.", ["P2b"], extra=[str(p.r / "P2" / "09.md"), str(p.r / "prior-art" / "INDEX.md")],
               done=["Every distinction in 09 has an attack or an explicit 'no credible attack found, searched: …'."])
-            T("D1b", "Debate 1 · defend, revise 09, then 10", "Prior-Art Strategist",
+            T("D1b", "Debate 1 · defend, revise 09, then 10", "Prior-Art Analyst",
               f"Answer every attack in `{p.r}/debate/d1-attack.md` in `{p.r}/debate/d1-response.md` (concede, narrow the "
               f"distinction, or rebut with the passage that proves it). Save the revised matrix as `{p.r}/P2/09r.md` "
               "(same output contract as Prompt 09). Then run Prompt 10 against 09r.", ["D1a"], [pr("10", "P2")])
         else:
-            T("P2c", "P2 · 10 white space", "Prior-Art Strategist", "Run Prompt 10.", ["P2b"], [pr("10", "P2")])
+            T("P2c", "P2 · 10 white space", "Prior-Art Analyst", "Run Prompt 10.", ["P2b"], [pr("10", "P2")])
     last_p2 = "D1b" if full else "P2c"
     if start <= 2:  # ---------------------------------------------------------------- P3
         dep = [last_p2] if start <= 1 else []
         for pid in ("11", "12", "13", "15"):
-            T(f"P3-{pid}", f"P3 · {pid} {prompt(pid)['title'].lower()}", "Embodiment Architect",
+            T(f"P3-{pid}", f"P3 · {pid} {prompt(pid)['title'].lower()}", "Invention Analyst",
               f"Run Prompt {pid}. Everything you produce is a candidate until Gate 2.", dep, [pr(pid, "P3")])
-        T("P3-14", "P3 · 14 combination map", "Embodiment Architect", "Run Prompt 14.", ["P3-12"], [pr("14", "P3")])
+        T("P3-14", "P3 · 14 combination map", "Invention Analyst", "Run Prompt 14.", ["P3-12"], [pr("14", "P3")])
         p3_all = ["P3-11", "P3-13", "P3-14", "P3-15"]
         if full:
             T("D2a", "Debate 2 · competitor escape routes", "Litigator",
@@ -356,7 +355,7 @@ def stage_init(args, api: Api) -> dict:
               f"credible way to get the same commercial result outside it. Write `{p.r}/debate/d2-attack.md`.", p3_all,
               extra=[str(p.r / "P3" / f"{x}.md") for x in ("11", "12", "13", "14", "15")] + [str(p.r / "P2" / "09r.md")],
               done=["Each escape route names the embodiment it avoids and why it works commercially."])
-            T("D2b", "Debate 2 · close the escape routes", "Embodiment Architect",
+            T("D2b", "Debate 2 · close the escape routes", "Invention Analyst",
               f"Answer `{p.r}/debate/d2-attack.md` in `{p.r}/P3/p3-defence.md` (drafting output contract): close every "
               "escape route you legitimately can with additional candidate embodiments or broader genus language, and "
               "say plainly which ones cannot be closed without matter the inventor has not conceived.", ["D2a"])
@@ -366,7 +365,7 @@ def stage_init(args, api: Api) -> dict:
           f"{' ' + str(p.r / 'P3' / 'p3-defence.md') if full else ''} --out {p.r}/CONFIRMED.md` (auto-unattended unless "
           "the matter is attended; if attended, put the candidates to the board and confirm only what they accept).",
           p3_all, done=["CONFIRMED.md exists; gate-2 decision recorded in gates/gate-2.md."])
-        T("RISK", "Pre-drafting findings report", "Risk Analyst",
+        T("RISK", "Pre-drafting findings report", "Prior-Art Analyst",
           f"Write `{p.r}/risk/pre-drafting-findings.md` from Phases 1–3 and the lessons file.", ["G2"],
           extra=[str(p.r / x) for x in ("P1/01.md", "P1/03.md", "P2/08.md", "P2/09r.md" if full else "P2/09.md", "P2/10.md",
                                          "CONFIRMED.md", "terminology/LOCKED.md")] + ["~/PatentCouncil/lessons.md"],
@@ -452,7 +451,7 @@ def stage_review(args, api: Api) -> dict:
 
 
 OWNER_CATEGORIES = {
-    "Embodiment Architect": {"novelty", "design-around"},
+    "Invention Analyst": {"novelty", "design-around"},
     "Specification Drafter": {"enablement", "support", "formal"},
     "Claims Architect": {"novelty", "design-around", "enablement", "formal"},
 }

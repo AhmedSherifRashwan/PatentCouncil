@@ -78,7 +78,7 @@ ROUTES = {
 }
 STEP_ORDER = ["x-loopback-p3", "x-p4-revise", "x-p5-revise", "x-formal-fix"]
 STEP_OWNER = {
-    "x-loopback-p3": "Embodiment Architect",
+    "x-loopback-p3": "Invention Analyst",
     "x-p4-revise": "Specification Drafter",
     "x-p5-revise": "Claims Architect",
     "x-formal-fix": "Specification Drafter",

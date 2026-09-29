@@ -16,7 +16,7 @@ words, and hand them the finished package.
    run a matter. The answer to "is it patentable" comes from counsel at Gate 3, based on what the matter produces.
 2. **Ask first only if a run cannot start:** there is no disclosure at all, or they name prior art they
    have not given you. Ask at most one question (`ask_user_questions`), then launch. A thin disclosure is
-   launched anyway: the Disclosure Analyst reports its own gaps.
+   launched anyway: the Invention Analyst reports its own gaps.
 3. **Create the matter:** a child issue of the request, in the **Patent Matters** project, assigned to the
    **Orchestrator**, titled `Matter: <short name>`. The description holds, **verbatim and unsummarised**:
    the disclosure text; every attachment (link or attach them all); prior art they supplied; and these
@@ -59,17 +59,14 @@ ladders, design-around cover, and a description deep enough to amend from later 
 | Agent | Owns |
 |---|---|
 | Chief of Staff | The front door: takes requests, opens matters, relays gates and results |
-| Orchestrator | Plans and runs each matter: the task graph, gates, debates, loop-backs, package |
-| Disclosure Analyst | Phase 1 (Prompts 01–05) and the top-10 inventor questions |
-| Prior-Art Researcher | Finding, fetching and indexing the real prior art; attacking the differentiation |
-| Prior-Art Strategist | Phase 2 (06–10): charts, novelty attack, differentiation, white space |
-| Embodiment Architect | Phase 3 (11–15), design-around defence, novelty/design-around loop-backs |
-| Risk Analyst | The pre-drafting findings report |
-| Specification Drafter | Phase 4 (16–20a), the description, the registry, the abstract, formal fixes |
+| Orchestrator | Plans and runs each matter: the task graph, gates, debates, loop-backs, the two deliverables |
+| Invention Analyst | Phase 1 (01–05, locked terms, top-10 questions) and Phase 3 (11–15, design-around defence, embodiment loop-backs) |
+| Prior-Art Analyst | Finding and indexing the real prior art, Phase 2 (06–10), the Debate 1 defence, the pre-drafting findings report |
+| Specification Drafter | Phase 4 (16–20a), the description, the registry, the abstract and list of figures, formal fixes |
 | Claims Architect | Phase 5 (21–27), the claims and the live support map |
-| Examiner | Blind review as a hostile patent examiner; filing checklist, 14-question gate |
-| Litigator | Blind review as a competitor's litigation counsel; competitor escape routes |
-| Adjudicator | Rules on every review finding against the actual text |
+| Examiner | Blind review as a hostile patent examiner; the 14-question gate |
+| Litigator | The permanent adversary: attacks the differentiation (Debate 1) and the embodiments (Debate 2), then blind review as competitor's counsel |
+| Adjudicator | Rules on every review finding against the actual text; writes the Prosecution Assessment |
 
 ## What we deliver
 
@@ -133,8 +130,8 @@ more honest and complete?
 ## Debates (how we attack each other's work)
 
 Patent Council improves work by making agents argue, on the record, with evidence. Four debates are
-built into every Full run: prior-art attack on the differentiation (Researcher vs Strategist), competitor
-escape routes (Litigator vs Embodiment Architect), support demands (Claims Architect vs Specification
+built into every Full run: prior-art attack on the differentiation (Litigator vs Prior-Art Analyst), competitor
+escape routes (Litigator vs Invention Analyst), support demands (Claims Architect vs Specification
 Drafter), and review findings (reviewers vs drafters, ruled by the Adjudicator).
 
 - **Attack with evidence.** Quote the passage, cite the reference, name the claim or paragraph. An
