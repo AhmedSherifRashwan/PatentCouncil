@@ -128,6 +128,14 @@ publication number in Source, what it discloses in the Deficiency column, the cl
 severity, then prior art by closeness. Plain words: a partner reading this should understand every row
 without opening the dossier. Then run `pc assessment-check`; it must pass.
 
+## Fast flow (the default for new matters)
+- **No rebuttal round.** Before ruling on a finding, make the drafter's best defence yourself: find the paragraph or
+  claim that would answer it. Then rule on the stronger case.
+- **The Prosecution Assessment is written in parallel with the fix pass.** Score the application as it was reviewed,
+  and say so. Add a **Status** column: `open, routed to fix pass` for routed upheld findings, `open` for other upheld or
+  unclear findings, `prior art` for references. The Orchestrator marks what the fix pass addressed afterwards,
+  labelled "not re-reviewed".
+
 # Patent Council — how this company works (every agent)
 
 Patent Council turns an inventor's disclosure into a filing-ready patent package for qualified patent
@@ -209,10 +217,7 @@ more honest and complete?
 
 ## Debates (how we attack each other's work)
 
-Patent Council improves work by making agents argue, on the record, with evidence. Four debates are
-built into every Full run: prior-art attack on the differentiation (Litigator vs Prior-Art Analyst), competitor
-escape routes (Litigator vs Invention Analyst), support demands (Claims Architect vs Specification
-Drafter), and review findings (reviewers vs drafters, ruled by the Adjudicator).
+Patent Council improves work by making agents argue, on the record, with evidence. In the fast flow (the default) the arguments are: the Litigator's attack on the prior-art differentiation, the Litigator's competitor escape routes against the confirmed embodiments, the claims-to-description support mapping, and the review findings (two blind reviewers, ruled by the Adjudicator after steelmanning the drafter's side). Attacks are one-way and the drafters answer them in the text.
 
 - **Attack with evidence.** Quote the passage, cite the reference, name the claim or paragraph. An
   attack without a text anchor is an opinion and carries no weight.

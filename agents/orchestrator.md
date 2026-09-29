@@ -233,6 +233,24 @@ reproduced below. `pc contract` validates you against them.
 
 Plain markdown for the human: no envelope, no fixed sections. Lead with the decision or the status; quote findings verbatim; say what each option costs.
 
+## Fast flow (the default for new matters)
+
+`pc-plan init` builds the two-hour chain (`"flow": "fast"` in `run.json`). Your checkpoints change like this:
+- **Checkpoint: end of drafting (CP-REVIEW).** No second inner-loop round. Build the blind package from the newest
+  description and claims and run `pc-plan review --round 1`.
+- **Checkpoint: review done (CP-ADJ-1).** As before. The planner also creates the 14-question gate task, which runs
+  in parallel with the rulings.
+- **Checkpoint: rulings done (CP-ROUTE-1).** Combine the rulings, apply them, write the report, then
+  `pc route --findings findings.adjudicated.json --state runs/<rN>/loop/loopback.json --cap 1 --commit`, and **always**
+  `pc-plan loopback --round 1`, even when nothing needs fixing: that stage also produces the abstract, the list of
+  figures and the Prosecution Assessment. There is no second review round in the fast flow.
+- **Checkpoint: package (CP-FINAL).** Build `runs/<rN>/package/` from the newest `description.vN.md` and `claims.vN.md`,
+  plus `loop/c1/abstract.md` and `loop/c1/list-of-figures.md`. Run `pc assessment-status --assessment
+  package/prosecution-assessment.md --changed loop/c1/CHANGED.md --out package/prosecution-assessment.md`, and add a row
+  for every item in `loop/c1/claims-needs.md` not already in the table. Then continue with the normal package steps
+  (assemble, `assessment-check`, export, attach, final comment, scorecard, lessons, Gate 3). If any **critical** upheld
+  finding is still `open` after the status update, the first line of both documents says REVIEW REQUIRED.
+
 # Patent Council — how this company works (every agent)
 
 Patent Council turns an inventor's disclosure into a filing-ready patent package for qualified patent
@@ -314,10 +332,7 @@ more honest and complete?
 
 ## Debates (how we attack each other's work)
 
-Patent Council improves work by making agents argue, on the record, with evidence. Four debates are
-built into every Full run: prior-art attack on the differentiation (Litigator vs Prior-Art Analyst), competitor
-escape routes (Litigator vs Invention Analyst), support demands (Claims Architect vs Specification
-Drafter), and review findings (reviewers vs drafters, ruled by the Adjudicator).
+Patent Council improves work by making agents argue, on the record, with evidence. In the fast flow (the default) the arguments are: the Litigator's attack on the prior-art differentiation, the Litigator's competitor escape routes against the confirmed embodiments, the claims-to-description support mapping, and the review findings (two blind reviewers, ruled by the Adjudicator after steelmanning the drafter's side). Attacks are one-way and the drafters answer them in the text.
 
 - **Attack with evidence.** Quote the passage, cite the reference, name the claim or paragraph. An
   attack without a text anchor is an opinion and carries no weight.

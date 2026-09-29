@@ -50,6 +50,9 @@ Deliverables (the two documents the requester receives)
                                                      the prosecution assessment has a score out of 10 and
                                                      lists every open finding and every reference
 
+  assessment-status --assessment F --changed CHANGED.md --out F
+                                                     mark rows the fix pass addressed (fast flow)
+
 Run records
   mark --matter DIR --stage NAME --event start|end [--note TEXT]
   scorecard --matter DIR --run rN [--out FILE]
@@ -598,6 +601,38 @@ def cmd_assemble_description(args: argparse.Namespace) -> int:
     return _emit({"parts": len(args.parts), "paragraphs": n, "written": args.out}, ok=n > 0)
 
 
+def cmd_assessment_status(args: argparse.Namespace) -> int:
+    """After the fast flow's fix pass: mark every assessment row whose finding the fix pass addressed.
+
+    The status is the drafter's own record in CHANGED.md, not a re-review, and says so. Rows for findings the fix
+    pass did not touch keep the status the Adjudicator gave them.
+    """
+    text = _read(args.assessment)
+    changed = _read(args.changed) if Path(args.changed).expanduser().exists() else ""
+    addressed = set(re.findall(r"\bF-[0-9a-z]+-\d+\b", changed))
+    lines = text.split("\n")
+    status_col = None
+    marked = 0
+    for i, line in enumerate(lines):
+        if not line.startswith("|"):
+            status_col = None if not line.strip() else status_col
+            continue
+        cells = line.strip().strip("|").split("|")
+        if status_col is None and any(c.strip().lower() == "status" for c in cells):
+            status_col = [c.strip().lower() for c in cells].index("status")
+            continue
+        if status_col is None or re.match(r"^\s*:?-", cells[0]):
+            continue
+        ids = set(re.findall(r"\bF-[0-9a-z]+-\d+\b", line))
+        if ids & addressed and status_col < len(cells):
+            cells[status_col] = " addressed in fix pass (not re-reviewed) "
+            lines[i] = "|" + "|".join(cells) + "|"
+            marked += 1
+    _write(args.out, "\n".join(lines))
+    return _emit({"addressed_in_changed": len(addressed), "rows_marked": marked, "written": args.out},
+                 ok=status_col is not None or marked > 0 or not addressed)
+
+
 def cmd_export(args: argparse.Namespace) -> int:
     written = export.export_markdown(Path(args.source).expanduser(), Path(args.out).expanduser(), args.title)
     return _emit({"written": [str(p) for p in written]}, ok=len(written) == 2)
@@ -647,6 +682,7 @@ def main() -> int:
     add("assemble-description", "--parts:many", "--out:req")
     add("assemble", "--title:req", "--abstract:req", "--description:req", "--figures-list:req", "--claims:req", "--out:req")
     add("assessment-check", "--assessment:req", "--findings:req", "--index")
+    add("assessment-status", "--assessment:req", "--changed:req", "--out:req")
     add("export", "--source:req", "--out:req", "--title:default=")
     args = parser.parse_args()
     handlers = {
@@ -655,7 +691,7 @@ def main() -> int:
         "antecedent": cmd_antecedent, "claims-format": cmd_claims_format, "confirm": cmd_confirm,
         "review-package": cmd_review_package, "merge-findings": cmd_merge, "apply-rulings": cmd_apply_rulings,
         "route": cmd_route, "findings-report": cmd_report, "mark": cmd_mark, "scorecard": cmd_scorecard,
-        "assemble": cmd_assemble, "assemble-description": cmd_assemble_description, "assessment-check": cmd_assessment_check, "export": cmd_export,
+        "assemble": cmd_assemble, "assemble-description": cmd_assemble_description, "assessment-check": cmd_assessment_check, "assessment-status": cmd_assessment_status, "export": cmd_export,
     }
     try:
         return handlers[args.cmd](args)

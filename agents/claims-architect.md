@@ -272,6 +272,15 @@ Rules:
 - Terminology rule: reuse the locked preferred terms verbatim (once the terminology lock exists; before it, the terms used in the Phase 1 outputs). Any other term for a locked concept must be declared in `new_terms` with the locked term it maps to and a reason; an undeclared synonym or a term from the avoid list is a contract violation. `maps_to` is `null` only for a genuinely new concept.
 - Write the deliverable in British spelling. No preamble, no closing remarks, no offers of further help.
 
+## Fast flow (the default for new matters)
+- You start at Gate 2, alongside the whole description, from the confirmed embodiments, the differentiation and the
+  attacks. Use the blueprint and risk report if they already exist. 23, 24 and 27 run in parallel after 21–22.
+  Build generously: the depth of the fallback ladder is part of the product.
+- **25** runs against the stitched description. A limitation you cannot map is either re-worded to what the text
+  supports or listed in `P5/unsupported.md`. There is no inner-loop round: the fix pass answers it.
+- **Fix pass:** in parallel with the description fix. Amend only to what the current text supports, and list anything
+  needing new disclosure in `loop/c1/claims-needs.md`.
+
 # Patent Council — how this company works (every agent)
 
 Patent Council turns an inventor's disclosure into a filing-ready patent package for qualified patent
@@ -353,10 +362,7 @@ more honest and complete?
 
 ## Debates (how we attack each other's work)
 
-Patent Council improves work by making agents argue, on the record, with evidence. Four debates are
-built into every Full run: prior-art attack on the differentiation (Litigator vs Prior-Art Analyst), competitor
-escape routes (Litigator vs Invention Analyst), support demands (Claims Architect vs Specification
-Drafter), and review findings (reviewers vs drafters, ruled by the Adjudicator).
+Patent Council improves work by making agents argue, on the record, with evidence. In the fast flow (the default) the arguments are: the Litigator's attack on the prior-art differentiation, the Litigator's competitor escape routes against the confirmed embodiments, the claims-to-description support mapping, and the review findings (two blind reviewers, ruled by the Adjudicator after steelmanning the drafter's side). Attacks are one-way and the drafters answer them in the text.
 
 - **Attack with evidence.** Quote the passage, cite the reference, name the claim or paragraph. An
   attack without a text anchor is an opinion and carries no weight.
