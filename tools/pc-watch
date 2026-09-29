@@ -15,14 +15,18 @@ def log(msg):
     line = f"{dt.datetime.now().strftime('%m-%d %H:%M:%S')} {msg}"
     open(a.log, "a").write(line + "\n"); print(line, flush=True)
 seen, blocked_since, failed, t0 = {}, {}, set(), time.time()
-log("watch started")
+# Baseline: everything that already happened before the watch is recorded silently, so only changes are reported.
+seen = {i["identifier"]: i["status"] for i in get(f"/companies/{C}/issues")}
+_r = get(f"/companies/{C}/heartbeat-runs?limit=200"); _r = _r if isinstance(_r, list) else _r.get("runs", _r)
+failed = {r["id"] for r in _r if r.get("status") == "failed"}
+log(f"watch started ({len(seen)} tasks, {sum(1 for v in seen.values() if v == 'done')} done)")
 while time.time() - t0 < a.hours * 3600:
     try:
         ag = {x["id"]: x["name"] for x in get(f"/companies/{C}/agents")}
         issues = get(f"/companies/{C}/issues")
         for i in issues:
             k, st = i["identifier"], i["status"]
-            if seen.get(k) != st and (seen or st not in ("done", "cancelled")):
+            if seen.get(k) != st:
                 log(f"{k:<7} {st:<11} {ag.get(i.get('assigneeAgentId'), '-'):<22} {i['title'][:90]}")
             seen[k] = st
             working = " · r" in i["title"]  # run tasks; request and matter issues wait by design
