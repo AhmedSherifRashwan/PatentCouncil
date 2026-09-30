@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# council — run Patent Council matters on OpenClaw (see ~/PatentCouncil/council/cli.py).
+cd "$HOME/PatentCouncil" && PYTHONPATH="$HOME/PatentCouncil" exec /opt/homebrew/bin/uv run --quiet --project "$HOME/IP-Filing-Ecosystem" python -m council.cli "$@"

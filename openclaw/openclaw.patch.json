@@ -1,0 +1,137 @@
+{
+ "agents": {
+  "defaults": {
+   "models": {
+    "anthropic/claude-sonnet-5": {
+     "agentRuntime": {
+      "id": "claude-cli"
+     }
+    },
+    "anthropic/claude-fable-5-1": {
+     "agentRuntime": {
+      "id": "claude-cli"
+     }
+    },
+    "anthropic/claude-opus-5-5": {
+     "agentRuntime": {
+      "id": "claude-cli"
+     }
+    }
+   }
+  },
+  "entries": {
+   "pc-invention-analyst": {
+    "name": "pc-invention-analyst",
+    "workspace": "/Users/ahmed/.openclaw/workspaces/pc-invention-analyst",
+    "agentDir": "/Users/ahmed/.openclaw/agents/pc-invention-analyst/agent",
+    "identity": {
+     "name": "Invention Analyst"
+    },
+    "model": "anthropic/claude-opus-5-5",
+    "tools": {
+     "profile": "minimal"
+    },
+    "bootstrapMaxChars": 60000,
+    "bootstrapTotalMaxChars": 90000
+   },
+   "pc-prior-art-analyst": {
+    "name": "pc-prior-art-analyst",
+    "workspace": "/Users/ahmed/.openclaw/workspaces/pc-prior-art-analyst",
+    "agentDir": "/Users/ahmed/.openclaw/agents/pc-prior-art-analyst/agent",
+    "identity": {
+     "name": "Prior-Art Analyst"
+    },
+    "model": "anthropic/claude-opus-5-5",
+    "tools": {
+     "profile": "minimal"
+    },
+    "bootstrapMaxChars": 60000,
+    "bootstrapTotalMaxChars": 90000
+   },
+   "pc-specification-drafter": {
+    "name": "pc-specification-drafter",
+    "workspace": "/Users/ahmed/.openclaw/workspaces/pc-specification-drafter",
+    "agentDir": "/Users/ahmed/.openclaw/agents/pc-specification-drafter/agent",
+    "identity": {
+     "name": "Specification Drafter"
+    },
+    "model": "anthropic/claude-fable-5-1",
+    "tools": {
+     "profile": "minimal"
+    },
+    "bootstrapMaxChars": 60000,
+    "bootstrapTotalMaxChars": 90000
+   },
+   "pc-claims-architect": {
+    "name": "pc-claims-architect",
+    "workspace": "/Users/ahmed/.openclaw/workspaces/pc-claims-architect",
+    "agentDir": "/Users/ahmed/.openclaw/agents/pc-claims-architect/agent",
+    "identity": {
+     "name": "Claims Architect"
+    },
+    "model": "anthropic/claude-fable-5-1",
+    "tools": {
+     "profile": "minimal"
+    },
+    "bootstrapMaxChars": 60000,
+    "bootstrapTotalMaxChars": 90000
+   },
+   "pc-examiner": {
+    "name": "pc-examiner",
+    "workspace": "/Users/ahmed/.openclaw/workspaces/pc-examiner",
+    "agentDir": "/Users/ahmed/.openclaw/agents/pc-examiner/agent",
+    "identity": {
+     "name": "Examiner"
+    },
+    "model": "anthropic/claude-opus-5-5",
+    "tools": {
+     "profile": "minimal"
+    },
+    "bootstrapMaxChars": 60000,
+    "bootstrapTotalMaxChars": 90000
+   },
+   "pc-litigator": {
+    "name": "pc-litigator",
+    "workspace": "/Users/ahmed/.openclaw/workspaces/pc-litigator",
+    "agentDir": "/Users/ahmed/.openclaw/agents/pc-litigator/agent",
+    "identity": {
+     "name": "Litigator"
+    },
+    "model": "anthropic/claude-fable-5-1",
+    "tools": {
+     "profile": "minimal"
+    },
+    "bootstrapMaxChars": 60000,
+    "bootstrapTotalMaxChars": 90000
+   },
+   "pc-adjudicator": {
+    "name": "pc-adjudicator",
+    "workspace": "/Users/ahmed/.openclaw/workspaces/pc-adjudicator",
+    "agentDir": "/Users/ahmed/.openclaw/agents/pc-adjudicator/agent",
+    "identity": {
+     "name": "Adjudicator"
+    },
+    "model": "anthropic/claude-opus-5-5",
+    "tools": {
+     "profile": "minimal"
+    },
+    "bootstrapMaxChars": 60000,
+    "bootstrapTotalMaxChars": 90000
+   },
+   "patent-council": {
+    "name": "Patent Council",
+    "workspace": "/Users/ahmed/.openclaw/workspaces/patent-council",
+    "agentDir": "/Users/ahmed/.openclaw/agents/patent-council/agent",
+    "identity": {
+     "name": "Patent Council"
+    },
+    "model": "anthropic/claude-sonnet-5",
+    "tools": {
+     "profile": "coding"
+    },
+    "bootstrapMaxChars": 60000,
+    "bootstrapTotalMaxChars": 90000
+   }
+  }
+ }
+}
