@@ -1,0 +1,26 @@
+{
+  "prompt": "31",
+  "status": "partial",
+  "findings": [],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. The empty intake/priority/ folder is taken to mean no priority is claimed, not that a document was withheld.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. The bench-test dates at [0157] are taken as given.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Is a priority claim intended? If so, supply the earliest priority document under intake/priority/ so the matrix can be built against its text.",
+      "blocks": []
+    }
+  ]
+}

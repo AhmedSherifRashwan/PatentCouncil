@@ -1,0 +1,316 @@
+{
+  "prompt": "33",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-33-1",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "high",
+      "title": "Independent claims require a normal-open state that the description itself says may be absent",
+      "claim_refs": [
+        "1",
+        "58",
+        "79"
+      ],
+      "spec_refs": [
+        "[0051]",
+        "[0014]",
+        "[0065]"
+      ],
+      "attack": "[0051] discloses setting the over-travel threshold close to the crack pressure so the purge state is reached on substantially every opening with a single-rate spring; every independent claim requires a normal-open state with an over-travel threshold higher than the crack pressure, so that cheaper variant is outside all of them.",
+      "least_narrowing_action": "Add an independent claim (valve core and method) reciting the closed state and the purge state only, the ring deflected when the poppet is displaced beyond a first displacement and recovering when the differential falls, supported by [0051], [0014], [0065]; keep claim 1 as the three-state claim.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-2",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "high",
+      "title": "Purge state tied to the pressure differential; depressor-actuated and deflation-only purges escape",
+      "claim_refs": [
+        "1",
+        "58",
+        "79",
+        "46",
+        "88"
+      ],
+      "spec_refs": [
+        "[0066]",
+        "[0067]",
+        "[0137]",
+        "Fig. 7",
+        "Fig. 15A"
+      ],
+      "attack": "Claim 1 places the purge state 'at a pressure differential exceeding the over-travel threshold' and claim 79 requires 'raising the pressure differential above an over-travel threshold'; [0066] discloses over-travel by a pump-head depressor 'whatever the pressure differential' and [0067] a deflation-only purge, so a Schrader-style depressor product or a deflation-purge product infringes no independent claim.",
+      "least_narrowing_action": "Reformulate the purge state in an independent claim by poppet position ('when the poppet is displaced beyond the normal stroke into over-travel'), with the pressure threshold, the depressor and the deflation purge as dependent alternatives; supported by [0012], [0066], [0067].",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-3",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "high",
+      "title": "Return spring named in every product claim; a pressure-closed poppet has none",
+      "claim_refs": [
+        "1",
+        "58",
+        "79"
+      ],
+      "spec_refs": [
+        "[0009]",
+        "[0022]",
+        "[0122]"
+      ],
+      "attack": "Deleting the spring and closing the poppet by chamber pressure, with the over-travel threshold set by ring stiffness as in [0122], yields a product with every cleaning feature and no 'return spring'; the genus 'biasing member' at [0009] is disclosed only as springs.",
+      "least_narrowing_action": "Recite 'a biasing member' in the independent claims ([0009], [0022]) and add disclosure of a poppet biased closed by chamber-side pressure without a separate spring, threshold set by the ring, subject to inventor confirmation.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-4",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "high",
+      "title": "Seat ring claim 67 limited to Presta-sized rings by numerical ranges in the independent claim",
+      "claim_refs": [
+        "67"
+      ],
+      "spec_refs": [
+        "[0034]",
+        "[0078]",
+        "[0084]",
+        "[0091]",
+        "[0137]"
+      ],
+      "attack": "'a seat ring inner diameter of from 2.0 mm to 2.6 mm and a seat ring wall thickness of from 0.15 mm to 0.30 mm' excludes every Schrader-pattern ring the description contemplates at [0137] and [0091], and a 2.65 mm or 0.32 mm Presta ring; the component claim is the easiest of the five to avoid.",
+      "least_narrowing_action": "Broaden claim 67 by dropping the ranges, resting on sealing edge, axial-to-radial conversion wall and shape recovery (optionally superelastic alloy), supported by [0034], [0078], [0084], [0091]; keep claims 16, 17, 78 as fallbacks.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-5",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Purge gap 'closed' in the closed and normal-open states; a permanent small downstream clearance escapes",
+      "claim_refs": [
+        "1",
+        "58",
+        "79"
+      ],
+      "spec_refs": [
+        "[0018]",
+        "[0105]"
+      ],
+      "attack": "A purge gap on the chamber side of the sealing edge ([0105]) can carry a permanent measurable clearance without leaking the tyre; such a gap is never 'closed', and [0105]'s 'sufficiently small to carry no significant flow' wording applies only to that one location, not to the generic definition at [0018].",
+      "least_narrowing_action": "Add a generic sentence to [0018] that the purge gap is 'closed' when closed or carrying no significant flow relative to the main passage, extending [0105] to every location, and rely on it in the claims.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-6",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "'at-rest form' required in the normal-open state; a pre-loaded ring escapes",
+      "claim_refs": [
+        "1",
+        "58"
+      ],
+      "spec_refs": [
+        "[0018]",
+        "[0043]",
+        "[0047]"
+      ],
+      "attack": "A purge shoulder that touches and lightly pre-loads the ring at the end of the normal stroke without opening the gap means the ring is not 'in its at-rest form' in the normal-open state; the product behaves identically and the pre-load is below the purge gap opening so is hard to prove either way.",
+      "least_narrowing_action": "In the normal-open state recite only that the purge gap is closed (and the main passage open), dropping 'at-rest form' there; supported by [0018], [0043]; keep it in the closed state.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-7",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Shape recovery 'to its at-rest form' and tied to the over-travel threshold",
+      "claim_refs": [
+        "1",
+        "58",
+        "67",
+        "79"
+      ],
+      "spec_refs": [
+        "[0013]",
+        "[0014]",
+        "[0099]"
+      ],
+      "attack": "[0099] admits residual set after many cycles; a competitor shows its cycled ring does not return 'to' the at-rest form, and a ring whose gap closes only below the crack pressure argues it does not close 'when the pressure differential falls below the over-travel threshold'.",
+      "least_narrowing_action": "Recite 'shape recovery towards its at-rest form and closing the purge gap when the pressure differential falls', tracking [0013] and [0014].",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-8",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Disclosed actuation architectures outside claim 1: separate purge actuator and inverted arrangement",
+      "claim_refs": [
+        "1",
+        "58"
+      ],
+      "spec_refs": [
+        "[0112]",
+        "[0117]",
+        "[0123]",
+        "[0137]"
+      ],
+      "attack": "Claim 1 needs the ring 'carried by the core body' and the poppet to 'produce a radial deflection'; [0123] discloses a separate annular piston or diaphragm deflecting the ring while the poppet does only its normal stroke, and [0117] a skirt carried by the poppet deflected by a fixed formation; a Schrader product with a purge piston infringes nothing.",
+      "least_narrowing_action": "Add formulations in which 'a deflecting member movable in response to the pressure differential' produces the deflection (poppet as one species) and in which the ring is carried by the core body or the poppet; supported by [0112], [0117], [0123].",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-9",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "'radial deflection' excludes an axially collapsing ring that uncovers an opening",
+      "claim_refs": [
+        "1",
+        "58",
+        "67",
+        "79"
+      ],
+      "spec_refs": [
+        "[0020]",
+        "[0079]"
+      ],
+      "attack": "[0079] concedes a wall that 'merely shortens' is outside the mechanism; a bellows-like ring that shortens axially under the shoulder and uncovers a port or lifts a lip axially has no radial deflection and escapes every independent claim.",
+      "least_narrowing_action": "Add disclosure of a deflectable ring element whose over-travel deformation, axial or radial, uncovers the purge opening, if within the inventors' conception; otherwise accept the boundary.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-10",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Method claim 79 performed by the user and requires proof of sealant film on the accused surfaces",
+      "claim_refs": [
+        "79",
+        "81"
+      ],
+      "spec_refs": [
+        "[0023]",
+        "[0056]"
+      ],
+      "attack": "Every step is performed by the cyclist so the competitor is reached only by indirect infringement; 'across surfaces on which sealant film accumulates' makes infringement depend on the condition of the accused valve at the time of use and requires proof of film on those surfaces.",
+      "least_narrowing_action": "Recite 'across a surface of the deflectable ring element' ([0056]) in claim 79 and move 'on which sealant film accumulates' to a dependent claim; ensure product claims carry every structural feature the method relies on.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-11",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Manufacturing claim 90 hidden in the supplier's process and its evidence removed by electropolishing",
+      "claim_refs": [
+        "90",
+        "94",
+        "96"
+      ],
+      "spec_refs": [
+        "[0149]",
+        "[0150]"
+      ],
+      "attack": "'laser cutting' and 'water quenching' are single disclosed species; [0150] discloses roll-forming, internal-pressure forming, etching of sheet and stamping which all escape, and the electropolishing of [0149] removes the heat-affected edge that would evidence laser cutting; the process is performed abroad and undetectable from the product.",
+      "least_narrowing_action": "Reformulate to 'cutting a profile of the seat ring from tube stock or from sheet' ([0150]); generalising the quench requires new disclosure; counsel to weigh whether claim 90 earns its examination cost.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. A conventional Presta-pattern poppet is closed by chamber pressure assisted by a small spring, and a poppet closed by chamber pressure alone is a viable check valve (common general knowledge; premise of F-33-3).",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. Bicycle valves and cores are commonly manufactured outside the US, EPO and UK, so process claims are enforced, if at all, through importation provisions (premise of F-33-11).",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. A purge gap of 0.1 mm to 0.25 mm inside a 6 mm stem is not observable in service and must be proved by sectioning and bench testing.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. Claim 58 is read as covering removable-core, stem-carried and non-removable variants through the indirect-carriage convention of [0005].",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Is a springless, chamber-pressure-closed poppet within the inventors' conception, and does ring stiffness alone give a usable over-travel threshold in a Presta core (F-33-3)?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Is a deflectable ring element whose over-travel deformation is axial rather than radial within the inventors' conception (F-33-9)?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. Will the product be sold with instructions telling the user to inflate with a floor pump above the over-travel threshold? Those instructions are the inducement evidence for claim 79.",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. Which independent claim family does the business intend to enforce first? The answer decides whether claim 90 is worth its examination cost.",
+      "blocks": []
+    }
+  ]
+}

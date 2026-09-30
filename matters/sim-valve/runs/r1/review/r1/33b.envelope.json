@@ -1,0 +1,305 @@
+{
+  "prompt": "33",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-33-1",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "high",
+      "title": "No independent claim covers cleaning by deflection of the seat without a secondary flow path",
+      "claim_refs": [
+        "1",
+        "2",
+        "3",
+        "32",
+        "56",
+        "76"
+      ],
+      "spec_refs": [
+        "[0064]",
+        "[0126]",
+        "[0139]",
+        "[0287]",
+        "[0289]",
+        "[0347]"
+      ],
+      "attack": "Every independent claim requires a purge gap that is a secondary flow path. [0064] and [0126] state that a flow path enlarged by deflection of the seat remains the main passage. [0287] reports clean sealing surfaces and cured sealant film on the purge gap surface. A competitor keeps the over-travel and a seat that deflects and recovers, removes the purge gap, and is outside all 86 claims while keeping the cleaning action that the inspection result is consistent with.",
+      "least_narrowing_action": "Add an independent claim to a valve core in which the over-travel load deflects the element and the shape recovery moves the element across the sealing face, with no purge gap recited. Basis for the two-piece seat at [0182], [0294], [0347]; the one-piece seat ring needs a statement from the inventors. No existing claim is narrowed.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-2",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "high",
+      "title": "Axially deflecting and tilting elements are described but lie outside every claim",
+      "claim_refs": [
+        "1",
+        "2",
+        "3"
+      ],
+      "spec_refs": [
+        "[0179]",
+        "[0180]"
+      ],
+      "attack": "[0179] describes a disc spring whose rim lifts from a face and states that its deflection is not a radial expansion. All independent claims recite a radial expansion. The alternative is disclosed, unclaimed and expressly distinguished, so equivalents are unlikely to recover it, and the part is cheaper than a seat ring of NiTi alloy.",
+      "least_narrowing_action": "Add an independent claim, or broaden claim 1, to recite a deflectable element and a deflection that opens the purge gap, with radial expansion in a dependent claim. Basis [0179], [0180].",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-3",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "high",
+      "title": "Contact from lift-off avoids \"spaced from\" and the normal stroke",
+      "claim_refs": [
+        "1",
+        "2",
+        "3"
+      ],
+      "spec_refs": [
+        "[0071]",
+        "[0072]",
+        "[0102]",
+        "[0132]",
+        "[0251]"
+      ],
+      "attack": "The normal stroke and the over-travel are defined only by first contact of the load-applying surface. A collar or washer in light contact from the closed position, with the load rising with travel, leaves no range in which the surface is spaced and no over-travel as defined. The limitation is negative, hard to prove, and the escape allows a return spring of a single rate.",
+      "least_narrowing_action": "Add an independent formulation with a first range of travel in which the purge gap is closed and a second range in which the axial load opens it, without requiring absence of contact in the first range. The inventors must confirm that contact below the opening load is within their conception.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-4",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "An element loaded otherwise than by a surface moved by the poppet, or a rigid sliding element, is outside the claims",
+      "claim_refs": [
+        "1",
+        "2",
+        "3"
+      ],
+      "spec_refs": [
+        "[0016]",
+        "[0135]"
+      ],
+      "attack": "A separate pressure-driven piston, the pressure itself, or a rigid sleeve pushed axially by the poppet opens a second path without a load-applying surface moved by the poppet, without deflection or without shape recovery. [0016] and [0135] exclude opening by flow. Saved references 2, 8 and 15 show such mechanisms are known engineering.",
+      "least_narrowing_action": "None inside the package. Ask the inventors whether a sliding element or a pressure-driven piston is within their conception; if so add an embodiment and a dependent family limited to a tyre chamber containing sealant.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-5",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "A valve core sold alone escapes where the bore of the valve stem bounds the purge gap",
+      "claim_refs": [
+        "1",
+        "45",
+        "46"
+      ],
+      "spec_refs": [
+        "[0125]",
+        "[0161]",
+        "[0189]"
+      ],
+      "attack": "Claim 1 recites the opening of the purge gap without the conditional wording that claim 3 uses. Where the gap forms against the bore of the valve stem, a valve core sold alone opens no gap, and the manufacturer is at most an indirect infringer.",
+      "least_narrowing_action": "Add to claim 45 and to a new dependent claim the wording that the valve core is configured so that, when fitted in a valve stem, the radial expansion opens the purge gap against a bore of the valve stem. Basis [0125], [0189], [0161].",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-6",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Claim 2 is performed by the rider and reaches a supplier only indirectly",
+      "claim_refs": [
+        "2",
+        "51",
+        "52",
+        "53",
+        "57",
+        "60"
+      ],
+      "spec_refs": [
+        "[0273]",
+        "[0274]",
+        "[0275]",
+        "[0276]",
+        "[0265]"
+      ],
+      "attack": "Every step of claim 2 is carried out by a private user. A supplier is reached only through indirect infringement, which turns on knowledge or intent and on proof that users reach the over-travel. The word air gives a further literal argument for a CO2 cartridge.",
+      "least_narrowing_action": "Keep claim 2 and rely on the product claims. If a method claim against suppliers is wanted, [0265] supports a claim to the manufacturer's test that the purge gap opens at the intended over-travel differential.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-7",
+      "source_prompt": "33",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "Pressures and dimensions reached only under load cannot be proved without a stated test method",
+      "claim_refs": [
+        "11",
+        "12",
+        "19",
+        "29",
+        "33",
+        "34",
+        "53",
+        "72"
+      ],
+      "spec_refs": [
+        "[0069]",
+        "[0070]",
+        "[0079]",
+        "[0097]",
+        "[0237]",
+        "[0274]"
+      ],
+      "attack": "The crack pressure, the over-travel differential, the purge gap width and the austenite finish temperature are defined without a method of measurement. A defendant near an end point chooses the method that puts the product outside and argues indefiniteness.",
+      "least_narrowing_action": "Add to the description the method by which each prototype value was determined. Nothing is narrowed.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-8",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Claim 3 is avoided by a part that has no sealing edge or no load-converting geometry of its own",
+      "claim_refs": [
+        "3"
+      ],
+      "spec_refs": [
+        "[0099]",
+        "[0162]",
+        "[0164]",
+        "[0165]",
+        "[0181]"
+      ],
+      "attack": "Claim 3 is the only claim that reaches a supplier of the deflecting part alone. A wiper ring has no sealing edge, and a plain ring spread by a conical surface has no load-converting geometry of its own, so both are outside claim 3.",
+      "least_narrowing_action": "Add an independent claim to a radially deflectable element for a valve core, not limited to an element carrying the sealing edge, with conversion by the shape of the element, of the load-applying surface, or of both. Basis [0099], [0164], [0165].",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-9",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "low",
+      "title": "The shape-setting step of claim 4 cannot be seen in the product and is avoided by another forming route",
+      "claim_refs": [
+        "4",
+        "78",
+        "79",
+        "80"
+      ],
+      "spec_refs": [
+        "[0171]",
+        "[0254]"
+      ],
+      "attack": "The shape-setting step is a factory step that leaves no distinguishing mark in the ring. A maker who cuts the load-converting geometry into tube that is already superelastic uses no fixture that holds that geometry. Claim 4 depends on claim 3 and adds no reach against the maker.",
+      "least_narrowing_action": "Add a dependent or parallel method claim in which the load-converting geometry is formed by laser cutting a pattern in the wall. Basis [0171], [0254]. Treat the manufacturing claims as fallback positions.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "The package is the whole of the text to be filed; no abstract and no priority document were supplied.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "Legal premises on dedication of unclaimed subject matter, the private-use exemption and indirect infringement are stated from general knowledge for counsel to verify.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "Common general knowledge: the measured austenite finish temperature depends on the test method, and the pressure drop across an open poppet depends on the flow.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "The competitor assumed is a maker of removable threaded valve cores with ordinary stamping, turning and spring manufacture.",
+      "blocking": false
+    },
+    {
+      "id": "A5",
+      "text": "No drawing was available; statements about figures rest on the figure instructions.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Is the snap-back wipe without any open secondary flow path within the inventors' conception for the one-piece seat ring?",
+      "blocks": [
+        "F-33-1"
+      ]
+    },
+    {
+      "id": "Q2",
+      "text": "Is contact of the load-applying surface with the seat ring before the end of the normal stroke within the inventors' conception?",
+      "blocks": [
+        "F-33-3"
+      ]
+    },
+    {
+      "id": "Q3",
+      "text": "Have the inventors considered a rigid sliding element or a pressure-driven piston in place of the radially deflectable element?",
+      "blocks": [
+        "F-33-4"
+      ]
+    },
+    {
+      "id": "Q4",
+      "text": "By what method were the crack pressure, the over-travel differential, the purge gap width and the austenite finish temperature determined?",
+      "blocks": [
+        "F-33-7"
+      ]
+    },
+    {
+      "id": "Q5",
+      "text": "For counsel: is a claim to the manufacturer's test of [0265] worth its cost?",
+      "blocks": []
+    }
+  ]
+}

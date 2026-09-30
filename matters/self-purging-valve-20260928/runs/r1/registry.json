@@ -1,0 +1,445 @@
+{
+  "entries": [
+    {
+      "numeral": "10",
+      "component": "valve stem",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "8"
+      ]
+    },
+    {
+      "numeral": "12",
+      "component": "threaded bore (of the valve stem)",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "numeral": "20",
+      "component": "core body",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "numeral": "22",
+      "component": "core bore",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "numeral": "24",
+      "component": "locating shoulder",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "numeral": "26",
+      "component": "external thread (of the core body)",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "numeral": "28",
+      "component": "guide portion (of the core body)",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "numeral": "30",
+      "component": "seat ring",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "4A",
+        "4B"
+      ]
+    },
+    {
+      "numeral": "32",
+      "component": "upper edge (of the seat ring; the valve seat in the first embodiment)",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "4A",
+        "4B"
+      ]
+    },
+    {
+      "numeral": "34",
+      "component": "convoluted wall",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "4A",
+        "4B"
+      ]
+    },
+    {
+      "numeral": "36",
+      "component": "convolution",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "4A",
+        "4B"
+      ]
+    },
+    {
+      "numeral": "38",
+      "component": "outer surface (of the seat ring)",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "4A",
+        "4B"
+      ]
+    },
+    {
+      "numeral": "40",
+      "component": "valve member",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "numeral": "42",
+      "component": "sealing face",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "numeral": "44",
+      "component": "purge shoulder",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "numeral": "50",
+      "component": "biasing member",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "numeral": "60",
+      "component": "purge gap",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "numeral": "62",
+      "component": "main flow passage",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "numeral": "64",
+      "component": "purge flow",
+      "first_figure": "2",
+      "figures": [
+        "2",
+        "3"
+      ]
+    },
+    {
+      "numeral": "66",
+      "component": "inflation gas (along the main flow passage)",
+      "first_figure": "2",
+      "figures": [
+        "2"
+      ]
+    },
+    {
+      "numeral": "70",
+      "component": "lock nut",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "8"
+      ]
+    },
+    {
+      "numeral": "80",
+      "component": "inflatable body",
+      "first_figure": "2",
+      "figures": [
+        "2",
+        "8"
+      ]
+    },
+    {
+      "numeral": "82",
+      "component": "sealant",
+      "first_figure": "8",
+      "figures": [
+        "8"
+      ]
+    },
+    {
+      "numeral": "84",
+      "component": "inflation device",
+      "first_figure": "2",
+      "figures": [
+        "2",
+        "8"
+      ]
+    },
+    {
+      "numeral": "90",
+      "component": "valve core",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "3",
+        "8"
+      ]
+    },
+    {
+      "numeral": "92",
+      "component": "valve",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "8"
+      ]
+    },
+    {
+      "numeral": "130",
+      "component": "wiper ring",
+      "first_figure": "3",
+      "figures": [
+        "3"
+      ]
+    },
+    {
+      "numeral": "132",
+      "component": "rigid valve seat",
+      "first_figure": "3",
+      "figures": [
+        "3"
+      ]
+    },
+    {
+      "numeral": "500",
+      "component": "two-rate characteristic",
+      "first_figure": "5",
+      "figures": [
+        "5"
+      ]
+    },
+    {
+      "numeral": "502",
+      "component": "first stage (of the two-rate characteristic)",
+      "first_figure": "5",
+      "figures": [
+        "5"
+      ]
+    },
+    {
+      "numeral": "504",
+      "component": "second stage (of the two-rate characteristic)",
+      "first_figure": "5",
+      "figures": [
+        "5"
+      ]
+    },
+    {
+      "numeral": "506",
+      "component": "opening pressure",
+      "first_figure": "5",
+      "figures": [
+        "5"
+      ]
+    },
+    {
+      "numeral": "508",
+      "component": "over-travel threshold",
+      "first_figure": "5",
+      "figures": [
+        "5"
+      ]
+    },
+    {
+      "numeral": "510",
+      "component": "normal stroke",
+      "first_figure": "5",
+      "figures": [
+        "5"
+      ]
+    },
+    {
+      "numeral": "512",
+      "component": "over-travel",
+      "first_figure": "5",
+      "figures": [
+        "5"
+      ]
+    },
+    {
+      "numeral": "514",
+      "component": "rest state",
+      "first_figure": "5",
+      "figures": [
+        "5"
+      ]
+    },
+    {
+      "numeral": "600",
+      "component": "method of making and fitting the seat ring",
+      "first_figure": "6",
+      "figures": [
+        "6"
+      ]
+    },
+    {
+      "numeral": "602",
+      "component": "laser cutting",
+      "first_figure": "6",
+      "figures": [
+        "6"
+      ]
+    },
+    {
+      "numeral": "604",
+      "component": "shape-setting",
+      "first_figure": "6",
+      "figures": [
+        "6"
+      ]
+    },
+    {
+      "numeral": "606",
+      "component": "water quench",
+      "first_figure": "6",
+      "figures": [
+        "6"
+      ]
+    },
+    {
+      "numeral": "608",
+      "component": "electropolishing",
+      "first_figure": "6",
+      "figures": [
+        "6"
+      ]
+    },
+    {
+      "numeral": "610",
+      "component": "interference fit (pressing the seat ring into the core body)",
+      "first_figure": "6",
+      "figures": [
+        "6"
+      ]
+    },
+    {
+      "numeral": "700",
+      "component": "method of purging the valve",
+      "first_figure": "7",
+      "figures": [
+        "7"
+      ]
+    },
+    {
+      "numeral": "702",
+      "component": "step: normal stroke above the opening pressure",
+      "first_figure": "7",
+      "figures": [
+        "7"
+      ]
+    },
+    {
+      "numeral": "704",
+      "component": "step: over-travel above the over-travel threshold",
+      "first_figure": "7",
+      "figures": [
+        "7"
+      ]
+    },
+    {
+      "numeral": "706",
+      "component": "step: deflection of the deflectable element and opening of the purge gap",
+      "first_figure": "7",
+      "figures": [
+        "7"
+      ]
+    },
+    {
+      "numeral": "708",
+      "component": "step: purge flow into the inflatable body",
+      "first_figure": "7",
+      "figures": [
+        "7"
+      ]
+    },
+    {
+      "numeral": "710",
+      "component": "step: fall of the pressure differential on removal of the inflation device",
+      "first_figure": "7",
+      "figures": [
+        "7"
+      ]
+    },
+    {
+      "numeral": "712",
+      "component": "step: recovery of the deflectable element with the recovery wipe; purge gap closes",
+      "first_figure": "7",
+      "figures": [
+        "7"
+      ]
+    }
+  ],
+  "source": "matters/self-purging-valve-20260928/runs/r1/P4/20a.md"
+}

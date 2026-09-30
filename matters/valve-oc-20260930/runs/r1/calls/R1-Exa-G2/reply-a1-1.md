@@ -1,0 +1,22 @@
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/review/r1/30.md`: Prompt 30, US/EPO/UK resilience review. 14 findings: 2 high, 11 medium, 1 low.
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/review/r1/32.md`: Prompt 32, 20 ranked objections: 5 high, 13 medium, 2 low, no critical.
+
+For routing:
+- **High findings, to the drafters:**
+  - The illustrated embodiment says outward deflection opens a gap at the seat ring's outer surface, which cannot work as written: P4, needs new disclosure (F-30-1, F-32-1).
+  - The Example 1 evidence (a snap heard only when the pump head is removed) does not show that the pressure differential drives over-travel; the pump head may have been pressing the poppet: P4, needs new disclosure (F-32-2).
+  - Every independent claim requires the poppet to over-travel under the pressure differential, so mechanical-depression, purge-actuator and Schrader variants escape; there is also a US dedication risk: P5 (F-30-2, F-32-3).
+  - Inventive-step objections against seat-ring claim 67 and manufacturing claim 90: P5 (F-32-4, F-32-5).
+- **Narrowing suggested:** claims 67 and 90. Narrowing is the only credible fix; the options and the scope each gives up are in F-32-4 and F-32-5, for counsel to choose.
+- **Disclosure requests to the inventor:**
+  - the actual location of the purge gap and which way it opens;
+  - the pump head used in Example 1 and whether it bears on the poppet, whether a snap was heard between strokes, and any measurement of the pressure differential or poppet travel;
+  - the axial order of the internal shoulder, sealing edge, convolutions and purge shoulder, and which face the shoulder meets;
+  - which manufacturing step formed the convolutions, which way they run, whether the bore is relieved, and the poppet stem diameter;
+  - the method used to measure the austenite finish temperature;
+  - tolerance bands for the "approximately"/"nominally" values;
+  - whether the dimensional ranges hold for PEEK and resilient-metal rings;
+  - data that separates the air purge from the snap-back wipe.
+- **Open questions for counsel:** whether to claim or deliberately leave out the disclosed alternatives (the US dedication risk); the unity strategy for claims 67 and 90; and whether the missing background, summary and drawing-description sections, plus the abstract (which [0160] depends on), are added by a later step.
+- **To the Prior-Art Analyst:** the full text of US 9,982,818 B2 (dimensions, and whether its ring seats a moving member) decides the options for claim 67. All novelty and inventive-step attacks are provisional, because they rest on `INDEX.md` summaries rather than quoted full texts.
+- **Open disagreements:** none.

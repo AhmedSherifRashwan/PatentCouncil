@@ -1,0 +1,208 @@
+{
+  "prompt": "29",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-29-1",
+      "source_prompt": "29",
+      "category": "support",
+      "severity": "high",
+      "title": "Two-piece seat cannot serve as a fallback because its purge gap is not described",
+      "claim_refs": [
+        "1"
+      ],
+      "spec_refs": [
+        "[0181]",
+        "[0182]",
+        "[0183]",
+        "[0293]",
+        "[0347]",
+        "Fig. 9"
+      ],
+      "attack": "An amendment to the rigid seat and wiper ring must state that the wiper ring's deflection opens the purge gap; the description says only that it deflects outward and wipes. The amendment would be refused as not directly and unambiguously disclosed.",
+      "least_narrowing_action": "Add the purge gap 146 to the two-piece seat paragraphs and Statement 7.1: boundaries, closed state at rest, relation to the main passage, path of the air purge.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-29-2",
+      "source_prompt": "29",
+      "category": "support",
+      "severity": "medium",
+      "title": "Fit band and free portion disclosed only with the relief, and tested construction not identified",
+      "claim_refs": [
+        "26",
+        "66"
+      ],
+      "spec_refs": [
+        "[0186]",
+        "[0202]",
+        "[0229]",
+        "Fig. 4",
+        "Fig. 12"
+      ],
+      "attack": "The fit band, free portion and relief are introduced together; a claim to the first two against a plain bore is an intermediate generalisation, and [0202] disclaims the relief for the tested valve cores without saying what they had.",
+      "least_narrowing_action": "State whether the fit band and free portion are used with a plain core body bore, and state the construction of the tested valve cores.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-29-3",
+      "source_prompt": "29",
+      "category": "support",
+      "severity": "medium",
+      "title": "Wall-slot and valve-stem-bore arrangements too thinly described to carry an amendment",
+      "claim_refs": [
+        "44",
+        "45",
+        "47"
+      ],
+      "spec_refs": [
+        "[0189]",
+        "[0190]",
+        "[0191]",
+        "[0229]",
+        "Fig. 12"
+      ],
+      "attack": "The wall slots are placed in a free portion and also combined with a fully retained outer surface. The valve-stem-bore arrangement is one sentence without a figure, and claim 47 excludes claim 45.",
+      "least_narrowing_action": "Describe the two wall-slot arrangements separately; add a figure and paragraph for the valve-stem-bore arrangement and extend claim 47 to claim 45.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-29-4",
+      "source_prompt": "29",
+      "category": "support",
+      "severity": "medium",
+      "title": "Parameters with a single value give no room to amend",
+      "claim_refs": [
+        "29",
+        "34",
+        "73",
+        "81",
+        "85"
+      ],
+      "spec_refs": [
+        "[0203]",
+        "[0234]",
+        "[0235]",
+        "[0237]",
+        "[0250]"
+      ],
+      "attack": "The normal stroke, interference fit, composition, shape-setting conditions and austenite finish temperature each have one value or one bound; no relation between parameters is stated.",
+      "least_narrowing_action": "Ask the inventor for workable ranges, the method of determining the austenite finish temperature and any relation between dimensions; add them as candidates.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-29-5",
+      "source_prompt": "29",
+      "category": "design-around",
+      "severity": "high",
+      "title": "Disclosed alternatives lie outside every claim, one by the description's own statement",
+      "claim_refs": [
+        "1",
+        "6"
+      ],
+      "spec_refs": [
+        "[0148]",
+        "[0151]",
+        "[0155]",
+        "[0179]",
+        "[0180]",
+        "[0216]"
+      ],
+      "attack": "[0179] describes a disc spring that opens a purge gap and says its deflection is not a radial expansion, which tells a competitor how to avoid claim 1. The detent and spring-loaded stop are outside claim 6. Unclaimed disclosed subject matter is dedicated to the public in the United States.",
+      "least_narrowing_action": "Add a generic claim to a deflectable element whose deflection opens the purge gap, with claim-support statements and a figure, and a generic term for the threshold-separating return arrangement. Nothing is given up.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-29-6",
+      "source_prompt": "29",
+      "category": "support",
+      "severity": "medium",
+      "title": "Combination clause is closed",
+      "claim_refs": [
+        "15",
+        "40",
+        "42",
+        "43",
+        "44"
+      ],
+      "spec_refs": [
+        "[0035]",
+        "[0217]",
+        "[0349]"
+      ],
+      "attack": "Features may be combined only in the combinations set out under Combinations, and [0217] lists six forms that exclude the slotted sleeve, split seat ring, tapered seat ring, collar, detent and wall slots.",
+      "least_narrowing_action": "Replace with an open statement and extend [0217] to every form of the radially deflectable element, load-applying surface and return bias.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. The rejection premise is built from the saved references only.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. Claims as filed count as part of the application as filed for basis at the EPO and UK IPO.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. The drawings will follow the figure instructions.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. AI drafting and analysis aid; qualified patent counsel signs off before filing.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. What ranges are believed workable for the normal stroke, the interference fit and the shape-setting conditions?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. How was the austenite finish temperature of the prototype seat rings determined?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. Were the disc-spring element, the detent and the spring-loaded stop conceived by the inventor, and are they to be claimed?",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. For counsel: is the thermal variant to be kept, given that it contradicts the definition in [0065]?",
+      "blocks": []
+    }
+  ]
+}

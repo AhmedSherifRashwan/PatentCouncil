@@ -1,0 +1,23 @@
+# CHANGED — claims.v2.md (claim numbers are the new numbering; old-to-new map in x-p5-revise.md Change Log)
+
+- F-28-2 | claims 31 (new, inward deflection at the bounding surface), 32 (old 30 clarified: opens where the bounding portion moves away from the bore); no narrowing; prototype kinematics listed in claims-needs.md
+- F-28-3 | no claim wording change (P4 fix); claims 4, 5, 22, 33 keep the description's wording; disclosure need listed in claims-needs.md
+- F-30-6 | claims 31 (new), 32 (clarified); claim 1 kept generic; kinematics need in claims-needs.md
+- F-32-1 | claim 91 (new matched kit, non-narrowing fallback); claim 79 not narrowed, narrowing recorded in narrowing_suggested for the human
+- F-32-2 | claim 118 (new: assembly into the valve core of claims 1 to 68); claim 105 not narrowed, narrowing recorded in narrowing_suggested
+- F-32-20 | no claim wording change (P4 fix); claims 4, 5, 23 unchanged pending the inventor's axial layout; need in claims-needs.md
+- F-32-4 | claims 1, 69, 92 reformulated (purge state by poppet position); claims 2, 70, 93 (new pressure-trigger rungs); claim 48 (old 46, depression no longer "additionally"); claim 94 (new depressor rung); claims 38, 42, 43, 44, 46, 97, 98 dependencies re-based on claims 2 / 93; claim 26 and claim 102 antecedent rewording
+- F-33-2 | claims 1, 69, 92: "the deflectable ring element is in its at-rest form and" deleted from the normal-open state; description sentence for [0118]/[0122] listed in claims-needs.md
+- F-33-4 | claims 1, 69, 92 reformulated; claims 48, 94 (depressor), 49 (new, purge flow path in either direction), 103 (old 88, deflation purge, unchanged), 102 reworded
+- F-36-1 | no claim wording change (P4 fix); claims 1, 5, 22, 32, 69, 92 rely on the illustrated embodiment's load path and purge exit; need in claims-needs.md
+- F-gate14-2 | no claim wording change (P4 fix); claims 4, 5, 9 unchanged; axial order need in claims-needs.md
+- F-gate14-4 | claims 31 (new), 32 (clarified); claims 10, 30, 84 unchanged pending inventor confirmation; need in claims-needs.md
+- F-gate14-5 | claims 61 to 68 (new wipe-only valve core independent and ladder); claims 73, 104, 118 cross-references extended to claim 68
+- F-30-7 | claim 91 (new kit, interrelated product adapted to the purge-gap and over-travel features); claims 79 and 105 not narrowed; division or narrowing recorded in narrowing_suggested and Q4
+- F-gate14-1 | no claim change; drawing sheets, list of figures and abstract needed for every reference numeral; listed in claims-needs.md
+- corrections F-37-2 | claim 29 (old 28): "contacts to produce the radial deflection" wording applied
+- corrections F-37-3 | numeral (30) removed from the deflectable ring element in claims 1, 69, and not added in claim 92
+- corrections F-37-7 / 37b | claims 1, 69: recovery clause recast as "and wherein, when the poppet returns from over-travel, ..." (37b structure, condition adapted to the position-based purge state)
+- corrections 37b / F-40a-3 | claim 92 (old 79): reference numerals added on first mention, matching claims 1 to 60
+- corrections F-37-1 (MDC restructuring) | NOT applied; US national-phase conversion; open_disagreements
+- corrections F-40a-1 (two-part form) | NOT applied; deferred to regional-phase entry as the correction recommends

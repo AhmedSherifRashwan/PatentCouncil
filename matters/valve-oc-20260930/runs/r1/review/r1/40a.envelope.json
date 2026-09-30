@@ -1,0 +1,151 @@
+{
+  "prompt": "40a",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-40a-4",
+      "source_prompt": "40a",
+      "category": "formal",
+      "severity": "medium",
+      "title": "No problem/solution summary precedes the Definitions section (EPO Rule 42(1)(c))",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0001]"
+      ],
+      "attack": "The description opens directly with interpretive Definitions and never states the technical problem and general solution in a single summary paragraph, as EPO Rule 42(1)(c) requires.",
+      "least_narrowing_action": "Add a short summary paragraph ahead of the Definitions section stating the problem and solution at a level no narrower than claim 1.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-40a-1",
+      "source_prompt": "40a",
+      "category": "formal",
+      "severity": "low",
+      "title": "Independent claims not in EPO/UK two-part form",
+      "claim_refs": [
+        "1",
+        "58",
+        "67",
+        "79",
+        "90"
+      ],
+      "spec_refs": [],
+      "attack": "Rule 43(1) EPC requires a two-part preamble/characterising-portion claim form wherever appropriate; the independent claims are single-part throughout.",
+      "least_narrowing_action": "Defer reformatting to EPO/UK regional-phase entry once the closest prior art is fixed by a search report.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-40a-2",
+      "source_prompt": "40a",
+      "category": "formal",
+      "severity": "low",
+      "title": "No statement that reference signs in the claims are non-limiting",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0001]"
+      ],
+      "attack": "Absence of the customary disclaimer sharpens the risk of numerals in the claims being read as limiting (see F-37-3).",
+      "least_narrowing_action": "Add a standard non-limiting reference-sign disclaimer sentence at [0001].",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-40a-3",
+      "source_prompt": "40a",
+      "category": "formal",
+      "severity": "low",
+      "title": "Inconsistent parenthetical convention for reference numerals in the description",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0031]",
+        "[0033]",
+        "[0042]"
+      ],
+      "attack": "Paragraphs [0031]-[0041] cite numerals without parentheses while [0042] onward use parentheses, contrary to EPC Rule 43(7)'s parenthetical convention.",
+      "least_narrowing_action": "Standardise [0031]-[0041] to the parenthetical form used from [0042] onward.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [
+    {
+      "target": "description",
+      "location": "[0001], appended",
+      "from_text": "(no equivalent sentence present)",
+      "to": "Reference signs appearing in the claims are included for ease of reference to the drawings only and do not limit the scope of the claims.",
+      "reason": "F-40a-2."
+    },
+    {
+      "target": "description",
+      "location": "[0031]",
+      "from_text": "a valve stem 10 having a stem bore 12",
+      "to": "a valve stem (10) having a stem bore (12)",
+      "reason": "F-40a-3, representative instance."
+    },
+    {
+      "target": "description",
+      "location": "[0033]",
+      "from_text": "The core body 20 is a turned component having an external thread engaged in the stem bore 12, a core body bore 22 that receives the seat ring 30, and an internal shoulder 24",
+      "to": "The core body (20) is a turned component having an external thread engaged in the stem bore (12), a core body bore (22) that receives the seat ring (30), and an internal shoulder (24)",
+      "reason": "F-40a-3."
+    },
+    {
+      "target": "description",
+      "location": "before [0001]",
+      "from_text": "(no equivalent paragraph present)",
+      "to": "A short summary paragraph stating the technical problem and the general solution at a level no narrower than claim 1.",
+      "reason": "F-40a-4."
+    },
+    {
+      "target": "claims",
+      "location": "independent claims 1, 58, 67, 79, 90",
+      "from_text": "single-part comprising/wherein form",
+      "to": "two-part form with a characterised-in-that division, once closest prior art is fixed",
+      "reason": "F-40a-1, recommended for deferral to regional-phase entry."
+    }
+  ],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "The abstract's absence is an outstanding item, not a compliance failure of existing text.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "Drawing-sheet formal requirements are not yet assessable; only a figure plan exists.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "The multiple-dependent-claim defect is fully captured as F-37-1 and is not duplicated here.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Whether the two-part claim form should be addressed now or deferred to a formal search report.",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Timing for drafting the Abstract, which will need its own formal check once it exists.",
+      "blocks": []
+    }
+  ]
+}

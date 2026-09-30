@@ -1,0 +1,372 @@
+{
+  "prompt": "40a",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-40a-1",
+      "source_prompt": "40a",
+      "category": "formal",
+      "severity": "medium",
+      "title": "No drawing sheets exist, though the description relies on eight figures",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0018]",
+        "[0019]",
+        "[0020]",
+        "[0021]",
+        "[0022]",
+        "[0023]",
+        "[0024]",
+        "[0025]",
+        "[0026]",
+        "Fig. 1",
+        "Fig. 2",
+        "Fig. 3",
+        "Fig. 4A",
+        "Fig. 4B",
+        "Fig. 5",
+        "Fig. 6",
+        "Fig. 7",
+        "Fig. 8"
+      ],
+      "attack": "[0018]-[0025] describe FIG. 1 to FIG. 8, but the package holds only a figure plan and drawing instructions, pending the inventors' sketches. 35 U.S.C. 113 requires drawings here; EPC Rule 56 and UK s.15(5) delete the references or re-date the application when drawings are missing.",
+      "least_narrowing_action": "Prepare FIG. 1 to FIG. 8 from the registry.md instructions, reconciled with FIG-1.png and FIG-2.png, and file them with the description.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-40a-2",
+      "source_prompt": "40a",
+      "category": "formal",
+      "severity": "medium",
+      "title": "US: multiple dependent claims serve as a basis for other multiple dependent claims",
+      "claim_refs": [
+        "8",
+        "17",
+        "30",
+        "48",
+        "54"
+      ],
+      "spec_refs": [],
+      "attack": "Claim 8 'The valve of any one of claims 1 to 7' refers to claim 6 'claim 1 or claim 5', itself multiple dependent; the same pattern appears in claims 17, 30, 48, 54 and many others. This is improper under 35 U.S.C. 112(e) and 37 CFR 1.75(c); such claims are objected to and not examined, and multiple-dependency fees apply.",
+      "least_narrowing_action": "File a US-specific claim set with single dependencies chosen by counsel; keep the EPO/UK set (Correction 2 shows claim 8 as an example).",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-40a-3",
+      "source_prompt": "40a",
+      "category": "formal",
+      "severity": "low",
+      "title": "No abstract in the package",
+      "claim_refs": [],
+      "spec_refs": [
+        "abstract"
+      ],
+      "attack": "An abstract is required under 37 CFR 1.72(b) (at most 150 words), EPC Art. 78(1)(e) and Rule 47, and UK s.14(2)(c); none is in the package.",
+      "least_narrowing_action": "Write an abstract summarising claim 1 with the FIG. 2 reference signs.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-40a-4",
+      "source_prompt": "40a",
+      "category": "formal",
+      "severity": "low",
+      "title": "Lettered paragraph numbers [0034a], [0094a], [0132a]",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0034a]",
+        "[0094a]",
+        "[0132a]"
+      ],
+      "attack": "37 CFR 1.52(b)(6) calls for consecutive four-digit bracketed paragraph numbers; lettered inserts are not conforming.",
+      "least_narrowing_action": "Renumber [0001] to [0137] consecutively (Corrections 4 to 6).",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-40a-5",
+      "source_prompt": "40a",
+      "category": "formal",
+      "severity": "low",
+      "title": "FIG. 4A and FIG. 4B each combine two different views",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0021]",
+        "Fig. 4A",
+        "Fig. 4B"
+      ],
+      "attack": "[0021] 'FIG. 4A shows, in axial section and in end view' puts two different views under one figure number, contrary to 37 CFR 1.84(u)(1) and EPC Rule 46(2)(h).",
+      "least_narrowing_action": "Drop the end views, which add only D, already shown in section (Corrections 7 to 9); or renumber the views as FIG. 4A to 4D.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-40a-6",
+      "source_prompt": "40a",
+      "category": "formal",
+      "severity": "low",
+      "title": "Claims 57 to 60 are not grouped with the claims they depend on",
+      "claim_refs": [
+        "57",
+        "58",
+        "59",
+        "60"
+      ],
+      "spec_refs": [],
+      "attack": "'57. The valve of claim 20', '58. The valve of any one of claims 27 to 29', '59. The valve core of claim 42' and '60. The valve core of claim 45' follow method claims 52-56, contrary to EPC Rule 43(4).",
+      "least_narrowing_action": "Move them after claims 24, 29, 43 and 45 respectively and renumber (Correction 10).",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-40a-7",
+      "source_prompt": "40a",
+      "category": "formal",
+      "severity": "low",
+      "title": "'Inflation gas' carries no reference sign (66) in claims 1, 2 and 4",
+      "claim_refs": [
+        "1",
+        "2",
+        "4"
+      ],
+      "spec_refs": [
+        "Fig. 2",
+        "[0032]"
+      ],
+      "attack": "'along which inflation gas passes the valve seat' (claims 1 and 2) and 'inflation gas from the inflation device' (claim 4) omit the sign 66 shown in FIG. 2, although every other numbered component carries its sign (EPC Rule 43(7)).",
+      "least_narrowing_action": "Add '(66)' at the first mention in each independent claim (Corrections 11 to 13).",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-40a-8",
+      "source_prompt": "40a",
+      "category": "formal",
+      "severity": "low",
+      "title": "Claimed tubeless tyre set-up and outward-deflected wiper ring are not shown in any figure",
+      "claim_refs": [
+        "51",
+        "28",
+        "45"
+      ],
+      "spec_refs": [
+        "Fig. 3",
+        "Fig. 8",
+        "[0094]",
+        "[0113]"
+      ],
+      "attack": "Claim 51 'a tubeless tyre set-up' and claims 28 and 45 'deflected outward by the purge shoulder (44)' are not drawn: FIG. 8 shows only an inner tube, and FIG. 3 shows the wiper ring 130 only undeflected. This is contrary to 37 CFR 1.83(a).",
+      "least_narrowing_action": "Add the deflected wiper ring in broken line to FIG. 3 and a labelled box for the tubeless tyre set-up to FIG. 8 (Corrections 14 and 15).",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-40a-9",
+      "source_prompt": "40a",
+      "category": "formal",
+      "severity": "low",
+      "title": "The claims have no heading",
+      "claim_refs": [
+        "1"
+      ],
+      "spec_refs": [],
+      "attack": "claims.md begins '1. A valve (92) for an inflatable body (80)' with no heading; 37 CFR 1.75(h) and MPEP 608.01(m) expect claims on a separate sheet under a heading, as do the EPO and the UK IPO.",
+      "least_narrowing_action": "Add 'CLAIMS' above claim 1 (Correction 16).",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [
+    {
+      "target": "description",
+      "location": "drawing sheets",
+      "from_text": "(no drawing sheets in the package; figures.md and registry.md are a figure plan and drawing instructions only)",
+      "to": "(drawing sheets FIG. 1 to FIG. 8 prepared from the registry.md instructions, reconciled with the inventors' sketches FIG-1.png and FIG-2.png, filed with the description)",
+      "reason": "F-40a-1."
+    },
+    {
+      "target": "claims",
+      "location": "claim 8, US claim set only (example of the pattern)",
+      "from_text": "8. The valve of any one of claims 1 to 7,",
+      "to": "8. The valve of claim 6,",
+      "reason": "F-40a-2: 37 CFR 1.75(c); counsel chooses the single parent for every multiple dependent claim in the US set; the EPO/UK set keeps its dependencies as corrected under Prompt 37."
+    },
+    {
+      "target": "description",
+      "location": "abstract",
+      "from_text": "(no abstract in the package)",
+      "to": "(abstract of not more than 150 words summarising claim 1, with the reference signs of FIG. 2)",
+      "reason": "F-40a-3."
+    },
+    {
+      "target": "description",
+      "location": "paragraph after [0034]",
+      "from_text": "[0034a]",
+      "to": "[0035]",
+      "reason": "F-40a-4: every later paragraph number increases by one."
+    },
+    {
+      "target": "description",
+      "location": "paragraph after [0094]",
+      "from_text": "[0094a]",
+      "to": "[0096]",
+      "reason": "F-40a-4: after the first renumbering; every later number increases by one more."
+    },
+    {
+      "target": "description",
+      "location": "paragraph after [0132]",
+      "from_text": "[0132a]",
+      "to": "[0135]",
+      "reason": "F-40a-4: after the first two renumberings; [0133] and [0134] become [0136] and [0137]."
+    },
+    {
+      "target": "description",
+      "location": "[0021]",
+      "from_text": "FIG. 4A shows, in axial section and in end view, the seat ring of the first embodiment alone",
+      "to": "FIG. 4A shows, in axial section, the seat ring of the first embodiment alone",
+      "reason": "F-40a-5: one view per figure."
+    },
+    {
+      "target": "description",
+      "location": "registry.md, FIG. 4A and FIG. 4B instructions",
+      "from_text": "for each, two views side by side on one sheet: on the left an axial section of the seat ring 30 alone, unloaded, axis vertical, upper edge 32 at the top; on the right an end view looking down on the upper edge 32.",
+      "to": "for each, one axial section of the seat ring 30 alone, unloaded, axis vertical, upper edge 32 at the top; no end view.",
+      "reason": "F-40a-5."
+    },
+    {
+      "target": "description",
+      "location": "registry.md, FIG. 4A and FIG. 4B dimension lines",
+      "from_text": "On the end view, D only.",
+      "to": "",
+      "reason": "F-40a-5: the end view is removed."
+    },
+    {
+      "target": "claims",
+      "location": "claims 57-60 (order)",
+      "from_text": "57. The valve of claim 20, ... 58. The valve of any one of claims 27 to 29, ... 59. The valve core of claim 42, ... 60. The valve core of claim 45, (placed after claim 56)",
+      "to": "the same four claims placed after claims 24, 29, 43 and 45 respectively, with all claims and dependency references renumbered accordingly",
+      "reason": "F-40a-6: EPC Rule 43(4)."
+    },
+    {
+      "target": "claims",
+      "location": "claim 1",
+      "from_text": "the valve having a main flow passage (62), along which inflation gas passes the valve seat",
+      "to": "the valve having a main flow passage (62), along which inflation gas (66) passes the valve seat",
+      "reason": "F-40a-7."
+    },
+    {
+      "target": "claims",
+      "location": "claim 2",
+      "from_text": "the valve core having a main flow passage (62), along which inflation gas passes the valve seat",
+      "to": "the valve core having a main flow passage (62), along which inflation gas (66) passes the valve seat",
+      "reason": "F-40a-7."
+    },
+    {
+      "target": "claims",
+      "location": "claim 4",
+      "from_text": "and inflation gas from the inflation device passing the valve seat",
+      "to": "and inflation gas (66) from the inflation device passing the valve seat",
+      "reason": "F-40a-7."
+    },
+    {
+      "target": "description",
+      "location": "registry.md, FIG. 3 instructions, valve member",
+      "from_text": "In broken line, the same valve member 40 displaced downward to the over-travel position with the purge shoulder 44 bearing on the upper end of the wiper ring 130.",
+      "to": "In broken line, the same valve member 40 displaced downward to the over-travel position with the purge shoulder 44 bearing on the upper end of the wiper ring 130, and, also in broken line, the wiper ring 130 deflected outward.",
+      "reason": "F-40a-8: claims 28 and 45; support [0094]."
+    },
+    {
+      "target": "description",
+      "location": "registry.md, FIG. 8 callout notes",
+      "from_text": "- Callout notes: legend \"FIG. 8\". No text other than numerals and the legend.",
+      "to": "- Callout notes: legend \"FIG. 8\". In addition, a labelled rectangular box \"tubeless tyre set-up\", joined to the inflatable body 80 by a broken lead line, as the alternative inflatable body 80. No other text than numerals, that label and the legend.",
+      "reason": "F-40a-8: claim 51; 37 CFR 1.83(a) labelled representation; support [0113]."
+    },
+    {
+      "target": "claims",
+      "location": "before claim 1",
+      "from_text": "1. A valve (92) for an inflatable body (80), the valve comprising",
+      "to": "CLAIMS\n\n1. A valve (92) for an inflatable body (80), the valve comprising",
+      "reason": "F-40a-9."
+    }
+  ],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. This reply is a drafting and analysis aid prepared by AI; it is not legal advice or a filing decision, and qualified patent counsel reviews and signs off before anything is filed.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. The target jurisdictions are the default US, EPO and UK.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. The formal rules and claims-fee thresholds cited are stated from general knowledge of patent practice; the current fee amounts are not given, and counsel should confirm both.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. Substantive matters are not raised here. F-40a-1, F-40a-2 and F-40a-4 repeat the formal items F-30-3, F-30-8 and F-30-9 only to give exact corrections, and should be merged with them.",
+      "blocking": false
+    },
+    {
+      "id": "A5",
+      "text": "A5. Corrections 1, 3 and 10 describe actions because there is no literal text to replace, or the change is a relocation.",
+      "blocking": false
+    },
+    {
+      "id": "A6",
+      "text": "A6. figures.md and registry.md are working instructions for the draftsperson, not filing text, and are not treated as filed matter.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Are the inventors' sketches FIG-1.png and FIG-2.png available for preparing the drawing sheets?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. For the US claim set, which single parent should each multiple dependent claim take, and should the set be trimmed to control fees?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. Should the seat-ring end views be kept as separately numbered figures (FIG. 4A-4D) instead of dropped?",
+      "blocks": []
+    }
+  ]
+}

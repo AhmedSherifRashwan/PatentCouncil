@@ -1,0 +1,58 @@
+[
+ {
+  "target": "description",
+  "location": "[0166]",
+  "from_text": "A wavy or undulating shape of a resilient metal seal is described in US11549591B1, where the shape pre-loads a seat interface to provide a seating and sealing force. The load-converting geometry described here has a different effect: it acts when the poppet is in over-travel, and its deformation opens the purge gap through which the air purge passes.",
+  "to": "[inventor-confirmed structural distinction from US11549591B1 to be added; exact wording depends on facts not in this package]",
+  "reason": "Avoid a bare functional-only distinction from an admitted structurally similar prior-art feature (F-38-1)",
+  "source": "38.envelope"
+ },
+ {
+  "target": "description",
+  "location": "[0049] / registry.md numeral 220",
+  "from_text": "(FIG. 13A undescribed in the specification; numeral 220 unused in specification text)",
+  "to": "Add Brief Description and Detailed Description text for FIG. 13A/220, or remove FIG. 13A and numeral 220 from the figure plan and registry",
+  "reason": "Resolve drawing/description mismatch (F-38-3)",
+  "source": "38.envelope"
+ },
+ {
+  "target": "description",
+  "location": "terminology/LOCKED.md",
+  "from_text": "(no rows for slotted sleeve / split seat ring / tapered seat ring / matching taper / Schrader-pattern core body)",
+  "to": "Add rows for each term per Note 1's own instruction",
+  "reason": "Complete the lock for terms already in the filed text (F-38-4)",
+  "source": "38.envelope"
+ },
+ {
+  "target": "description",
+  "location": "[0063]",
+  "from_text": "that is spaced from the seat ring throughout the normal stroke, that contacts the seat ring only in the over-travel, and that applies the axial load which produces the radial expansion",
+  "to": "that is spaced from the radially deflectable element throughout the normal stroke, that contacts the radially deflectable element only in the over-travel, and that applies the axial load which produces the radial expansion",
+  "reason": "Aligns the lexicographic definition of \"purge shoulder\" with the genus term, consistent with [0182]'s use against the wiper ring.",
+  "source": "38b.envelope"
+ },
+ {
+  "target": "description",
+  "location": "[0049]",
+  "from_text": "FIGS. 13B is an axial section of an embodiment in which the valve core is integral with the valve stem.",
+  "to": "FIG. 13B is an axial section of an embodiment in which the valve core is integral with the valve stem.",
+  "reason": "Grammatical number mismatch: single figure reference with plural \"FIGS.\"",
+  "source": "38b.envelope"
+ },
+ {
+  "target": "description",
+  "location": "[0049] / registry.md numeral 220",
+  "from_text": "(FIG. 13A undescribed in the specification)",
+  "to": "Add Brief Description and Detailed Description text for FIG. 13A/220, or remove FIG. 13A and numeral 220 from the figure plan and registry",
+  "reason": "37 CFR 1.74/MPEP 608.01(f)",
+  "source": "40a.envelope"
+ },
+ {
+  "target": "description",
+  "location": "[0049]",
+  "from_text": "FIGS. 13B is an axial section of an embodiment in which the valve core is integral with the valve stem.",
+  "to": "FIG. 13B is an axial section of an embodiment in which the valve core is integral with the valve stem.",
+  "reason": "Singular/plural mismatch.",
+  "source": "40ab.envelope"
+ }
+]

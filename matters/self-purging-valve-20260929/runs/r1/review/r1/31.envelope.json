@@ -1,0 +1,21 @@
+{
+  "prompt": "31",
+  "status": "partial",
+  "findings": [],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. This review is a drafting and analysis aid, not legal advice. Qualified patent counsel decides priority claims and filing strategy.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Is priority to be claimed from any earlier filing? If so, supply it under intake/priority/ and re-run this prompt (claims most exposed: 26, 40-44, 66, 67; ranges of 11, 19, 33, 53, 68; claim 4). If not, confirm that this is the first filing.",
+      "blocks": []
+    }
+  ]
+}

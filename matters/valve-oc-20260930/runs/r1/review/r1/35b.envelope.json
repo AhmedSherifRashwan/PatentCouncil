@@ -1,0 +1,142 @@
+{
+  "prompt": "35",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-35-1",
+      "source_prompt": "35",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Seat ring claim 67 scores 3 for design-around resistance because of numerical ranges and the convoluted-wall limitation",
+      "claim_refs": [
+        "67"
+      ],
+      "spec_refs": [
+        "[0034]",
+        "[0078]",
+        "[0081]",
+        "[0084]",
+        "[0091]",
+        "[0137]"
+      ],
+      "attack": "'a seat ring inner diameter of from 2.0 mm to 2.6 mm and a seat ring wall thickness of from 0.15 mm to 0.30 mm' and 'a convoluted wall (32)' exclude every Schrader-pattern ring, any Presta ring marginally outside the ranges, and the frustoconical, slotted and cellular walls of [0081]; an aftermarket ring supplier avoids the only component claim at no engineering cost.",
+      "least_narrowing_action": "Broaden claim 67 to the sealing edge, the axial-to-radial conversion wall (claim 10 wording, [0078]) and shape recovery, adding the superelastic alloy of claim 73 if novelty needs it; keep ranges and convoluted wall as dependents.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-35-2",
+      "source_prompt": "35",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Manufacturing claim 90 scores 2 for design-around resistance and 2 for detectability",
+      "claim_refs": [
+        "90",
+        "94",
+        "96"
+      ],
+      "spec_refs": [
+        "[0149]",
+        "[0150]"
+      ],
+      "attack": "'laser cutting' and 'water quenching' are single species; [0150] discloses roll-forming, internal-pressure forming, etching and stamping alternatives that all escape; the electropolishing of [0149] removes the heat-affected edge that would evidence laser cutting; the process is performed by a supplier and is undetectable from the product.",
+      "least_narrowing_action": "Reformulate to 'cutting a profile of the seat ring from tube stock or from sheet' ([0150]); generalising the quench needs inventor confirmation and new disclosure; counsel to decide whether claim 90 is retained.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-35-3",
+      "source_prompt": "35",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Method claim 79 scores 4 for detectability and 4 for evidentiary ease",
+      "claim_refs": [
+        "79"
+      ],
+      "spec_refs": [
+        "[0056]",
+        "[0179]"
+      ],
+      "attack": "Every step is the user's act; proof of 'an air purge ... across surfaces on which sealant film accumulates' needs the accused valve after use with sealant, a bench rig and evidence that the user's pump exceeded the threshold, which [0179] concedes hand pumps and CO2 devices may not.",
+      "least_narrowing_action": "Recite 'across a surface of the deflectable ring element' ([0056]) in place of the sealant-film condition; carry every structural precondition into claims 1 and 58; keep claim 79 as the inducement vehicle.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-35-4",
+      "source_prompt": "35",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Claims 1 and 58 score 5 for design-around resistance: four disclosed escape architectures are unclaimed",
+      "claim_refs": [
+        "1",
+        "58"
+      ],
+      "spec_refs": [
+        "[0051]",
+        "[0066]",
+        "[0117]",
+        "[0123]",
+        "[0009]",
+        "[0022]"
+      ],
+      "attack": "The description discloses the two-state single-rate-spring variant ([0051]), the depressor-actuated purge ([0066]), the separate purge actuator ([0123]) and the inverted ring-on-poppet arrangement ([0117]); none is inside an independent claim, which requires a normal-open state, a return spring and poppet-produced radial deflection.",
+      "least_narrowing_action": "Add an independent claim to the closed and purge states only, purge state defined by displacement of a deflecting member beyond a first displacement, ring carried by the core body or the poppet, and 'a biasing member' for the spring; supported by [0009], [0022], [0051], [0066], [0112], [0117], [0123].",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. Novelty and inventive-step scores use only the references in prior-art/INDEX.md; the index records thin coverage, so those scores are provisional.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. Thin-walled metal bellows and convoluted rings converting axial load into radial movement are common general knowledge in the sealing art (premise of claim 67 scores).",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. Laser cutting from tube, fixture shape-setting with quench and electropolishing are the standard NiTi component route in the medical-device industry (common general knowledge; premise of claim 90 scores).",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. The first product is the replacement Presta core of [0140], followed by OEM tubeless valves; this sets the commercial-relevance scores of claims 1 and 58.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Is a separately sold seat ring ([0141]) a real product line? If so, F-35-1 is the priority; if not, claim 67 can be simplified.",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Will the product be marketed as 'self-cleaning' with inflation instructions naming a floor pump? That decides claim 79's inducement value.",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. Should claim 90 be retained at all, given its scores? Counsel decision.",
+      "blocks": []
+    }
+  ]
+}

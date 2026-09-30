@@ -1,0 +1,430 @@
+{
+  "prompt": "30",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-30-1",
+      "source_prompt": "30",
+      "category": "formal",
+      "severity": "high",
+      "title": "US multiple-dependency structure is improper and the claim set is fee-heavy in all three offices",
+      "claim_refs": [
+        "14",
+        "18",
+        "61",
+        "89",
+        "99"
+      ],
+      "spec_refs": [],
+      "attack": "Multiple dependent claims depend from other multiple dependent claims (37 CFR 1.75(c)); five independent claims and 102 claims attract excess and multiple-dependency fees in the US, claim fees above 15 and 50 at the EPO, and excess-claims fees above 25 at the UK IPO.",
+      "least_narrowing_action": "Prepare a US claim set with single dependencies and a fee-budgeted EPO/UK set, keeping displaced dependents as fallback text in the description; no scope change.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-2",
+      "source_prompt": "30",
+      "category": "support",
+      "severity": "high",
+      "title": "[0009] invites means-plus-function construction of the functional genus terms in claim 1 and claim 36",
+      "claim_refs": [
+        "1",
+        "2",
+        "28",
+        "36",
+        "62"
+      ],
+      "spec_refs": [
+        "[0009]",
+        "[0014]",
+        "[0021]",
+        "[0022]"
+      ],
+      "attack": "'Element', 'arrangement' and 'formation' plus function, with [0009] reciting 'corresponding structures ... and their equivalents', supports \u00a7112(f) treatment confining claim 1 to disclosed species and equivalents; if not invoked, the 'any structure capable of' sentence supports a written-description attack on the functional genus.",
+      "least_narrowing_action": "Redraft [0009] to rely on the structural definitions at [0014], [0021], [0022], remove the 'corresponding structures and equivalents' formula and state that means-plus-function treatment is not intended.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-3",
+      "source_prompt": "30",
+      "category": "formal",
+      "severity": "high",
+      "title": "Rule 43(2) and unity: claims 67 and 90 do not share the purge-gap feature with claim 1",
+      "claim_refs": [
+        "1",
+        "58",
+        "67",
+        "79",
+        "90"
+      ],
+      "spec_refs": [],
+      "attack": "Three independent product claims plus two methods; claims 67-78 and 90-102 recite no purge gap, over-travel or threshold, so a posteriori they share no special technical feature with claim 1 once a convoluted thin-walled ring or the standard laser-cut/shape-set route is found.",
+      "least_narrowing_action": "Narrowing is the only in-application route: add the superelastic alloy and a link to the sealing-and-purging function to claim 67 and make claim 90 recite that ring, or divide claims 67-78 and 90-102 out; scope given up is the polymer seat ring per se and the generic route.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-4",
+      "source_prompt": "30",
+      "category": "enablement",
+      "severity": "high",
+      "title": "Illustrated embodiment's purge gap described as opening by outward deflection against the bore, contradicted by [0103] and the figure instructions",
+      "claim_refs": [
+        "1",
+        "29",
+        "30"
+      ],
+      "spec_refs": [
+        "[0020]",
+        "[0040]",
+        "[0053]",
+        "[0103]",
+        "[0110]",
+        "Fig. 1",
+        "Fig. 3",
+        "Fig. 6"
+      ],
+      "attack": "An outward-moving surface cannot move away from a surrounding rigid bore; [0103] and [0110] say the outer-surface gap opens by inward or ovalising movement, the registry calls the FIG. 6 convention a drafting assumption, and the FIG. 1 instruction says both zero-width and small clearance at rest; the only built embodiment is not coherently taught.",
+      "least_narrowing_action": "Added disclosure stating which surface bounds the purge gap in the illustrated embodiment and in which sense it moves, with [0020], [0053], FIG. 3, FIG. 6B and the FIG. 1 instruction aligned to it.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-5",
+      "source_prompt": "30",
+      "category": "design-around",
+      "severity": "high",
+      "title": "Four disclosed alternatives fall outside claim 1 and are dedicated to the public in the US",
+      "claim_refs": [
+        "1",
+        "58",
+        "79"
+      ],
+      "spec_refs": [
+        "[0051]",
+        "[0067]",
+        "[0117]",
+        "[0123]"
+      ],
+      "attack": "Purge on every opening with no normal-open state ([0051]), a separate purge actuator with the poppet on its normal stroke only ([0123]), the inverted ring-on-poppet arrangement ([0117]) and deflation-only purge ([0067]) are described, unclaimed and excluded by claim 1; a competitor cites the applicant's own description.",
+      "least_narrowing_action": "Add an alternative independent claim without the normal-open-state requirement on [0051] and a claim to the purge actuator on [0123]; counsel to decide on [0117] and [0067].",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-6",
+      "source_prompt": "30",
+      "category": "support",
+      "severity": "medium",
+      "title": "Numerical dependents claimed in combinations the description says were not derived for",
+      "claim_refs": [
+        "13",
+        "16",
+        "17",
+        "35",
+        "41",
+        "42",
+        "43"
+      ],
+      "spec_refs": [
+        "[0088]",
+        "[0091]",
+        "[0094]"
+      ],
+      "attack": "Ranges derived for the superelastic convoluted seat ring are claimed with the wiper ring, polymer, resilient-metal and non-convoluted species while [0091] says only that the skilled person will adapt them; support, enablement and later added-matter exposure.",
+      "least_narrowing_action": "Add to [0091] that the ranges apply as starting values to the other species and how they are adjusted; failing that, make the numerical dependents depend on claim 11 or claim 47 (narrowing).",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-7",
+      "source_prompt": "30",
+      "category": "support",
+      "severity": "medium",
+      "title": "Claim 46 and claim 31 each contradict a limitation of claim 1",
+      "claim_refs": [
+        "1",
+        "31",
+        "46"
+      ],
+      "spec_refs": [
+        "[0060]",
+        "[0066]",
+        "[0098]",
+        "[0105]"
+      ],
+      "attack": "With a depressor the gap does not close when the pressure falls, so claim 46 lacks claim 1's closing feature; in claim 31 the supply side reaches the inner-surface gap only through the open main passage, against 'separate from the main passage ... from the supply side'.",
+      "least_narrowing_action": "Reformulate the closing clause of claim 1 as occurring when the poppet load on the ring is removed ([0060], [0098]) and reformulate claim 31 to say the purge gap communicates with the supply side through the open main passage and is distinct from it ([0105]).",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-8",
+      "source_prompt": "30",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "Austenite finish temperature claimed without a measurement method; 'service temperature' undefined",
+      "claim_refs": [
+        "47",
+        "48",
+        "74",
+        "95"
+      ],
+      "spec_refs": [
+        "[0026]",
+        "[0073]",
+        "[0148]"
+      ],
+      "attack": "The austenite finish temperature of a shape-set part varies with the test method and specimen state, none stated; 'superelastic ... at the service temperature' cannot be applied to an accused alloy.",
+      "least_narrowing_action": "Add the test method and specimen state for the 'below 5 \u00b0C' specification and replace 'service temperature' with a stated ambient range.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-9",
+      "source_prompt": "30",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Description lacks formal sections, refers to an absent background, and the figure files carry drafting-process content",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0030]",
+        "[0160]",
+        "Fig. 1",
+        "Fig. 6"
+      ],
+      "attack": "No title, field, background, summary or brief description of the drawings; [0160] cites 'the background' which does not exist; the figure plan and registry cite prompt numbers, DA codes, sketch filenames and an assumption footnote to be placed on a drawing sheet.",
+      "least_narrowing_action": "Add the missing sections using existing text; strip every internal reference from the draftsperson instructions; remove the FIG. 6 footnote instruction.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-10",
+      "source_prompt": "30",
+      "category": "novelty",
+      "severity": "medium",
+      "title": "Evidenced technical effect belongs to the wipe, not to the purge gap that distinguishes claim 1",
+      "claim_refs": [
+        "1",
+        "58",
+        "79",
+        "81"
+      ],
+      "spec_refs": [
+        "[0159]",
+        "[0167]",
+        "[0169]"
+      ],
+      "attack": "The only data show fouling in the purge-gap region and clean surfaces where the ring wipes; an examiner treats the purge gap as an unproven bypass and reformulates the problem as providing an alternative flow path.",
+      "least_narrowing_action": "Add any observation of the purge flow path surfaces, or purge-only/wipe-only data if it exists, or an explanation in [0169]; keep claims 25-26 as fallback; do not narrow claim 1.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-11",
+      "source_prompt": "30",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "No relationship between over-travel distance, convolution amplitude and recoverable strain; key values never measured",
+      "claim_refs": [
+        "13",
+        "35",
+        "43"
+      ],
+      "spec_refs": [
+        "[0049]",
+        "[0088]",
+        "[0089]",
+        "[0090]",
+        "[0091]"
+      ],
+      "attack": "The skilled person is not told how much over-travel the ring absorbs or what strain results; [0088] says the numbers follow from relationships it does not give, and [0091] admits the over-travel distance and gap opening were design values not measured.",
+      "least_narrowing_action": "Add the design relationship used, or state that the over-travel stop limits the axial load on the ring in the worked example.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-12",
+      "source_prompt": "30",
+      "category": "support",
+      "severity": "medium",
+      "title": "Clarity terms likely to be objected to in all three offices",
+      "claim_refs": [
+        "1",
+        "25",
+        "44",
+        "49",
+        "55",
+        "64",
+        "79",
+        "95"
+      ],
+      "spec_refs": [
+        "[0007]",
+        "[0010]",
+        "[0025]",
+        "[0045]",
+        "[0129]"
+      ],
+      "attack": "'associated with', a 'closed' gap, 'at-rest form' defined by an unclaimed purge shoulder, 'shears sealant film', 'about' with no tolerance, 'nominally', 'low-adhesion', 'tyre set-up', 'surfaces on which sealant film accumulates', 'verified on sampled seat rings'.",
+      "least_narrowing_action": "Reformulate each using existing description text without changing scope, as set out in the finding.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-13",
+      "source_prompt": "30",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "Sufficiency across the breadth of the functional genus of claim 1",
+      "claim_refs": [
+        "1",
+        "58"
+      ],
+      "spec_refs": [
+        "[0071]",
+        "[0084]",
+        "[0091]"
+      ],
+      "attack": "One built species supports a genus of every material, geometry, gap location and deflecting formation, each non-built combination left to adaptation; UK s.14(3) and Art 83 breadth attack.",
+      "least_narrowing_action": "Add starting values for the polymer seat ring and the wiper ring and state which geometries suit which material class; no claim narrowing.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-14",
+      "source_prompt": "30",
+      "category": "formal",
+      "severity": "low",
+      "title": "Numeral and preamble mismatches",
+      "claim_refs": [
+        "58",
+        "100",
+        "101",
+        "102"
+      ],
+      "spec_refs": [
+        "[0138]",
+        "[0142]"
+      ],
+      "attack": "Claim 58 uses (30) for the stem-carried ring numbered 730; claims 100-102 recite valve-core assembly under a seat-ring manufacturing preamble; [0142] is an unclaimed 'separate concept'.",
+      "least_narrowing_action": "Claim 58 '(30, 730)'; retitle claims 100-102 as a method of manufacturing a valve core; mark [0142] as not part of the claimed invention.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. The package is the whole filing text: no abstract, no drawings, no priority document and no title were supplied.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. The figure plan and figure instructions are treated as part of the package as filed; if they are internal documents, F-30-9 reduces to the missing sections and the FIG. 1 contradiction.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. CGK premise: a conventional Presta or Schrader valve core comprises a poppet, a seat, a single-rate return spring and a crack pressure, as admitted at [0047] and [0160].",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. CGK premise: thin-walled convoluted (bellows-type) metal rings that deflect radially under axial load and recover elastically are known mechanical elements.",
+      "blocking": false
+    },
+    {
+      "id": "A5",
+      "text": "A5. CGK premise: laser cutting of NiTi tube stock, shape-setting in a constraining fixture with heating and quenching, and electropolishing are the standard route for superelastic NiTi tubular components.",
+      "blocking": false
+    },
+    {
+      "id": "A6",
+      "text": "A6. Fee thresholds are stated at the level of principle; counsel confirms current amounts.",
+      "blocking": false
+    },
+    {
+      "id": "A7",
+      "text": "A7. Default jurisdictions US, EPO and UK only.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Which sense of radial deflection actually opened the purge gap in prototypes P-1 to P-3, and at which surface.",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. By what method and on what specimen was the austenite finish temperature specified below 5 \u00b0C.",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. Does any purge-only or wipe-only observation, or any inspection of the purge flow path surfaces, exist.",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. Are claims 67-78 and 90-102 wanted in this application, or is a divisional intended.",
+      "blocks": []
+    },
+    {
+      "id": "Q5",
+      "text": "Q5. Are a purge-on-every-opening product or a separate purge actuator product within the commercial plan, justifying claims on [0051] and [0123].",
+      "blocks": []
+    },
+    {
+      "id": "Q6",
+      "text": "Q6. No priority document was supplied; if an earlier filing exists, priority and new-matter control has not been run.",
+      "blocks": []
+    }
+  ]
+}

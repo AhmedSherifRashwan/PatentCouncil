@@ -1,0 +1,595 @@
+{
+  "prompt": "32",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-32-1",
+      "source_prompt": "32",
+      "category": "enablement",
+      "severity": "high",
+      "title": "Preferred embodiment: outward deflection is said to open a gap at the outer surface",
+      "claim_refs": [
+        "1",
+        "29",
+        "30",
+        "72"
+      ],
+      "spec_refs": [
+        "[0020]",
+        "[0040]",
+        "[0053]",
+        "[0093]",
+        "[0103]",
+        "[0159]",
+        "[0162]",
+        "Fig. 1",
+        "Fig. 3",
+        "Fig. 6",
+        "Fig. 10"
+      ],
+      "attack": "Outward movement of the ring's outer surface closes, and cannot open, a clearance to the surrounding bore; [0053] and [0103] concede the gap opens only by inward movement. The drawing instruction shows the claimed-closed gap open at rest, the registry calls the convention an unconfirmed assumption, and Example 1 found film where the gap should open. The tested embodiment is not credibly described.",
+      "least_narrowing_action": "Obtain the actual gap location and opening sense from the inventor and rewrite [0020], [0040], [0053], [0093], [0162] and the FIG. 1/3/6/10 instructions consistently; no claim amendment needed.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-2",
+      "source_prompt": "32",
+      "category": "enablement",
+      "severity": "high",
+      "title": "The test evidence does not show that the pressure differential drives over-travel",
+      "claim_refs": [
+        "1",
+        "58",
+        "79",
+        "83",
+        "84",
+        "87"
+      ],
+      "spec_refs": [
+        "[0044]",
+        "[0048]",
+        "[0066]",
+        "[0068]",
+        "[0100]",
+        "[0156]",
+        "[0158]",
+        "[0179]"
+      ],
+      "attack": "With a floor pump the differential across the poppet should fall between strokes and go negative on removal, yet the snap was heard only on removal. That is at least as consistent with the pump head holding the poppet in over-travel ([0066]) as with the claimed pressure-driven mechanism. How a 3.5 bar differential develops across an open main passage is not explained, and travel was not measured.",
+      "least_narrowing_action": "Obtain the pump head type, whether it bears on the poppet, whether a snap occurred between strokes, and any measurement of differential or travel; add that disclosure and correct [0044], [0068] and [0158].",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-3",
+      "source_prompt": "32",
+      "category": "design-around",
+      "severity": "high",
+      "title": "Every independent claim ties the purge to over-travel of the poppet caused by the pressure differential",
+      "claim_refs": [
+        "1",
+        "46",
+        "57",
+        "58",
+        "79"
+      ],
+      "spec_refs": [
+        "[0066]",
+        "[0112]",
+        "[0123]",
+        "[0137]"
+      ],
+      "attack": "Depressor or hand over-travel [0066], a separate purge actuator with the poppet on its normal stroke only [0123], and Schrader cores opened by the head pin [0137] all fall outside claims 1, 58 and 79; claim 57 describes a combination a competitor would not build; if F-32-2 shows depression, the tested embodiment is outside the claims too.",
+      "least_narrowing_action": "Define the purge state by the poppet or a deflecting formation moving with it being beyond the normal stroke, with the pressure-differential trigger and mechanical depression as sibling dependent claims; or add an independent claim with a deflecting formation driven by the poppet or a pressure-responsive purge actuator.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-4",
+      "source_prompt": "32",
+      "category": "novelty",
+      "severity": "high",
+      "title": "Claim 67 (seat ring): a known wave ring plus routine dimensions",
+      "claim_refs": [
+        "67",
+        "68",
+        "69",
+        "70",
+        "71",
+        "72",
+        "76",
+        "77",
+        "78"
+      ],
+      "spec_refs": [
+        "[0088]",
+        "[0089]",
+        "[0141]"
+      ],
+      "attack": "Claim 67 recites no poppet, over-travel, gap or material; for a valve core limits only to suitability. Index #1 is summarised as a NiTi wave-section ring giving radial displacement. The remaining dimensions are, by the description's own admission in [0088], routine consequences of the parameter relationships.",
+      "least_narrowing_action": "Narrowing required: add superelastic alloy with Af below 5 C and a continuous sealing edge (gives up polymer and resilient-metal rings as components), or recast as the matched kit of [0141] (gives up the bare-ring claim); check #1's full text first.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-5",
+      "source_prompt": "32",
+      "category": "novelty",
+      "severity": "high",
+      "title": "Claim 90 (manufacture): standard NiTi processing applied to a known ring form",
+      "claim_refs": [
+        "90",
+        "92",
+        "94",
+        "95",
+        "96",
+        "97",
+        "98"
+      ],
+      "spec_refs": [
+        "[0147]",
+        "[0148]",
+        "[0149]",
+        "[0150]"
+      ],
+      "attack": "Laser cutting NiTi tube on a mandrel, shape-setting in a fixture around 500 C, quenching and electropolishing is common general knowledge for NiTi components; claim 90 departs only in the product, which F-32-4 shows is weak; no process effect is asserted.",
+      "least_narrowing_action": "Narrowing required: tie the method to the product features that survive F-32-4, or to making the valve core of claim 1 (combining claims 90 and 100 with claim 1), giving up seat-ring manufacture outside such a core.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-6",
+      "source_prompt": "32",
+      "category": "novelty",
+      "severity": "medium",
+      "title": "Claim 1: the technical effect is not credibly shown, which opens a combination attack",
+      "claim_refs": [
+        "1",
+        "58",
+        "79"
+      ],
+      "spec_refs": [
+        "[0159]",
+        "[0167]"
+      ],
+      "attack": "Claim 1's only claimed effect is the air purge, which the data do not isolate and which did not clean the purge region; the problem may be reformulated as an alternative second flow path, with index #16 or #14 (two-threshold second paths) combined with #1 (radially deflecting NiTi ring). Motivation is thin, hence medium.",
+      "least_narrowing_action": "Add data isolating the air purge before filing or within the priority year, state the effect of the separate purge path explicitly, and keep claims 25 and 47 as fallbacks.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-7",
+      "source_prompt": "32",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "The axial load path of the purge shoulder is not described and reads against the opening direction",
+      "claim_refs": [
+        "3",
+        "4",
+        "22"
+      ],
+      "spec_refs": [
+        "[0038]",
+        "[0046]",
+        "[0116]"
+      ],
+      "attack": "The poppet opens chamber-wards, so a shoulder on the chamber side of the sealing face moves away from the sealing edge and can meet only an undescribed supply-facing ring surface further chamber-wards; the axial order of shoulder 24, edge 34, convolutions and shoulder 44 is never stated, and the retainer of [0116] appears reversed.",
+      "least_narrowing_action": "Add a paragraph stating the axial order and the face contacted, taken from the prototype and the inventor sketches, and correct [0116] if it is reversed.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-8",
+      "source_prompt": "32",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "The worked-example dimensions do not fit together geometrically",
+      "claim_refs": [
+        "13",
+        "16",
+        "69",
+        "78"
+      ],
+      "spec_refs": [
+        "[0028]",
+        "[0036]",
+        "[0089]"
+      ],
+      "attack": "With a mean radius of about 1.25 mm, a 0.12 mm outward crest gives about 2.94 mm outer diameter, which cannot enter a bore sized for 0.03 mm interference on 2.7 mm without an undisclosed relief; an inward trough gives about 2.06 mm inner diameter against an unstated stem diameter.",
+      "least_narrowing_action": "State the direction of the convolutions, any bore relief over the convoluted length, and the diameter of the poppet stem.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-9",
+      "source_prompt": "32",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "Convoluted wall being defined by the laser cutting",
+      "claim_refs": [
+        "90",
+        "93"
+      ],
+      "spec_refs": [
+        "[0017]",
+        "[0147]",
+        "[0150]"
+      ],
+      "attack": "A convolution is a radial excursion of the wall; laser cutting a tube does not by itself displace the wall radially, so that alternative is not enabled as recited, and Example 1 never says which step formed the convolution.",
+      "least_narrowing_action": "Record which step formed the convolution in Example 1, and delete by the laser cutting from claim 90 or explain how a cut profile defines the convolution.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-10",
+      "source_prompt": "32",
+      "category": "support",
+      "severity": "medium",
+      "title": "NiTi-derived ranges claimed for every material and geometry",
+      "claim_refs": [
+        "16",
+        "17",
+        "35",
+        "41",
+        "42",
+        "43",
+        "67",
+        "68",
+        "69",
+        "70",
+        "76",
+        "77",
+        "82"
+      ],
+      "spec_refs": [
+        "[0088]",
+        "[0091]",
+        "[0146]"
+      ],
+      "attack": "The description ties the ranges to the superelastic convoluted ring and says they must be adapted for other forms; the claims, including a PEEK ring in claims 76-77, assert them for every form.",
+      "least_narrowing_action": "Amend [0088] and [0091] if the inventor confirms the ranges hold across materials; otherwise make the range claims depend on claims 47/73 and 11.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-11",
+      "source_prompt": "32",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Closing the purge gap when the differential falls below the over-travel threshold, versus hysteresis",
+      "claim_refs": [
+        "1",
+        "40",
+        "58"
+      ],
+      "spec_refs": [
+        "[0074]",
+        "[0122]"
+      ],
+      "attack": "Superelastic unloading hysteresis, and spring friction, can keep the gap open until the differential is well below the threshold at which it deflected; a defendant argues the closing condition of claims 1 and 58 is not met literally.",
+      "least_narrowing_action": "Replace with closing the purge gap as the pressure differential falls, as claim 79 already words it; no loss of scope.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-12",
+      "source_prompt": "32",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Carried by the core body, read with [0005] and [0117]",
+      "claim_refs": [
+        "1",
+        "18",
+        "24"
+      ],
+      "spec_refs": [
+        "[0005]",
+        "[0117]"
+      ],
+      "attack": "Read with [0005], a poppet-mounted ring is indirectly carried by the core body, which widens the prior art that reads on claim 1; [0117]'s contrast lets a defendant using the inverted arrangement argue it is excluded. Scope is uncertain either way.",
+      "least_narrowing_action": "Recite a deflectable ring element carried by one of the core body and the poppet and a deflecting formation carried by the other, with the core-body-held arrangement dependent.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-13",
+      "source_prompt": "32",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Purge gap associated with the deflectable ring element",
+      "claim_refs": [
+        "1",
+        "58",
+        "79"
+      ],
+      "spec_refs": [
+        "[0102]",
+        "[0106]"
+      ],
+      "attack": "Associated with gives no physical relationship, so the claim reads on any gap that opens when a ring moves.",
+      "least_narrowing_action": "Replace with a purge gap bounded at least in part by, or formed through, the deflectable ring element.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-14",
+      "source_prompt": "32",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Terms of degree whose tolerance [0007] disclaims",
+      "claim_refs": [
+        "20",
+        "44",
+        "49",
+        "75",
+        "98",
+        "101"
+      ],
+      "spec_refs": [
+        "[0007]",
+        "[0090]",
+        "[0172]"
+      ],
+      "attack": "[0007] states that about, approximately and nominally define no tolerance, so the scope is unclear, and deleting them narrows to point values.",
+      "least_narrowing_action": "Use the disclosed sub-ranges for claim 44; obtain a tolerance or specification range for the other claims.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-15",
+      "source_prompt": "32",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "Af without a measurement method",
+      "claim_refs": [
+        "48",
+        "74",
+        "95"
+      ],
+      "spec_refs": [
+        "[0072]",
+        "[0148]"
+      ],
+      "attack": "Af depends on the measurement method, and none is stated; the claim boundary is undeterminable and a competitor can choose the favourable method.",
+      "least_narrowing_action": "Add the method and standard used for the prototype rings.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-16",
+      "source_prompt": "32",
+      "category": "support",
+      "severity": "medium",
+      "title": "Shears sealant film is a result to be achieved",
+      "claim_refs": [
+        "25",
+        "80"
+      ],
+      "spec_refs": [
+        "[0063]",
+        "[0077]",
+        "[0158]"
+      ],
+      "attack": "The apparatus is defined by an unmeasured effect on a material outside the claim; whether a ring riding over the film infringes is unclear; against index #3's closing-stroke wiper rings, the distinguishing point is the recovering ring itself, which the claim should recite.",
+      "least_narrowing_action": "Recast claim 25 kinematically (a portion of the ring moves across and in contact with a surface of the poppet during shape recovery) and keep the shearing effect in the description.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-17",
+      "source_prompt": "32",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Unity: three inventions",
+      "claim_refs": [
+        "1",
+        "58",
+        "67",
+        "79",
+        "90"
+      ],
+      "spec_refs": [
+        "[0141]",
+        "[0147]"
+      ],
+      "attack": "Claims 67 and 90 require no over-travel or purge gap, and their shared convoluted-ring feature appears known per index #1; a lack-of-unity objection or restriction into three groups is likely.",
+      "least_narrowing_action": "Keep claims 1, 58 and 79 in the parent and plan divisionals for 67 and 90, as amended per F-32-4 and F-32-5.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-18",
+      "source_prompt": "32",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Background, field, summary and brief description of drawings missing; [0160] dangling",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0001]",
+        "[0160]"
+      ],
+      "attack": "Required sections and the abstract are absent; [0160] refers to failure modes described in a background that does not exist, in the paragraph reporting the comparison on which the effect rests.",
+      "least_narrowing_action": "Add the missing sections with an acknowledgment of the saved background art, and supply or reword the background that [0160] relies on.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-19",
+      "source_prompt": "32",
+      "category": "formal",
+      "severity": "low",
+      "title": "Chains of multiple dependent claims, claim count, three independent product claims",
+      "claim_refs": [
+        "10",
+        "18",
+        "58",
+        "61",
+        "67",
+        "89",
+        "99"
+      ],
+      "spec_refs": [],
+      "attack": "Multiple dependent claims rely on other multiple dependent claims (not allowed in the US); 102 claims attract excess fees; an R. 43(2) objection to claims 1, 58 and 67 is likely.",
+      "least_narrowing_action": "Restructure into singly dependent chains for the US, justify or fold the independent product claims, and prune.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-20",
+      "source_prompt": "32",
+      "category": "formal",
+      "severity": "low",
+      "title": "Drafting annotations in the figure instructions; reference-sign misuse",
+      "claim_refs": [
+        "1",
+        "58"
+      ],
+      "spec_refs": [
+        "[0093]",
+        "Fig. 6",
+        "Fig. 9"
+      ],
+      "attack": "The figure instructions cite internal working ids and would put a drafting-assumption footnote and long text on the sheets; numeral 30 is attached to the genus in claims 1 and 58; numeral 34 is reused for the fixed seat's sealing edge.",
+      "least_narrowing_action": "Strip annotations, keep sheet text to labels, drop or widen (30), and give the fixed seat's sealing edge its own numeral.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. Prior art is cited only from the INDEX.md summaries (#1, #3, #5, #14, #16); novelty and inventive-step objections relying on them are provisional until the full texts are charted.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. Common general knowledge: superelastic NiTi parts are routinely made by laser cutting tube on a mandrel, shape-setting in a fixture at about 450-550 C, quenching and electropolishing.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. Common general knowledge: superelastic NiTi shows stress hysteresis, the unloading plateau lying below the loading plateau.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. Common general knowledge: a floor pump delivers air in strokes; the differential falls between strokes and the supply side vents on removal; some Presta heads have a boss or pin that can bear on the poppet tip.",
+      "blocking": false
+    },
+    {
+      "id": "A5",
+      "text": "A5. Common general knowledge: laser cutting a tube does not by itself displace the wall radially.",
+      "blocking": false
+    },
+    {
+      "id": "A6",
+      "text": "A6. Common general knowledge: Af values measured by DSC and by bend and free recovery can differ by several degrees.",
+      "blocking": false
+    },
+    {
+      "id": "A7",
+      "text": "A7. The poppet opening direction is taken from [0046]; the package has figure plans, not drawings.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. In the prototypes, where is the purge gap and which way does its bounding surface move when it opens?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. What pump head was used in Example 1, does it bear on the poppet, was a snap heard between strokes, and was the differential or poppet travel ever measured?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. What is the axial order of the internal shoulder, sealing edge, convolutions and purge shoulder, and which ring face is contacted? Will FIG-1.png and FIG-2.png be filed?",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. Which step formed the convolutions, do they run inward or outward, is the bore relieved, and what is the diameter of the poppet stem?",
+      "blocks": []
+    },
+    {
+      "id": "Q5",
+      "text": "Q5. By what method was Af specified or verified?",
+      "blocks": []
+    },
+    {
+      "id": "Q6",
+      "text": "Q6. Does the full text of US 9,982,818 B2 give dimensions, or a ring seating a moving member?",
+      "blocks": []
+    },
+    {
+      "id": "Q7",
+      "text": "Q7. Which narrowing option for claims 67 and 90, and which unity strategy, does counsel prefer?",
+      "blocks": []
+    }
+  ]
+}

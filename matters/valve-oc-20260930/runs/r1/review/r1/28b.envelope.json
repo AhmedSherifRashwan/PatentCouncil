@@ -1,0 +1,376 @@
+{
+  "prompt": "28",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-28-1",
+      "source_prompt": "28",
+      "category": "enablement",
+      "severity": "high",
+      "title": "Load path and purge exit of the illustrated embodiment cannot be reconstructed from the text",
+      "claim_refs": [
+        "1",
+        "4",
+        "21",
+        "30",
+        "31",
+        "58",
+        "79"
+      ],
+      "spec_refs": [
+        "[0010]",
+        "[0036]",
+        "[0038]",
+        "[0046]",
+        "[0052]",
+        "[0053]",
+        "[0056]",
+        "[0059]",
+        "[0079]",
+        "[0088]",
+        "[0105]",
+        "[0112]",
+        "[0116]",
+        "Fig. 3",
+        "Fig. 6"
+      ],
+      "attack": "The poppet opens chamber-ward ([0046]); the purge shoulder is on the chamber side of the sealing face ([0038]); the seat ring is seated against the internal shoulder at the end opposite the sealing edge ([0079]) which [0116] places on the chamber side; the purge gap is the outer clearance with the interference band at the internal shoulder ([0036], [0053]) and the flow leaves to the chamber side ([0056], [0059]). The text never names the surface of the ring on which the shoulder bears, and describes no exit from the outer clearance past the interference band and the internal shoulder for the illustrated embodiment. [0105] and claim 31 put a purge gap on the chamber side of the sealing edge along the poppet stem although [0088] has the stem in the ring bore; [0116] has a chamber-ward moving part bearing on the seated chamber-side end. The FIG. 6 instruction calls the interference-fit/purge-gap convention a drafting assumption, not a confirmed mechanism. No drawing exists to resolve it.",
+      "least_narrowing_action": "Add disclosure in [0038]/[0052] of the ring surface that receives the axial load and its axial position relative to the sealing edge and the seated end; add in [0056]/[0059] where the purge flow leaves the outer clearance in the embodiment of FIGS. 1 to 4; reconcile [0079], [0105] and [0116]; give the FIG. 3 and FIG. 6B instructions the same contact location and exit. No claim narrowing.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-2",
+      "source_prompt": "28",
+      "category": "support",
+      "severity": "high",
+      "title": "Numerical ranges disclosed only for the superelastic convoluted seat ring are claimed with every alternative material, wall form and valve format",
+      "claim_refs": [
+        "13",
+        "16",
+        "17",
+        "35",
+        "41",
+        "42",
+        "43",
+        "44",
+        "67",
+        "69",
+        "70",
+        "78",
+        "82",
+        "9",
+        "24",
+        "51",
+        "52",
+        "53",
+        "57",
+        "76",
+        "77"
+      ],
+      "spec_refs": [
+        "[0088]",
+        "[0089]",
+        "[0090]",
+        "[0091]",
+        "[0094]",
+        "[0146]",
+        "[0161]"
+      ],
+      "attack": "[0088], [0091], [0094], [0146] and [0161] state that the ranges of [0089]-[0090] are those of the superelastic seat ring with a convoluted wall and are to be adapted for a polymer ring, a resilient-metal ring, another wall geometry, a wiper ring and a larger bore. The 'any one of claims' dependencies claim those ranges with claims 9, 24, 51, 52-53, 57 and 76-77, and claim 82 attaches them to a method reciting no material or wall; claim 16 on claim 8 alone drops both the wall and the material. Intermediate generalisation and added matter at the EPO; written-description objection in the US.",
+      "least_narrowing_action": "Add disclosure stating which parameters are fixed by the bore and poppet and apply to every material and wall form (inner diameter, outer diameter, free length on the face of [0088]) and which are set by the threshold-setting arrangement (crack pressure, over-travel threshold, over-travel distance), and give conceived ranges for polymer and resilient-metal rings. If the inventors cannot confirm, narrow: make claims 13, 16, 17, 35, 41-44 depend on claims 11 and 47, claims 69, 70, 78 on claim 73, and add the material of claim 47 to claim 82; scope given up is the numerically limited fallbacks for the polymer, resilient-metal, wiper-ring and Schrader embodiments.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-3",
+      "source_prompt": "28",
+      "category": "support",
+      "severity": "medium",
+      "title": "FIG. 1 instruction draws the purge gap open at rest, against claim 1 and [0040]",
+      "claim_refs": [
+        "1",
+        "58",
+        "79"
+      ],
+      "spec_refs": [
+        "[0036]",
+        "[0040]",
+        "[0102]",
+        "Fig. 1",
+        "Fig. 6"
+      ],
+      "attack": "The FIG. 1 instruction says the purge gap is shown as a closed zero-width line and also that the remainder of the seat ring outer surface is drawn with a small clearance to the core body bore even in the closed state. A drawing showing a clearance at rest is the opponent's exhibit that the purge gap of claim 1 is not closed and that the purge flow path is open in the normal-open state, and is an added-matter trap if cited as basis.",
+      "least_narrowing_action": "Correct the FIG. 1 and FIG. 6A instructions so the free portion is drawn in contact with the bore at rest, or add disclosure in [0036]/[0040] that a running clearance exists but is closed to flow at rest by a stated feature.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-4",
+      "source_prompt": "28",
+      "category": "support",
+      "severity": "medium",
+      "title": "'Seat ring wall thickness' in claim 16 is defined only for a convoluted wall",
+      "claim_refs": [
+        "16",
+        "17",
+        "67"
+      ],
+      "spec_refs": [
+        "[0028]",
+        "[0075]",
+        "[0089]"
+      ],
+      "attack": "Claim 16 depends on claim 8 without claim 11 and so covers plain, frustoconical, slotted and cellular walls (claims 5, 15), but [0028] defines the seat ring wall thickness as the radial thickness of the material forming the convoluted wall; for other walls the term has no referent, and [0075] says a resilient-metal ring is given a thinner wall.",
+      "least_narrowing_action": "Add to [0028] a definition of seat ring wall thickness for walls without convolutions (radial thickness measured at a portion free of slots, cells or flare).",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-5",
+      "source_prompt": "28",
+      "category": "support",
+      "severity": "medium",
+      "title": "Multiple dependencies claim combinations the description excludes or contradicts",
+      "claim_refs": [
+        "20",
+        "23",
+        "24",
+        "27",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "99",
+        "76",
+        "77"
+      ],
+      "spec_refs": [
+        "[0076]",
+        "[0096]",
+        "[0127]",
+        "[0131]",
+        "[0134]",
+        "[0149]",
+        "[0147]"
+      ],
+      "attack": "Claims 47-50 (superelastic) on claim 24 (ring is a section of a polymer or spring-steel core body); claims 51 and 52 on claim 24 with the other core-body material; claim 23 'over-moulding of the core body' generalised from 'over-moulding of a polymer core body' and combined with claim 54 (stainless core body); claim 27 wiping edge (made by limiting electropolishing) on polymer claims 52-53 where [0076] says electropolishing has no application; claim 20 (0.03 mm interference) on polymer claims where [0076] gives no polymer interference; claim 99 (seat ring of claims 67-78 including polymer 76-77) on claim 90 (superelastic tube stock).",
+      "least_narrowing_action": "Dependency corrections without scope loss: claims 47-51 to depend on claims 1 to 23; claim 52 to exclude claims 20 and 24 unless a polymer interference is disclosed; claim 23 to read 'over-moulding of a polymer core body'; claim 27 to exclude claims 52-53; claim 99 to refer to claims 67 to 75 and 78.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-6",
+      "source_prompt": "28",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Drafting commentary in the figure plan and instructions must not reach the drawings or the brief description",
+      "claim_refs": [
+        "1",
+        "21",
+        "30"
+      ],
+      "spec_refs": [
+        "Fig. 6",
+        "Fig. 1",
+        "Fig. 9"
+      ],
+      "attack": "The figure plan and figure instructions contain internal references (Prompt 20 Assumption A2, 11.md, 14.md, Gate 2, 01 Q1/Q2, DA- and CB- codes) and statements of doubt ('not a confirmed mechanism', 'the inventor states doubt about pursuing it', design-arounds 'not drawn' because they need new matter); the FIG. 6 instruction asks for a footnote symbol on the sheet referencing that assumption. The package has no brief description of the drawings, so these instructions are the only source for one; any carry-over is an admission.",
+      "least_narrowing_action": "Strip all internal references and statements of doubt or assumption from the figure instructions, delete the FIG. 6 footnote instruction, and write the brief description of the drawings from the description text.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-7",
+      "source_prompt": "28",
+      "category": "support",
+      "severity": "low",
+      "title": "Claim 10 on claim 5 combines an axial-load conversion wall with a radially loading formation",
+      "claim_refs": [
+        "10",
+        "5"
+      ],
+      "spec_refs": [
+        "[0113]",
+        "[0144]"
+      ],
+      "attack": "Claim 10 recites conversion of an axial load; claim 5's tapered purge shoulder applies a radial load and [0113] says the ring 'need not' have a conversion geometry with it; the combination is permitted by silence, never described as working.",
+      "least_narrowing_action": "Add to [0113] that the tapered purge shoulder may also bear axially on a ring having a conversion wall, if conceived; otherwise make claim 10 depend on claims 1 to 4 and 6 to 9.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-8",
+      "source_prompt": "28",
+      "category": "support",
+      "severity": "low",
+      "title": "Claim 29 'radially outward' on claim 6 conflicts with the ovalising deflection of the lugs",
+      "claim_refs": [
+        "29",
+        "6"
+      ],
+      "spec_refs": [
+        "[0054]",
+        "[0114]"
+      ],
+      "attack": "[0054] treats ovalising as a sense distinct from radially outward and [0114] says the ring moves outward at the loaded points and inward between them; claim 29 on claim 6 is open to a clarity objection and a construction that 'radially outward' means uniformly outward.",
+      "least_narrowing_action": "Add to [0054] or [0114] that an ovalising deflection is radially outward at the loaded arcs within the meaning of the description.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-9",
+      "source_prompt": "28",
+      "category": "enablement",
+      "severity": "low",
+      "title": "Claim 90 says the convoluted wall may be defined by the laser cutting without explaining how",
+      "claim_refs": [
+        "90"
+      ],
+      "spec_refs": [
+        "[0028]",
+        "[0147]",
+        "[0148]",
+        "Fig. 8"
+      ],
+      "attack": "Laser cutting a profile from tube stock removes material and does not of itself impart a radial excursion to a continuous wall; the only enabled route in the text for the convolution is the shape-setting fixture of [0148]. The first alternative of claim 90 and [0147] is asserted, not explained.",
+      "least_narrowing_action": "Add to [0147] how the laser-cut profile contributes to the convolution, or state that laser cutting defines the ends and any slots and the convolution is imparted on the mandrel or in shape-setting.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-10",
+      "source_prompt": "28",
+      "category": "enablement",
+      "severity": "low",
+      "title": "Claim 84 claims a compressed-gas device producing over-travel that the description says may not occur",
+      "claim_refs": [
+        "84",
+        "79"
+      ],
+      "spec_refs": [
+        "[0058]",
+        "[0073]",
+        "[0100]",
+        "[0171]",
+        "[0179]"
+      ],
+      "attack": "[0179] says compressed-CO2 devices 'may or may not' exceed the over-travel threshold and only the floor pump was tested; [0073], [0100] and [0171] say chilling by such a device may impair the shape recovery that is the last step of claim 79.",
+      "least_narrowing_action": "Counsel to weigh whether claim 84 earns its place; if kept, add to [0058] the over-travel threshold band intended for a compressed-gas device, if conceived.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-11",
+      "source_prompt": "28",
+      "category": "formal",
+      "severity": "low",
+      "title": "[0160] cross-refers to a background section that is not in the package",
+      "claim_refs": [
+        "1"
+      ],
+      "spec_refs": [
+        "[0160]",
+        "[0024]",
+        "[0029]"
+      ],
+      "attack": "[0160] refers to 'the failure modes described in the background'; the package has no background, title, field, summary, brief description of the drawings or abstract, so the reference dangles.",
+      "least_narrowing_action": "Supply the front sections and check the cross-reference, or reword [0160] to cite the definitions at [0024] and [0029].",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. No drawings exist; figure anchors are to the figure instructions.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. Title, field, background, summary, brief description of the drawings and abstract are assumed to be produced later.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. Common general knowledge: a Schrader-pattern valve core is threaded into its stem.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. Common general knowledge: laser cutting a tube profile removes material and does not impart a radial wave to a continuous wall.",
+      "blocking": false
+    },
+    {
+      "id": "A5",
+      "text": "A5. Reference numerals in parentheses in the claims are not limiting.",
+      "blocking": false
+    },
+    {
+      "id": "A6",
+      "text": "A6. The axial layout in F-28-1 is taken from the cited paragraphs; a drawn figure that closes would reduce the finding to a consistency correction.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. On which surface of the seat ring does the purge shoulder bear, and how does the purge flow leave the outer clearance past the interference band and internal shoulder?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Which ranges in [0089]-[0090] are independent of ring material and wall form, and are ranges conceived for the polymer, resilient-metal and wiper-ring embodiments?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. Does the polymer seat ring have the same convoluted wall at the same dimensions ([0076], [0161]) or adapted dimensions ([0091], [0146])?",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. Will the front sections be added before the next round, with the brief description written from the description rather than the figure plan?",
+      "blocks": []
+    }
+  ]
+}

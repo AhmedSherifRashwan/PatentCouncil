@@ -1,0 +1,15 @@
+{
+ "assemble": {
+  "parts": 4,
+  "paragraphs": 350,
+  "written": "/Users/ahmed/PatentCouncil/matters/sim-valve/runs/r1/description.md",
+  "ok": true
+ },
+ "numerals": {
+  "problems": 0,
+  "numerals_in_text_not_in_registry": [],
+  "registry_numerals_not_in_figures": [],
+  "claim_components_without_numeral": [],
+  "ok": true
+ }
+}

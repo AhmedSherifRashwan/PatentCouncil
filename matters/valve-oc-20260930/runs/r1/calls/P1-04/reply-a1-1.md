@@ -1,0 +1,23 @@
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/P1/04.md`: Prompt 04 terminology table with 67 rows in the seven required columns. After the table come the reasons for each term to avoid, the terms that need an express definition, and drafting notes. Status is complete. 03 was not available, so the rows were built from 01's features (A1).
+
+**For routing:**
+- **Open questions Q1–Q13.** Most depend on questions already raised in 01:
+  - Q1: where the purge gap is and how the ring deflects (01 Q1–Q2).
+  - Q6: where the normal stroke ends and over-travel begins (01 Q7, Q36).
+  - Q13: how the pressure differential is defined (01 Q4).
+- **New terminology questions:**
+  - Q2–Q4: how ring and gap dimensions are measured.
+  - Q8: whether "air purge" covers other inflation gases.
+  - Q11: whether "deflectable ring element" can be the genus that covers the Alternative B wiper ring.
+  - Q12: using a neutral title instead of "shape-memory seat".
+- **Renames and coined terms** are all declared in `new_terms`, with the main renames:
+  - "pump side" → supply side
+  - "tube side" → chamber side
+  - "upper edge" → sealing edge
+- **Disclosure requests (4):**
+  - which surfaces bound the purge gap, and which way the ring deflects;
+  - how each dimension is measured;
+  - how Af was specified or measured;
+  - where the normal stroke ends and over-travel begins.
+- **Open disagreements:** none.
+- **Narrowing suggested:** none.

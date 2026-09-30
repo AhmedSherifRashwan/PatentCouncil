@@ -1,0 +1,451 @@
+{
+  "prompt": "gate14",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-gate14-1",
+      "source_prompt": "gate14",
+      "category": "enablement",
+      "severity": "high",
+      "title": "Illustrated embodiment's outward deflection said to open an outer-surface clearance that the description says needs inward movement",
+      "claim_refs": [
+        "9",
+        "29",
+        "30",
+        "72"
+      ],
+      "spec_refs": [
+        "[0020]",
+        "[0040]",
+        "[0053]",
+        "[0054]",
+        "[0093]",
+        "[0103]",
+        "Fig. 3",
+        "Fig. 6",
+        "Fig. 10B"
+      ],
+      "attack": "Outward movement of the outer surface towards the core body bore narrows the clearance between them and cannot open it; [0103] itself says such a gap opens by inward movement. The only built embodiment and FIG. 3/10B as instructed therefore depict a mechanism the specification rules out. The FIG. 1 instructions draw a clearance at rest, contradicting 'purge gap closed'. This draws Art. 84/112 objections against claims 29 and 30 and undermines the evidential weight of Example 1.",
+      "least_narrowing_action": "Get the inventor to confirm the prototype's actual kinematics, then conform [0020], [0040], [0053], [0054], [0093] and the FIG. 1/3/6/10B instructions (using the wording of [0103] if the gap opens by inward movement). No claim narrowing.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-gate14-2",
+      "source_prompt": "gate14",
+      "category": "enablement",
+      "severity": "high",
+      "title": "Axial layout of seat ring, sealing edge, internal shoulder and chamber-side purge shoulder cannot be reconstructed from the text",
+      "claim_refs": [
+        "3",
+        "4",
+        "8"
+      ],
+      "spec_refs": [
+        "[0038]",
+        "[0046]",
+        "[0061]",
+        "[0088]",
+        "[0116]",
+        "Fig. 1"
+      ],
+      "attack": "The poppet opens towards the chamber, so the sealing face lies on the chamber side of the sealing edge; a purge shoulder on the chamber side of the sealing face then moves away from a ring whose 2.3 mm bore admits only the stem, and [0116] puts the sealing edge at the supply-side end. With no drawing sheets, the preferred embodiment of claims 3 and 4 cannot be built from the words (Art. 83/84; 112(a)).",
+      "least_narrowing_action": "Add one paragraph, from the inventor's FIG-1 sketch, stating the axial order of the parts, and draw it; if the shoulder is not on the chamber side of the sealing face, conform [0021], [0038], [0112] and claim 3.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-gate14-3",
+      "source_prompt": "gate14",
+      "category": "formal",
+      "severity": "high",
+      "title": "Abstract, drawing sheets, brief description of drawings and field/background/summary absent; [0160] refers to a missing background",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0001]",
+        "[0160]",
+        "Figs. 1-15"
+      ],
+      "attack": "An abstract is required in the US, at the EPO and in the UK; a brief description of the drawings is required by 37 CFR 1.74 and EPC Rule 42(1)(d). Drawings relied on throughout but not filed trigger EPO Rule 56 and US 35 U.S.C. 113 consequences. [0160]'s cross-reference points to no background section.",
+      "least_narrowing_action": "The owning drafter supplies the abstract, the list of figures, the field/background/summary and the drawing sheets (from stripped instructions), and points [0160] at the background or rewords it to 'both failure modes, leak-down and blockage, as defined herein'.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-gate14-4",
+      "source_prompt": "gate14",
+      "category": "formal",
+      "severity": "high",
+      "title": "Claim structure not adapted to US multiple-dependency rules or EPO Rule 43(2)",
+      "claim_refs": [
+        "1",
+        "10",
+        "13",
+        "58",
+        "61",
+        "64",
+        "67",
+        "89",
+        "99"
+      ],
+      "spec_refs": [],
+      "attack": "Multiple dependent claims serve as the basis for other multiple dependent claims (for example claim 10 on claims 8 and 9, claim 13 via claim 10, claims 61, 64, 89 and 99), which is improper under 35 U.S.C. 112(e) and 37 CFR 1.75(c): such claims are not examined on the merits. There are three or more independent product claims (1, 58, 67), which needs a Rule 43(2) justification; the 102 claims also carry excess-claim fees in all three offices.",
+      "least_narrowing_action": "Counsel prepares a US claim set with single dependencies and prepares the EPO interrelated-products justification; no scope is narrowed.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-gate14-5",
+      "source_prompt": "gate14",
+      "category": "design-around",
+      "severity": "high",
+      "title": "Wipe-only embodiment disclosed but outside every independent claim",
+      "claim_refs": [
+        "1",
+        "58",
+        "67",
+        "79"
+      ],
+      "spec_refs": [
+        "[0061]",
+        "[0065]",
+        "[0124]",
+        "[0165]",
+        "[0167]"
+      ],
+      "attack": "A competitor seals the ring periphery so that no purge flow path exists and keeps the over-travel deflection and recovery wipe of the sealing face. [0167] shows the clean surfaces are the wiped ones. This escapes claims 1, 58 and 79 (all require the purge gap and purge flow path), and escapes claim 67 outside the dimensional window.",
+      "least_narrowing_action": "Add an independent valve-core claim, supported by [0065], [0124] and [0061], reciting over-travel radial deflection of the ring and recovery movement across a poppet surface, without the purge gap; claim 1 is kept.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-gate14-6",
+      "source_prompt": "gate14",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Over-travel by depressor, by hand, during deflation only, or by a separate purge actuator falls outside claims 1, 58 and 79",
+      "claim_refs": [
+        "1",
+        "46",
+        "58",
+        "79"
+      ],
+      "spec_refs": [
+        "[0066]",
+        "[0067]",
+        "[0123]",
+        "[0137]"
+      ],
+      "attack": "Claim 1 defines the purge state by 'a pressure differential exceeding the over-travel threshold' with the poppet itself in over-travel. A depressor-only core (Schrader, or Presta with an adaptor), a deflation-only core, or the purge-actuator design ('the poppet performing only its normal stroke') arguably has no such state.",
+      "least_narrowing_action": "Reformulate the claim-1 purge state as over-travel produced by the pressure differential exceeding the threshold or by mechanical depression of the poppet (support [0066]), and add a claim to the purge-actuator form (support [0123]).",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-gate14-7",
+      "source_prompt": "gate14",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "[0009] invites means-plus-function construction of deflectable ring element, deflecting formation and threshold-setting arrangement",
+      "claim_refs": [
+        "1",
+        "2",
+        "36"
+      ],
+      "spec_refs": [
+        "[0009]"
+      ],
+      "attack": "The wording 'any structure capable of performing the recited function, consistent with the corresponding structures described ... and their equivalents' concedes a 35 U.S.C. 112(f)-style construction, limiting the central claim-1 term to the described structures and their equivalents in US litigation.",
+      "least_narrowing_action": "Replace the second sentence of [0009] with structural definitions (as in [0014], [0021], [0022]) and delete 'corresponding structures ... and their equivalents'; counsel to consider structural wording in claim 36.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-gate14-8",
+      "source_prompt": "gate14",
+      "category": "support",
+      "severity": "medium",
+      "title": "Multiple dependencies generate combinations the description excludes or does not support",
+      "claim_refs": [
+        "13",
+        "16",
+        "17",
+        "24",
+        "34",
+        "35",
+        "41",
+        "42",
+        "43",
+        "76",
+        "77"
+      ],
+      "spec_refs": [
+        "[0091]",
+        "[0094]",
+        "[0096]",
+        "[0110]",
+        "[0146]"
+      ],
+      "attack": "Claim 24 with claims 8, 16 and 17 contradicts [0096] ('no separate seat ring'). Claim 34 with claim 29 contradicts [0110] (the flutes open by movement away from the bore). The NiTi-derived ranges (claims 13, 16, 17, 35, 41-43, 67 applied to 76-77) read with a polymer, resilient-metal or wiper-ring element, where [0091], [0094] and [0146] say the ranges must be adapted. This raises Art. 84 and US written-description objections.",
+      "least_narrowing_action": "Trim the dependencies (claim 24 off claims 8, 16 and 17; claim 34 off claim 29; the range claims and claims 76-77 limited to the superelastic seat ring), or add inventor-supplied ranges for the other materials; no supported scope is lost.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-gate14-9",
+      "source_prompt": "gate14",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Kit has no claim and the component claim is dimension-bound",
+      "claim_refs": [
+        "1",
+        "67"
+      ],
+      "spec_refs": [
+        "[0141]",
+        "[0180]",
+        "Fig. 5"
+      ],
+      "attack": "A supplier sells the matched seat ring, poppet and spring kit without a core body, or a seat ring outside claim 67's Presta window; only uncertain indirect infringement is then available.",
+      "least_narrowing_action": "Add a kit claim supported by [0141] (matched seat ring, poppet with purge shoulder and two-stage return spring giving the claim-1 states when assembled into a core body).",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-gate14-10",
+      "source_prompt": "gate14",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Figure plan and registry carry internal working references, stale flags and a FIG. 6A call-out mismatch",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0030]-[0041]",
+        "[0089]",
+        "Fig. 6A",
+        "figures.md",
+        "registry.md"
+      ],
+      "attack": "The instructions contain dossier references (11.md, 13.md, 14.md, DA codes, Prompt 20 Assumption A2), prejudicial statements ('cannot be closed without new matter', 'the inventor states doubt'), and a deferred cross-check that is now stale. [0089] says the dimensions are called out in FIG. 6A, but the instructions call out none. Numeral style is inconsistent ('seat ring 30' in [0030]-[0041] against 'seat ring (30)' from [0042]).",
+      "least_narrowing_action": "Strip all internal references from the instructions before the drawings are commissioned, add the dimension call-outs to FIG. 6A, re-run the registry cross-check, and unify the numeral style to parentheses.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-gate14-11",
+      "source_prompt": "gate14",
+      "category": "formal",
+      "severity": "medium",
+      "title": "'About', 'approximately' and 'nominally' in claims while [0007] disclaims any tolerance",
+      "claim_refs": [
+        "20",
+        "44",
+        "49",
+        "75",
+        "98",
+        "101"
+      ],
+      "spec_refs": [
+        "[0007]"
+      ],
+      "attack": "[0007] states the qualifiers define no numerical tolerance, removing the guidance needed to construe them; this draws an Art. 84/112(b) objection, and in litigation these fallbacks become point values or indefinite.",
+      "least_narrowing_action": "Recite the disclosed worked values without the qualifier in these fallback claims, or add a tolerance only if the inventor has one.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-gate14-12",
+      "source_prompt": "gate14",
+      "category": "support",
+      "severity": "low",
+      "title": "No ranges for normal stroke, interference or shape-setting window",
+      "claim_refs": [
+        "20",
+        "94",
+        "101"
+      ],
+      "spec_refs": [
+        "[0046]",
+        "[0148]",
+        "[0172]",
+        "[0175]"
+      ],
+      "attack": "The normal stroke and axial clearance, the interference and the shape-setting time/temperature are given as single values only, leaving single-point fallbacks for parameters a teardown can measure.",
+      "least_narrowing_action": "Ask the inventor for ranges they actually conceived; do not generate them.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [
+    {
+      "q": 1,
+      "answer": "yes",
+      "evidence": "Depends on commercial facts not in the package. Claim 1 reads on the replacement valve core ([0140], [0180]) in all three principal embodiments ([0143]); claims 58, 64 and 66 cover the valve, chamber and wheel/bicycle. Gaps: the kit has no claim and claim 67 is dimension-bound (F-gate14-9)."
+    },
+    {
+      "q": 2,
+      "answer": "yes",
+      "evidence": "Adverse. Wipe-only ([0065]) omits the purge gap and flow path required by claims 1, 58 and 79 (F-gate14-5); depressor, deflation-only and purge-actuator routes ([0066], [0067], [0123]) avoid the pressure-defined purge state (F-gate14-6); [0009] invites a narrow 112(f)-style construction (F-gate14-7)."
+    },
+    {
+      "q": 3,
+      "answer": "yes",
+      "evidence": "Alternatives disclosed at [0065]-[0067], [0081]-[0084], [0102]-[0123], [0132]-[0139] and FIGS. 8D-15. The figure plan mentions three undrawn design-around entries whose content cannot be identified from the package (F-gate14-10)."
+    },
+    {
+      "q": 4,
+      "answer": "no",
+      "evidence": "Inconsistent mechanism for the built embodiment ([0020]/[0053]/[0093] against [0103], F-gate14-1); the axial layout for claim 3 cannot be reconciled ([0038], [0046], [0088], [0116], F-gate14-2); unsupported dependency combinations in claims 24, 34 and the range claims read with claims 9, 51 and 52 ([0091], [0096], [0110], F-gate14-8)."
+    },
+    {
+      "q": 5,
+      "answer": "yes",
+      "evidence": "Deep ladder in claims 2-57 and 79-102; INDEX.md finds no art showing a superelastic seat for a moving member, the over-travel/purge combination, or seat-recovery wiping. Dependency: INDEX.md reports thin coverage and says a professional search is warranted."
+    },
+    {
+      "q": 6,
+      "answer": "unclear",
+      "evidence": "Ranges are NiTi-only ([0091], [0146]); Examples 2-4 are prophetic ([0154]); the alternative forming routes are unpractised ([0150]); the built embodiment's mechanism is inconsistent or unreconstructable (F-gate14-1, F-gate14-2) and there are no drawing sheets (F-gate14-3)."
+    },
+    {
+      "q": 7,
+      "answer": "yes",
+      "evidence": "Three-tier ranges plus worked values at [0089]-[0090]. Gaps: normal stroke ([0046]), interference ([0172]) and shape-setting window ([0148], [0175]) (F-gate14-12)."
+    },
+    {
+      "q": 8,
+      "answer": "yes",
+      "evidence": "Device (1, 67), system (58, 64, 66), use (79-89), manufacture (90-102), replacement core (1 with 56); control is mechanical only ([0042]). Kit of [0141] unclaimed (F-gate14-9)."
+    },
+    {
+      "q": 9,
+      "answer": "yes",
+      "evidence": "Depends on access to the competitor's product. Apparatus claims are detectable by teardown and bench pressure/flow testing ([0120] lost-motion clearance 'can be seen and measured'); method claim 79 is performed by end users; process details in claims 94-95 are largely undetectable."
+    },
+    {
+      "q": 10,
+      "answer": "unclear",
+      "evidence": "No priority document supplied (intake/priority empty) and no priority claim recorded; tested and untested matter are separated within the text ([0154], [0150], [0142], [0163])."
+    },
+    {
+      "q": 11,
+      "answer": "yes",
+      "evidence": "Themes disclosed: thermally actuated purge [0142] (thin), purge actuator [0123], deflation purge [0067], wipe-only [0065], inverted skirt [0117], rotational wipe and fixed land [0126], magnetic detent [0121], other fluid valves [0139], forming routes [0150]."
+    },
+    {
+      "q": 12,
+      "answer": "no",
+      "evidence": "No abstract in the package (F-gate14-3)."
+    },
+    {
+      "q": 13,
+      "answer": "no",
+      "evidence": "No compliance pass recorded; no drawing sheets, brief description of drawings, field, background or summary, while [0160] refers to a background (F-gate14-3); US multiple-dependency and EPO Rule 43(2) issues (F-gate14-4); inconsistent numeral style and FIG. 6A call-outs (F-gate14-10); qualifier clarity (F-gate14-11)."
+    },
+    {
+      "q": 14,
+      "answer": "no",
+      "evidence": "The package records no counsel review; this cannot be answered on counsel's behalf and is for Human Gate 3."
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. Common general knowledge: in a Presta-pattern core the poppet head seals from the chamber side and supply pressure opens it towards the chamber, consistent with [0046].",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. Elementary geometry: a clearance bounded by a surface and a bore opens only if that surface moves away from the bore.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. No priority document supplied; treated as possibly a first filing.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. Abstract, list of figures and drawing sheets are expected later in the pipeline; the gate is answered on the package as it stands.",
+      "blocking": false
+    },
+    {
+      "id": "A5",
+      "text": "A5. Jurisdictional formal points are stated from general patent-practice knowledge, not re-verified in this task; counsel to confirm.",
+      "blocking": false
+    },
+    {
+      "id": "A6",
+      "text": "A6. Prior art characterised from prior-art/INDEX.md; saved references not re-read in this task.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Inventor: in P-1 to P-3, which seat-ring surface moves which way to open the purge gap, and where does the air purge leave the ring?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Inventor: axial order, from the supply side, of the sealing edge, internal shoulder, poppet head and purge shoulder?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. Owner/counsel: any earlier filing, or public disclosure or use before filing?",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. Owner: which product earns the revenue (replacement Presta core, OE valve, kit, PEEK line, Schrader)?",
+      "blocks": []
+    },
+    {
+      "id": "Q5",
+      "text": "Q5. Counsel: US claim-set restructuring and EPO Rule 43(2) strategy for claims 1, 58 and 67.",
+      "blocks": []
+    },
+    {
+      "id": "Q6",
+      "text": "Q6. Owner/counsel: add a wipe-only independent claim, given the unity implications?",
+      "blocks": []
+    }
+  ]
+}

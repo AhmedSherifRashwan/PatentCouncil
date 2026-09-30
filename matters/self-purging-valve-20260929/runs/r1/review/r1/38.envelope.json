@@ -1,0 +1,180 @@
+{
+  "prompt": "38",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-38-1",
+      "source_prompt": "38",
+      "category": "novelty",
+      "severity": "medium",
+      "title": "Description admits a structurally similar prior-art feature (US11549591B1) and distinguishes only on effect",
+      "claim_refs": [
+        "1",
+        "3",
+        "21",
+        "62"
+      ],
+      "spec_refs": [
+        "[0166]"
+      ],
+      "attack": "The paragraph admits a wavy/undulating resilient-metal-seal geometry is known from US11549591B1 and distinguishes only functionally, handing an examiner a structural teaching to combine with the Background's other poppet-travel/flow-cleaning references under an obviousness rejection.",
+      "least_narrowing_action": "Add a structural distinction to [0166] (e.g. contact/pre-load state at rest, or the sealing element's identity) rather than relying on function alone.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-38-2",
+      "source_prompt": "38",
+      "category": "support",
+      "severity": "medium",
+      "title": "Untested-compatibility caveat for a disclosed species undercuts enablement of the broader claimed material genus",
+      "claim_refs": [
+        "27",
+        "70"
+      ],
+      "spec_refs": [
+        "[0206]"
+      ],
+      "attack": "Claims 27 and 70 claim \"a superelastic material\" as a genus; [0206] discloses copper-based superelastic alloys as a species and states their sealant compatibility \"is not established\", which an examiner can use against enablement/written description for the full claimed breadth.",
+      "least_narrowing_action": "Add a sentence clarifying the claimed mechanical function does not depend on sealant compatibility, which is a separate material-selection question.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-38-3",
+      "source_prompt": "38",
+      "category": "formal",
+      "severity": "medium",
+      "title": "FIG. 13A and registered numeral 220 (Schrader-pattern core body) are absent from the Brief Description and Detailed Description",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0049]"
+      ],
+      "attack": "The registry and figure-instructions documents register numeral 220 as first appearing in FIG. 13A, but no paragraph of the specification describes FIG. 13A or numeral 220, and the Brief Description of the Drawings omits it entirely, creating a drawing/description mismatch under 37 CFR 1.74/MPEP 608.01(f).",
+      "least_narrowing_action": "Either add Brief Description and Detailed Description text for FIG. 13A/220, or remove FIG. 13A and numeral 220 from the figure plan and registry.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-38-4",
+      "source_prompt": "38",
+      "category": "formal",
+      "severity": "low",
+      "title": "Locked terminology table has no row for several terms used in the claims and description",
+      "claim_refs": [
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "spec_refs": [
+        "[0176]",
+        "[0177]",
+        "[0178]"
+      ],
+      "attack": "\"Slotted sleeve\", \"split seat ring\", \"tapered seat ring\" and \"matching taper\" are used in claims 39-44 and description [0176]-[0178] without a corresponding LOCKED.md row; the deterministic terms check's only warning on this area (an undeclared-synonym hit on \"split seat\" against the \"two-piece seat\" row) is a false positive on inspection, since \"split seat ring\" (180) and \"two-piece seat\" (140/144) are structurally distinct and separately numbered, which masks the real gap that these terms were never locked at all.",
+      "least_narrowing_action": "Add rows to terminology/LOCKED.md for the missing terms per the table's own Note 1.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-38-5",
+      "source_prompt": "38",
+      "category": "formal",
+      "severity": "low",
+      "title": "Registry document carries a stale drafting-process note inconsistent with the package's current state",
+      "claim_refs": [],
+      "spec_refs": [],
+      "attack": "registry.md states description.md and claims.md \"do not yet exist in this run\" and that the numeral cross-check \"must be re-run... once both exist\"; both files exist in this package and the cross-check has in fact been run cleanly against them, so the note is stale and should not appear in text given to a blind reviewer.",
+      "least_narrowing_action": "Remove or update the stale flag once the cross-check has been run against the current description and claims.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [
+    {
+      "target": "description",
+      "location": "[0166]",
+      "from_text": "A wavy or undulating shape of a resilient metal seal is described in US11549591B1, where the shape pre-loads a seat interface to provide a seating and sealing force. The load-converting geometry described here has a different effect: it acts when the poppet is in over-travel, and its deformation opens the purge gap through which the air purge passes.",
+      "to": "[inventor-confirmed structural distinction from US11549591B1 to be added; exact wording depends on facts not in this package]",
+      "reason": "Avoid a bare functional-only distinction from an admitted structurally similar prior-art feature (F-38-1)"
+    },
+    {
+      "target": "description",
+      "location": "[0206]",
+      "from_text": "The recoverable strain of such alloys is lower than that of NiTi alloy, and their compatibility with an ammonia-bearing sealant is not established.",
+      "to": "The recoverable strain of such alloys is lower than that of NiTi alloy, and their compatibility with an ammonia-bearing sealant is not established; the load-conversion function described herein does not depend on that compatibility, which is a separate question of material selection for contact with the sealant.",
+      "reason": "Prevent an untested-species caveat from reading across to enablement of the claimed mechanical genus (F-38-2)"
+    },
+    {
+      "target": "description",
+      "location": "[0049] / registry.md numeral 220",
+      "from_text": "(FIG. 13A undescribed in the specification; numeral 220 unused in specification text)",
+      "to": "Add Brief Description and Detailed Description text for FIG. 13A/220, or remove FIG. 13A and numeral 220 from the figure plan and registry",
+      "reason": "Resolve drawing/description mismatch (F-38-3)"
+    },
+    {
+      "target": "description",
+      "location": "terminology/LOCKED.md",
+      "from_text": "(no rows for slotted sleeve / split seat ring / tapered seat ring / matching taper / Schrader-pattern core body)",
+      "to": "Add rows for each term per Note 1's own instruction",
+      "reason": "Complete the lock for terms already in the filed text (F-38-4)"
+    },
+    {
+      "target": "description",
+      "location": "registry.md, Inconsistency flags \u00a71",
+      "from_text": "description.md and claims.md do not yet exist in this run (Prompt 21 onward has not run), so the cross-check of this registry against the description text and the claims is deferred; it must be re-run with pc numerals once both exist.",
+      "to": "(remove; both files exist and the numeral cross-check has been run cleanly against them)",
+      "reason": "Remove stale drafting-process note (F-38-5)"
+    }
+  ],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "The [0166] admission is assessed only as an admission the specification itself makes; whether US11549591B1 actually anticipates or renders obvious any claim is outside this audit (Prompt 32).",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "The absence of abstract.md in this package is expected at this stage, not a defect.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "Common general knowledge relied on is limited to 37 CFR 1.74/MPEP 608.01(f) (every figure must be described) and MPEP 2129 (admissions as prior art).",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Whether FIG. 13A (Schrader-pattern) is intended to be filed at all cannot be answered from this package.",
+      "blocks": [
+        "F-38-3"
+      ]
+    },
+    {
+      "id": "Q2",
+      "text": "The two-piece-seat and thermal-variant embodiments are fully disclosed but appear in no claim; this is a claim-coverage question for Prompt 28/29, noted but not scored here.",
+      "blocks": []
+    }
+  ]
+}

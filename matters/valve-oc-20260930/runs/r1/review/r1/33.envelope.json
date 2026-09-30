@@ -1,0 +1,315 @@
+{
+  "prompt": "33",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-33-1",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "high",
+      "title": "Normal-open state requires the ring 'in its at-rest form': escaped by light contact or by a ring-stiffness threshold",
+      "claim_refs": [
+        "1",
+        "58",
+        "79",
+        "40"
+      ],
+      "spec_refs": [
+        "[0010]",
+        "[0050]",
+        "[0102]",
+        "[0118]",
+        "[0122]"
+      ],
+      "attack": "A deflecting formation that touches and slightly loads the ring during the normal stroke, without opening the purge gap, removes the 'at-rest form' of the normal-open state, so claims 1, 58 and 79 are not met. The ring-stiffness threshold of [0122] (initial elastic rise before the plateau), and [0050], describe exactly this, making claim 40 arguably fall outside claim 1. [0118] ('not touched') supports the narrow construction. Proof needs micro-CT or sectioning under pressure.",
+      "least_narrowing_action": "Delete 'the deflectable ring element is in its at-rest form and' from the normal-open state of claims 1, 58 and 79, keeping 'the purge gap is closed' ([0102]). Add a sentence to [0118] and [0122] that the formation may contact and elastically load the ring below the threshold without opening the purge gap, and amend 'is not touched' to 'is not deflected so as to open the purge gap'. Broadening only.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-2",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "high",
+      "title": "Over-travel by mechanical depression is disclosed but no independent claim covers it",
+      "claim_refs": [
+        "1",
+        "58",
+        "79",
+        "46"
+      ],
+      "spec_refs": [
+        "[0058]",
+        "[0066]",
+        "[0067]",
+        "[0088]",
+        "[0137]"
+      ],
+      "attack": "A Schrader-pattern core, or a Presta adaptor with a depressor, uses a stiff single-rate spring and reaches over-travel only by depression. Claim 79's 'raising the pressure differential above an over-travel threshold' is never performed. Against claims 1 and 58 the defendant uses [0058] and [0088] (threshold within the device's pressure range) and claim 46's 'additionally' to require a pressure-driven purge in use, forcing the patentee to over-pressurise seized product beyond its rating.",
+      "least_narrowing_action": "Recite the purge state in claims 1 and 58 as reached when the pressure differential exceeds the over-travel threshold or when the poppet is mechanically depressed beyond the normal stroke, or add a parallel independent claim. Add a method claim with depressor-induced or hand-induced over-travel ([0066], [0067], [0137]).",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-3",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Separate purge actuator and inverted arrangement escape 'the poppet ... produces a radial deflection' and 'carried by the core body'",
+      "claim_refs": [
+        "1",
+        "58",
+        "79"
+      ],
+      "spec_refs": [
+        "[0005]",
+        "[0117]",
+        "[0123]"
+      ],
+      "attack": "With the purge actuator of [0123] the poppet performs only its normal stroke, so no purge state as claimed exists. With the inverted skirt-on-poppet arrangement of [0117], 'carried by the core body' depends on a contested indirect-carriage reading of [0005].",
+      "least_narrowing_action": "Recite the deflection as produced by a deflecting formation moved by the poppet in over-travel or by a purge actuator responsive to the pressure differential exceeding the over-travel threshold ([0123]), and the ring as carried by the core body or by the poppet ([0117]).",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-4",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Only radial, in-place deformation is covered: axial flexing or bodily displacement of the ring escapes",
+      "claim_refs": [
+        "1",
+        "58",
+        "67",
+        "79"
+      ],
+      "spec_refs": [
+        "[0020]",
+        "[0082]"
+      ],
+      "attack": "A diaphragm ring that flexes out of plane to lift a lip from an axial face, or a rigid ring pushed axially off a land to uncover flutes, opens a purge path only in over-travel without any 'radial deflection' as defined in [0020]. The bodily displaced form lies near refs. #13 and #16.",
+      "least_narrowing_action": "If within conception, add an embodiment in which elastic out-of-plane flexure of the ring opens the purge gap, and claim 'elastic deformation of the deflectable ring element' without 'radial'. Do not claim bodily displacement unless counsel is satisfied on refs. #13 and #16.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-5",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Seat ring claim 67 is avoided by leaving the dimensional window, or by a wall convoluted along its whole length",
+      "claim_refs": [
+        "67"
+      ],
+      "spec_refs": [
+        "[0028]",
+        "[0081]",
+        "[0091]",
+        "[0137]"
+      ],
+      "attack": "A Schrader-scale ring, an inner diameter of 2.65 mm, a wall of 0.32 mm, a FIG. 12 wall, or a wall convoluted end to end (no 'portion of the wall free of convolutions' at which to measure under [0028]) escapes claim 67. Replacement rings outside the window are free.",
+      "least_narrowing_action": "Add a fallback measurement convention to [0028] (for example, the diameter at the sealing edge (34) where no portion is free of convolutions). Consider an independent seat-ring claim without dimensions (sealing edge for a poppet, convoluted wall, superelastic alloy), with the ranges as dependents, subject to counsel's view on ref. #1. The current claim gives up every non-Presta-scale ring.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-6",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Supply of seat ring, poppet and return spring as a kit, or of core parts to a stem maker, avoids claim 1",
+      "claim_refs": [
+        "1",
+        "67"
+      ],
+      "spec_refs": [
+        "[0141]",
+        "[0180]",
+        "Fig. 5"
+      ],
+      "attack": "Claim 1 requires 'a core body (20)'. A matched kit of ring, poppet and spring for assembly into someone else's core body, or parts shipped to a stem maker, is not a direct infringement. Indirect infringement needs knowledge, and claim 67 catches only rings inside its window.",
+      "least_narrowing_action": "Add a kit claim: deflectable ring element, poppet with sealing face and deflecting formation, and return spring, matched so that on assembly the closed, normal-open and purge states of claim 1 result ([0141], FIG. 5).",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-7",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Manufacturing claim 90 is hidden in the factory and escaped by changing the quench or the cutting route",
+      "claim_refs": [
+        "90"
+      ],
+      "spec_refs": [
+        "[0147]",
+        "[0148]",
+        "[0149]",
+        "[0150]"
+      ],
+      "attack": "The process is performed abroad and electropolishing removes the laser trace ([0149]). Air or oil cooling escapes 'water quenching', and photochemical etching or stamping escapes 'laser cutting' ([0150]). Product-by-process protection for imports presupposes proof of the process.",
+      "least_narrowing_action": "Delete 'and then water quenching' from claim 90 (kept in claim 94). Make laser cutting one alternative for producing the profile and put it in a dependent claim ([0147], [0148], [0150]). Counsel to weigh the EPO intermediate-generalisation risk.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-8",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "low",
+      "title": "Method of operating claim 79 is performed by the end user",
+      "claim_refs": [
+        "79"
+      ],
+      "spec_refs": [
+        "[0025]"
+      ],
+      "attack": "The cyclist is the direct infringer. A competitor is liable only for inducement or contributory infringement (knowledge and intent), or under UK s.60(2), and the claim is confined by [0025] to bicycle chambers holding sealant.",
+      "least_narrowing_action": "No change required. Keep the product claims free of in-use requirements, and carry the fixes for F-33-1 and F-33-2 into claim 79.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-9",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "low",
+      "title": "'separate from the main passage' invites a construction fight where the flows merge",
+      "claim_refs": [
+        "1",
+        "58",
+        "79"
+      ],
+      "spec_refs": [
+        "[0019]",
+        "[0045]",
+        "[0102]",
+        "[0105]"
+      ],
+      "attack": "Where the purge flow runs along the poppet stem ([0105]), the defendant argues that the purge path is not 'separate' from the main passage.",
+      "least_narrowing_action": "Recite the purge gap as a flow path distinct from the main passage and opened only by the radial deflection, locating the separation at the gap ([0019], [0045], [0102]).",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-10",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "low",
+      "title": "Product claim 25 recites a result in use: 'shears sealant film'",
+      "claim_refs": [
+        "25",
+        "26",
+        "27"
+      ],
+      "spec_refs": [
+        "[0124]",
+        "[0158]",
+        "[0167]"
+      ],
+      "attack": "An unused core has no film to shear, so proof needs used product and evidence of shearing that the package concedes is not separately measured.",
+      "least_narrowing_action": "Recite the movement alone ('moves across a surface of the poppet'), which [0124] makes definitive, and keep 'shears sealant film' in method claim 80.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-11",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "low",
+      "title": "'return spring' is the species; the package defines the genus 'biasing member'",
+      "claim_refs": [
+        "1",
+        "58",
+        "79"
+      ],
+      "spec_refs": [
+        "[0009]",
+        "[0022]"
+      ],
+      "attack": "A non-spring bias invites the argument that the plain meaning of 'spring' prevails over [0022].",
+      "least_narrowing_action": "Use 'a biasing member (50)' in the independent claims ([0009], [0022]).",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. Enforcement is assumed in the US, EPO states and UK, with manufacture probably outside them. US 35 USC 271(b), (c) and (g), EPC Art. 64(2) and UK s.60(1)(c) and s.60(2) are relied on as general knowledge of the statutes, not as checked authority.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. Dimensions are from [0089] and [0090]. The view that micro-CT under pressure is the practical way to prove in-situ deflection is a general-knowledge premise.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. The commercial product is taken to be the replacement Presta core ([0140], [0180]), with Schrader and OEM stem-integrated forms as follow-on products.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. This review is a drafting and analysis aid, not legal advice or clearance for filing; qualified patent counsel signs off.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Does the intended production design have the purge shoulder touching the ring below the over-travel threshold (the ring-stiffness regime of [0122])?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Have the inventors conceived a deflectable element that opens the purge path by axial, out-of-plane flexure?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. Is a Schrader-pattern product with pump-head depression planned?",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. For counsel: does a seat-ring claim without dimensions survive ref. #1, and is claim 67's dimensional window worth its avoidability?",
+      "blocks": []
+    }
+  ]
+}

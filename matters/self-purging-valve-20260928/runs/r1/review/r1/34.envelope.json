@@ -1,0 +1,41 @@
+{
+  "prompt": "34",
+  "status": "complete",
+  "findings": [],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. The contemplated product is the prototype Presta-pattern valve core of [0027] and [0092], offered alone, as a valve with its stem, and fitted to an inner tube or tubeless set-up ([0095], [0123]).",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. Common general knowledge (patent practice): making, using, selling, offering or importing are infringing acts in the jurisdiction where they occur, so the country of manufacture is a jurisdiction of interest alongside US, EP and UK.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. Live status, expiry and claim scope of US11179979B2, US11338632B2 and US6053992A are not verified; only index dates and saved claim text are used.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Where will the seat rings and valve cores be made, and by whom?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Will the product be sold only as a replacement valve core, or also as a complete valve with stem, or fitted to tubes with sealant?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. For counsel: should a professional FTO search be commissioned before launch in US, EP and UK, covering at least items 1 and 3 with classification searching in F16K15/20, F16K15/14 and B60C29/00?",
+      "blocks": []
+    }
+  ]
+}

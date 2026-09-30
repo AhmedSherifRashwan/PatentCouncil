@@ -1,0 +1,110 @@
+{
+  "prompt": "35",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-35-1",
+      "source_prompt": "35",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Claim 90 scores 2 for design-around resistance and 2 for detectability",
+      "claim_refs": [
+        "90"
+      ],
+      "spec_refs": [
+        "[0147]",
+        "[0148]",
+        "[0149]",
+        "[0150]"
+      ],
+      "attack": "Changing the quench medium or cutting route escapes 'laser cutting' and 'then water quenching'. The process runs abroad and electropolishing removes its trace ([0149]), so the claim adds almost no moat.",
+      "least_narrowing_action": "Delete 'and then water quenching' (kept in claim 94) and recite laser cutting as one alternative with a dependent claim ([0147], [0148], [0150]). Counsel to weigh the EPO intermediate-generalisation risk.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-35-2",
+      "source_prompt": "35",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Claim 67 scores 3 for design-around resistance",
+      "claim_refs": [
+        "67"
+      ],
+      "spec_refs": [
+        "[0028]",
+        "[0091]",
+        "[0137]",
+        "[0141]"
+      ],
+      "attack": "A Schrader-scale ring, a ring just outside either range, a FIG. 12 wall, or a wall with no convolution-free portion for the [0028] measurement escapes, leaving the replacement-seat-ring channel of [0141] free.",
+      "least_narrowing_action": "Add a fallback measurement convention to [0028]. Consider an independent seat-ring claim without dimensions (sealing edge for a poppet, convoluted wall, superelastic alloy) with the ranges as dependents, subject to counsel's view on index #1.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-35-3",
+      "source_prompt": "35",
+      "category": "design-around",
+      "severity": "low",
+      "title": "Claim 79 scores 4 for design-around resistance",
+      "claim_refs": [
+        "79"
+      ],
+      "spec_refs": [
+        "[0066]",
+        "[0067]",
+        "[0069]"
+      ],
+      "attack": "An adaptor with a depressor produces over-travel without 'raising the pressure differential above an over-travel threshold'; a pump below the threshold produces no purge at all.",
+      "least_narrowing_action": "Add a method claim with over-travel produced by mechanical depression during coupling ([0066], [0067]).",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. Commercial relevance is judged from the package's statements of supply ([0138], [0140], [0141], [0180]); no market data was available.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. That laser cutting, shape-setting and quenching NiTi tube is an established stent-manufacturing route is a common-general-knowledge premise, not a cited reference.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. The novelty and inventive-step scores rely on the prior-art index, which is self-described as thin coverage; they are not a patentability opinion.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. The scores are a drafting and analysis aid; qualified patent counsel signs off.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Is the seat ring intended to be sold separately, as a replacement part or to other core makers?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Which product line is expected to carry the revenue: Presta replacement core, OEM tubeless valve, or Schrader?",
+      "blocks": []
+    }
+  ]
+}

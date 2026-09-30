@@ -1,0 +1,79 @@
+{
+ "routed_categories": [
+  "support",
+  "enablement",
+  "formal",
+  "novelty",
+  "design-around"
+ ],
+ "steps": [
+  {
+   "step": "x-loopback-p3",
+   "owner": "Invention Analyst",
+   "finding_ids": [
+    "F-32-1",
+    "F-32-2",
+    "F-32-4",
+    "F-33-2",
+    "F-33-4",
+    "F-gate14-5"
+   ]
+  },
+  {
+   "step": "x-p4-revise",
+   "owner": "Specification Drafter",
+   "finding_ids": [
+    "F-28-1",
+    "F-36-2",
+    "F-28-2",
+    "F-28-3",
+    "F-30-6",
+    "F-32-20",
+    "F-36-1",
+    "F-gate14-2",
+    "F-gate14-4",
+    "F-32-1",
+    "F-32-2",
+    "F-32-4",
+    "F-33-2",
+    "F-33-4",
+    "F-gate14-5"
+   ]
+  },
+  {
+   "step": "x-p5-revise",
+   "owner": "Claims Architect",
+   "finding_ids": [
+    "F-28-2",
+    "F-28-3",
+    "F-30-6",
+    "F-32-20",
+    "F-36-1",
+    "F-gate14-2",
+    "F-gate14-4",
+    "F-32-1",
+    "F-32-2",
+    "F-32-4",
+    "F-33-2",
+    "F-33-4",
+    "F-gate14-5"
+   ]
+  },
+  {
+   "step": "x-formal-fix",
+   "owner": "Specification Drafter",
+   "finding_ids": [
+    "F-30-7",
+    "F-gate14-1"
+   ]
+  }
+ ],
+ "capped": {},
+ "review_required": false,
+ "narrowing_for_human": [
+  "F-28-1: Ask the inventor whether the ranges hold for PEEK, resilient metal and other geometries; if so, add that statement, remove the self-limiting sentences in [0091], [0146], [0161], and redefine seat ring wall thickness in [0028]. If not, narrowing is the only route: claim 67 takes 'formed from a superelastic alloy' and claims 76/77 lose the claim 67 ranges (scope given up: polymer or plain-metal seat rings of the claimed dimensions)."
+ ],
+ "cycles_before": {},
+ "formal_passes_before": 0,
+ "ok": true
+}

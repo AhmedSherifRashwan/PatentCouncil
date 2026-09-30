@@ -1,0 +1,1 @@
+27.md: terminology lock: {"locked_terms": 67, "violations": [{"term": "conventional core", "rule": "undeclared-synonym", "row": "conventional valve core", "context": "9, which `21` records as low to medium plausibility because conventional core bodies are not designed to come apart, and the disclosure n"}]

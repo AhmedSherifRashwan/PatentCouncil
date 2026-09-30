@@ -1,0 +1,7 @@
+/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/P3/13.md — Prompt 13 parameter/range ladder: four tables covering (1) the eight §4 parameters with a disclosed broad range plus a proposed interpolated intermediate/preferred ladder, (2) single-value parameters with no range to interpolate from, (3) test-derived/measured bench-data values (n=3), (4) parameters named but with no value at all.
+
+Routing for the runner:
+- disclosure_requests: basis for each §4 "believed" range; confirmation/refinement of the proposed intermediate/preferred bands; direct measurement of over-travel distance and purge gap opening; a consistent description resolving the purge-gap location/enablement inconsistency (§2 vs §3(6)/§7); any value at all for spring rates, sealing-face cone angle, purge-shoulder clearance, core body bore, As/Ms/Mf, composition tolerance, ammonia concentration.
+- open_questions: Q1–Q12 (see file), largely blocking P3/P4/P5 pending inventor data — most urgently Q1–Q3 (range basis and direct measurement) and Q5 (Af lower bound/As/Ms/Mf), since these bear on enablement of the nucleus.
+- new_terms: 18 declared, mostly process/test sub-parameters mapped to existing locked terms, plus two genuinely new sibling terms (As, Mf) with `maps_to: null`.
+- open_disagreements / narrowing_suggested: none.

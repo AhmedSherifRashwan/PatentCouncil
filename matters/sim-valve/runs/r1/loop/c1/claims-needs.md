@@ -1,0 +1,1 @@
+- Claim 3: the purge interval limitation needs a disclosed range.

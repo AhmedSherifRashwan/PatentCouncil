@@ -1,0 +1,58 @@
+{
+  "prompt": "35",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-35-1",
+      "source_prompt": "35",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Method claim 4 scores 2 for detectability and 2 for evidentiary ease",
+      "claim_refs": [
+        "4"
+      ],
+      "spec_refs": [
+        "[0078]",
+        "[0113]"
+      ],
+      "attack": "Claim 4 is performed 'in one inflation of the inflatable body through the valve by an inflation device (84): applying, by the inflation device, a pressure differential across the valve', inside a closed valve during a user's inflation, and only if the pump exceeds the threshold, which [0113] says is not assured. It cannot be detected from a product on sale, is provable only by end-user evidence plus knowledge or intent, and adds no validity strength over claim 1.",
+      "least_narrowing_action": "No change; counsel to decide whether the claim earns its place against its fee and against using the slot for the recovery-wipe independent claim of F-33-1. Same root cause as F-33-3.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. The commercially successful architecture is taken to be the replaceable Presta-pattern valve core of the prototype ([0027], [0092], [0095]); the package says nothing about the business model beyond the lower-cost polymer line of [0093].",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. Novelty and inventive-step resilience are scored only against the eight saved references and the index's own coverage statement.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. Common general knowledge (patent practice): a method performed by an end user reaches a component maker only through indirect infringement, which requires knowledge or intent in the US and knowledge in the UK.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. What product is to be sold first, and to whom: a replacement valve core, complete valves, or tubes and wheels fitted with the valve?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Is the lower-cost polymer seat ring line of [0093] intended for sale?",
+      "blocks": []
+    }
+  ]
+}

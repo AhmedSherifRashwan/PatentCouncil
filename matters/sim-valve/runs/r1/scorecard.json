@@ -1,0 +1,38 @@
+{
+  "matter": "sim-valve",
+  "run": "r1",
+  "wall_hours": 0.0,
+  "stages": [
+    {
+      "stage": "review",
+      "minutes": 0.1
+    },
+    {
+      "stage": "adjudication",
+      "minutes": 0.0
+    },
+    {
+      "stage": "fix-and-assess",
+      "minutes": 0.1
+    }
+  ],
+  "review_rounds": [
+    {
+      "round": "r1",
+      "findings": 150,
+      "by_severity": {
+        "high": 33,
+        "medium": 61,
+        "low": 56
+      },
+      "rulings": {
+        "upheld": 78,
+        "rejected": 58,
+        "unclear": 12,
+        "unruled": 2
+      },
+      "consensus": 6
+    }
+  ],
+  "inventor_answers_received": false
+}

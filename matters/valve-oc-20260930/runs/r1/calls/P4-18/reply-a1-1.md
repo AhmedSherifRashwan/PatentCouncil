@@ -1,0 +1,7 @@
+`/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/P4/18.md` — Prompt 18 worked examples: Example 1 (actual, superelastic NiTi seat ring prototype, bench-test data) and Examples 2–3 (prophetic, PEEK seat ring and fixed-seat-plus-wiper-ring embodiments from §6).
+
+To route:
+
+- **Open disagreement:** `CONFIRMED.md`'s header claims Gate 2 lifted candidate status on its full contents, but the embedded body text (from 11–15.md) still reads "Status: candidate" / "Needs inventor confirmation" / "Not conceived" throughout, and Gate 1 (`intake/answers.md`) doesn't exist — so those technical questions were never actually put to the inventor. I drew the three principal embodiments only from the intake disclosure itself (§2, §6), not from the Phase 3 candidate library, and flagged this for human resolution before later phases treat that library as confirmed.
+- **Disclosure requests:** PEEK seat ring fabrication process/dimensions; wiper-ring form, thickness, retention and whether it wipes; a reconciled description of the purge-gap opening mechanism.
+- **Open questions (Q1–Q6):** mostly carried forward from `01.md`/`03.md` (purge-gap mechanism, convolution count, wiper-ring details, PEEK process, F1 build status), plus a new one asking whether the runner intends the Gate 2 stamp to have actually resolved these.

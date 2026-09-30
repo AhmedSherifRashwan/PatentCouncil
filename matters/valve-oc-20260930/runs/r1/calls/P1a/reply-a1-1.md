@@ -1,0 +1,22 @@
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/P1/01.md`: Prompt 01 extraction covering items (a)–(m), rebuilt now that the bench-test data and the drawings README are in; 9 assumptions, 36 open questions, envelope `complete`. This file overwrote my earlier 01.md at the same path, which was written when `intake/data/` and `intake/drawings/` were empty. The questions are renumbered from Q22 on: the old Q22 (missing bench data) is resolved, and the drawings question is now Q22.
+
+**To route**
+- **Top blockers (P3, P4, P5, enablement):**
+  - Q1: the disclosure puts the purge gap in two places, next to the stem bore (§2) and next to the core body bore (§3(6)).
+  - Q2: the ring is press-fitted into the core body (§7) and expands outward (§2), yet a gap is said to open at its outer surface. That does not add up as written, and the air path is described nowhere in words. FIG-2 is said to show it, but the image is not in the dossier.
+- **P4, PACKAGE:** Q22, the FIG-1 and FIG-2 image files are absent (only the README describes them); sketches of normal stroke and of Alternatives A and B are wanted.
+- **P2, PACKAGE:** Q34, any public showing, use, offer for sale or publication before filing.
+- **P2:** Q35, the prior products or documents referred to in §1.
+- **Blocking assumptions (P4, P5):**
+  - A3: the pressure differential is read as pump side minus tube side (depends on Q4).
+  - A4: "upper" is read as the pump side and "below/under" as the tube side (depends on Q3).
+  - A5: the poppet is read as moving towards the tube to open and over-travel (depends on Q3).
+- **Evidence limits:** the only evidence of over-travel is an audible snap when the pump head comes off (A9, Q23). No fatigue or cold-shock testing was done (Q27, Q28).
+- **Disclosure requests (5):**
+  - a written description of the purge gap and its air path;
+  - how the over-travel threshold is set;
+  - the basis for each range in §4;
+  - a direct measurement of over-travel and purge-gap opening;
+  - the figure images plus the missing sketches.
+- **Open disagreements:** none.
+- **Narrowing suggested:** none.

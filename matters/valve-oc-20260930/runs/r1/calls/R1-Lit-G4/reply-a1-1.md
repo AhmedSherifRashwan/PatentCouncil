@@ -1,0 +1,13 @@
+I'll now produce the three review replies directly — reading through 102 claims and cross-checking against the description, terminology lock, and registry line by line.
+
+Now writing the specification consistency audit (Prompt 38).
+
+Now the formal compliance pass (Prompt 40a).
+
+All three files are written.
+
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/review/r1/37b.md` — Claims-only forensic audit: 8 findings, headlined by a systemic MPEP 608.01(n) violation (53 of 102 claims are multiple dependent claims improperly built on other multiple dependent claims), plus reference-numeral inconsistency (claims 79–89), hybrid dependency format (claims 61/89/99), a dangling final clause in claims 1/58, §112(f) exposure in "deflecting formation"/"threshold-setting arrangement", an antecedent gap in "chamber side" applied to non-poppet components, and relative-term ("about"/"approximately") issues. 3 mechanical corrections given.
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/review/r1/38b.md` — Specification consistency audit: 4 findings — a high-severity definitional clash ("inflatable chamber" defined as a volume in [0025] but claimed/described as the physical tube in claims 64–65), an accidental admission at [0176] that undercuts claim 54's inventive step, an admission at [0086] that claimed slotted/cellular wall species retain sealant, and an internal tension between [0078] and [0142] on thermal actuation. 5 corrections, including one pure terminology-drift fix ("collapses" → "falls").
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/review/r1/40ab.md` — Formal/mechanical compliance pass: full US/EPO/UK table; 3 formal fails (the MPEP 608.01(n) issue restated for filing purposes, absence of EPO two-part claim form across all 7 independent claims, and the reference-numeral inconsistency), everything else pass or not-applicable, plus an informational note on excess-claims fee exposure.
+
+Routing: the MPEP 608.01(n) claim-dependency defect is the dominant issue across all three files and should go to the Claims Architect (category formal, but root-caused as a claim-reformulation job, P5) before Prompts 28–36 rely on stable claim numbers. The "inflatable chamber" definitional clash (F-38-1, high/support) should route to the Specification Drafter. Two open disagreements worth flagging to the runner: whether "inflatable chamber" should be fixed in the description or the claims (Q1 in 38b.md), and whether claims 61/89/99's hybrid dependency format is intentional (Q3 in 37b.md).

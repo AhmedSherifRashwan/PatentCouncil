@@ -1,0 +1,432 @@
+{
+  "prompt": "30",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-30-1",
+      "source_prompt": "30",
+      "category": "enablement",
+      "severity": "high",
+      "title": "Preferred embodiment: outward deflection is said to open a gap at the outer surface",
+      "claim_refs": [
+        "1",
+        "29",
+        "30",
+        "72"
+      ],
+      "spec_refs": [
+        "[0020]",
+        "[0040]",
+        "[0053]",
+        "[0093]",
+        "[0103]",
+        "[0159]",
+        "[0162]",
+        "[0169]",
+        "Fig. 1",
+        "Fig. 3",
+        "Fig. 6",
+        "Fig. 10"
+      ],
+      "attack": "Outward movement of the ring's outer surface brings it towards the core body bore and cannot open a clearance bounded by those two surfaces; [0053] and [0103] say this gap opens only by inward movement. The tested embodiment is described by a mechanism that cannot work as written, the FIG. 1 instruction shows the gap open at rest contrary to claim 1, and the registry records the convention as an unconfirmed drafting assumption. US operability and enablement; EPO Art. 83/84; UK s.14(3).",
+      "least_narrowing_action": "No claim narrowing needed. Obtain the actual prototype gap location and opening sense from the inventor and rewrite [0020], [0040], [0053], [0093], [0162] and the FIG. 1/3/6/10 instructions to match, e.g. inward flattening ([0103]) or an inner-surface gap ([0105]).",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-2",
+      "source_prompt": "30",
+      "category": "design-around",
+      "severity": "high",
+      "title": "Disclosed but unclaimed alternatives: US dedication risk and literal escape",
+      "claim_refs": [
+        "1",
+        "46",
+        "57",
+        "58",
+        "79"
+      ],
+      "spec_refs": [
+        "[0066]",
+        "[0067]",
+        "[0117]",
+        "[0123]",
+        "[0137]",
+        "[0142]"
+      ],
+      "attack": "Claims 1, 58 and 79 require the poppet itself to over-travel at a pressure differential above the threshold, and claim 1 requires the ring to be carried by the core body. The separate purge actuator [0123], depressor-only over-travel [0066] (natural in a Schrader core, [0137]), the inverted arrangement [0117] and deflation-only purge [0067] escape literally, and in the US may be dedicated to the public.",
+      "least_narrowing_action": "Reformulate the purge-state limitation of claim 1 as the poppet being movable beyond the normal stroke into over-travel, with the pressure-differential trigger dependent; or add an independent claim in which a deflecting formation moved by the poppet or by a pressure-responsive purge actuator produces the radial deflection; add dependent cover for [0117]; decide on [0142].",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-3",
+      "source_prompt": "30",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "Breadth of the functional genus against the demonstrated contribution",
+      "claim_refs": [
+        "1",
+        "58",
+        "79"
+      ],
+      "spec_refs": [
+        "[0071]",
+        "[0084]",
+        "[0091]",
+        "[0150]",
+        "[0159]",
+        "[0167]"
+      ],
+      "attack": "Claim 1 covers every material, geometry, gap location, threshold arrangement and format; only one NiTi species was tested, the purge and the wipe were not separated, and the purge region was found fouled. EPO: effect not credible across scope, problem reformulated as an alternative (Art. 56). UK: Biogen/Regeneron breadth insufficiency. US: full-scope enablement, lower risk in a mechanical art.",
+      "least_narrowing_action": "Obtain data separating purge from wipe and a PEEK build before filing or within the priority year; make sure fallback claims 47, 11 and 25 each stand as problem-solution positions. No narrowing of claim 1 proposed.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-4",
+      "source_prompt": "30",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "[0009] invites a US means-plus-function construction",
+      "claim_refs": [
+        "1",
+        "2",
+        "36"
+      ],
+      "spec_refs": [
+        "[0009]"
+      ],
+      "attack": "[0009] tracks the statutory 112(f) wording (corresponding structures and their equivalents) for deflecting formation, threshold-setting arrangement, deflectable ring element and biasing member; the nonce-like terms are likely to be confined to the described structures and their equivalents, undoing the functional genus, with an indefiniteness exposure if the link to structure is judged unclear.",
+      "least_narrowing_action": "Delete the corresponding-structures-and-equivalents clause from [0009], state that each term names a class of physical structures with the listed species as examples, and consider structural wording in claim 36.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-5",
+      "source_prompt": "30",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Terms of degree whose tolerance [0007] expressly disclaims",
+      "claim_refs": [
+        "20",
+        "44",
+        "49",
+        "75",
+        "98",
+        "101"
+      ],
+      "spec_refs": [
+        "[0007]",
+        "[0090]",
+        "[0172]"
+      ],
+      "attack": "Claims use about, approximately and nominally while [0007] says these define no tolerance: EPO Art. 84 objection likely, and deleting the word narrows to the exact value; US reasonable certainty after Nautilus; UK s.14(5)(b).",
+      "least_narrowing_action": "Recast claim 44 on the disclosed sub-ranges 0.91-1.09 bar and 3.2-3.8 bar ([0090]); for claims 20, 101, 49, 75 and 98 obtain a tolerance band or specification range from the inventor or supplier.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-6",
+      "source_prompt": "30",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "Austenite finish temperature claimed without a measurement method",
+      "claim_refs": [
+        "48",
+        "74",
+        "95"
+      ],
+      "spec_refs": [
+        "[0026]",
+        "[0072]",
+        "[0148]"
+      ],
+      "attack": "Af depends on the measurement method (DSC or bend and free recovery) and none is stated: EPO Art. 84 unusual parameter; US 112(b) indefiniteness issue; UK s.14(5)(b); a competitor can choose the method to avoid infringement.",
+      "least_narrowing_action": "Add the measurement method and standard actually used for the prototype seat rings.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-7",
+      "source_prompt": "30",
+      "category": "support",
+      "severity": "medium",
+      "title": "Blanket statements will not secure an amendment basis at the EPO or in the UK",
+      "claim_refs": [
+        "1"
+      ],
+      "spec_refs": [
+        "[0006]",
+        "[0143]"
+      ],
+      "attack": "Under Art. 123(2) and s.76, amendments that select from several lists of alternatives or create new range endpoints are judged on direct and unambiguous disclosure; blanket statements such as [0006] and [0143] are not, as we understand practice, accepted as that basis.",
+      "least_narrowing_action": "Add explicit fallback paragraphs for the combinations likely to be needed in prosecution, each drawn from existing content, instead of relying on [0143].",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-8",
+      "source_prompt": "30",
+      "category": "support",
+      "severity": "medium",
+      "title": "Ranges the description ties to NiTi with a convoluted wall are claimed without that limitation",
+      "claim_refs": [
+        "16",
+        "17",
+        "35",
+        "41",
+        "42",
+        "43",
+        "67",
+        "68",
+        "69",
+        "70",
+        "76",
+        "77",
+        "82"
+      ],
+      "spec_refs": [
+        "[0088]",
+        "[0091]",
+        "[0146]"
+      ],
+      "attack": "The description says the ranges correspond to the superelastic convoluted seat ring and must be adapted for polymer and other forms, yet the range claims are open as to material and geometry; claims 76-77 read with claim 67 claim a PEEK ring at the NiTi ranges. EPO Art. 84, UK s.14(5)(c), US written description.",
+      "least_narrowing_action": "If the inventor confirms the ranges hold across materials, amend [0088] and [0091]; otherwise make the range claims depend on claims 47/73 and 11, which gives up range cover for polymer and resilient-metal rings only.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-9",
+      "source_prompt": "30",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Unity: three groups of independent claims",
+      "claim_refs": [
+        "1",
+        "58",
+        "67",
+        "79",
+        "90"
+      ],
+      "spec_refs": [
+        "[0141]",
+        "[0147]"
+      ],
+      "attack": "Claims 67 and 90 need no poppet, over-travel or purge gap; their only shared feature (a seat ring with a convoluted wall converting axial load into radial deflection) may be known per the index summary of ref #1. US restriction likely; EPO R. 64/164 further search fees; UK s.14(5)(d).",
+      "least_narrowing_action": "Keep claims 1, 58 and 79 in the parent and plan divisionals for 67 and 90.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-10",
+      "source_prompt": "30",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Claim count, multiple dependencies and independent claims in one category",
+      "claim_refs": [
+        "1",
+        "10",
+        "18",
+        "58",
+        "61",
+        "64",
+        "66",
+        "67",
+        "89",
+        "99"
+      ],
+      "spec_refs": [],
+      "attack": "102 claims; claim 10 and many others are multiple dependent claims referring to other multiple dependent claims (US 112(e), 37 CFR 1.75(c)); multiple-dependent and excess-claim fees; EPO R. 43(2) objection likely to independent product claims 1, 58 and 67 and claims fees from the 16th claim; UK excess-claims fees above 25.",
+      "least_narrowing_action": "Restructure into singly dependent chains for the US; justify claims 1, 58 and 67 as interrelated products or fold claim 1 into claim 58 through claims 59-61; prune to the intended fallback ladder.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-11",
+      "source_prompt": "30",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Purge gap associated with the deflectable ring element is vague",
+      "claim_refs": [
+        "1",
+        "58",
+        "79"
+      ],
+      "spec_refs": [
+        "[0018]",
+        "[0102]",
+        "[0106]"
+      ],
+      "attack": "Associated with states no physical relationship; EPO Art. 84, UK s.14(5)(b) and US 112(b) attacks are available, and the examiner can read the claim on any gap that opens when some ring moves.",
+      "least_narrowing_action": "Replace with a purge gap bounded at least in part by, or formed through, the deflectable ring element, co-extensive with [0102]-[0107].",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-12",
+      "source_prompt": "30",
+      "category": "support",
+      "severity": "medium",
+      "title": "Claims 25 and 80 are defined by a result on sealant",
+      "claim_refs": [
+        "25",
+        "80"
+      ],
+      "spec_refs": [
+        "[0063]",
+        "[0072]",
+        "[0077]",
+        "[0158]"
+      ],
+      "attack": "Claim 25 defines an apparatus by a result on sealant film, which is not part of the claim (EPO result-to-be-achieved, Art. 84); whether a ring that rides over the film infringes is uncertain, and the shearing result is not measured.",
+      "least_narrowing_action": "Recast claim 25 kinematically (a portion of the ring moves across and in contact with a surface of the poppet during shape recovery) and keep the shearing effect in the description.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-13",
+      "source_prompt": "30",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Required description sections are missing; [0160] refers to a background that does not exist",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0001]",
+        "[0160]"
+      ],
+      "attack": "No title, technical field, background art, problem or summary, brief description of drawings or abstract (EPO R. 42(1), R. 47; US 37 CFR 1.74, 1.72(b)); [0160] refers to failure modes described in the background, which does not exist.",
+      "least_narrowing_action": "Add the missing sections, including an acknowledgment of background art, and supply or reword the background that [0160] relies on.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-14",
+      "source_prompt": "30",
+      "category": "formal",
+      "severity": "low",
+      "title": "Figure instructions carry drafting annotations and text for the drawing sheets; reference-sign use",
+      "claim_refs": [
+        "1",
+        "58"
+      ],
+      "spec_refs": [
+        "[0093]",
+        "Fig. 6",
+        "Fig. 9"
+      ],
+      "attack": "The figure instructions cite internal working ids and would put a footnote flagging an unconfirmed assumption and long sentences on the sheets (EPO R. 46(2)(f), US 37 CFR 1.84); numeral 30 is attached to the genus in claims 1 and 58; numeral 34 is reused for the fixed seat's sealing edge.",
+      "least_narrowing_action": "Strip internal annotations, limit sheet text to short labels, drop or widen (30) after deflectable ring element, and give the fixed seat's sealing edge its own numeral.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. Prior-art content is taken from the INDEX.md summaries; the full texts in refs/ have not been quoted.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. Under current EPO practice following G 1/24 the description is consulted to interpret the claims; counsel to confirm.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. Common general knowledge: Af of NiTi measured by DSC and by bend and free recovery can differ by several degrees.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. Common general knowledge: outward radial movement of a ring's outer surface reduces its clearance to a surrounding bore.",
+      "blocking": false
+    },
+    {
+      "id": "A5",
+      "text": "A5. The figures are plans and instructions only; no drawing was reviewed.",
+      "blocking": false
+    },
+    {
+      "id": "A6",
+      "text": "A6. The fee thresholds are stated as general practice, for counsel to confirm against the current schedules.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. In the prototypes, where is the purge gap and which way does its bounding surface move when it opens?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Should [0123], [0066], [0117], [0067] and [0142] be claimed or deliberately left out, given the US dedication risk?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. By what method and standard was Af below 5 C specified or verified?",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. Do the ranges of [0089]-[0090] hold for PEEK and resilient-metal rings?",
+      "blocks": []
+    },
+    {
+      "id": "Q5",
+      "text": "Q5. Unity strategy: keep claims 67 and 90 in the first filing or plan divisionals?",
+      "blocks": []
+    },
+    {
+      "id": "Q6",
+      "text": "Q6. Will a later step add the title, field, background, summary, brief description of drawings and abstract?",
+      "blocks": []
+    }
+  ]
+}

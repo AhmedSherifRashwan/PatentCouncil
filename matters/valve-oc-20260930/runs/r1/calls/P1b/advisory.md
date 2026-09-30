@@ -1,0 +1,1 @@
+05.md: terminology lock: {"locked_terms": 67, "violations": [{"term": "Presta valve", "rule": "avoid-hit", "row": "inflation valve", "context": "s conceived \u2014 please describe - (d) Bicycle inner tube with Presta valve only, for now *Why it matters:* sets the breadth of \"inflat"}, {"term": "removable 

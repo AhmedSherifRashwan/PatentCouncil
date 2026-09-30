@@ -1,0 +1,10 @@
+Drafting Part 2 (operation and cleaning actions, S9.1–S9.9) now and writing it to the part file.
+
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/P4/parts/part2.md` — Part 2 of the Description (S9.1–S9.9, operation and cleaning actions): nine `####` sections under one `### Description` wrapper, 30 unnumbered paragraphs, registry numerals and locked terms, figure references per the 20a registry; Rationale, Assumptions, Open Questions and the json envelope follow.
+
+**To route:**
+
+- **Open questions (block P4/P5/REVIEW):** Q1 purge gap surfaces, sense of deflection and full air path (01 Q1/Q2; PF-1; Prompt 17 must record the purge state as not enabled for the prototype mechanism until answered). Q2 what limits over-travel (01 Q36). Q3 wipe surface pair, direction and distance (01 Q10). Q4 whether any inflation event stays below the over-travel threshold (01 Q4/Q5). Q5 whether DA-1, DA-9, DA-10, DA-20 were conceived. Q6 seat ring contribution to the threshold (E2.3).
+- **Disclosure requests:** purge gap mechanism reconciled with the interference fit; over-travel limit; snap-back wipe surfaces; an observed sub-threshold inflation event; inventor confirmation of each held passage.
+- **Open disagreements:** (1) Held passages drafted in hedged language despite PF-4/PF-9/PF-17 because CONFIRMED.md formally confirms them and the blueprint assigns them to Part 2: S9.3 over-travel limit alternatives and single-rate/threshold-near-crack embodiment; S9.4 inward and ovalising deflection senses; S9.7 wipe-only embodiment; S9.8 mechanical and manual over-travel and purge during deflation. The package cover note must list them for counsel to strike if unconfirmed. (2) Blueprint S6 figure numbering conflicts with the 20a registry; Part 2 follows the registry and the compose step should rewrite S6.
+- **Narrowing suggested:** none.

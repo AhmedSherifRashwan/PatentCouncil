@@ -1,0 +1,26 @@
+{
+  "prompt": "31",
+  "status": "partial",
+  "findings": [],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. The absence of a priority directory means that no priority document has been supplied, not that none exists.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. AI drafting and analysis aid; qualified patent counsel signs off before filing.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Is this application a first filing, or does it claim priority from an earlier application? If it claims priority, the earlier application as filed is needed.",
+      "blocks": []
+    }
+  ]
+}

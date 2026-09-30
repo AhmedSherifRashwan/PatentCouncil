@@ -1,0 +1,243 @@
+{
+ "findings": [
+  {
+   "id": "F-38-7",
+   "source_prompt": "38",
+   "category": "support",
+   "severity": "medium",
+   "title": "Untested-compatibility caveat for a disclosed species undercuts enablement of the broader claimed material genus",
+   "claim_refs": [
+    "27",
+    "70"
+   ],
+   "spec_refs": [
+    "[0206]"
+   ],
+   "attack": "Claims 27 and 70 claim \"a superelastic material\" as a genus; [0206] discloses copper-based superelastic alloys as a species and states their sealant compatibility \"is not established\", which an examiner can use against enablement/written description for the full claimed breadth.",
+   "least_narrowing_action": "Add a sentence clarifying the claimed mechanical function does not depend on sealant compatibility, which is a separate material-selection question.",
+   "requires_new_disclosure": false,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "38"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-38-8",
+   "source_prompt": "38",
+   "category": "formal",
+   "severity": "low",
+   "title": "\"FIGS. 13B is\" grammatical number mismatch",
+   "claim_refs": [],
+   "spec_refs": [
+    "[0049]"
+   ],
+   "attack": "Plural \"FIGS.\" governs a single figure reference and singular verb.",
+   "least_narrowing_action": "Correct to \"FIG. 13B is\".",
+   "requires_new_disclosure": false,
+   "suggested_target": "in-place",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "38"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-38-9",
+   "source_prompt": "38",
+   "category": "formal",
+   "severity": "low",
+   "title": "Locked terminology table has no row for several terms used in the claims and description",
+   "claim_refs": [
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44"
+   ],
+   "spec_refs": [
+    "[0176]",
+    "[0177]",
+    "[0178]"
+   ],
+   "attack": "\"Slotted sleeve\", \"split seat ring\", \"tapered seat ring\" and \"matching taper\" are used in claims 39-44 and description [0176]-[0178] without a corresponding LOCKED.md row; the deterministic terms check's only warning on this area (an undeclared-synonym hit on \"split seat\" against the \"two-piece seat\" row) is a false positive on inspection, since \"split seat ring\" (180) and \"two-piece seat\" (140/144) are structurally distinct and separately numbered, which masks the real gap that these terms were never locked at all.",
+   "least_narrowing_action": "Add rows to terminology/LOCKED.md for the missing terms per the table's own Note 1.",
+   "requires_new_disclosure": false,
+   "suggested_target": "in-place",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "38"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-38-10",
+   "source_prompt": "38",
+   "category": "formal",
+   "severity": "low",
+   "title": "Registry document carries a stale drafting-process note inconsistent with the package's current state",
+   "claim_refs": [],
+   "spec_refs": [],
+   "attack": "registry.md states description.md and claims.md \"do not yet exist in this run\" and that the numeral cross-check \"must be re-run... once both exist\"; both files exist in this package and the cross-check has in fact been run cleanly against them, so the note is stale and should not appear in text given to a blind reviewer.",
+   "least_narrowing_action": "Remove or update the stale flag once the cross-check has been run against the current description and claims.",
+   "requires_new_disclosure": false,
+   "suggested_target": "in-place",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "38"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-40a-1",
+   "source_prompt": "40a",
+   "category": "formal",
+   "severity": "medium",
+   "title": "Brief description of the drawings omits FIG. 13A, registered in the numeral registry as numeral 220",
+   "claim_refs": [],
+   "spec_refs": [
+    "[0049]"
+   ],
+   "attack": "37 CFR 1.74/MPEP 608.01(f) require every figure to be described; FIG. 13A and numeral 220 are registered but never described in the Brief Description or Detailed Description.",
+   "least_narrowing_action": "Add Brief Description and Detailed Description text for FIG. 13A/220, or remove FIG. 13A and numeral 220 from the figure plan and registry.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "40a"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-40a-2",
+   "source_prompt": "40a",
+   "category": "formal",
+   "severity": "low",
+   "title": "Description grammatical mismatch at [0049]",
+   "claim_refs": [],
+   "spec_refs": [
+    "[0049]"
+   ],
+   "attack": "\"FIGS. 13B is\" pairs a plural article with a single figure reference and singular verb.",
+   "least_narrowing_action": "Correct to \"FIG. 13B is\".",
+   "requires_new_disclosure": false,
+   "suggested_target": "in-place",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "40a"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-40a-3",
+   "source_prompt": "40a",
+   "category": "formal",
+   "severity": "low",
+   "title": "EPO two-part claim form not used",
+   "claim_refs": [
+    "1",
+    "3"
+   ],
+   "spec_refs": [],
+   "attack": "Claims 1 and 3 are single-part form throughout; Rule 43(1) EPC contemplates a preamble/characterising-portion split, though single-part form is commonly accepted at filing.",
+   "least_narrowing_action": "No correction needed at filing; prepare a two-part fallback of claim 1 against US4044791A/US3473561A for use if the EPO examiner requests it.",
+   "requires_new_disclosure": false,
+   "suggested_target": "in-place",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "40a"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-40a-4",
+   "source_prompt": "40a",
+   "category": "formal",
+   "severity": "low",
+   "title": "Non-standard dependent-claim format",
+   "claim_refs": [
+    "47",
+    "61",
+    "77",
+    "86"
+   ],
+   "spec_refs": [],
+   "attack": "Claims 47, 61, 77 and 86 embed multi-claim cross-references inside the claim body/preamble rather than a standard dependency clause, obscuring dependency and category and compounding F-40a-1 for claim 61 especially.",
+   "least_narrowing_action": "Rewrite with the full base range in the introductory dependency clause; see Prompt 37 reply F-37-4.",
+   "requires_new_disclosure": false,
+   "suggested_target": "P5",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "40a"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-gate14-1",
+   "source_prompt": "gate14",
+   "category": "formal",
+   "severity": "medium",
+   "title": "No drawing sheets exist; only figure instructions",
+   "claim_refs": [],
+   "spec_refs": [
+    "[0036]-[0049]",
+    "figures.md Figure Instructions"
+   ],
+   "attack": "The description relies on FIGS. 1-13B but only a figure plan and instructions exist. Late-filed drawings risk missing-parts treatment (Rule 56 EPC; s.15(5) PA 1977) and new matter in the US; drawing formalities (Rule 46 EPC; 37 CFR 1.84; r.14 PR 2007) cannot be checked.",
+   "least_narrowing_action": "Render drawing sheets from the figure instructions, check every numeral against registry.md, file them with the description, and remove the candidate/unconfirmed wording from the captions once the inventor has decided on those constructions.",
+   "requires_new_disclosure": false,
+   "suggested_target": "in-place",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "gate14"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-gate14-2",
+   "source_prompt": "gate14",
+   "category": "formal",
+   "severity": "medium",
+   "title": "The package has no abstract",
+   "claim_refs": [
+    "1",
+    "2",
+    "3"
+   ],
+   "spec_refs": [
+    "package README.md"
+   ],
+   "attack": "An abstract is required in all three offices (37 CFR 1.72(b); Art. 78(1)(e) and Rule 47 EPC; s.14(2)(d) PA 1977). None is in the package, so question 12 cannot be answered and an abstract drafted later would be unreviewed text.",
+   "least_narrowing_action": "Draft an abstract of not more than 150 words summarising claims 1, 2 and 3 in the locked terms, with reference signs and no 'means for' language, and check it against question 12 before Gate 3.",
+   "requires_new_disclosure": false,
+   "suggested_target": "in-place",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "gate14"
+   ],
+   "consensus": false
+  }
+ ]
+}

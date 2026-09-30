@@ -1,0 +1,292 @@
+{
+  "prompt": "37",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-37-1",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "high",
+      "title": "Systemic multiple-dependent-claim-on-multiple-dependent-claim violation",
+      "claim_refs": [
+        "10",
+        "14",
+        "18",
+        "22",
+        "23",
+        "24",
+        "25",
+        "27",
+        "28",
+        "29",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "49",
+        "50",
+        "51",
+        "52",
+        "54",
+        "55",
+        "56",
+        "57",
+        "70",
+        "71",
+        "72",
+        "73",
+        "75",
+        "76",
+        "78",
+        "82",
+        "83",
+        "84",
+        "85",
+        "86",
+        "87",
+        "88",
+        "89",
+        "93",
+        "95",
+        "96",
+        "98",
+        "99",
+        "100",
+        "102"
+      ],
+      "spec_refs": [],
+      "attack": "Claims 8, 9 (and equivalently 69, 81, 92) are multiple dependent claims; claim 10 and every later 'any one of claims X to Y' claim whose range reaches back past them inherits an improper basis under MPEP 608.01(n)(iii), compounding through 53 of 102 claims.",
+      "least_narrowing_action": "Renumber/restructure claim dependencies so no multiple dependent claim's range includes another multiple dependent claim; restore any lost combinations as separate singly-dependent claims. No scope need be lost.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-2",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Reference numerals omitted from claims 79-89",
+      "claim_refs": [
+        "79",
+        "80",
+        "81",
+        "82",
+        "83",
+        "84",
+        "85",
+        "86",
+        "87",
+        "88",
+        "89"
+      ],
+      "spec_refs": [
+        "[0037]",
+        "[0040]"
+      ],
+      "attack": "Claims 79-89 name the poppet, sealing face, deflectable ring element, main passage, purge gap and purge flow path without any reference numeral, unlike parallel claims 1, 58, 67 and 90-102, creating an internal inconsistency in claim practice.",
+      "least_narrowing_action": "Add the existing reference numerals at first mention in claims 79-89, matching claim 1's practice.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-3",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Hybrid dependency format in claims 61, 89, 99",
+      "claim_refs": [
+        "61",
+        "89",
+        "99"
+      ],
+      "spec_refs": [],
+      "attack": "Claims 61, 89 and 99 each carry a formal dependency and additionally incorporate a further claim range by reference in the body text ('according to any one of claims X to Y'), leaving ambiguous how the claim should be counted and construed, especially since the incorporated ranges are laden with the F-37-1 defect.",
+      "least_narrowing_action": "Confirm the intended relationship once F-37-1 is cured; no wording change needed if the intended technique is claim incorporation by reference to a sub-combination.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-4",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Dangling final clause in independent claims 1 and 58",
+      "claim_refs": [
+        "1",
+        "58"
+      ],
+      "spec_refs": [
+        "[0044]"
+      ],
+      "attack": "The shape-recovery clause at the end of claims 1 and 58 is not clearly assigned to the purge state or set apart as a separate transition, inviting a parsing dispute over whether recovery is required and when.",
+      "least_narrowing_action": "Re-punctuate as a separate 'wherein, when the pressure differential falls...' clause; no scope change.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-5",
+      "source_prompt": "37",
+      "category": "design-around",
+      "severity": "low",
+      "title": "112(f) exposure in 'deflecting formation' and 'threshold-setting arrangement'",
+      "claim_refs": [
+        "2",
+        "36"
+      ],
+      "spec_refs": [
+        "[0009]",
+        "[0021]",
+        "[0022]"
+      ],
+      "attack": "Both terms combine a generic noun with a function only, risking US means-plus-function construction limited to the disclosed corresponding structures and their equivalents, giving a competitor an escape route via an undisclosed equivalent mechanism.",
+      "least_narrowing_action": "None required; informational for Prompt 33 litigation assessment. Risk already knowingly accepted per terminology lock.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-6",
+      "source_prompt": "37",
+      "category": "support",
+      "severity": "low",
+      "title": "'Chamber side' applied to non-poppet components without antecedent",
+      "claim_refs": [
+        "9",
+        "33"
+      ],
+      "spec_refs": [
+        "[0010]",
+        "[0055]",
+        "[0093]"
+      ],
+      "attack": "[0010] defines 'chamber side' only of the poppet; claims 9 and 33 apply 'the chamber side' to the fixed seat and the purge gap respectively without an antecedent covering that usage.",
+      "least_narrowing_action": "Broaden [0010]'s definition to a general orientation within the valve core rather than a property of the poppet alone (see Prompt 38 Correction); no claim text change needed.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-7",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "low",
+      "title": "'About'/'approximately' used without a stated tolerance",
+      "claim_refs": [
+        "20",
+        "44"
+      ],
+      "spec_refs": [
+        "[0007]"
+      ],
+      "attack": "[0007] confirms 'about'/'approximately' carries no defined tolerance unless separately stated, and none is stated for the 0.03 mm interference or the 1.0/3.5 bar values, risking an EPO clarity objection.",
+      "least_narrowing_action": "Add a stated tolerance in the description rather than deleting the qualifier from the claims.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-8",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "low",
+      "title": "Unenumerated single-sentence state definition in claims 1 and 58",
+      "claim_refs": [
+        "1",
+        "58"
+      ],
+      "spec_refs": [],
+      "attack": "The three states are separated only by semicolons in one continuous sentence, increasing the risk of a clarity objection over which limitations belong to which state.",
+      "least_narrowing_action": "Enumerate the three states (i)/(ii)/(iii); no scope change.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [
+    {
+      "target": "claims",
+      "location": "claim 10 (representative of F-37-1 list)",
+      "from_text": "10. The valve core of any one of claims 1 to 9, wherein the deflectable ring element has a wall arranged such that an axial load applied to the deflectable ring element by the poppet in over-travel is converted into the radial deflection.",
+      "to": "[No single text substitution cures this claim in isolation; requires claim-set renumbering so no 'any one of claims X to Y' range includes claim 8 or 9 (or 69, 81, 92), with lost combinations restored as separate claims singly dependent from 8 and from 9.]",
+      "reason": "Claim 10 (an MDC) takes claims 8 and 9 (both MDCs) as part of its basis, contrary to MPEP 608.01(n)(iii); recurs at the 52 other claims listed in F-37-1."
+    },
+    {
+      "target": "claims",
+      "location": "claims 79-89 (claim 79 shown)",
+      "from_text": "79. A method of operating an inflation valve of an inflatable chamber which holds liquid sealant, the inflation valve comprising a poppet having a supply side, a chamber side and a sealing face, a deflectable ring element, a main passage past the sealing face which is closed by the sealing face in a closed state of the inflation valve, and a return spring biasing the poppet towards the closed state, the method comprising, within one inflation event: coupling an inflation device to the supply side and raising a pressure differential between the supply side and the chamber side to at or above a crack pressure, whereby the poppet moves through a normal stroke into a normal-open state in which inflation gas flows through the main passage into the inflatable chamber while the deflectable ring element remains in its at-rest form and a purge gap associated with the deflectable ring element remains closed; raising the pressure differential above an over-travel threshold higher than the crack pressure, whereby the poppet moves into over-travel beyond the normal stroke and produces a radial deflection of the deflectable ring element, the radial deflection opening the purge gap, and inflation gas flows as an air purge along a purge flow path, separate from the main passage, from the supply side through the purge gap into the inflatable chamber across surfaces on which sealant film accumulates; and removing the inflation device from the supply side, whereby the pressure differential falls and the deflectable ring element undergoes shape recovery to its at-rest form and closes the purge gap.",
+      "to": "79. A method of operating an inflation valve of an inflatable chamber which holds liquid sealant, the inflation valve comprising a poppet (40) having a supply side, a chamber side and a sealing face (42), a deflectable ring element (30), a main passage (64) past the sealing face (42) which is closed by the sealing face (42) in a closed state of the inflation valve, and a return spring (50) biasing the poppet (40) towards the closed state, the method comprising, within one inflation event: coupling an inflation device to the supply side and raising a pressure differential between the supply side and the chamber side to at or above a crack pressure, whereby the poppet (40) moves through a normal stroke into a normal-open state in which inflation gas flows through the main passage (64) into the inflatable chamber while the deflectable ring element (30) remains in its at-rest form and a purge gap (60) associated with the deflectable ring element (30) remains closed; raising the pressure differential above an over-travel threshold higher than the crack pressure, whereby the poppet (40) moves into over-travel beyond the normal stroke and produces a radial deflection of the deflectable ring element (30), the radial deflection opening the purge gap (60), and inflation gas flows as an air purge along a purge flow path (62), separate from the main passage (64), from the supply side through the purge gap (60) into the inflatable chamber across surfaces on which sealant film accumulates; and removing the inflation device from the supply side, whereby the pressure differential falls and the deflectable ring element (30) undergoes shape recovery to its at-rest form and closes the purge gap (60).",
+      "reason": "Brings claim 79 into line with reference-numeral practice in claims 1, 58, 67, 90-102; same treatment applies to claims 80-89."
+    },
+    {
+      "target": "claims",
+      "location": "claim 1 (same treatment for claim 58)",
+      "from_text": "...the radial deflection opening the purge gap so that a purge flow path (62), separate from the main passage, extends from the supply side through the purge gap to the chamber side; the deflectable ring element undergoing shape recovery to its at-rest form and closing the purge gap when the pressure differential falls below the over-travel threshold.",
+      "to": "...the radial deflection opening the purge gap so that a purge flow path (62), separate from the main passage, extends from the supply side through the purge gap to the chamber side; and wherein, when the pressure differential falls below the over-travel threshold, the deflectable ring element undergoes shape recovery to its at-rest form and closes the purge gap.",
+      "reason": "Removes ambiguity as to whether shape recovery is part of the purge state's own definition or a separate subsequent transition, without narrowing scope."
+    }
+  ],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "Claim-dependency formalities (37 CFR 1.75(c); MPEP 608.01(n)) assessed primarily against US practice, since no single target jurisdiction is named for this prompt.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "'Chamber side'/'supply side' treated as defined only with reference to the poppet per [0010]; claims 9 and 33's broader usage treated as an unintended inconsistency curable by broadening the definition.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "No priority document was supplied; antecedent-basis and support findings assessed against the description and claims as filed in this run only.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Should the claim set be renumbered to cure F-37-1 before or after Prompts 28-29 run, since renumbering will shift every claim reference used there?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Is the omission of reference numerals from claims 79-89 deliberate or an oversight?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Are claims 61, 89 and 99 intended as ordinary dependent claims that also incorporate a further claim range by reference, or is some other relationship intended?",
+      "blocks": []
+    }
+  ]
+}

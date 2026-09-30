@@ -1,0 +1,112 @@
+{
+  "rulings": [
+    {
+      "id": "F-28-1",
+      "ruling": "upheld",
+      "reason": "Correct on the text. [0094] and [0053] place the wiper ring 130 'below the rigid valve seat 132, on the side of the rigid valve seat 132 towards the inflatable body', and claim 28 recites the same. [0046] requires the purge gap to be bounded at least in part by a surface of the deflectable element and defines 'separate from the main flow passage' as gas that 'does not pass between the sealing face and the valve seat'. Nothing in [0094], [0094a], [0107] or FIG. 3 (drawn schematically, [0026]; figures.md FIG. 3 says the purge gap position is 'not stated') describes how inflation gas reaches a gap bounded by a ring below the seat without first passing the seat, and [0094a] states the mounting of the wiper ring is 'not stated herein'. As filed, claims 27 to 29, 45, 58 and 60 combine claim 1's parallel purge gap with a position for which no parallel path is described: a written-description (s.112(a)) and support/sufficiency (Art. 84, Art. 83; UK s.14(3), s.14(5)(c)) exposure for those dependent claims. The added-matter limb is overstated: claims filed in this form are part of the original disclosure, so the risk is support and enablement, not Art. 123(2) at filing. Needs the inventors' statement of the gap position and inlet; lead finding for F-29-2 and F-32-4."
+    },
+    {
+      "id": "F-28-2",
+      "ruling": "upheld",
+      "reason": "Correct on the text. [0040], [0042], [0043] and [0066] state the pressure, over-travel and purge gap width ranges 'in some embodiments' without restriction, and [0016] says the ranges 'apply in some embodiments'; but [0124] says 'The dimensions and pressures of the section on ranges are those of the first embodiment', [0125] ties the section to 'the seat ring 30 of superelastic alloy of the prototype', and [0093], [0104] and [0106] state that no dimension is given for the polymer seat ring or the wiper ring. Claims 30 to 34 (dependent on 'any one of claims 1 to 29', which includes claims 25 to 29), claim 47 (via claims 44 and 45) and claim 25 via claim 19 therefore claim combinations the description both supports and disclaims: an Art. 84 inconsistency now, and an intermediate-generalisation argument against any later amendment putting a pressure range into claim 1. It cannot be repaired after filing, which justifies high. Lead finding for F-29-4."
+    },
+    {
+      "id": "F-28-3",
+      "ruling": "upheld",
+      "reason": "Correct on the text. [0084] fixes 'upper'/'below' by the inflation-device end and the inflatable body. The pressure differential is positive from the inflation-device side ([0039]), so the normal stroke and over-travel are towards the inflatable body ([0043]: over-travel is 'in the direction of the normal stroke'). [0030] and [0111] have the sealing face 42 seal on, and lift from, the upper edge 32; [0029] and claim 7 put the purge shoulder 44 'below the sealing face 42'; [0111] step 706 and [0034a] have that shoulder bear on the upper edge 32 during over-travel with 'an axial load'. A shoulder below the sealing face moves further from the upper edge as the valve member moves towards the inflatable body, so these statements cannot all hold. The functional definitions in [0054] and [0119] and the 'schematic' disclaimers in [0026] and [0091] do not say which statement is wrong, so the error is not one the skilled person could correct unambiguously, and correction after filing (Rule 139 EPC) would not be available. The combination claim 7 -> 12 -> 14 -> 17 recites the inconsistent arrangement: an Art. 84/s.112(b) objection and an Art. 83/s.112(a) attack on the only built embodiment. The reviewer's further point that the load would lift the ring off the locating shoulder 24 is not established, because the text does not say on which side of the ring the shoulder 24 lies ([0028]). Lead finding for F-29-3 and F-32-3."
+    },
+    {
+      "id": "F-28-4",
+      "ruling": "rejected",
+      "reason": "Duplicates F-30-1 (same defect: [0031] purge gap between outer surface 38 and core bore 22 opening 'when the seat ring 30 expands', against the interference fit of [0035], and no outlet past the locating shoulder 24, [0046] 'may communicate'). F-30-1 is upheld as the lead; the corrections this finding names for claim 9, [0048] and [0126] are carried in that ruling."
+    },
+    {
+      "id": "F-29-1",
+      "ruling": "rejected",
+      "reason": "Duplicates F-30-1: the same interference-fit and missing-outlet defect in [0031], [0035] and [0048], stated as its effect on amendment path 5 (claims 15 to 17, 40, 41). Resolved by the F-30-1 correction."
+    },
+    {
+      "id": "F-29-2",
+      "ruling": "rejected",
+      "reason": "Duplicates F-28-1: the same wiper-ring purge gap below the rigid valve seat 132 ([0094], [0094a], claim 28) with no parallel path, stated as its effect on amendment path 9. Resolved by the F-28-1 correction."
+    },
+    {
+      "id": "F-29-3",
+      "ruling": "rejected",
+      "reason": "Duplicates F-28-3: the same inconsistency between [0084], [0029], [0030] and [0111] step 706 on the direction of the stroke and the position of the purge shoulder 44, stated as its effect on amendment paths 2, 4, 5 and 8. Resolved by the F-28-3 correction."
+    },
+    {
+      "id": "F-29-4",
+      "ruling": "rejected",
+      "reason": "Duplicates F-28-2: the same tie of the pressure and travel ranges to the first embodiment by [0124] and [0125], against the general statements of [0040], [0042], [0043] and [0066]; F-28-2 already states the intermediate-generalisation consequence for adding a range to claim 1. Resolved by the F-28-2 correction."
+    },
+    {
+      "id": "F-30-1",
+      "ruling": "upheld",
+      "reason": "Correct on the text; lead finding for this defect. [0031], claims 16 and 40 place the purge gap 60 'between the outer surface 38 of the seat ring 30 and the core bore 22' and say it 'opens when the seat ring 30 expands'; claims 17 and 41 say 'the radial expansion opening the purge gap'. [0035], [0068], [0109] and claim 15 hold the same ring in the same bore by an interference fit of approximately 0.03 mm on diameter, and [0084] defines 'outward' as radially away from the axis. Outward expansion of the outer surface reduces, and cannot open, a gap between that surface and the bore, and the text nowhere says where the fit acts or which surfaces separate. No path from the gap past the locating shoulder 24 into the inflatable body is described ([0046] says only that the gap 'may communicate at its ends'), and registry.md FIG. 2 instructs 'draw no inlet or outlet feature'. The review package's own figure plan (figures.md, second paragraph) records that 'the disclosure does not explain how the purge gap opens'. [0103] (cured sealant on the outer surface 38 'in the region of the purge gap') shows the prototype had a gap there, but not how it opened. Claims 16, 17, 40 and 41 recite a mechanism the skilled person cannot build as described (s.112(a), Art. 83, UK s.14(3)), so critical is right for those claims. Correction also reaches claim 9 and [0048], [0066] and [0126] (radial measurement of the purge gap width) once the inventors state the actual geometry.",
+      "severity": "critical"
+    },
+    {
+      "id": "F-30-2",
+      "ruling": "upheld",
+      "reason": "Correct on the text. Claims 1, 2 and 4 claim any deflectable element whose deflection opens a parallel purge gap ([0116]: the principle is 'of general application'). The only embodiments offered are the seat ring 30 of the first and second embodiments, whose gap mechanism is incoherent as written (F-30-1: [0031] against [0035]), and the wiper ring 130, whose gap position, mounting and thickness are 'not stated herein' ([0094], [0094a]) and whose stated position is below the seat (F-28-1). [0026] and [0046] disclaim any particular position, so the description gives no coherent example of the feature that defines the genus. This is a credible support/sufficiency and written-description objection to the independent claims (Art. 83, Art. 84; s.112(a); UK s.14(3), s.14(5)(c)). It is high rather than critical because the art is simple mechanics and the functional teaching of [0046] and [0048] gives an examiner less purchase than in the unpredictable arts of the cited cases, and because curing F-30-1 alone would supply one coherent way. Its resolution follows from F-30-1 and F-28-1."
+    },
+    {
+      "id": "F-30-3",
+      "ruling": "upheld",
+      "reason": "Correct on the text. [0018] to [0025] describe FIG. 1 to FIG. 8, but the package has no drawing sheets: figures.md is a figure plan citing CONFIRMED.md, P1/01, P2/09, PF-1 and PF-12, and registry.md is a set of drawing instructions with draftsperson's notes. figures.md (second paragraph) states that 'the disclosure does not explain how the purge gap opens', and registry.md FIG. 2 instructs 'draw no inlet or outlet feature'; if either were filed, that would be an admission against sufficiency. Filing without the drawings referred to engages 35 USC 113, Rule 56 EPC (late-filed drawings re-date the application or references to them are deemed deleted) and the UK missing-parts provisions (s.15(5)). FIG. 1 and FIG. 2 cannot be drawn truthfully until F-30-1 is resolved. Formal, but a filing blocker. Lead finding for F-36-1."
+    },
+    {
+      "id": "F-32-1",
+      "ruling": "rejected",
+      "reason": "Duplicates F-30-1: the same quotation of claims 16 and 17, the same interference fit ([0035]) and the same missing outlet past the locating shoulder 24. Upheld there as critical."
+    },
+    {
+      "id": "F-32-2",
+      "ruling": "rejected",
+      "reason": "Premise false on the reference text. Claim 1(c) requires that 'the over-travel of the valve member deflects the deflectable element', produced by the pressure differential acting on the valve member. In US20080188352A1 the ball 3 opens at the first pressure, and its travel is limited by surface 12 of the shuttle 4 ([25], [33]). The poppet 2 opens seat 11 because system pressure reaches the second pressure ([26], [37]: 'When the hydraulic pump has increased the flow rate to the level of the second pressure outer poppet 2 moves rearward'); the reference nowhere says the ball's travel drives the poppet. The poppet is also a rigid part displaced against spring 6, and it recloses by that spring, not by 'recovery of the deflectable element'. [0048] defines 'deflectable element' by an undeflected shape and recovery towards it, so under the broadest reasonable interpretation consistent with the specification (MPEP 2111.01 IV, lexicography) 'deflects' does not read on rigid displacement, and the anticipation limb fails. The obviousness limb supplies from US3417778A only a resilient lip flexed radially outwardly. That lip is the sole valve seat (claim 1 as reproduced at [15]) and its expansion widens the single main passage ([4]); it opens no second path in parallel and is not deflected by over-travel of the valve member. Neither reference supplies the missing link, so no credible rejection is shown. The suggested words ('elastically deflected from an undeflected shape'; gap 'bounded at least in part by a surface of the deflectable element') already stand in the definitions [0046] and [0048]. The Claims Architect may lift them into claim 1 at no cost of scope, but they are optional.",
+      "severity": "low"
+    },
+    {
+      "id": "F-32-3",
+      "ruling": "rejected",
+      "reason": "Duplicates F-28-3 on its sound part: the purge shoulder 44 'below the sealing face' ([0029]) cannot reach the upper edge 32 by further travel towards the inflatable body ([0084], [0111]). Its other two premises do not follow from the text. 'Upper edge (32)' does not say the seating surface faces upwards: a conical sealing face 42 can seal on the inner arris of the upper edge from below. On that reading a spring 'acting under the valve member' ([0033]) urges the valve member onto the seat, as a spring must, and does not push it away."
+    },
+    {
+      "id": "F-32-4",
+      "ruling": "rejected",
+      "reason": "Duplicates F-28-1: the same quotation of claim 28 ('positioned below the rigid valve seat (132), towards the inflatable body') against [0046], and the same absence of a described bypass ([0094], [0094a]). Upheld there."
+    },
+    {
+      "id": "F-33-1",
+      "ruling": "upheld",
+      "reason": "Correct on the text, but overstated. Claims 1 and 2 require at (a) that 'the deflectable element is undeflected' and at (b) that it 'remains undeflected', and claim 4 requires that it 'remains undeflected' and later 'recovering its undeflected shape'. The distinguishing function is already carried by 'the purge gap is closed / remains closed' ([0044], [0046]), and [0134] discloses features described together also separately, so the limitation can be taken out before filing without added matter. A competitor whose element is lightly loaded during the normal stroke while the gap stays closed has a literal-scope argument. The escape is weaker than the finding says, for two reasons. First, [0048] defines the undeflected shape as the shape 'in which the purge gap is closed'. Second, the prototype's own seat ring is radially loaded at rest by the 0.03 mm interference fit ([0035]), which forces 'undeflected' to mean the installed rest shape and not the free shape. So there is a construction defence, and severity is medium. The removal is cheap, keeps 'undeflected' as a dependent fallback, and should be made.",
+      "severity": "medium"
+    },
+    {
+      "id": "F-33-2",
+      "ruling": "upheld",
+      "reason": "Correct on the text. [0011] expressly provides an aspect 'founded on the recovery wipe' that 'may be combined with the purge gap', and [0055] and [0117] support it, but the only claims to the recovery wipe (claims 5, 35, 52, 57, 59) hang from claims 1, 2 and 4, each of which requires a purge gap that is 'a second path ... in parallel with the main flow passage' ([0046]: gas that 'does not pass between the sealing face and the valve seat'). A valve whose over-travel deflects the seat element to widen the seat annulus and which wipes on recovery falls outside every independent claim, although the description supports claiming it. The remedy is a new independent claim family, needs no new disclosure, and is a drafting choice within the Claims Architect's lane. Counsel must weigh it against US4050473A and US4236547A (a flexible disc or cutting edge on the valve head acting on the seat on closing; [0006] of the description) and US3417778A (resilient seat lip radially expanded by the valve body, [4], [15]), which press harder on a claim without the purge gap."
+    },
+    {
+      "id": "F-36-1",
+      "ruling": "rejected",
+      "reason": "Duplicates F-30-3 (no drawing sheets; figures.md and registry.md are internal plan and instructions citing dossier references, including 'exist by name only; no image has been seen' at figures.md paragraph 1 and 'draw no inlet or outlet feature' at registry.md FIG. 2). The missing inlet and outlet is the defect upheld in F-30-1. Both upheld there."
+    },
+    {
+      "id": "F-36-2",
+      "ruling": "rejected",
+      "reason": "Duplicates F-30-1: the same quotation of [0031] and claims 16 and 40 against the interference fit of [0035], and the same missing gas path in and out. Upheld there as critical."
+    },
+    {
+      "id": "F-37-1",
+      "ruling": "upheld",
+      "reason": "Correct for the US. Claim 4 positively recites only 'applying, by the inflation device, a pressure differential across the valve' and 'the pressure differential falling'. The distinguishing steps are conditioned: 'when the pressure differential exceeds an opening pressure', 'when the pressure differential exceeds an over-travel threshold' and 'while the purge gap is open'. Under Ex parte Schulhauser (PTAB 2016, precedential) and MPEP 2111.04 II, steps conditioned on an event the claim does not require need not be performed under the broadest reasonable interpretation. Nothing in claim 4 requires the pressure differential to reach either value, and [0042] and [0078] say expressly that an inflation may never reach the over-travel threshold. What remains is inflation of a valve having a deflectable element, which a US examiner can credibly read on conventional tyre-valve inflation. [0015] already describes the method with positive steps ('a pressure differential ... which exceeds the opening pressure'; 'the pressure differential exceeding the over-travel threshold'), so the fix is in place and costs no scope. Dependent claims 52 to 56 inherit the defect. EPO and UK practice read the claimed sequence as required, so the issue is US-specific but still needs the amendment."
+    },
+    {
+      "id": "F-38-1",
+      "ruling": "upheld",
+      "reason": "Correct on the text, and it needs the inventors' record. [0099] and [0059] define each inflation cycle as including 'a hold of 24 hours'; [0102] and Table 1 report forty cycles for P-1 to P-3; yet [0099] states 'The test ran from 2026-08-12 to 2026-08-20', about eight days. Running the six cores in parallel does not help, because each core needs at least forty days of holds. In Table 1, C-2 shows 'Leak-down at last measured cycle' of 0.7 bar at last measured cycle 11, above the 0.5 bar criterion of [0060] and [0100], yet first failure at cycle 12. C-1 and C-3 (failure at 14 and 18, last measured 13 and 17) show that 'last measured cycle' is the cycle before failure, so the C-2 row contradicts itself. This is the only actual example ([0098]), relied on in [0017], [0129] and [0132a]. Filing inconsistent test data engages the duty of candour (37 CFR 1.56) and invites an impeachment attack. The correct values cannot be derived from the text, so Rule 139 EPC correction would not be available after filing. No claim change, but the fix must come from the inventor before filing."
+    }
+  ]
+}

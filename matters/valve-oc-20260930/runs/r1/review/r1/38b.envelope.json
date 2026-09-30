@@ -1,0 +1,156 @@
+{
+  "prompt": "38",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-38-1",
+      "source_prompt": "38",
+      "category": "support",
+      "severity": "high",
+      "title": "'Inflatable chamber' defined as a volume but claimed/described as the physical article",
+      "claim_refs": [
+        "64",
+        "65"
+      ],
+      "spec_refs": [
+        "[0025]",
+        "[0031]",
+        "[0139]"
+      ],
+      "attack": "[0025] defines 'inflatable chamber' as an immaterial internal volume, but claim 64 claims it as 'comprising a bicycle inner tube' and [0031] equates it directly with the tube \u2014 a volume cannot comprise the tube that forms it, exposing claim 64 to a 112(b) indefiniteness attack.",
+      "least_narrowing_action": "Revise [0025]'s definition to the physical article, matching usage already present throughout the filed text; no new matter.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-38-2",
+      "source_prompt": "38",
+      "category": "novelty",
+      "severity": "medium",
+      "title": "Admission that a stainless-steel core body is an obvious corrosion remedy",
+      "claim_refs": [
+        "54"
+      ],
+      "spec_refs": [
+        "[0176]"
+      ],
+      "attack": "[0176] characterises the brass-corrosion problem and the stainless-steel solution as 'a matter of general materials knowledge,' handing an examiner/opponent a ready-made obviousness argument against claim 54 standing alone.",
+      "least_narrowing_action": "Reframe [0176] to describe the corrosion consideration without characterising the stainless-steel response as a matter of general knowledge 'for that reason'.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-38-3",
+      "source_prompt": "38",
+      "category": "support",
+      "severity": "medium",
+      "title": "Admitted sealant-retention drawback in claimed slotted/cellular wall species",
+      "claim_refs": [
+        "15",
+        "32"
+      ],
+      "spec_refs": [
+        "[0086]"
+      ],
+      "attack": "[0086] admits the slotted wall, cellular wall and openings-through-the-wall species (claimed in 15 and 32) can themselves retain liquid sealant, undercutting the invention's stated self-cleaning purpose for those specific claimed alternatives.",
+      "least_narrowing_action": "Add a sentence noting the air purge acts on these openings too, tempering the admission with the already-disclosed countervailing mechanism.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-38-4",
+      "source_prompt": "38",
+      "category": "support",
+      "severity": "low",
+      "title": "Apparent tension between [0078]'s 'no heating' statement and the thermally actuated purge",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0078]",
+        "[0142]"
+      ],
+      "attack": "[0078]'s unqualified statement that 'no heating... is involved in reaching the purge state' appears to contradict [0142]'s later-disclosed thermally actuated purge, which an opponent could cite as an internal contradiction bearing on enablement of, or amendment basis for, the thermal variant.",
+      "least_narrowing_action": "Scope [0078] explicitly to the mechanically actuated embodiments described in that section.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [
+    {
+      "target": "description",
+      "location": "[0025]",
+      "from_text": "As used herein, an 'inflatable chamber' means the volume, inflated through the inflation valve and holding liquid sealant, of a bicycle inner tube or of a tubeless bicycle tyre set-up.",
+      "to": "As used herein, an 'inflatable chamber' means a bicycle inner tube or a tubeless bicycle tyre set-up that is inflated through the inflation valve and holds liquid sealant.",
+      "reason": "Aligns the definitions section with usage in [0031], [0139] and claims 64-65; resolves F-38-1."
+    },
+    {
+      "target": "description",
+      "location": "[0060]",
+      "from_text": "When the inflation device is removed from the supply side, the pressure differential collapses.",
+      "to": "When the inflation device is removed from the supply side, the pressure differential falls.",
+      "reason": "Only occurrence of the locked avoid-term 'collapse'; 'falls' is used consistently elsewhere for the same event."
+    },
+    {
+      "target": "description",
+      "location": "[0010]",
+      "from_text": "As used herein, the 'supply side' of the poppet means the side coupled to the inflation device, and the 'chamber side' of the poppet means the side open to the inflatable chamber.",
+      "to": "As used herein, the 'supply side' of the valve core or the inflation valve means the side coupled to the inflation device, and the 'chamber side' means the side open to the inflatable chamber; correspondingly, the supply side and the chamber side of the poppet, and of any other component of the valve core such as the fixed seat or the purge gap, are the sides of that component nearer to the supply side or the chamber side respectively.",
+      "reason": "Supplies antecedent for 'the chamber side of the fixed seat' (claim 9, [0093]) and 'the chamber side of the purge gap' (claim 33); no new matter, broader usage already present at [0055], [0093]."
+    },
+    {
+      "target": "description",
+      "location": "[0176]",
+      "from_text": "Brass is subject to stress-corrosion cracking in ammoniacal environments as a matter of general materials knowledge, and for that reason a core body (20) of stainless steel 303 is described in Example 4 and in connection with the alternatives above.",
+      "to": "Liquid sealants containing ammonia can attack brass over time. A core body (20) of stainless steel 303 is described in Example 4 and in connection with the alternatives above as an option for applications where this is a concern.",
+      "reason": "Removes an express admission that the stainless-steel core body is an obvious response to common general knowledge; resolves F-38-2."
+    },
+    {
+      "target": "description",
+      "location": "[0078]",
+      "from_text": "The geometry is loaded mechanically by the purge shoulder (44), at a defined location and at service temperature; no heating or other external actuation is involved in reaching the purge state.",
+      "to": "The geometry is loaded mechanically by the purge shoulder (44), at a defined location and at service temperature; for the mechanically actuated embodiments described in this section, no heating or other external actuation is involved in reaching the purge state by this route.",
+      "reason": "Avoids apparent contradiction with the thermally actuated purge of [0142]; resolves F-38-4."
+    }
+  ],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "[0025] is treated as correctable to match the physical-article usage consistent elsewhere, on the view the claims more likely reflect intended scope; reverse correction may be needed if [0025] was in fact intended as filed.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "No abstract or separate summary/background section was embedded; the narrower-than-claims check was run only against the definitions section [0001]-[0029], which showed no such narrowing.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "Reference-numeral registry cross-checked against description and claims with no drift found; none reported to avoid padding.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Is 'inflatable chamber' intended as the physical inner tube/tyre-set-up or strictly its internal volume? Correction 1 assumes the former.",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Should [0176] retain any corrosion rationale for the stainless-steel core body, or drop the 'general materials knowledge' framing entirely?",
+      "blocks": []
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+I'll draft Prompt 24 now: three materially different independent formulations of the same nucleus, compared on the five criteria, then write the file.
+
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/P5/24.md` — Prompt 24: three independent formulations (structural valve core with seat ring, convoluted wall, two spring stages and the §3(6) gap location; state-based functional valve core defined by pressure bands and "at-rest form"; method of operating within a single inflation event), five-criterion comparison table, and the recommendation that Formulation 2 carries claims 1 and 2, Formulation 3 replaces claim 4, and Formulation 1 becomes the ladder terminus (Rule 43(2) EPC; 01 Q1 risk). Status `partial` because `description.md` does not exist, so anchors are cited to disclosure sections, `19`, `01` and `16` for mapping at Prompt 25.
+
+Routing:
+
+- **Open questions (block P5 unless noted):** Q1 purge gap location and opening against the interference fit (01 Q1/Q2; also REVIEW). Q2 ring element untouched versus merely undeflected in the normal stroke (03 Q3; 22 Q6). Q3 other threshold-setting arrangements (01 Q6; also P4). Q4 pressure differential static or transient (01 Q4; also P4). Q5 ring element carried by the poppet conceived (11 DA-8). Q6 standalone method claim wanted given rider is the direct infringer (02 Q1). Q7 Alternatives A and B confirmed (03 Q5).
+- **Disclosure requests (8):** express "at-rest form" statement for the closed and normal-open states; the 01 (i) state table with pressure bands and the differential's measurement basis in the description; formation genus for "the poppet deflects" (repeats 22); second spring stage engaged at end of normal stroke plus the closed-state axial clearance value; reconciliation of the §3(6) gap location with §2 and the interference fit (Formulation 1 unusable without it); single-inflation-event sequence statement; the fouling surfaces the purge flow path crosses; and, only if the inventor confirms DA-8, a ring-on-poppet embodiment for a carrier-neutral formulation (not drafted).
+- **Open disagreements:** none.
+- **Narrowing suggested:** none.

@@ -1,0 +1,1 @@
+16.md: terminology lock: {"locked_terms": 67, "violations": [{"term": "removable insert", "rule": "avoid-hit", "row": "valve core", "context": "le; existing attempts (low-adhesion coating, enlarged bore, removable insert) that only slow build-up. No named prior-art documents unti"}, {"term": "collapse", "r

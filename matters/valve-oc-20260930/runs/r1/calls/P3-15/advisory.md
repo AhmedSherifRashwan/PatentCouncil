@@ -1,0 +1,1 @@
+15.md: terminology lock: {"locked_terms": 67, "violations": [{"term": "cartridge", "rule": "avoid-hit", "row": "valve core", "context": "CO2 cold-shock as untested; adiabatic expansion from a CO2 cartridge can cool the valve significantly | Not disclosed; candidate"}, {"term": "latex sealant", "rule": "avo

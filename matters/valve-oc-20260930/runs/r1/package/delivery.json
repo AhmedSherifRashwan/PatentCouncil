@@ -1,0 +1,20 @@
+{
+ "score": "6 / 10",
+ "claims": 118,
+ "severity_rows": {
+  "critical": 0,
+  "high": 19,
+  "medium": 63,
+  "low": 33
+ },
+ "prior_art_rows": 19,
+ "fix_pass_rows_marked": 21,
+ "claims_needs_rows": 7,
+ "assessment_check_ok": true,
+ "files": [
+  "/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/package/readable/valve-oc-20260930-patent-application.docx",
+  "/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/package/readable/valve-oc-20260930-patent-application.pdf",
+  "/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/package/readable/prosecution-assessment.docx",
+  "/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/package/readable/prosecution-assessment.pdf"
+ ]
+}

@@ -1,0 +1,61 @@
+{
+  "prompt": "34",
+  "status": "complete",
+  "findings": [],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "The contemplated product is the principal embodiment as built for Example 1, sold as a removable threaded valve core and possibly as a complete tyre valve; the package does not define the commercial product.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "Status of each document is as displayed on its Google Patents page on 2026-09-29; it is not a legal conclusion and must be verified on the registers.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "Only the claims saved in prior-art/refs were read; the granted claims of US11338632B2 and the claims of US11808363B1 and US12104701B1 were not read.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "No third-party patent is named from memory; patents that the saved search did not find are outside this list.",
+      "blocking": false
+    },
+    {
+      "id": "A5",
+      "text": "This list is a drafting and analysis aid; qualified patent counsel decides every question of freedom to operate.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "What is the product to be sold first, a valve core alone or a complete tyre valve with a valve stem, and with which seat ring material?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "In which country will the seat ring and the valve core be made, and in which countries will they be sold?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "For counsel: commission a professional FTO search covering US, EPC, UK and the country of manufacture, with items 1 to 3 charted first.",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "For counsel: verify status and family members of US11148485B2, US11179979B2, US11338632B2, US11549591B1, US11808363B1, US12104701B1 and US9611937B2.",
+      "blocks": []
+    },
+    {
+      "id": "Q5",
+      "text": "For counsel: does [0166], which characterises US11549591B1, need review before filing, given that the same family is an FTO target?",
+      "blocks": []
+    }
+  ]
+}

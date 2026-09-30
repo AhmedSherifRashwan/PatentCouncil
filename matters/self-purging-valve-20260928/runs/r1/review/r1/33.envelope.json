@@ -1,0 +1,207 @@
+{
+  "prompt": "33",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-33-1",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "high",
+      "title": "Purge gap limited to a second parallel path; enlarging the seat gap on over-travel avoids claims 1, 2 and 4",
+      "claim_refs": [
+        "1",
+        "2",
+        "4"
+      ],
+      "spec_refs": [
+        "[0011]",
+        "[0034]",
+        "[0034a]",
+        "[0046]",
+        "[0055]",
+        "[0117]"
+      ],
+      "attack": "Claims 1 and 2 require 'a purge gap (60), which is a second path for inflation gas ... in parallel with the main flow passage' and [0046] says purge gas 'does not pass between the sealing face and the valve seat'. A core whose over-travel flexes the seat element to widen the seat annulus, and which wipes the sealing face on recovery, has no second path and avoids every independent claim while keeping both cleaning actions of [0010]. The recovery wipe is claimed only in dependent claims hanging on the purge gap.",
+      "least_narrowing_action": "Add an independent valve and valve-core claim to the recovery-wipe aspect of [0011] (normal stroke, over-travel above a higher threshold deflecting the deflectable element, and recovery with the deflectable element sliding across the sealing face), with no purge-gap limitation; supported by [0011], [0034], [0034a], [0055], [0117]. A new claim, not a narrowing; counsel to weigh proximity to US4050473A and US4236547A.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-2",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "high",
+      "title": "\"Undeflected\" in ranges (a) and (b) is an absolute limitation avoided by a light preload",
+      "claim_refs": [
+        "1",
+        "2",
+        "4"
+      ],
+      "spec_refs": [
+        "[0009]",
+        "[0041]",
+        "[0044]",
+        "[0046]",
+        "[0048]",
+        "[0134]"
+      ],
+      "attack": "Claims 1 and 2 require that in (a) 'the deflectable element is undeflected' and in (b) it 'remains undeflected'; claim 4 requires 'while the deflectable element remains undeflected'. A competitor preloads the purge shoulder lightly on the element, so it is always slightly deflected while the purge gap stays closed until the threshold; the product is literally outside all independent claims and the patentee must prove zero deflection against micron-level evidence.",
+      "least_narrowing_action": "Delete the 'undeflected' statements from (a) and (b) of claims 1 and 2 and from claim 4, keeping 'the purge gap is closed / remains closed', supported separately by [0044], [0046] and [0134]; keep 'undeflected' as a dependent fallback. Moderate EPO intermediate-generalisation risk because [0009] and [0041] state both together.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-3",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Method claim 4 is performed by the rider, so it reaches a competitor only through indirect infringement",
+      "claim_refs": [
+        "4",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56"
+      ],
+      "spec_refs": [
+        "[0078]",
+        "[0113]"
+      ],
+      "attack": "Claim 4 is performed 'in one inflation of the inflatable body through the valve by an inflation device (84): applying, by the inflation device, a pressure differential'. The rider performs it, and only when the pump exceeds the threshold ([0113]: no statement that every inflation device reaches it). Against a core maker the claim depends on inducement or contributory infringement (US) or s.60(2)-type supply of means (UK, EPC states), each needing knowledge or intent and proof of a user's inflation.",
+      "least_narrowing_action": "No change to claim 4; keep apparatus claims 1, 2, 3 and 48 as the enforcement claims and let counsel decide whether the method claim is worth its place.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-4",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Deflection only by the valve member's over-travel; deflection by gas pressure or by the pump head avoids the claims",
+      "claim_refs": [
+        "1",
+        "2",
+        "4"
+      ],
+      "spec_refs": [
+        "[0043]",
+        "[0048]",
+        "[0096]",
+        "[0116]"
+      ],
+      "attack": "Claims 1 and 2 require 'the over-travel of the valve member deflects the deflectable element'. A resilient element that yields directly to gas pressure above a threshold, or a pump-head pin that opens the purge path, avoids the claims. The package discloses only valve-member-driven deflection ([0116]); broadening towards pressure-driven deflection runs towards US3417778A claim 1 ('radially expandable under fluid pressure').",
+      "least_narrowing_action": "None within the present text. If the inventors have conceived pressure-driven or pump-actuated opening, disclose it as a further embodiment and assess it against US3417778A before claiming; otherwise record as accepted residual scope. No narrowing proposed.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-5",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Purge flow and purge-gap closure are provable only by a bench test the description does not describe",
+      "claim_refs": [
+        "1",
+        "2",
+        "4"
+      ],
+      "spec_refs": [
+        "[0046]",
+        "[0132a]"
+      ],
+      "attack": "Claims 1 and 2 require 'purge flow (64) of the inflation gas passes through the purge gap' and 'the purge gap closes'. [0046] defines closed as 'does not admit purge flow' and [0132a] admits 'no measurement herein isolates the purge gap'. A defendant's expert argues either no measurable purge flow or leakage at rest; the patentee has no disclosed test to point to, and the behaviour is invisible outside an inflation above threshold.",
+      "least_narrowing_action": "Add to the description the test by which purge flow through the purge gap and its closure at rest are identified on a valve core, with its acceptance criterion, as supplied by the inventors. Added disclosure, no claim change.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-6",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "low",
+      "title": "Recovery-wipe dependent claims are hard to prove on a commercial product",
+      "claim_refs": [
+        "5",
+        "35",
+        "52",
+        "57",
+        "59"
+      ],
+      "spec_refs": [
+        "[0034a]",
+        "[0055]",
+        "[0102]",
+        "[0115]"
+      ],
+      "attack": "Claims 5, 35 and 52 require that 'the deflectable element slides across the sealing face (42)'. Relative sliding of two moving parts inside a closed core, direction unstated ([0034a], [0055]), needs high-speed imaging or wear analysis to prove; a defendant argues the parts separate before sliding.",
+      "least_narrowing_action": "No claim change. If F-33-1 is taken up, state in the description the observable evidence of the recovery wipe relied on; only the audible snap of [0102] and [0115] is in the package now.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. The competitor product assumed is a replaceable Presta-pattern valve core sold as an aftermarket part, and the same core fitted to inner tubes.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. Common general knowledge (patent practice): US inducement (35 U.S.C. 271(b)) needs knowledge and intent, contributory infringement (271(c)) a non-staple component; UK s.60(2) needs supply of means relating to an essential element with knowledge. Counsel to confirm; no case law cited.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. US3417778A, US4050473A and US4236547A are cited only for their saved text as quoted.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. 'Undeflected' is read literally; the package defines only the undeflected shape of [0048].",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Do the inventors intend any contact between the purge shoulder and the deflectable element at rest or during the normal stroke?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Have the inventors conceived a purge path opened by gas pressure on the deflectable element, or by the pump head, rather than by over-travel?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. How did the inventors confirm that gas passed through the purge gap during over-travel on the prototype, beyond the sealant film of [0103]?",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. For counsel: is method claim 4 wanted, given F-33-3, or should the claim budget go to the recovery-wipe independent claim of F-33-1?",
+      "blocks": []
+    }
+  ]
+}

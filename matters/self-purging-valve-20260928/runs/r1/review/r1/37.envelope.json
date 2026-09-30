@@ -1,0 +1,330 @@
+{
+  "prompt": "37",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-37-1",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "high",
+      "title": "Claim 4: distinguishing method steps are conditional, so the method reads on any inflation of any valve",
+      "claim_refs": [
+        "4",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56"
+      ],
+      "spec_refs": [
+        "[0015]",
+        "[0111]",
+        "Fig. 7"
+      ],
+      "attack": "Under BRI (Ex parte Schulhauser; MPEP 2111.04 II) the steps introduced by 'when the pressure differential exceeds an opening pressure' and 'when the pressure differential exceeds an over-travel threshold' need not be performed. Only 'applying, by the inflation device, a pressure differential across the valve' is required, which any tyre-valve inflation (e.g. reference 1, US11338632B2) meets. This is a credible US anticipation rejection that needs an amendment.",
+      "least_narrowing_action": "Recite the rise of the pressure differential above the opening pressure and then above the over-travel threshold as a positive step, and recast the two 'when' clauses as consequences of it ('as the pressure differential exceeds ...'). Scope is unchanged; see Corrections 1 to 3.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-2",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Claims 8-12 and 30-33 depend on claims of another category",
+      "claim_refs": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "30",
+        "31",
+        "32",
+        "33"
+      ],
+      "spec_refs": [],
+      "attack": "'The valve of any one of claims 1 to 7' (and the like in claims 9-12, 30-33) takes in claim 2 (valve core), claim 3 (inflatable body) and claim 4 (method), so 'the valve of claim 2/3/4' has no clear referent. This is an EPC Art. 84 / UK s.14(5)(b) clarity objection and a US cross-category dependency objection.",
+      "least_narrowing_action": "Change each range to 'claim 1 or any one of claims 5 to N' (Corrections 4 to 12). No intended combination is lost.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-3",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Claims 25 and 44 include a self-contradictory superelastic-and-polymer branch",
+      "claim_refs": [
+        "25",
+        "44",
+        "10",
+        "38"
+      ],
+      "spec_refs": [
+        "[0097]"
+      ],
+      "attack": "Claim 25 'wherein the seat ring (30) is a polymer seat ring' reaches claim 10 'the deflectable element is of a superelastic alloy' via claims 14, 12 and 10. Claim 44 reaches claim 38 via claim 39. Those branches require one seat ring to be both, contrary to [0097], and are unclear under EPC Art. 84.",
+      "least_narrowing_action": "Exclude the contradictory branch with 'as dependent directly or indirectly on ...' (Corrections 13 and 14). Every consistent combination is kept.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-4",
+      "source_prompt": "37",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "'Remains undeflected' in range (b) is an unnecessary, measurable limitation",
+      "claim_refs": [
+        "1",
+        "2",
+        "4"
+      ],
+      "spec_refs": [
+        "[0031]",
+        "[0041]",
+        "[0046]",
+        "[0048]"
+      ],
+      "attack": "Claim 1(b) 'the deflectable element remains undeflected and the purge gap remains closed' (and claims 2(b) and 4) lets a competitor add slight elastic deflection during the normal stroke (a preload contact, or seat compression) that does not open the purge gap, and argue non-infringement. [0048] ties 'undeflected shape' to closure of the purge gap, but that definition is circular and a court may apply the ordinary meaning.",
+      "least_narrowing_action": "Delete 'the deflectable element remains undeflected and' from range (b) of claims 1 and 2, and the parallel phrase from claim 4. Keep the purge-gap-closed limitation and range (a). This slightly broadens the claims (support [0031], [0041], [0046]). Scope decision for P5 and counsel.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-5",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "medium",
+      "title": "'Deflectable element' invites a US means-plus-function construction",
+      "claim_refs": [
+        "1",
+        "2",
+        "4"
+      ],
+      "spec_refs": [
+        "[0088]",
+        "[0116]",
+        "[0134]"
+      ],
+      "attack": "'a deflectable element', characterised by 'opened by deflection of the deflectable element and closed by recovery', pairs a nonce word ('element', MPEP 2181) with function. Under Williamson v. Citrix, 35 U.S.C. 112(f) may confine it to the seat ring 30, the wiper ring 130 and equivalents. The disclaimer in [0088] does not bind a court.",
+      "least_narrowing_action": "Keep the term, with the structure the description already gives ([0043], [0046], [0054]). Counsel may add 'elastically' before 'deflectable element' in the US set. No change is proposed now.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-6",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "low",
+      "title": "Claim 7: 'below' has no reference direction in the claim",
+      "claim_refs": [
+        "7"
+      ],
+      "spec_refs": [
+        "[0029]",
+        "[0084]"
+      ],
+      "attack": "'an annular step of the valve member (40) below the sealing face (42)' depends on the orientation convention of [0084]. Read alone, the claim is orientation-dependent.",
+      "least_narrowing_action": "Replace 'below the sealing face (42)' with 'on the side of the sealing face (42) towards the inflatable body (80)' (Correction 15).",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-7",
+      "source_prompt": "37",
+      "category": "design-around",
+      "severity": "low",
+      "title": "Claim 24 is a product-by-process fallback of little value",
+      "claim_refs": [
+        "24"
+      ],
+      "spec_refs": [
+        "[0108]",
+        "Fig. 6"
+      ],
+      "attack": "'made by laser cutting (602) ..., shape-setting (604) ... at a temperature of 500 \u00b0C for a period of 10 minutes, water quenching (606) and electropolishing (608)' is read as the product for novelty, so it adds nothing over claim 20 unless the route leaves a structural signature, and none is stated. In US infringement it is limited to the process (Abbott v. Sandoz), which is avoided by changing a parameter.",
+      "least_narrowing_action": "Keep it as a fallback, or replace it with a method-of-making claim with the values in dependants (support [0108], FIG. 6). Counsel's choice.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [
+    {
+      "target": "claims",
+      "location": "claim 4, first step",
+      "from_text": "applying, by the inflation device, a pressure differential across the valve;",
+      "to": "applying, by the inflation device, a pressure differential across the valve and raising the pressure differential above an opening pressure (506) and then above an over-travel threshold (508) which is higher than the opening pressure;",
+      "reason": "F-37-1: positive recitation of the rise above both thresholds (support [0015], [0111])."
+    },
+    {
+      "target": "claims",
+      "location": "claim 4, second step",
+      "from_text": "when the pressure differential exceeds an opening pressure (506), the valve member making a normal stroke (510)",
+      "to": "as the pressure differential exceeds the opening pressure, the valve member making a normal stroke (510)",
+      "reason": "F-37-1: removes the conditional step; antecedent now from the first step."
+    },
+    {
+      "target": "claims",
+      "location": "claim 4, third step",
+      "from_text": "when the pressure differential exceeds an over-travel threshold (508) which is higher than the opening pressure, the valve member making an over-travel (512)",
+      "to": "as the pressure differential exceeds the over-travel threshold, the valve member making an over-travel (512)",
+      "reason": "F-37-1: as for the second step."
+    },
+    {
+      "target": "claims",
+      "location": "claim 8",
+      "from_text": "8. The valve of any one of claims 1 to 7,",
+      "to": "8. The valve of claim 1 or any one of claims 5 to 7,",
+      "reason": "F-37-2: excludes claims 2 to 4, which are of another category."
+    },
+    {
+      "target": "claims",
+      "location": "claim 9",
+      "from_text": "9. The valve of any one of claims 1 to 8,",
+      "to": "9. The valve of claim 1 or any one of claims 5 to 8,",
+      "reason": "F-37-2."
+    },
+    {
+      "target": "claims",
+      "location": "claim 10",
+      "from_text": "10. The valve of any one of claims 1 to 9,",
+      "to": "10. The valve of claim 1 or any one of claims 5 to 9,",
+      "reason": "F-37-2."
+    },
+    {
+      "target": "claims",
+      "location": "claim 11",
+      "from_text": "11. The valve of any one of claims 1 to 9,",
+      "to": "11. The valve of claim 1 or any one of claims 5 to 9,",
+      "reason": "F-37-2."
+    },
+    {
+      "target": "claims",
+      "location": "claim 12",
+      "from_text": "12. The valve of any one of claims 1 to 11,",
+      "to": "12. The valve of claim 1 or any one of claims 5 to 11,",
+      "reason": "F-37-2."
+    },
+    {
+      "target": "claims",
+      "location": "claim 30",
+      "from_text": "30. The valve of any one of claims 1 to 29,",
+      "to": "30. The valve of claim 1 or any one of claims 5 to 29,",
+      "reason": "F-37-2."
+    },
+    {
+      "target": "claims",
+      "location": "claim 31",
+      "from_text": "31. The valve of any one of claims 1 to 30,",
+      "to": "31. The valve of claim 1 or any one of claims 5 to 30,",
+      "reason": "F-37-2."
+    },
+    {
+      "target": "claims",
+      "location": "claim 32",
+      "from_text": "32. The valve of any one of claims 1 to 31,",
+      "to": "32. The valve of claim 1 or any one of claims 5 to 31,",
+      "reason": "F-37-2."
+    },
+    {
+      "target": "claims",
+      "location": "claim 33",
+      "from_text": "33. The valve of any one of claims 1 to 32,",
+      "to": "33. The valve of claim 1 or any one of claims 5 to 32,",
+      "reason": "F-37-2."
+    },
+    {
+      "target": "claims",
+      "location": "claim 25",
+      "from_text": "25. The valve of any one of claims 14 to 19, wherein the seat ring (30) is a polymer seat ring.",
+      "to": "25. The valve of any one of claims 14 to 19, as dependent directly or indirectly on claim 1 or on any one of claims 5 to 9 and 11, wherein the seat ring (30) is a polymer seat ring.",
+      "reason": "F-37-3: removes the branch through claim 10 (superelastic alloy); assumes Correction 8 has been applied to claim 12."
+    },
+    {
+      "target": "claims",
+      "location": "claim 44",
+      "from_text": "44. The valve core of any one of claims 39 to 41, wherein the seat ring (30) is a polymer seat ring.",
+      "to": "44. The valve core of any one of claims 39 to 41, as dependent directly or indirectly on claim 2 or on any one of claims 35 to 37, wherein the seat ring (30) is a polymer seat ring.",
+      "reason": "F-37-3: removes the branch through claim 38 (superelastic alloy)."
+    },
+    {
+      "target": "claims",
+      "location": "claim 7",
+      "from_text": "is an annular step of the valve member (40) below the sealing face (42).",
+      "to": "is an annular step of the valve member (40) on the side of the sealing face (42) towards the inflatable body (80).",
+      "reason": "F-37-6: orientation stated in the claim's own terms (support [0029], [0084])."
+    }
+  ],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. This reply is a drafting and analysis aid prepared by AI; it is not legal advice or a filing decision, and qualified patent counsel reviews and signs off before anything is filed.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. The claims audited are review/r1/package/claims.md as it stands (60 claims).",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. US law (Ex parte Schulhauser; MPEP 2111.04 II; Williamson v. Citrix; MPEP 2181; Abbott v. Sandoz) is stated from general knowledge of patent practice, not from embedded authority; counsel should confirm it.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. pc antecedent (0 flags), pc claims-format (0 problems) and pc terms (0 violations) were run on the package; findings beyond them are judgement.",
+      "blocking": false
+    },
+    {
+      "id": "A5",
+      "text": "A5. Only mechanical corrections are given as exact text; F-37-4, F-37-5 and F-37-7 are scope decisions for the claims drafter and counsel.",
+      "blocking": false
+    },
+    {
+      "id": "A6",
+      "text": "A6. US-only consequences of the multiple dependencies (37 CFR 1.75(c)) are dealt with in Prompt 40a.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Should the US claim set keep claim 24 as a product-by-process claim, or replace it with a method-of-making claim?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Should range (b) of claims 1 and 2, and claim 4, drop 'the deflectable element remains undeflected'?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. For the US filing, should 'elastically' be added before 'deflectable element' to reduce 112(f) risk?",
+      "blocks": []
+    }
+  ]
+}

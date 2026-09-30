@@ -1,0 +1,1 @@
+18.md: terminology lock: {"locked_terms": 67, "violations": [{"term": "NiTi ring", "rule": "avoid-hit", "row": "seat ring", "context": "e ring fitted against the internal shoulder in place of the NiTi ring. The forming process and retention method are recorded as a"}, {"term": "shape-set", "rule": "undecla

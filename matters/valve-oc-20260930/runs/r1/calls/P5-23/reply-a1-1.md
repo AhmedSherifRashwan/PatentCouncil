@@ -1,0 +1,9 @@
+Drafting the Prompt 23 dependent ladders now, then writing the single output file.
+
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/P5/23.md` — Prompt 23 dependent ladders: claims 6–79 hung from the five independents of `22` (37 rungs on claim 1, 8 on claim 2 incl. inner tube/wheel products, 10 on claim 3, 9 on claim 4, 10 on claim 5), each with limitation | effect | support | risk note; nine rungs marked **[candidate]** (Gate 2 items: 12, 18, 24, 25, 29, 30, 42, 46, 49); Rationale, Assumptions, Open Questions and envelope.
+
+**To route:**
+
+- **Open questions (8):** Q1 purge gap location vs interference fit (claims 17, 21); Q2 which poppet surface the wipe acts on (claims 19, 61); Q3 whether the description describes registry items 432, 262, 362, 224, 324 (rungs not drafted); Q4 other threshold-setting arrangements (claims 27, 29, 30; §112(f)); Q5 Alternatives A/B confirmed (claims 7, 38, 39, 58, 59); Q6 direct-carriage and Schrader formats (claims 42, 46, 47); Q7 CO2 inflation intended use (claim 65); Q8 claim count and first jurisdiction (pruning; cross-reference claims 45, 69, 77).
+- **Disclosure requests (19):** express passages for every candidate rung at the named `16` sections; the fixed-ring/recovery-drives-the-wipe statement (claim 15); the wiped surface (claims 19, 61); the illustrated purge gap location and its opening against the fit, plus the 12 §7 species (claim 21); retention alternatives and cellular wall if they exist; stainless steel genus (claim 40); wheel/inner tube statements (48, 49); floor pump reaching the threshold and CO2 gas (64, 65); purge state in each inflation event (68); electropolishing purpose (74); which step forms the convolution (72, 73).
+- **Open disagreements:** none. **Narrowing suggested:** none.

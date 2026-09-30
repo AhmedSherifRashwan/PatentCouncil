@@ -1,0 +1,22 @@
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/review/r1/28.md`: support matrix covering every limitation of claims 1–102, and 11 findings (3 high, 5 medium, 3 low).
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/review/r1/29.md`: ten amendment paths, and 6 findings recommending text to add (5 medium, 1 low; all support, P4).
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/review/r1/31.md`: `intake/priority/` is empty, so no priority matrix was produced; status partial, one open question.
+
+To route:
+- **High, to Specification Drafter first:**
+  - F-28-1 (enablement): the illustrated purge gap cannot open by the outward deflection the description gives it.
+  - F-28-2 (enablement): the stated axial layout does not bring the purge shoulder into contact with the seat ring.
+  - F-28-3 (support): the dimension and pressure ranges are confined by the description to the superelastic convoluted seat ring but claimed generally (independent claim 67).
+- **Disclosure requests (inventor):**
+  - which way the seat ring surface bounding the purge gap moves in the prototypes;
+  - the axial order of the internal shoulder, seat ring ends, sealing edge, sealing face, purge shoulder and poppet head;
+  - whether the ranges in [0089]–[0090] hold for PEEK, resilient-metal and non-convoluted rings;
+  - whether the axial-band interference fit (claim 21) was the inventor's conception. The package itself calls it "not an asserted inventor fact".
+- **Narrowing suggested, for the human to decide:**
+  - F-28-3: if the ranges do not hold for other materials, claim 67 takes "formed from a superelastic alloy". Scope given up: polymer or plain-metal seat rings of the claimed dimensions.
+  - F-28-4: optionally, restrict claim 40 to claim 47. Scope given up: polymer and plain-metal rings where the ring's stiffness sets the threshold.
+- **Claim reformulation (P5, no new disclosure):** F-28-5 prunes the dependencies of claims 10, 23, 24, 29, 34, 47–50 and 99.
+- **Open questions:**
+  - Counsel: is any US means-plus-function treatment intended for the terms defined in [0009]? (F-28-8.)
+  - Requester or counsel: is priority claimed from an earlier application, or is this a first filing?
+  - Counsel: which of the ten amendment paths deserve their own "preferred combination" text before filing?

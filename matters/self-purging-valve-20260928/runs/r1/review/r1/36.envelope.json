@@ -1,0 +1,277 @@
+{
+  "prompt": "36",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-36-1",
+      "source_prompt": "36",
+      "category": "enablement",
+      "severity": "high",
+      "title": "The first embodiment's purge gap opens \"when the seat ring 30 expands\" into the bore that holds it by interference",
+      "claim_refs": [
+        "1",
+        "2",
+        "16",
+        "40"
+      ],
+      "spec_refs": [
+        "[0031]",
+        "[0035]",
+        "[0111]",
+        "[0026]",
+        "[0046]"
+      ],
+      "attack": "[0031] and claims 16 and 40 say the purge gap 'is formed between the outer surface 38 of the seat ring 30 and the core bore 22 ... and opens when the seat ring 30 expands', while [0035] holds the seat ring in that bore by an interference fit. Outward radial expansion drives the outer surface into the bore; the text does not say how a gap opens between them, where the fit acts, or how gas enters and leaves the gap. The only built embodiment's mechanism is not taught: insufficiency (Art. 83, s.14(3)) and enablement (112(a)) exposure.",
+      "least_narrowing_action": "Add the inventors' description of the first embodiment's purge-gap geometry: the region held by the interference fit, the region forming the purge gap, which surface moves from which in over-travel, and the gas path in and out, with the sketch. Correct claims 16 and 40 only if the added text shows a different location.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-2",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "high",
+      "title": "No drawings exist; the purge gap is drawn \"schematically\" with no inlet or outlet",
+      "claim_refs": [
+        "1",
+        "2",
+        "16",
+        "40"
+      ],
+      "spec_refs": [
+        "figures.md FIG. 1",
+        "figures.md FIG. 2",
+        "[0026]"
+      ],
+      "attack": "figures.md records that the inventors' sketches 'exist by name only; no image has been seen' and instructs 'draw no inlet or outlet feature' for the purge gap; [0026] says it is shown schematically. There are no drawings, drawings cannot be added after filing without added-matter exposure, and figures.md contains internal working references and draftsperson's notes that are not filing text.",
+      "least_narrowing_action": "Obtain the inventors' sketches and prepare formal drawings of FIG. 1 to FIG. 8, with FIG. 1 and FIG. 2 showing the actual purge-gap region and flow path at rest and in over-travel; file drawings and a brief description, not the figure plan.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-3",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "medium",
+      "title": "Only the Presta pattern is disclosed; no Schrader or other valve-standard embodiment",
+      "claim_refs": [
+        "1",
+        "2",
+        "48"
+      ],
+      "spec_refs": [
+        "[0027]",
+        "[0070]",
+        "[0079]",
+        "[0123]"
+      ],
+      "attack": "Every embodiment is Presta ([0027]) although [0070] says the valve core term 'does not itself import any thread form or valve standard'. A competitor's Schrader-pattern purging core will be argued outside what is disclosed, and a later claim to a Schrader core would lack basis.",
+      "least_narrowing_action": "Add a paragraph on Schrader-pattern and other valve-standard cores, with any structural adaptation the inventors contemplate, and the further sealant-filled inflatable bodies they contemplate.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-4",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "medium",
+      "title": "No range is stated for the normal stroke",
+      "claim_refs": [
+        "31"
+      ],
+      "spec_refs": [
+        "[0126]",
+        "[0085]"
+      ],
+      "attack": "[0126]: 'The normal stroke is 0.6 mm in the prototype; no range is stated for it', while claim 31 measures over-travel 'beyond the end of the normal stroke'. An opponent argues the three-range behaviour is disclosed only at 0.6 mm; no fallback on stroke exists.",
+      "least_narrowing_action": "Add the normal-stroke range the inventors believe would work, with endpoints disclosed individually as in [0085].",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-5",
+      "source_prompt": "36",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "Behaviour on manual depression of the valve member and with the lock nut is not stated",
+      "claim_refs": [
+        "1",
+        "2",
+        "4"
+      ],
+      "spec_refs": [
+        "[0114]",
+        "[0099]"
+      ],
+      "attack": "[0114] makes no statement whether manual depression of the valve member 'produces over-travel or purge flow 64' or whether the lock nut prevents over-travel, though every Example 1 cycle ended in full deflation through the valve ([0099]). This bears on fatigue, the rest-state seal and whether a 'press to purge' competitor practises the invention.",
+      "least_narrowing_action": "State what the inventors observed on deflating the prototype by pressing the valve member, and whether the lock nut limits valve-member travel.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-6",
+      "source_prompt": "36",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "No dimensions for the polymer seat ring or the wiper ring",
+      "claim_refs": [
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "44",
+        "45",
+        "58",
+        "60"
+      ],
+      "spec_refs": [
+        "[0093]",
+        "[0094a]",
+        "[0104]",
+        "[0106]"
+      ],
+      "attack": "[0093] and [0094a] state that the polymer seat ring dimensions and the wiper ring thickness, mounting and contacting portion are not stated. The second and third embodiments are prophetic with material only; an opponent argues undue experimentation for the claims directed to them.",
+      "least_narrowing_action": "Add the dimensions or ranges the inventors contemplate for the polymer seat ring and the wiper ring, and the wiper ring's mounting in the core body.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-7",
+      "source_prompt": "36",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "The geometry of the recovery wipe is not stated",
+      "claim_refs": [
+        "5",
+        "35",
+        "52",
+        "57",
+        "59"
+      ],
+      "spec_refs": [
+        "[0034a]",
+        "[0055]",
+        "[0010]"
+      ],
+      "attack": "[0034a]: 'The direction of that sliding relative to the axis of the valve 92 is not stated herein'. The recovery wipe is one of the two cleaning actions and the basis of the independent claim proposed in F-33-1, but the text does not say how the upper edge stays in sliding contact with the conical sealing face while the ring contracts and the valve member returns.",
+      "least_narrowing_action": "Add the inventors' account of the relative motion in the recovery wipe (direction, sequence, contact path on the sealing face) and, for the wiper ring, the contacting portion.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-8",
+      "source_prompt": "36",
+      "category": "enablement",
+      "severity": "low",
+      "title": "Spring rates and the effective area of the valve member are not stated",
+      "claim_refs": [
+        "8",
+        "37"
+      ],
+      "spec_refs": [
+        "[0033]",
+        "[0063]",
+        "[0112]"
+      ],
+      "attack": "[0063] describes 'a soft first stage ... and a stiffer second stage' only by the pressures they set; no spring rate, preload or effective area is stated, so the spring cannot be derived from 1.0 bar and 3.5 bar and no spring fallback has basis.",
+      "least_narrowing_action": "Add the prototype's first- and second-stage spring rates or loads and the effective area on which the pressure differential acts.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-9",
+      "source_prompt": "36",
+      "category": "enablement",
+      "severity": "low",
+      "title": "The thermal purge variant is disclosed without a mechanism",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0077]",
+        "[0096]"
+      ],
+      "attack": "[0096] states that warming 'opens the purge gap without an inflation device' without saying how a two-way shape-memory seat ring deflects to do so, and records that no data exist and the inventors are undecided. It supports no claim and teaches competitors a direction.",
+      "least_narrowing_action": "Add the inventors' account of the mechanism if the variant is kept; otherwise counsel and the human decide whether it stays as a recorded variant. Deletion not proposed.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. Common general knowledge (mechanics): a thin tube pressed with interference into a bore and expanded radially outward bears harder on the bore; it moves away only if another region moves inward or the bore is relieved, neither of which is stated.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. Common general knowledge (patent practice): drawings and technical content cannot be added after filing without added-matter or new-matter exposure (EPC Art. 123(2); UK s.76; US 35 U.S.C. 132); a US CIP adds matter only with a later effective date.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. figures.md is read as the current state of the drawings because no drawing file is in the package.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. US3417778A is cited only for its claim 1 text.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Can the inventors supply FIG-1.png and FIG-2.png and describe where the interference fit acts, where the purge gap forms and how gas enters and leaves it?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. What normal-stroke range, polymer seat ring and wiper ring dimensions, spring rates and deflation behaviour have the inventors in mind?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. For counsel: should the claim set add a seat-ring article claim ([0095]) and a method-of-manufacture claim ([0108]-[0109])? The article claim must be weighed against US3417778A.",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. Will the inventors test cold behaviour with a cartridge inflator before filing, or accept that claims 21, 38 and 42 have no margin data?",
+      "blocks": []
+    },
+    {
+      "id": "Q5",
+      "text": "Q5. Do the inventors intend to pursue the thermal purge variant?",
+      "blocks": []
+    }
+  ]
+}

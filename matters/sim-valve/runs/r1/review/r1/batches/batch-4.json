@@ -1,0 +1,1027 @@
+{
+ "findings": [
+  {
+   "id": "F-36-5",
+   "source_prompt": "36",
+   "category": "support",
+   "severity": "medium",
+   "title": "Disc-spring deflectable element has no drawing and no claim",
+   "claim_refs": [
+    "1"
+   ],
+   "spec_refs": [
+    "[0179]",
+    "[0180]"
+   ],
+   "attack": "[0179] describes a conical disc spring that opens a face purge gap and provides the second spring stage, but 'No figure shows this form'. It is the cheapest one-part alternative (see F-33-1) and its single paragraph is the first thing an opponent would test for sufficiency.",
+   "least_narrowing_action": "Add a figure (at rest and in over-travel) and, if available, indicative dimensions or force-deflection relation for the disc spring.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "36"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-36-6",
+   "source_prompt": "36",
+   "category": "enablement",
+   "severity": "medium",
+   "title": "Evidence of over-travel (snap on removal of the pump head) does not match the stated pressure mechanism",
+   "claim_refs": [
+    "5",
+    "11",
+    "12",
+    "51",
+    "52",
+    "53"
+   ],
+   "spec_refs": [
+    "[0137]",
+    "[0141]",
+    "[0274]",
+    "[0288]",
+    "[0068]",
+    "[0133]"
+   ],
+   "attack": "The poppet is moved by the pressure differential; with pumping stopped and the head coupled, pressure equalises through the open poppet and it closes before removal. A snap 'on removal of the pump head' therefore suggests over-travel held by something else (e.g. the head bearing on the poppet) or a different event; Example 1 does not show the 3.5 bar over-travel differential (about 9.5 bar upstream at 6 bar tyre pressure) was reached by pressure.",
+   "least_narrowing_action": "Add from the test record when over-travel occurred, how the head engaged, and whether it bore on the poppet or lock nut; correct [0141] and [0288] if the snap has another cause.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "36"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-36-7",
+   "source_prompt": "36",
+   "category": "support",
+   "severity": "medium",
+   "title": "Mechanical actuation of the over-travel is implied ('preferred actuation') but not described",
+   "claim_refs": [
+    "1",
+    "2",
+    "5",
+    "51"
+   ],
+   "spec_refs": [
+    "[0072]",
+    "[0089]",
+    "[0273]"
+   ],
+   "attack": "[0072] calls pressure actuation 'preferred' but no alternative (pump-head depressor pin, pressing the poppet or lock nut, push-button) is disclosed. A pin-actuated competitor product avoids dependents 5-12 and method claims 51-53, and there is no text for a mechanical-actuation method claim.",
+   "least_narrowing_action": "If within conception, add a paragraph on over-travel produced by a mechanically applied force (pump-head pin, lock nut 70 by hand, push-button) and a matching dependent method claim.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P3",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "36"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-36-8",
+   "source_prompt": "36",
+   "category": "enablement",
+   "severity": "medium",
+   "title": "No example isolates the air purge, and no cold or fatigue test exists",
+   "claim_refs": [
+    "1",
+    "2",
+    "3",
+    "38",
+    "57"
+   ],
+   "spec_refs": [
+    "[0212]",
+    "[0230]",
+    "[0275]",
+    "[0287]",
+    "[0289]"
+   ],
+   "attack": "Every independent claim turns on the purge gap, and the only observation about it is that the surface it sweeps carried cured sealant film. No test isolates either cleaning action, the ranges are untested and no cold or fatigue test exists. An opponent says the package makes the effect of the purge gap less credible.",
+   "least_narrowing_action": "Before filing, test one valve core in which the purge gap cannot open and one in which the seat ring recovers slowly, under the protocol of Example 1, and add the results whatever they show. No result may be supplied by the drafter.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "36"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-36-9",
+   "source_prompt": "36",
+   "category": "support",
+   "severity": "medium",
+   "title": "No range is stated for the normal stroke",
+   "claim_refs": [
+    "34"
+   ],
+   "spec_refs": [
+    "[0235]",
+    "[0240]"
+   ],
+   "attack": "[0235] gives only 0.6 mm and 'no range is stated'; claim 34 is the only normal-stroke claim and any other stroke avoids it. A range cannot be added after filing without an added-matter objection.",
+   "least_narrowing_action": "If the inventor has an operating window, state it with nested ranges containing 0.6 mm in the form of [0240]-[0248].",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "36"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-36-10",
+   "source_prompt": "36",
+   "category": "support",
+   "severity": "medium",
+   "title": "No use case beyond bicycle tyres is named",
+   "claim_refs": [
+    "1",
+    "2",
+    "50"
+   ],
+   "spec_refs": [
+    "[0001]",
+    "[0088]",
+    "[0160]"
+   ],
+   "attack": "All examples, dimensions and named tyre chambers are bicycle-specific. A competitor in motorcycle, wheelchair, e-scooter, off-road or automotive sealant markets argues lack of support there, and dependent fallbacks naming those uses cannot be added later.",
+   "least_narrowing_action": "If within conception, add a paragraph naming other vehicle tyre chambers and sealant-filled inflatables, with how the parameters scale.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "36"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-36-11",
+   "source_prompt": "36",
+   "category": "support",
+   "severity": "medium",
+   "title": "No valve pattern other than Presta is described",
+   "claim_refs": [
+    "46",
+    "47",
+    "48"
+   ],
+   "spec_refs": [
+    "[0157]",
+    "Fig. 13A"
+   ],
+   "attack": "[0157] calls Presta 'an example of a pattern' and the registry numbers a Schrader-pattern core body (220) for FIG. 13A, but no paragraph describes a Schrader or other pattern core. There is no fallback claim and no scaling guidance for the pattern that dominates outside road cycling.",
+   "least_narrowing_action": "If within conception, describe the architecture in a Schrader-pattern (and any other contemplated) core with dimensional differences; keep FIG. 13A only if so.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P3",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "36"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-36-12",
+   "source_prompt": "36",
+   "category": "support",
+   "severity": "medium",
+   "title": "One valve pattern, one size and one actuation support claims that are general in all three",
+   "claim_refs": [
+    "1",
+    "46",
+    "47",
+    "48",
+    "68",
+    "69"
+   ],
+   "spec_refs": [
+    "[0049]",
+    "[0072]",
+    "[0157]",
+    "[0231]",
+    "Fig. 13"
+   ],
+   "attack": "[0072] calls actuation by the pressure differential preferred and describes no other. The figure instructions and registry contain FIG. 13A, a Schrader-pattern core body 220, which the description never mentions. Every dimension belongs to one size of valve. A defendant in another pattern answers that the description supports one pattern only.",
+   "least_narrowing_action": "If the inventors confirm, add a paragraph on other actuation of the poppet, a description of FIG. 13A and the principal dimensions as ratios. If not, remove FIG. 13A from the drawings.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "36"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-36-13",
+   "source_prompt": "36",
+   "category": "enablement",
+   "severity": "medium",
+   "title": "Polymer seat ring and two-piece seat lack operative dimensions",
+   "claim_refs": [
+    "30",
+    "31",
+    "74",
+    "75"
+   ],
+   "spec_refs": [
+    "[0261]",
+    "[0290]",
+    "[0291]",
+    "[0292]",
+    "[0293]"
+   ],
+   "attack": "The only PEEK geometry is the NiTi geometry copied across, which [0261] calls thin for a turned polymer part, with 'No value \u2026 for the radial expansion or for the purge gap width' ([0290]); the two-piece seat has 'No dimensions' ([0293]). EPO sufficiency/plausibility and US enablement objections to claims 30-31 and 74-75 are predictable.",
+   "least_narrowing_action": "If available, add a polymer wall-thickness and convolution-amplitude window, expected expansion or purge gap width in PEEK, and indicative rigid-seat and wiper-ring dimensions; otherwise counsel weighs keeping claims 30-31 and 74-75.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "36"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-36-14",
+   "source_prompt": "36",
+   "category": "support",
+   "severity": "medium",
+   "title": "The axially deflecting and tilting forms rest on one paragraph and no figure",
+   "claim_refs": [
+    "1"
+   ],
+   "spec_refs": [
+    "[0179]",
+    "[0180]"
+   ],
+   "attack": "A claim to a deflectable element would rest on [0179] and [0180] alone. The text does not identify the face, the route of the purge flow at the face or the meaning of tilting, and no figure shows the form.",
+   "least_narrowing_action": "Add one figure of the disc spring form at rest and in the over-travel and a paragraph identifying the face, the route of the purge flow and one example of a tilting element.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "36"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-36-15",
+   "source_prompt": "36",
+   "category": "enablement",
+   "severity": "medium",
+   "title": "The conversion of axial load into radial expansion is described in two ways that do not agree",
+   "claim_refs": [
+    "22",
+    "24",
+    "64"
+   ],
+   "spec_refs": [
+    "[0134]",
+    "[0170]",
+    "[0172]",
+    "[0234]",
+    "[0237]"
+   ],
+   "attack": "[0134] and [0170] say the convolution flattens under the axial load; [0172] says the equivalent bow increases. The purge gap width of 0.15 mm exceeds the convolution amplitude of 0.12 mm from which it is said to arise. Claim 24 read with claim 22 claims a bow that flattens, against [0172].",
+   "least_narrowing_action": "Add a paragraph and a figure stating the at-rest and loaded profile of the prototype wall. Make claim 24 depend on claim 21 only if the inventors confirm that the bow increases.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "36"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-36-16",
+   "source_prompt": "36",
+   "category": "support",
+   "severity": "medium",
+   "title": "The thermal variant is disclosed, unclaimed and excluded by the definitions",
+   "claim_refs": [],
+   "spec_refs": [
+    "[0034]",
+    "[0065]",
+    "[0095]",
+    "[0099]",
+    "[0216]",
+    "[0296]",
+    "Fig. 10"
+   ],
+   "attack": "The thermal variant has no over-travel and no load-applying surface, so by [0065] and [0099] it has neither a purge gap nor a radially deflectable element as defined. No claim covers it, no training method or data are given, and its publication here is prior art against a later filing.",
+   "least_narrowing_action": "The human decides: remove the variant and keep it for a later filing; or keep it with an independent claim, its own defined terms and an enabling description; or keep it as description only and accept the consequences.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P3",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "36"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-36-17",
+   "source_prompt": "36",
+   "category": "support",
+   "severity": "medium",
+   "title": "Two-piece seat has no fallback claim",
+   "claim_refs": [
+    "1",
+    "20"
+   ],
+   "spec_refs": [
+    "[0092]",
+    "[0093]",
+    "[0094]",
+    "[0181]",
+    "[0182]",
+    "[0183]",
+    "[0347]",
+    "[0348]",
+    "Fig. 9A",
+    "Fig. 9B"
+   ],
+   "attack": "The rigid seat 140 and wiper ring 144 are disclosed with figures and statements 7.1-7.2, but no claim recites them. If claim 1 is narrowed toward claim 20 (seat ring carrying the sealing edge), the two-piece seat is lost with no fallback.",
+   "least_narrowing_action": "Add dependent claims to claim 1: sealing edge provided by a rigid seat (140) and radially deflectable element being a wiper ring (144) below it; wiper ring recovers and wipes on return. Claim text only; support exists.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P5",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "36"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-36-18",
+   "source_prompt": "36",
+   "category": "support",
+   "severity": "low",
+   "title": "\"Air\" is not defined to cover another inflation gas",
+   "claim_refs": [
+    "2",
+    "38",
+    "57"
+   ],
+   "spec_refs": [
+    "[0212]",
+    "[0275]"
+   ],
+   "attack": "[0212] and [0275] contemplate a CO2 cartridge, and nothing defines air or air purge to cover carbon dioxide or nitrogen. A defendant argues that inflation with a cartridge is outside the words of claim 2.",
+   "least_narrowing_action": "Add a definition that air means the gas delivered by the pump head, including carbon dioxide and nitrogen.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "36"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-36-19",
+   "source_prompt": "36",
+   "category": "support",
+   "severity": "low",
+   "title": "No dimensionless fallback survives scaling",
+   "claim_refs": [
+    "11",
+    "33",
+    "53"
+   ],
+   "spec_refs": [
+    "[0236]",
+    "[0238]",
+    "[0239]"
+   ],
+   "attack": "Crack pressure, over-travel differential and over-travel distance are stated in absolute units only; a scaled core escapes them, and a ratio fallback (e.g. over-travel differential as a multiple of crack pressure) cannot be derived after filing without an added-matter argument.",
+   "least_narrowing_action": "If the inventor regards a ratio as the design rule, state it and its range explicitly before filing.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "36"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-36-20",
+   "source_prompt": "36",
+   "category": "enablement",
+   "severity": "low",
+   "title": "No value for cold-service and CO2 margins",
+   "claim_refs": [
+    "29",
+    "72"
+   ],
+   "spec_refs": [
+    "[0212]",
+    "[0275]"
+   ],
+   "attack": "[0212] states 'No value of the margin is stated' and [0275] identifies CO2 chilling well below 0 C; claims 29 and 72 recite only Af below 5 C, leaving the cold-robust commercial version as an unclaimed improvement.",
+   "least_narrowing_action": "If the inventor has a target Af or margin for cold and CO2 use, state it with a range before filing.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "36"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-36-21",
+   "source_prompt": "36",
+   "category": "support",
+   "severity": "low",
+   "title": "Only prototype routes of manufacture are described",
+   "claim_refs": [
+    "4",
+    "78",
+    "79",
+    "80"
+   ],
+   "spec_refs": [
+    "[0208]",
+    "[0253]",
+    "[0254]",
+    "[0261]",
+    "[0262]"
+   ],
+   "attack": "The polymer seat ring is turned from rod and the metal seat ring is laser cut and shape-set. A maker in volume would mould the polymer ring and may form the metal ring otherwise, so the manufacturing claims cover the routes a competitor is least likely to use.",
+   "least_narrowing_action": "Ask the inventors which routes they contemplate for volume and add them as alternatives.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "36"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-36-22",
+   "source_prompt": "36",
+   "category": "support",
+   "severity": "low",
+   "title": "Strut-pattern and helical-slot geometries have no drawing",
+   "claim_refs": [
+    "3",
+    "21"
+   ],
+   "spec_refs": [
+    "[0171]",
+    "[0173]"
+   ],
+   "attack": "Both load-converting geometries are described in words only; F-33-4 proposes claiming them, and a drawing makes each a credible structural species and supports the 112(f) link of 'load-converting geometry' to structure.",
+   "least_narrowing_action": "Add a two-panel figure (strut pattern, helical slot) in the form of FIG. 11.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "36"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-36-23",
+   "source_prompt": "36",
+   "category": "support",
+   "severity": "low",
+   "title": "The normal stroke has one value and no range",
+   "claim_refs": [
+    "34"
+   ],
+   "spec_refs": [
+    "[0235]"
+   ],
+   "attack": "Claim 34 is a single point, avoided by a normal stroke of 0.5 mm or 0.7 mm, and no intermediate fallback exists.",
+   "least_narrowing_action": "Ask the inventors for the range of the normal stroke and add it with the same caveat as [0230].",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "36"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-37-1",
+   "source_prompt": "37",
+   "category": "support",
+   "severity": "high",
+   "title": "Claim 1's reference numeral 146 has no antecedent in the description text",
+   "claim_refs": [
+    "1"
+   ],
+   "spec_refs": [
+    "[0181]",
+    "[0182]",
+    "[0183]",
+    "[0184]"
+   ],
+   "attack": "Claim 1 recites 'a purge gap (60, 146)'. Numeral 146 is registered in the figure instructions (registry.md, FIG. 9) but is never used anywhere in description.md's body text; the two-piece-seat paragraphs describe the wiper ring deflecting and wiping but never name or number the gap it opens. A claim numeral with no corresponding specification passage is an unsupported-claim-term objection on the broadest independent claim.",
+   "least_narrowing_action": "Add numeral 146 to the existing two-piece-seat description passage (e.g. append to [0182] a sentence naming the purge gap 146 that opens between the wiper ring 144 and the core body bore 22).",
+   "requires_new_disclosure": false,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "37"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-37-2",
+   "source_prompt": "37",
+   "category": "support",
+   "severity": "high",
+   "title": "Claim 9's return-bias alternatives omit the feature that produces the required two-rate characteristic",
+   "claim_refs": [
+    "9",
+    "6"
+   ],
+   "spec_refs": [
+    "[0144]",
+    "[0145]"
+   ],
+   "attack": "Claim 9 depends from claim 6, which requires a two-rate characteristic. Claim 9 recites 'a soft spring and a stiff spring arranged in series, or... nested springs that act in parallel', but [0144] and [0145] both attribute the two-rate result to a feature claim 9 omits ('with a stop that takes the soft spring out of the load path'; 'with staggered engagement'). Without those features, both claimed alternatives present a single combined rate throughout travel, not two rates, so as literally claimed the alternatives are not shown to satisfy the parent claim's own requirement.",
+   "least_narrowing_action": "Reinsert the enabling language from [0144]/[0145] into claim 9 ('with a stop that takes the soft spring out of the load path at the end of the normal stroke'; 'with staggered engagement').",
+   "requires_new_disclosure": false,
+   "suggested_target": "P5",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "37"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-37-3",
+   "source_prompt": "37",
+   "category": "formal",
+   "severity": "high",
+   "title": "Multiple dependent claims depend on other multiple dependent claims",
+   "claim_refs": [
+    "13",
+    "15",
+    "16",
+    "18",
+    "19",
+    "20",
+    "25",
+    "30",
+    "33",
+    "35",
+    "36",
+    "37",
+    "38",
+    "43",
+    "44",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "65",
+    "67",
+    "68",
+    "69",
+    "74",
+    "75",
+    "76",
+    "77",
+    "84",
+    "86"
+   ],
+   "spec_refs": [],
+   "attack": "Under 37 CFR 1.75(c) / MPEP 608.01(n), a multiple dependent claim shall not serve as a basis for any other multiple dependent claim, directly or indirectly. Claim 13's range (1 and 5-12) includes MDC claim 11; claim 16's range includes MDCs 11, 13, 15; and the pattern cascades through nearly every later multiply-dependent claim in the set. A US examiner will object to claim form and require a renumbered claim set before substantive examination proceeds.",
+   "least_narrowing_action": "Restructure the dependency tree so no MDC's range includes another MDC, e.g. by converting the cascading 'any one of claims 1 and 5 to N' ranges into parallel singly-dependent claims. No scope is lost; this is a renumbering exercise.",
+   "requires_new_disclosure": false,
+   "suggested_target": "P5",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "37"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-37-4",
+   "source_prompt": "37",
+   "category": "formal",
+   "severity": "medium",
+   "title": "\"Load-applying surface\" and \"radially deflectable element\" risk means-plus-function construction",
+   "claim_refs": [
+    "1"
+   ],
+   "spec_refs": [
+    "[0099]",
+    "[0102]",
+    "[0106]"
+   ],
+   "attack": "Claim 1's two broadest structural terms are defined purely functionally at [0099]/[0102], and [0106] states expressly that such terms cover 'each structure described herein that performs the function... and is not limited to the preferred structure.' A generic placeholder ('surface', 'element') coupled with purely functional recitation risks 35 U.S.C. 112(f) / Williamson v. Citrix construction, confining claim 1 to the disclosed corresponding structures and equivalents rather than the intended functional genus.",
+   "least_narrowing_action": "Retain the existing structural relationships already recited (moved by the poppet; spaced from/bears on the radially deflectable element) and consider minimal further structural anchoring, without narrowing to a single species; a matter for counsel's claim-construction judgement.",
+   "requires_new_disclosure": false,
+   "suggested_target": "P5",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "37"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-37-5",
+   "source_prompt": "37",
+   "category": "formal",
+   "severity": "medium",
+   "title": "Claim cross-references embedded in the claim body rather than the dependency clause",
+   "claim_refs": [
+    "47",
+    "61",
+    "77",
+    "86"
+   ],
+   "spec_refs": [],
+   "attack": "Claims 47, 77 and 86 are drafted with independent-claim-style preambles that embed a multi-claim range ('...of any one of claims...') inside the body. Claim 61 is the most severe instance: nominally dependent only on claim 2, it incorporates the entire valve-core claim tree (claims 1, 5-46), including every MDC identified in F-37-1, inside a 'wherein' clause, obscuring the claim's true scope and category.",
+   "least_narrowing_action": "Rewrite each as a standard dependent claim with the full base range in the introductory clause; restructure claim 61 as a proper multiple dependent claim rather than embedding the cross-reference in a 'wherein.'",
+   "requires_new_disclosure": false,
+   "suggested_target": "P5",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "37"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-37-6",
+   "source_prompt": "37",
+   "category": "formal",
+   "severity": "medium",
+   "title": "Multiple dependent claims refer to antecedents conjunctively (\"and\") instead of in the alternative",
+   "claim_refs": [
+    "13",
+    "15",
+    "16",
+    "20",
+    "33",
+    "35",
+    "36",
+    "37",
+    "38",
+    "43",
+    "44",
+    "46",
+    "47",
+    "54",
+    "55",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "65",
+    "67",
+    "68",
+    "69",
+    "70",
+    "74",
+    "76",
+    "77",
+    "81",
+    "82",
+    "84"
+   ],
+   "spec_refs": [],
+   "attack": "MPEP 608.01(n), Rule 43(4) EPC and UK practice require a multiple dependent claim to refer to its antecedents in the alternative only; \"any one of claims 1 and 5 to 12\" joins a single claim and a range with a conjunction rather than an alternative marker, inviting a first-action objection under 37 CFR 1.75(c)/Article 84 EPC across roughly a third of the claim set.",
+   "least_narrowing_action": "Replace \"and\" with a comma in each affected dependency clause (e.g. \"any one of claims 1, 5 to 12\"); purely mechanical, no scope change.",
+   "requires_new_disclosure": false,
+   "suggested_target": "in-place",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "37"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-37-7",
+   "source_prompt": "37",
+   "category": "formal",
+   "severity": "medium",
+   "title": "Numeral scope inconsistent between claim 1 and claim 2",
+   "claim_refs": [
+    "1",
+    "2",
+    "61"
+   ],
+   "spec_refs": [],
+   "attack": "Claim 1 lists multi-species numerals '(32, 132, 142)' and '(60, 146)' without 'or'; claim 2 recites only the principal-embodiment numerals '(32)' and '(60)'. Claim 61 then combines claim 2 with any valve core of claims 1 and 5-46, so claim 2's numerals no longer reflect the full scope it can be read to cover, leaving a reader unable to tell whether claim 2's numerals are generic or species-specific.",
+   "least_narrowing_action": "Align claim 2's reference numerals with claim 1's generic set, or state expressly that the numerals are illustrative only.",
+   "requires_new_disclosure": false,
+   "suggested_target": "in-place",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "37"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-37-8",
+   "source_prompt": "37",
+   "category": "support",
+   "severity": "low",
+   "title": "Claim 47 excludes the disclosed valve-stem-bore purge gap species",
+   "claim_refs": [
+    "47",
+    "45"
+   ],
+   "spec_refs": [
+    "[0125]",
+    "[0189]"
+   ],
+   "attack": "Claim 47 incorporates 'any one of claims 1 and 5 to 44', excluding claim 45 (the valve-stem-bore purge gap species disclosed at [0125]/[0189]) and claim 46. Because claim 47 is the only route by which a valve stem is positively combined with the valve core, this disclosed species cannot be reached through the tyre valve / tyre chamber claim family.",
+   "least_narrowing_action": "Extend claim 47's range to include claims 45 and 46.",
+   "requires_new_disclosure": false,
+   "suggested_target": "P5",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "37"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-37-9",
+   "source_prompt": "37",
+   "category": "formal",
+   "severity": "low",
+   "title": "Claimed \"about 0.03 mm\" interference fit relies entirely on an undefined-magnitude specification tolerance",
+   "claim_refs": [
+    "85"
+   ],
+   "spec_refs": [
+    "[0056]"
+   ],
+   "attack": "A claimed numeric value qualified by \"about\" with no stated tolerance magnitude is a 35 U.S.C. 112(b)/Article 84 EPC target; the specification defines \"about\" only as covering \"the ordinary manufacturing tolerance\" without a number, so the claim boundary is fixed by an undefined quantity.",
+   "least_narrowing_action": "No narrowing required; optionally add a numeric tolerance to [0250]/[0056] if the inventor can confirm one.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "37"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-37-10",
+   "source_prompt": "37",
+   "category": "formal",
+   "severity": "low",
+   "title": "Relative term \"about\" in claim 85",
+   "claim_refs": [
+    "85"
+   ],
+   "spec_refs": [
+    "[0056]"
+   ],
+   "attack": "\"About 0.03 mm on diameter\" is defined at [0056] but the claim itself states no numeric tolerance, leaving it open to a 112(b) clarity objection independent of the specification's general definition.",
+   "least_narrowing_action": "Optionally state a numeric tolerance in the claim itself.",
+   "requires_new_disclosure": false,
+   "suggested_target": "in-place",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "37"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-38-1",
+   "source_prompt": "38",
+   "category": "support",
+   "severity": "high",
+   "title": "\"Seat ring\" and \"purge shoulder\" definitions are narrower than the broader claims they must support",
+   "claim_refs": [
+    "1",
+    "15",
+    "20"
+   ],
+   "spec_refs": [
+    "[0058]",
+    "[0063]",
+    "[0153]",
+    "[0182]"
+   ],
+   "attack": "[0058] defines 'seat ring' as converting a load applied by 'the purge shoulder' specifically, and [0063] defines 'purge shoulder' as contacting 'the seat ring' specifically. Claim 15's collar-based load-applying surface and [0182]'s purge shoulder acting on the wiper ring both fall outside these lexicographic definitions even though they are within the claims and elsewhere in the disclosure, creating a construction conflict a court must resolve against the patentee's own express definitions.",
+   "least_narrowing_action": "Update [0058] and [0063] to use the genus terms ('the load-applying surface', 'the radially deflectable element') consistently with [0067], [0071], [0072] and [0081].",
+   "requires_new_disclosure": false,
+   "suggested_target": "in-place",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "38"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-38-2",
+   "source_prompt": "38",
+   "category": "support",
+   "severity": "high",
+   "title": "figures.md's \"candidate, not confirmed\" status for FIGS. 11/12 contradicts description.md's and claims.md's unconditional treatment of the same subject matter",
+   "claim_refs": [
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "67"
+   ],
+   "spec_refs": [
+    "[0176]",
+    "[0177]",
+    "[0178]",
+    "[0186]",
+    "[0190]"
+   ],
+   "attack": "figures.md states the slotted sleeve, split seat ring, tapered seat ring, core body bore relief and wall slots are 'not stated in the inventor's disclosure... pending inventor confirmation', and registry.md flag 4 leaves this as an open question. description.md incorporates the identical subject matter without any such qualifier, and claims.md claims it outright. If figures.md is accurate, claims 40-44 and 67 rest on unconfirmed candidate subject matter, contrary to the rule that generated content is a candidate until a human gate confirms it.",
+   "least_narrowing_action": "Reconcile the two documents: either remove the 'candidate/pending confirmation' language from figures.md and registry.md if the subject matter is now confirmed, or hedge the description paragraphs and flag claims 40-44/67 as pending confirmation if it is not.",
+   "requires_new_disclosure": false,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "38"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-38-3",
+   "source_prompt": "38",
+   "category": "support",
+   "severity": "medium",
+   "title": "\"Radially deflectable element\" and \"load-converting geometry\" have no preferred-term row in the locked terminology table",
+   "claim_refs": [
+    "1",
+    "3"
+   ],
+   "spec_refs": [
+    "[0099]",
+    "[0104]",
+    "[0106]"
+   ],
+   "attack": "These two genus terms are central to the description and to claim 1/3 but are absent from terminology/LOCKED.md as their own preferred-term rows; the closest entries are differently-worded Broader-column synonyms under 'seat ring' and 'convoluted wall'. LOCKED.md's own Note 1 concedes the table was not cross-checked against all Prompt 03 features. This is a defect in the lock, not a drafting drift.",
+   "least_narrowing_action": "Add preferred-term rows for both terms to terminology/LOCKED.md, or correct the description/claims to the existing Broader-column wording.",
+   "requires_new_disclosure": false,
+   "suggested_target": "in-place",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "38"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-38-4",
+   "source_prompt": "38",
+   "category": "novelty",
+   "severity": "medium",
+   "title": "Description admits a structurally similar prior-art feature (US11549591B1) and distinguishes only on effect",
+   "claim_refs": [
+    "1",
+    "3",
+    "21",
+    "62"
+   ],
+   "spec_refs": [
+    "[0166]"
+   ],
+   "attack": "The paragraph admits a wavy/undulating resilient-metal-seal geometry is known from US11549591B1 and distinguishes only functionally, handing an examiner a structural teaching to combine with the Background's other poppet-travel/flow-cleaning references under an obviousness rejection.",
+   "least_narrowing_action": "Add a structural distinction to [0166] (e.g. contact/pre-load state at rest, or the sealing element's identity) rather than relying on function alone.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "38"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-38-5",
+   "source_prompt": "38",
+   "category": "formal",
+   "severity": "medium",
+   "title": "FIG. 13A and registered numeral 220 (Schrader-pattern core body) are absent from the Brief Description and Detailed Description",
+   "claim_refs": [],
+   "spec_refs": [
+    "[0049]"
+   ],
+   "attack": "The registry and figure-instructions documents register numeral 220 as first appearing in FIG. 13A, but no paragraph of the specification describes FIG. 13A or numeral 220, and the Brief Description of the Drawings omits it entirely, creating a drawing/description mismatch under 37 CFR 1.74/MPEP 608.01(f).",
+   "least_narrowing_action": "Either add Brief Description and Detailed Description text for FIG. 13A/220, or remove FIG. 13A and numeral 220 from the figure plan and registry.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "38"
+   ],
+   "consensus": false
+  },
+  {
+   "id": "F-38-6",
+   "source_prompt": "38",
+   "category": "formal",
+   "severity": "medium",
+   "title": "Reference numeral 146 never appears in the description text",
+   "claim_refs": [
+    "1"
+   ],
+   "spec_refs": [
+    "[0181]",
+    "[0182]",
+    "[0183]",
+    "[0184]",
+    "[0048]",
+    "[0049]"
+   ],
+   "attack": "FIG. 13A / numeral 220 is registered in figures.md/registry.md but absent from the description's brief description of drawings and body text; numeral 146, used in claim 1, is never introduced in the description's prose. Both fail the requirement, common to US/EPO/UK practice, that every claim and drawing numeral be supported by description text.",
+   "least_narrowing_action": "Add the missing description text for FIG. 13A (or remove it and numeral 220), and add numeral 146 to [0182]; see Prompt 38 reply F-38-3/F-38-5.",
+   "requires_new_disclosure": false,
+   "suggested_target": "in-place",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "38",
+    "40a"
+   ],
+   "consensus": false
+  }
+ ]
+}

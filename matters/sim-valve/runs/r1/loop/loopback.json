@@ -1,0 +1,91 @@
+{
+  "cycles": {
+    "enablement": 1,
+    "design-around": 1,
+    "support": 1,
+    "novelty": 1
+  },
+  "formal_passes": 1,
+  "history": [
+    {
+      "at": "2026-09-30T09:49:39.215168+00:00",
+      "routed_categories": [
+        "formal",
+        "enablement",
+        "design-around",
+        "support",
+        "novelty"
+      ],
+      "steps": [
+        {
+          "step": "x-loopback-p3",
+          "owner": "Invention Analyst",
+          "finding_ids": [
+            "F-29-1",
+            "F-32-7",
+            "F-33-2",
+            "F-33-3",
+            "F-32-1",
+            "F-32-5"
+          ]
+        },
+        {
+          "step": "x-p4-revise",
+          "owner": "Specification Drafter",
+          "finding_ids": [
+            "F-28-3",
+            "F-28-5",
+            "F-32-4",
+            "F-32-6",
+            "F-32-17",
+            "F-36-2",
+            "F-29-1",
+            "F-32-7",
+            "F-33-2",
+            "F-33-3",
+            "F-30-1",
+            "F-30-7",
+            "F-38-1",
+            "F-38-2",
+            "F-32-1",
+            "F-32-5"
+          ]
+        },
+        {
+          "step": "x-p5-revise",
+          "owner": "Claims Architect",
+          "finding_ids": [
+            "F-28-3",
+            "F-28-5",
+            "F-32-4",
+            "F-32-6",
+            "F-32-17",
+            "F-36-2",
+            "F-29-1",
+            "F-32-7",
+            "F-33-2",
+            "F-33-3",
+            "F-32-1",
+            "F-32-5"
+          ]
+        },
+        {
+          "step": "x-formal-fix",
+          "owner": "Specification Drafter",
+          "finding_ids": [
+            "F-28-1",
+            "F-30-2",
+            "F-37-3"
+          ]
+        }
+      ],
+      "capped": {},
+      "review_required": false,
+      "narrowing_for_human": [
+        "F-30-7: Put each candidate to the inventor at the embodiment gate. Keep what is confirmed; delete what is not, or record its real contributor. Remove the provenance captions in every case. No narrowing if confirmed."
+      ],
+      "cycles_before": {},
+      "formal_passes_before": 0
+    }
+  ]
+}

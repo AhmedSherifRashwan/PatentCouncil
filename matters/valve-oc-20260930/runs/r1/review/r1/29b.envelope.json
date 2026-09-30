@@ -1,0 +1,196 @@
+{
+  "prompt": "29",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-29-1",
+      "source_prompt": "29",
+      "category": "support",
+      "severity": "high",
+      "title": "Structural fallbacks (retention band, outer-clearance purge gap) rest on a retention and flow geometry the description does not complete",
+      "claim_refs": [
+        "1",
+        "18",
+        "19",
+        "21",
+        "30"
+      ],
+      "spec_refs": [
+        "[0036]",
+        "[0053]",
+        "[0056]",
+        "[0059]",
+        "[0079]",
+        "Fig. 3",
+        "Fig. 6"
+      ],
+      "attack": "The interference band and internal shoulder are at the seated end, the outer clearance is the purge gap, and the flow is said to reach the chamber side without any stated route past the band and shoulder; the FIG. 6 instruction calls the convention a drafting assumption. An amendment to claims 21 or 30 will be read with that gap in view and refused as not a derivable working combination, or granted and attacked for insufficiency.",
+      "least_narrowing_action": "Add to [0036], [0053] and [0059] an express description of the band, the free portion and the route by which the purge flow leaves the outer clearance to the chamber side, and match the FIG. 3 and FIG. 6 instructions to it.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-29-2",
+      "source_prompt": "29",
+      "category": "support",
+      "severity": "medium",
+      "title": "No statement of what closes the drawn at-rest clearance to flow",
+      "claim_refs": [
+        "1",
+        "30"
+      ],
+      "spec_refs": [
+        "[0040]",
+        "[0102]",
+        "[0105]",
+        "[0110]",
+        "Fig. 1"
+      ],
+      "attack": "The FIG. 1 instruction draws a small clearance at the free portion of the outer surface in the closed state while claim 1 and [0040] say the purge gap is closed; the description does not say what closes that clearance to flow at rest.",
+      "least_narrowing_action": "Draw the free portion in contact with the bore at rest, or add to [0040] the feature that closes the clearance to flow at rest.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-29-3",
+      "source_prompt": "29",
+      "category": "support",
+      "severity": "high",
+      "title": "Every numerical fallback is tied by the text to the superelastic convoluted seat ring",
+      "claim_refs": [
+        "13",
+        "16",
+        "17",
+        "35",
+        "41",
+        "42",
+        "43",
+        "44",
+        "82"
+      ],
+      "spec_refs": [
+        "[0022]",
+        "[0050]",
+        "[0088]",
+        "[0089]",
+        "[0090]",
+        "[0091]",
+        "[0118]",
+        "[0122]",
+        "[0146]"
+      ],
+      "attack": "[0088], [0091] and [0146] state the ranges belong to the superelastic seat ring with a convoluted wall and are to be adapted for other rings; any amendment adding a range without also adding claim 47 and claim 11 is an intermediate generalisation at the EPO, so the ranges cannot serve as graded fallbacks. The pressure ranges are on the face of [0022] and [0118] set by the spring, yet the text ties them to the ring material.",
+      "least_narrowing_action": "Add to [0088]/[0091] which parameters are independent of ring material and wall form and why (pressures set by the threshold-setting arrangement; inner diameter, outer diameter and free length fixed by the poppet stem, bore and stem), and conceived ranges for polymer and resilient-metal rings. If the inventors cannot confirm, state now that the numerical fallbacks are limited to the superelastic convoluted ring.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-29-4",
+      "source_prompt": "29",
+      "category": "support",
+      "severity": "medium",
+      "title": "Fixed-seat and wiper-ring fallback has no geometry, dimensions or retention of its own",
+      "claim_refs": [
+        "9",
+        "18",
+        "19",
+        "26"
+      ],
+      "spec_refs": [
+        "[0093]",
+        "[0094]",
+        "[0125]",
+        "[0132]",
+        "[0162]",
+        "Fig. 10"
+      ],
+      "attack": "[0093] leaves the wiper ring's form, thickness and retention to follow from the material; [0162] is prophetic; the FIG. 10 instruction lists no internal shoulder or retention; whether the wiper ring wipes the sealing face is never said. Every step past claim 9 rests on [0094] 'applies to both' and the genus at [0132].",
+      "least_narrowing_action": "Add to [0093] the wall form, retention means and location, wall thickness range if conceived, and the poppet surface crossed on recovery for the spring-steel wiper ring; add the internal shoulder and retention to the FIG. 10 instruction.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-29-5",
+      "source_prompt": "29",
+      "category": "support",
+      "severity": "low",
+      "title": "No basis for an amendment reciting recovery speed, force or the audible snap",
+      "claim_refs": [
+        "1",
+        "25",
+        "47"
+      ],
+      "spec_refs": [
+        "[0063]",
+        "[0077]",
+        "[0098]",
+        "[0158]"
+      ],
+      "attack": "[0077] disclaims any speed or force qualifier and [0158] says the audible snap is not a measurement; the natural distinction over closing-stroke wipers has no numerical or qualitative basis in the text.",
+      "least_narrowing_action": "If a recovery time or force has been measured or can be bounded, add it to [0063] or [0098] with its conditions; otherwise rely on the material limitation of Path 5.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. Risk ratings apply the EPO directly-and-unambiguously-derivable test; US written description noted where different.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. Figure anchors are to the figure instructions; no drawing exists.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. Common general knowledge: crack pressure and over-travel threshold of a spring-returned poppet are set by spring rates and preloads, subject to the ring-stiffness contribution the description notes.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. Prior-art references were not used; amendment basis is a question of the application text only.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Where does the purge flow leave the outer clearance, and is the free portion in contact with the bore at rest?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Which ranges in [0089]-[0090] are material-independent, and are ranges conceived for the polymer, resilient-metal and wiper-ring embodiments?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. What wall form, retention and wiped surface are intended for the spring-steel wiper ring of [0093]?",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. Has any recovery time or force been measured for the NiTi seat ring?",
+      "blocks": []
+    }
+  ]
+}

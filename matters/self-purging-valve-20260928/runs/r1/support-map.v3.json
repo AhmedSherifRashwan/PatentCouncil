@@ -1,0 +1,1868 @@
+{
+ "claims": {
+  "1": [
+   {
+    "element": "A valve (92) for an inflatable body (80), the valve comprising a valve seat, a valve member (40) having a sealing face (42), a biasing member (50) which urges the valve member towards the valve seat",
+    "paragraphs": [
+     "[0001]",
+     "[0008]",
+     "[0072]",
+     "[0079]",
+     "[0029]",
+     "[0033]",
+     "[0062]"
+    ]
+   },
+   {
+    "element": "a deflectable element, the valve having a main flow passage (62), along which inflation gas passes the valve seat between the sealing face and the valve seat when the valve member is lifted from the valve seat",
+    "paragraphs": [
+     "[0008]",
+     "[0032]",
+     "[0045]",
+     "[0048]"
+    ]
+   },
+   {
+    "element": "a purge gap (60), which is a second path for inflation gas through the valve in parallel with the main flow passage and which is opened by deflection of the deflectable element and closed by recovery of the deflectable element",
+    "paragraphs": [
+     "[0031]",
+     "[0032]",
+     "[0046]",
+     "[0048]"
+    ]
+   },
+   {
+    "element": "the valve has three ranges of pressure differential across the valve, namely",
+    "paragraphs": [
+     "[0009]",
+     "[0039]",
+     "[0112]"
+    ]
+   },
+   {
+    "element": "below an opening pressure (506), a rest state (514) in which the valve member is seated on the valve seat, the deflectable element is undeflected and the purge gap is closed",
+    "paragraphs": [
+     "[0009]",
+     "[0040]",
+     "[0044]"
+    ]
+   },
+   {
+    "element": "between the opening pressure and an over-travel threshold (508) which is higher than the opening pressure, a normal stroke (510) of the valve member away from the valve seat, in which inflation gas passes the valve seat along the main flow passage, the deflectable element remains undeflected and the purge gap remains closed",
+    "paragraphs": [
+     "[0009]",
+     "[0031]",
+     "[0041]",
+     "[0042]",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "above the over-travel threshold, an over-travel (512) of the valve member beyond the normal stroke, produced by the pressure differential acting on the valve member against the biasing member, in which the over-travel of the valve member deflects the deflectable element, the purge gap opens",
+    "paragraphs": [
+     "[0008]",
+     "[0009]",
+     "[0042]",
+     "[0043]",
+     "[0048]",
+     "[0116]"
+    ]
+   },
+   {
+    "element": "purge flow (64) of the inflation gas passes through the purge gap, along sealant-accumulation surfaces bounding the purge gap",
+    "paragraphs": [
+     "[0032]",
+     "[0037]",
+     "[0047]",
+     "[0058]",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "into the inflatable body, in addition to the inflation gas passing along the main flow passage",
+    "paragraphs": [
+     "[0032]",
+     "[0045]",
+     "[0047]",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "wherein, when the pressure differential falls, the deflectable element recovers and the purge gap closes",
+    "paragraphs": [
+     "[0008]",
+     "[0031]",
+     "[0034]",
+     "[0046]",
+     "[0048]"
+    ]
+   }
+  ],
+  "2": [
+   {
+    "element": "A valve core (90) for a valve for an inflatable body (80), the valve core comprising a core body (20), a valve seat, a valve member (40) having a sealing face (42), a biasing member (50) which urges the valve member towards the valve seat",
+    "paragraphs": [
+     "[0012]",
+     "[0028]",
+     "[0038]",
+     "[0067]",
+     "[0070]",
+     "[0029]",
+     "[0033]",
+     "[0062]"
+    ]
+   },
+   {
+    "element": "a deflectable element, the valve member, the biasing member and the deflectable element being carried by the core body",
+    "paragraphs": [
+     "[0012]",
+     "[0038]",
+     "[0067]",
+     "[0070]",
+     "[0048]"
+    ]
+   },
+   {
+    "element": "the valve core being receivable as a unit in a valve stem (10), the valve core having a main flow passage (62), along which inflation gas passes the valve seat between the sealing face and the valve seat when the valve member is lifted from the valve seat",
+    "paragraphs": [
+     "[0012]",
+     "[0027]",
+     "[0070]",
+     "[0095]",
+     "[0032]",
+     "[0038]",
+     "[0045]"
+    ]
+   },
+   {
+    "element": "a purge gap (60), which is a second path for inflation gas in parallel with the main flow passage and which is opened by deflection of the deflectable element and closed by recovery of the deflectable element",
+    "paragraphs": [
+     "[0031]",
+     "[0032]",
+     "[0046]",
+     "[0048]"
+    ]
+   },
+   {
+    "element": "the valve core has three ranges of pressure differential acting on the valve member, namely",
+    "paragraphs": [
+     "[0009]",
+     "[0039]",
+     "[0112]"
+    ]
+   },
+   {
+    "element": "below an opening pressure (506), a rest state (514) in which the valve member is seated on the valve seat, the deflectable element is undeflected and the purge gap is closed",
+    "paragraphs": [
+     "[0009]",
+     "[0040]",
+     "[0044]"
+    ]
+   },
+   {
+    "element": "between the opening pressure and an over-travel threshold (508) which is higher than the opening pressure, a normal stroke (510) of the valve member away from the valve seat, in which inflation gas passes the valve seat along the main flow passage, the deflectable element remains undeflected and the purge gap remains closed",
+    "paragraphs": [
+     "[0009]",
+     "[0031]",
+     "[0041]",
+     "[0042]",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "above the over-travel threshold, an over-travel (512) of the valve member beyond the normal stroke, produced by the pressure differential acting on the valve member against the biasing member, in which the over-travel of the valve member deflects the deflectable element, the purge gap opens",
+    "paragraphs": [
+     "[0008]",
+     "[0009]",
+     "[0042]",
+     "[0043]",
+     "[0048]",
+     "[0116]"
+    ]
+   },
+   {
+    "element": "purge flow (64) of the inflation gas passes through the purge gap, along sealant-accumulation surfaces bounding the purge gap",
+    "paragraphs": [
+     "[0032]",
+     "[0037]",
+     "[0047]",
+     "[0058]",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "into the inflatable body, in addition to the inflation gas passing along the main flow passage",
+    "paragraphs": [
+     "[0032]",
+     "[0045]",
+     "[0047]",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "wherein, when the pressure differential falls, the deflectable element recovers and the purge gap closes",
+    "paragraphs": [
+     "[0008]",
+     "[0031]",
+     "[0034]",
+     "[0046]",
+     "[0048]"
+    ]
+   }
+  ],
+  "3": [
+   {
+    "element": "An inflatable body (80) fitted with a valve (92) according to claim 1, the inflatable body being inflatable through the valve",
+    "paragraphs": [
+     "[0014]",
+     "[0038]",
+     "[0079]",
+     "[0113]",
+     "[0123]"
+    ]
+   }
+  ],
+  "4": [
+   {
+    "element": "A method (700) of purging a valve (92) for an inflatable body (80) during inflation, the valve having a valve seat, a valve member (40) with a sealing face (42), a biasing member (50) which urges the valve member towards the valve seat",
+    "paragraphs": [
+     "[0015]",
+     "[0062]",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "a deflectable element, the method comprising, in one inflation of the inflatable body through the valve by an inflation device (84): applying, by the inflation device, a pressure differential across the valve",
+    "paragraphs": [
+     "[0015]",
+     "[0039]",
+     "[0047]",
+     "[0059]",
+     "[0078]",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "when the pressure differential exceeds an opening pressure (506), the valve member making a normal stroke (510) away from the valve seat against the biasing member",
+    "paragraphs": [
+     "[0015]",
+     "[0033]",
+     "[0040]",
+     "[0041]",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "inflation gas from the inflation device passing the valve seat along a main flow passage (62), while the deflectable element remains undeflected and a purge gap (60) of the valve, separate from the main flow passage, remains closed",
+    "paragraphs": [
+     "[0009]",
+     "[0015]",
+     "[0031]",
+     "[0041]",
+     "[0045]",
+     "[0046]",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "when the pressure differential exceeds an over-travel threshold (508) which is higher than the opening pressure, the valve member making an over-travel (512) beyond the normal stroke against the biasing member",
+    "paragraphs": [
+     "[0015]",
+     "[0042]",
+     "[0043]",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "the over-travel of the valve member deflecting the deflectable element, so that the purge gap opens",
+    "paragraphs": [
+     "[0008]",
+     "[0015]",
+     "[0043]",
+     "[0046]",
+     "[0111]",
+     "[0116]"
+    ]
+   },
+   {
+    "element": "while the purge gap is open, passing purge flow (64) of the inflation gas supplied by the inflation device through the purge gap, along sealant-accumulation surfaces bounding the purge gap",
+    "paragraphs": [
+     "[0015]",
+     "[0032]",
+     "[0047]",
+     "[0058]",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "into the inflatable body, in addition to the inflation gas passing along the main flow passage",
+    "paragraphs": [
+     "[0032]",
+     "[0045]",
+     "[0047]",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "the pressure differential falling when the inflation device ceases to apply pressure to the valve or is removed from it",
+    "paragraphs": [
+     "[0034]",
+     "[0039]",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "as the pressure differential falls, the valve member returning towards the valve seat under the biasing member, the deflectable element recovering its undeflected shape",
+    "paragraphs": [
+     "[0015]",
+     "[0034]",
+     "[0048]",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "the purge gap closing",
+    "paragraphs": [
+     "[0015]",
+     "[0031]",
+     "[0034]",
+     "[0046]",
+     "[0111]"
+    ]
+   }
+  ],
+  "5": [
+   {
+    "element": "The valve of claim 1, wherein, as the deflectable element recovers when the pressure differential falls, the deflectable element slides across the sealing face (42) of the valve member (40) in a recovery wipe",
+    "paragraphs": [
+     "[0010]",
+     "[0011]",
+     "[0016]",
+     "[0034]",
+     "[0055]",
+     "[0117]",
+     "¶45",
+     "¶17",
+     "¶61"
+    ]
+   }
+  ],
+  "6": [
+   {
+    "element": "The valve of claim 1 or claim 5",
+    "paragraphs": [
+     "[0008]"
+    ]
+   },
+   {
+    "element": "the valve member (40) has a purge shoulder (44) which is clear of the deflectable element throughout the normal stroke and bears on the deflectable element only during the over-travel, so that the over-travel of the valve member is applied to the deflectable element as a load which deflects it",
+    "paragraphs": [
+     "[0016]",
+     "[0029]",
+     "[0041]",
+     "[0054]",
+     "[0119]"
+    ]
+   }
+  ],
+  "7": [
+   {
+    "element": "the purge shoulder (44) is an annular step of the valve member (40) below the sealing face (42)",
+    "paragraphs": [
+     "[0029]",
+     "[0054]",
+     "[0092]",
+     "[0119]"
+    ]
+   }
+  ],
+  "8": [
+   {
+    "element": "The valve of any one of claims 1 to 7",
+    "paragraphs": [
+     "[0008]"
+    ]
+   },
+   {
+    "element": "the biasing member (50) has a two-rate characteristic (500) with a first stage (502), which the pressure differential overcomes during the normal stroke and which sets the opening pressure",
+    "paragraphs": [
+     "[0016]",
+     "[0033]",
+     "[0063]",
+     "[0112]",
+     "[0120]"
+    ]
+   },
+   {
+    "element": "a stiffer second stage (504), which the pressure differential overcomes to produce the over-travel and which sets the over-travel threshold",
+    "paragraphs": [
+     "[0016]",
+     "[0033]",
+     "[0063]",
+     "[0112]",
+     "[0120]"
+    ]
+   }
+  ],
+  "9": [
+   {
+    "element": "The valve of any one of claims 1 to 8",
+    "paragraphs": [
+     "[0008]"
+    ]
+   },
+   {
+    "element": "deflection of the deflectable element by the over-travel of the valve member (40) includes outward radial deflection of the deflectable element",
+    "paragraphs": [
+     "[0048]",
+     "[0084]",
+     "[0094]",
+     "[0111]"
+    ]
+   }
+  ],
+  "10": [
+   {
+    "element": "The valve of any one of claims 1 to 9",
+    "paragraphs": [
+     "[0008]"
+    ]
+   },
+   {
+    "element": "the deflectable element is of a superelastic alloy",
+    "paragraphs": [
+     "[0016]",
+     "[0034]",
+     "[0048]",
+     "[0073]",
+     "[0118]"
+    ]
+   }
+  ],
+  "11": [
+   {
+    "element": "The valve of any one of claims 1 to 9",
+    "paragraphs": [
+     "[0008]"
+    ]
+   },
+   {
+    "element": "the valve seat is provided by the deflectable element",
+    "paragraphs": [
+     "[0030]",
+     "[0048]",
+     "[0049]",
+     "[0116]"
+    ]
+   }
+  ],
+  "12": [
+   {
+    "element": "The valve of any one of claims 1 to 11",
+    "paragraphs": [
+     "[0008]"
+    ]
+   },
+   {
+    "element": "a core body (20) which carries the deflectable element, guides the valve member (40) and seats the biasing member (50), the core body, the valve member, the biasing member and the deflectable element forming a valve core (90) which is receivable as a unit in a valve stem (10)",
+    "paragraphs": [
+     "[0012]",
+     "[0028]",
+     "[0038]",
+     "[0067]",
+     "[0070]",
+     "[0123]"
+    ]
+   }
+  ],
+  "13": [
+   {
+    "element": "the core body (20) is of stainless steel",
+    "paragraphs": [
+     "[0028]",
+     "[0067]",
+     "[0095]"
+    ]
+   }
+  ],
+  "14": [
+   {
+    "element": "The valve of claim 12 or claim 13",
+    "paragraphs": [
+     "[0008]"
+    ]
+   },
+   {
+    "element": "the deflectable element is a seat ring (30) whose upper edge (32) provides the valve seat, the core body (20) having a core bore (22) in which the seat ring is received",
+    "paragraphs": [
+     "[0016]",
+     "[0028]",
+     "[0030]",
+     "[0051]",
+     "[0068]",
+     "[0092]"
+    ]
+   },
+   {
+    "element": "the seat ring being located against a locating shoulder (24) of the core body",
+    "paragraphs": [
+     "[0016]",
+     "[0028]",
+     "[0030]",
+     "[0051]",
+     "[0068]",
+     "[0092]"
+    ]
+   }
+  ],
+  "15": [
+   {
+    "element": "the seat ring (30) is retained in the core bore (22) by an interference fit against the locating shoulder (24)",
+    "paragraphs": [
+     "[0035]",
+     "[0068]",
+     "[0109]",
+     "[0122]"
+    ]
+   }
+  ],
+  "16": [
+   {
+    "element": "The valve of claim 14 or claim 15",
+    "paragraphs": [
+     "[0008]"
+    ]
+   },
+   {
+    "element": "the purge gap (60) is annular and is formed between an outer surface (38) of the seat ring (30) and the core bore (22)",
+    "paragraphs": [
+     "[0031]",
+     "[0037]",
+     "[0046]",
+     "[0058]",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "opens when the seat ring expands",
+    "paragraphs": [
+     "[0031]",
+     "[0037]",
+     "[0046]",
+     "[0058]",
+     "[0111]"
+    ]
+   }
+  ],
+  "17": [
+   {
+    "element": "The valve of any one of claims 14 to 16",
+    "paragraphs": [
+     "[0008]"
+    ]
+   },
+   {
+    "element": "the seat ring (30) has a convoluted wall (34) which, seen in axial section, has at least one convolution (36), the convoluted wall converting an axial load applied to the upper edge (32) of the seat ring during the over-travel into radial expansion of the seat ring, the radial expansion opening the purge gap (60)",
+    "paragraphs": [
+     "[0016]",
+     "[0030]",
+     "[0064]",
+     "[0095]",
+     "[0111]"
+    ]
+   }
+  ],
+  "18": [
+   {
+    "element": "the convoluted wall (34) has one convolution (36) or two convolutions (36)",
+    "paragraphs": [
+     "[0021]",
+     "[0030]",
+     "[0064]",
+     "[0095]",
+     "[0125]"
+    ]
+   }
+  ],
+  "19": [
+   {
+    "element": "The valve of claim 17 or claim 18",
+    "paragraphs": [
+     "[0008]"
+    ]
+   },
+   {
+    "element": "a convolution amplitude of the convoluted wall (34) is from 0.08 mm to 0.20 mm",
+    "paragraphs": [
+     "[0065]",
+     "[0085]",
+     "[0125]"
+    ]
+   }
+  ],
+  "20": [
+   {
+    "element": "The valve of any one of claims 17 to 19",
+    "paragraphs": [
+     "[0008]"
+    ]
+   },
+   {
+    "element": "the seat ring (30) is of a superelastic alloy",
+    "paragraphs": [
+     "[0016]",
+     "[0051]",
+     "[0073]",
+     "[0092]",
+     "[0118]"
+    ]
+   }
+  ],
+  "21": [
+   {
+    "element": "The valve of claim 10 or claim 20",
+    "paragraphs": [
+     "[0008]"
+    ]
+   },
+   {
+    "element": "the superelastic alloy has an austenite finish temperature below 5 °C",
+    "paragraphs": [
+     "[0016]",
+     "[0074]",
+     "[0092]",
+     "[0118]",
+     "[0128]"
+    ]
+   }
+  ],
+  "22": [
+   {
+    "element": "The valve of any one of claims 10, 20 and 21",
+    "paragraphs": [
+     "[0008]"
+    ]
+   },
+   {
+    "element": "the superelastic alloy is a nickel–titanium alloy",
+    "paragraphs": [
+     "[0073]",
+     "[0092]",
+     "[0128]"
+    ]
+   }
+  ],
+  "23": [
+   {
+    "element": "the seat ring (30) has a seat ring inner diameter of from 2.0 mm to 2.6 mm, a wall thickness of from 0.15 mm to 0.30 mm and a free length of from 2.5 mm to 4.0 mm",
+    "paragraphs": [
+     "[0085]",
+     "[0124]",
+     "[0125]",
+     "[0130]"
+    ]
+   }
+  ],
+  "24": [
+   {
+    "element": "the seat ring (30) is made by laser cutting (602) from tube of the superelastic alloy, shape-setting (604) in a fixture which holds the convoluted wall (34) in its intended geometry at a temperature of 500 °C for a period of 10 minutes, water quenching (606) and electropolishing (608), in that order",
+    "paragraphs": [
+     "[0076]",
+     "[0108]",
+     "[0128]"
+    ]
+   }
+  ],
+  "25": [
+   {
+    "element": "The valve of any one of claims 14 to 19",
+    "paragraphs": [
+     "[0008]"
+    ]
+   },
+   {
+    "element": "the seat ring (30) is a polymer seat ring",
+    "paragraphs": [
+     "[0016]",
+     "[0052]",
+     "[0093]",
+     "[0104]",
+     "[0118]"
+    ]
+   }
+  ],
+  "26": [
+   {
+    "element": "the polymer seat ring is of polyether ether ketone",
+    "paragraphs": [
+     "[0052]",
+     "[0093]",
+     "[0104]",
+     "[0110]"
+    ]
+   }
+  ],
+  "27": [
+   {
+    "element": "The valve of claim 6 or claim 7",
+    "paragraphs": [
+     "[0008]"
+    ]
+   },
+   {
+    "element": "the valve seat is a rigid valve seat (132) which is not deflected during the over-travel",
+    "paragraphs": [
+     "[0030]",
+     "[0049]",
+     "[0094]",
+     "[0106]",
+     "¶110"
+    ]
+   },
+   {
+    "element": "the deflectable element is a wiper ring (130) which is separate from the rigid valve seat and which is deflected by the purge shoulder (44) during the over-travel",
+    "paragraphs": [
+     "[0016]",
+     "[0030]",
+     "[0053]",
+     "[0094]",
+     "[0107]"
+    ]
+   }
+  ],
+  "28": [
+   {
+    "element": "the wiper ring (130) is positioned below the rigid valve seat (132), towards the inflatable body (80)",
+    "paragraphs": [
+     "[0053]",
+     "[0084]",
+     "[0094]",
+     "[0107]"
+    ]
+   },
+   {
+    "element": "is deflected outward by the purge shoulder (44)",
+    "paragraphs": [
+     "[0053]",
+     "[0084]",
+     "[0094]",
+     "[0107]"
+    ]
+   }
+  ],
+  "29": [
+   {
+    "element": "The valve of claim 27 or claim 28",
+    "paragraphs": [
+     "[0008]"
+    ]
+   },
+   {
+    "element": "the wiper ring (130) is of a resilient metal",
+    "paragraphs": [
+     "[0048]",
+     "[0053]",
+     "[0094]",
+     "[0118]"
+    ]
+   }
+  ],
+  "30": [
+   {
+    "element": "The valve of any one of claims 1 to 29",
+    "paragraphs": [
+     "[0008]"
+    ]
+   },
+   {
+    "element": "a purge gap width of the purge gap (60), measured perpendicular to the surfaces bounding the purge gap when the purge gap is fully open, is from 0.10 mm to 0.25 mm",
+    "paragraphs": [
+     "[0066]",
+     "[0085]",
+     "[0126]"
+    ]
+   }
+  ],
+  "31": [
+   {
+    "element": "The valve of any one of claims 1 to 30",
+    "paragraphs": [
+     "[0008]"
+    ]
+   },
+   {
+    "element": "the over-travel is from 0.4 mm to 0.9 mm beyond the end of the normal stroke",
+    "paragraphs": [
+     "[0043]",
+     "[0085]",
+     "[0126]"
+    ]
+   }
+  ],
+  "32": [
+   {
+    "element": "The valve of any one of claims 1 to 31",
+    "paragraphs": [
+     "[0008]"
+    ]
+   },
+   {
+    "element": "the opening pressure is from 0.8 bar to 1.5 bar, the opening pressure being a value of the pressure differential",
+    "paragraphs": [
+     "[0039]",
+     "[0040]",
+     "[0085]",
+     "[0127]"
+    ]
+   }
+  ],
+  "33": [
+   {
+    "element": "The valve of any one of claims 1 to 32",
+    "paragraphs": [
+     "[0008]"
+    ]
+   },
+   {
+    "element": "the over-travel threshold is from 2.5 bar to 5.0 bar, the over-travel threshold being a value of the pressure differential",
+    "paragraphs": [
+     "[0039]",
+     "[0042]",
+     "[0085]",
+     "[0127]"
+    ]
+   }
+  ],
+  "34": [
+   {
+    "element": "the over-travel threshold is from 2.5 bar to 3.5 bar",
+    "paragraphs": [
+     "[0042]",
+     "[0085]",
+     "[0127]",
+     "[0130]"
+    ]
+   }
+  ],
+  "35": [
+   {
+    "element": "The valve core of claim 2, wherein, as the deflectable element recovers when the pressure differential falls, the deflectable element slides across the sealing face (42) of the valve member (40) in a recovery wipe",
+    "paragraphs": [
+     "[0010]",
+     "[0011]",
+     "[0012]",
+     "[0016]",
+     "[0034]",
+     "[0055]",
+     "[0117]",
+     "¶45",
+     "¶17",
+     "¶61"
+    ]
+   }
+  ],
+  "36": [
+   {
+    "element": "The valve core of claim 2 or claim 35",
+    "paragraphs": [
+     "[0012]"
+    ]
+   },
+   {
+    "element": "the valve member (40) has a purge shoulder (44) which is clear of the deflectable element throughout the normal stroke and bears on the deflectable element only during the over-travel",
+    "paragraphs": [
+     "[0016]",
+     "[0029]",
+     "[0041]",
+     "[0054]",
+     "[0119]"
+    ]
+   }
+  ],
+  "37": [
+   {
+    "element": "The valve core of any one of claims 2, 35 and 36",
+    "paragraphs": [
+     "[0012]"
+    ]
+   },
+   {
+    "element": "the biasing member (50) has a two-rate characteristic (500) with a first stage (502), which sets the opening pressure",
+    "paragraphs": [
+     "[0016]",
+     "[0033]",
+     "[0063]",
+     "[0112]",
+     "[0120]"
+    ]
+   },
+   {
+    "element": "a stiffer second stage (504), which sets the over-travel threshold",
+    "paragraphs": [
+     "[0016]",
+     "[0033]",
+     "[0063]",
+     "[0112]",
+     "[0120]"
+    ]
+   }
+  ],
+  "38": [
+   {
+    "element": "The valve core of any one of claims 2 and 35 to 37",
+    "paragraphs": [
+     "[0012]"
+    ]
+   },
+   {
+    "element": "the deflectable element is of a superelastic alloy having an austenite finish temperature below 5 °C",
+    "paragraphs": [
+     "[0016]",
+     "[0048]",
+     "[0073]",
+     "[0074]",
+     "[0118]",
+     "[0128]"
+    ]
+   }
+  ],
+  "39": [
+   {
+    "element": "The valve core of any one of claims 2 and 35 to 38",
+    "paragraphs": [
+     "[0012]"
+    ]
+   },
+   {
+    "element": "the deflectable element is a seat ring (30) whose upper edge (32) provides the valve seat, the core body (20) having a core bore (22) in which the seat ring is received",
+    "paragraphs": [
+     "[0012]",
+     "[0028]",
+     "[0030]",
+     "[0051]",
+     "[0068]",
+     "[0092]"
+    ]
+   },
+   {
+    "element": "the seat ring being located against a locating shoulder (24) of the core body",
+    "paragraphs": [
+     "[0012]",
+     "[0028]",
+     "[0030]",
+     "[0051]",
+     "[0068]",
+     "[0092]"
+    ]
+   }
+  ],
+  "40": [
+   {
+    "element": "the purge gap (60) is annular and is formed between an outer surface (38) of the seat ring (30) and the core bore (22)",
+    "paragraphs": [
+     "[0031]",
+     "[0037]",
+     "[0038]",
+     "[0046]",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "opens when the seat ring expands",
+    "paragraphs": [
+     "[0031]",
+     "[0037]",
+     "[0038]",
+     "[0046]",
+     "[0111]"
+    ]
+   }
+  ],
+  "41": [
+   {
+    "element": "The valve core of claim 39 or claim 40",
+    "paragraphs": [
+     "[0012]"
+    ]
+   },
+   {
+    "element": "the seat ring (30) has a convoluted wall (34) which, seen in axial section, has at least one convolution (36), the convoluted wall converting an axial load applied to the upper edge (32) of the seat ring during the over-travel into radial expansion of the seat ring, the radial expansion opening the purge gap (60)",
+    "paragraphs": [
+     "[0016]",
+     "[0030]",
+     "[0064]",
+     "[0095]",
+     "[0111]"
+    ]
+   }
+  ],
+  "42": [
+   {
+    "element": "the seat ring (30) is of a superelastic alloy having an austenite finish temperature below 5 °C",
+    "paragraphs": [
+     "[0016]",
+     "[0051]",
+     "[0073]",
+     "[0074]",
+     "[0092]",
+     "[0118]",
+     "[0128]"
+    ]
+   }
+  ],
+  "43": [
+   {
+    "element": "the seat ring (30) has a seat ring inner diameter of from 2.0 mm to 2.6 mm, a wall thickness of from 0.15 mm to 0.30 mm, a free length of from 2.5 mm to 4.0 mm and a convolution amplitude of from 0.08 mm to 0.20 mm",
+    "paragraphs": [
+     "[0065]",
+     "[0085]",
+     "[0124]",
+     "[0125]",
+     "[0130]"
+    ]
+   }
+  ],
+  "44": [
+   {
+    "element": "The valve core of any one of claims 39 to 41",
+    "paragraphs": [
+     "[0012]"
+    ]
+   },
+   {
+    "element": "the seat ring (30) is a polymer seat ring",
+    "paragraphs": [
+     "[0016]",
+     "[0052]",
+     "[0093]",
+     "[0104]",
+     "[0118]"
+    ]
+   }
+  ],
+  "45": [
+   {
+    "element": "the valve seat is a rigid valve seat (132) which is not deflected during the over-travel",
+    "paragraphs": [
+     "[0030]",
+     "[0049]",
+     "[0070]",
+     "[0094]",
+     "[0106]",
+     "¶110"
+    ]
+   },
+   {
+    "element": "the deflectable element is a wiper ring (130) which is separate from the rigid valve seat, is positioned below the rigid valve seat, towards the inflatable body (80)",
+    "paragraphs": [
+     "[0016]",
+     "[0053]",
+     "[0084]",
+     "[0094]",
+     "[0107]"
+    ]
+   },
+   {
+    "element": "is deflected outward by the purge shoulder (44) during the over-travel",
+    "paragraphs": [
+     "[0016]",
+     "[0053]",
+     "[0084]",
+     "[0094]",
+     "[0107]"
+    ]
+   }
+  ],
+  "46": [
+   {
+    "element": "The valve core of any one of claims 2 and 35 to 45",
+    "paragraphs": [
+     "[0012]"
+    ]
+   },
+   {
+    "element": "the core body (20) has an external thread (26) by which the valve core is threaded into the valve stem (10), the valve core being removable from the valve stem as a unit",
+    "paragraphs": [
+     "[0012]",
+     "[0027]",
+     "[0070]",
+     "[0109]"
+    ]
+   }
+  ],
+  "47": [
+   {
+    "element": "The valve core of any one of claims 2 and 35 to 46",
+    "paragraphs": [
+     "[0012]"
+    ]
+   },
+   {
+    "element": "the opening pressure is from 0.8 bar to 1.5 bar and the over-travel threshold is from 2.5 bar to 5.0 bar, each being a value of the pressure differential",
+    "paragraphs": [
+     "[0039]",
+     "[0040]",
+     "[0042]",
+     "[0085]",
+     "[0127]"
+    ]
+   }
+  ],
+  "48": [
+   {
+    "element": "A valve (92) comprising a valve stem (10) and, received in the valve stem, the valve core (90) of any one of claims 2 and 35 to 47",
+    "paragraphs": [
+     "[0013]",
+     "[0027]",
+     "[0071]",
+     "[0095]",
+     "[0123]"
+    ]
+   }
+  ],
+  "49": [
+   {
+    "element": "the valve (92) is a valve according to any one of claims 5 to 34 and 48",
+    "paragraphs": [
+     "[0014]",
+     "[0038]",
+     "[0079]",
+     "[0113]",
+     "[0123]"
+    ]
+   }
+  ],
+  "50": [
+   {
+    "element": "The inflatable body of claim 3 or claim 49",
+    "paragraphs": [
+     "[0014]"
+    ]
+   },
+   {
+    "element": "the inflatable body (80) contains a liquid puncture sealant (82)",
+    "paragraphs": [
+     "[0014]",
+     "[0037]",
+     "[0056]",
+     "[0079]",
+     "[0113]"
+    ]
+   }
+  ],
+  "51": [
+   {
+    "element": "The inflatable body of any one of claims 3, 49 and 50",
+    "paragraphs": [
+     "[0014]"
+    ]
+   },
+   {
+    "element": "the inflatable body (80) is a bicycle inner tube or a tubeless tyre set-up",
+    "paragraphs": [
+     "[0014]",
+     "[0079]",
+     "[0113]"
+    ]
+   }
+  ],
+  "52": [
+   {
+    "element": "as the deflectable element recovers, the deflectable element sliding across the sealing face (42) of the valve member (40) in a recovery wipe",
+    "paragraphs": [
+     "[0015]",
+     "[0034]",
+     "[0055]",
+     "[0111]",
+     "[0117]",
+     "¶45",
+     "¶22",
+     "¶61"
+    ]
+   }
+  ],
+  "53": [
+   {
+    "element": "The method of claim 4 or claim 52",
+    "paragraphs": [
+     "[0015]"
+    ]
+   },
+   {
+    "element": "the over-travel of the valve member (40) deflects the deflectable element by a purge shoulder (44) of the valve member which is clear of the deflectable element throughout the normal stroke and bears on the deflectable element only during the over-travel",
+    "paragraphs": [
+     "[0041]",
+     "[0054]",
+     "[0111]",
+     "[0119]"
+    ]
+   }
+  ],
+  "54": [
+   {
+    "element": "The method of any one of claims 4, 52 and 53",
+    "paragraphs": [
+     "[0015]"
+    ]
+   },
+   {
+    "element": "the valve (92) is a valve according to any one of claims 1, 5 to 34 and 48",
+    "paragraphs": [
+     "[0015]",
+     "[0038]",
+     "[0111]",
+     "[0113]"
+    ]
+   }
+  ],
+  "55": [
+   {
+    "element": "The method of any one of claims 4 and 52 to 54",
+    "paragraphs": [
+     "[0015]"
+    ]
+   },
+   {
+    "element": "the inflation device (84) is a floor pump",
+    "paragraphs": [
+     "[0078]",
+     "[0099]",
+     "[0113]"
+    ]
+   }
+  ],
+  "56": [
+   {
+    "element": "The method of any one of claims 4 and 52 to 55",
+    "paragraphs": [
+     "[0015]"
+    ]
+   },
+   {
+    "element": "the method is repeated over a plurality of inflation cycles of the inflatable body (80), the purge flow (64) passing through the purge gap (60) at each inflation cycle in which the pressure differential applied by the inflation device (84) exceeds the over-travel threshold",
+    "paragraphs": [
+     "[0007]",
+     "[0017]",
+     "[0042]",
+     "[0059]",
+     "[0078]",
+     "[0099]",
+     "[0102]",
+     "[0113]"
+    ]
+   }
+  ],
+  "57": [
+   {
+    "element": "The valve of claim 20, wherein, as the seat ring (30) recovers when the pressure differential falls, the upper edge (32) of the seat ring slides across the sealing face (42) of the valve member (40)",
+    "paragraphs": [
+     "¶45",
+     "[0030]",
+     "[0034]",
+     "[0050]",
+     "[0055]",
+     "[0092]",
+     "[0111]"
+    ]
+   }
+  ],
+  "58": [
+   {
+    "element": "The valve of any one of claims 27 to 29",
+    "paragraphs": [
+     "[0008]",
+     "[0094]"
+    ]
+   },
+   {
+    "element": "a core body (20), the rigid valve seat (132) being carried by the core body",
+    "paragraphs": [
+     "¶110",
+     "[0049]",
+     "[0067]",
+     "[0083]",
+     "[0094]"
+    ]
+   }
+  ],
+  "59": [
+   {
+    "element": "The valve core of claim 42, wherein, as the seat ring (30) recovers when the pressure differential falls, the upper edge (32) of the seat ring slides across the sealing face (42) of the valve member (40)",
+    "paragraphs": [
+     "¶45",
+     "[0030]",
+     "[0034]",
+     "[0038]",
+     "[0050]",
+     "[0055]",
+     "[0092]",
+     "[0111]"
+    ]
+   }
+  ],
+  "60": [
+   {
+    "element": "the rigid valve seat (132) is carried by the core body (20)",
+    "paragraphs": [
+     "¶110",
+     "[0049]",
+     "[0070]",
+     "[0083]",
+     "[0094]"
+    ]
+   }
+  ],
+  "61": [
+   {
+    "element": "A valve (92) for an inflatable body (80), the valve comprising a valve seat, a valve member (40) having a sealing face (42), a biasing member (50) which urges the valve member towards the valve seat",
+    "paragraphs": [
+     "[0001]",
+     "[0008]",
+     "[0011]",
+     "[0072]",
+     "[0079]",
+     "[0062]"
+    ]
+   },
+   {
+    "element": "a deflectable element",
+    "paragraphs": [
+     "[0011]",
+     "¶17",
+     "¶61"
+    ]
+   },
+   {
+    "element": "the valve has three ranges of pressure differential across the valve, namely",
+    "paragraphs": [
+     "[0009]",
+     "[0039]",
+     "[0112]"
+    ]
+   },
+   {
+    "element": "below an opening pressure (506), a rest state (514) in which the valve member is seated on the valve seat and the deflectable element is undeflected",
+    "paragraphs": [
+     "[0009]",
+     "[0040]",
+     "[0044]",
+     "¶61"
+    ]
+   },
+   {
+    "element": "between the opening pressure and an over-travel threshold (508) which is higher than the opening pressure, a normal stroke (510) of the valve member away from the valve seat, in which the deflectable element remains undeflected",
+    "paragraphs": [
+     "[0009]",
+     "[0041]",
+     "[0042]",
+     "¶61",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "above the over-travel threshold, an over-travel (512) of the valve member beyond the normal stroke, produced by the pressure differential acting on the valve member against the biasing member, in which the over-travel of the valve member deflects the deflectable element",
+    "paragraphs": [
+     "[0008]",
+     "[0011]",
+     "¶17",
+     "[0042]",
+     "[0043]",
+     "¶61"
+    ]
+   },
+   {
+    "element": "wherein, when the pressure differential falls, the deflectable element recovers and, as the deflectable element recovers, the deflectable element slides across the sealing face of the valve member in a recovery wipe",
+    "paragraphs": [
+     "[0011]",
+     "¶17",
+     "[0016]",
+     "[0034]",
+     "¶61",
+     "[0055]",
+     "[0117]"
+    ]
+   }
+  ],
+  "62": [
+   {
+    "element": "the valve member (40) has a purge shoulder (44) which is clear of the deflectable element throughout the normal stroke and bears on the deflectable element only during the over-travel, so that the over-travel of the valve member is applied to the deflectable element as a load which deflects it",
+    "paragraphs": [
+     "[0016]",
+     "[0029]",
+     "[0041]",
+     "[0054]",
+     "[0119]"
+    ]
+   }
+  ],
+  "63": [
+   {
+    "element": "The valve of claim 61 or claim 62",
+    "paragraphs": [
+     "[0082]"
+    ]
+   },
+   {
+    "element": "the biasing member (50) has a two-rate characteristic (500) with a first stage (502), which the pressure differential overcomes during the normal stroke and which sets the opening pressure",
+    "paragraphs": [
+     "[0016]",
+     "[0033]",
+     "[0063]",
+     "[0112]",
+     "[0120]"
+    ]
+   },
+   {
+    "element": "a stiffer second stage (504), which the pressure differential overcomes to produce the over-travel and which sets the over-travel threshold",
+    "paragraphs": [
+     "[0016]",
+     "[0033]",
+     "[0063]",
+     "[0112]",
+     "[0120]"
+    ]
+   }
+  ],
+  "64": [
+   {
+    "element": "The valve of any one of claims 61 to 63",
+    "paragraphs": [
+     "[0082]"
+    ]
+   },
+   {
+    "element": "the deflectable element is of a superelastic alloy having an austenite finish temperature below 5 °C",
+    "paragraphs": [
+     "[0016]",
+     "[0073]",
+     "[0074]",
+     "[0118]"
+    ]
+   }
+  ],
+  "65": [
+   {
+    "element": "The valve of any one of claims 61 to 64",
+    "paragraphs": [
+     "[0082]"
+    ]
+   },
+   {
+    "element": "the valve seat is provided by the deflectable element, the deflectable element being a seat ring (30)",
+    "paragraphs": [
+     "¶17",
+     "[0016]",
+     "[0048]",
+     "[0049]",
+     "[0051]"
+    ]
+   }
+  ],
+  "66": [
+   {
+    "element": "the seat ring (30) has a convoluted wall (34) which, seen in axial section, has at least one convolution (36)",
+    "paragraphs": [
+     "[0016]",
+     "[0030]",
+     "[0064]",
+     "[0095]"
+    ]
+   },
+   {
+    "element": "deflection of the seat ring by the over-travel of the valve member (40) includes radial expansion of the seat ring",
+    "paragraphs": [
+     "[0030]",
+     "¶45",
+     "[0048]",
+     "[0064]",
+     "[0111]"
+    ]
+   }
+  ],
+  "67": [
+   {
+    "element": "the valve seat is a rigid valve seat (132) which is not deflected during the over-travel",
+    "paragraphs": [
+     "[0016]",
+     "[0049]",
+     "[0094]",
+     "¶110"
+    ]
+   },
+   {
+    "element": "the deflectable element is a wiper ring (130) which is separate from the rigid valve seat and which is deflected by the purge shoulder (44) during the over-travel",
+    "paragraphs": [
+     "¶17",
+     "[0016]",
+     "[0053]",
+     "[0094]",
+     "[0117]"
+    ]
+   }
+  ],
+  "68": [
+   {
+    "element": "An inflatable body (80) fitted with a valve (92) according to any one of claims 61 to 67, the inflatable body being inflatable through the valve",
+    "paragraphs": [
+     "[0014]",
+     "[0038]",
+     "[0079]",
+     "[0113]"
+    ]
+   }
+  ],
+  "69": [
+   {
+    "element": "the inflatable body (80) contains a liquid puncture sealant (82)",
+    "paragraphs": [
+     "[0014]",
+     "[0056]",
+     "[0079]",
+     "[0113]"
+    ]
+   }
+  ],
+  "70": [
+   {
+    "element": "A valve core (90) for a valve for an inflatable body (80), the valve core comprising a core body (20), a valve seat, a valve member (40) having a sealing face (42), a biasing member (50) which urges the valve member towards the valve seat",
+    "paragraphs": [
+     "[0012]",
+     "[0027]",
+     "[0038]",
+     "[0067]",
+     "[0070]"
+    ]
+   },
+   {
+    "element": "a deflectable element, the valve member, the biasing member and the deflectable element being carried by the core body",
+    "paragraphs": [
+     "[0012]",
+     "[0038]",
+     "[0067]",
+     "[0070]"
+    ]
+   },
+   {
+    "element": "the valve core being receivable as a unit in a valve stem (10)",
+    "paragraphs": [
+     "[0012]",
+     "[0027]",
+     "[0070]"
+    ]
+   },
+   {
+    "element": "the valve core has three ranges of pressure differential acting on the valve member, namely",
+    "paragraphs": [
+     "[0009]",
+     "[0039]",
+     "[0112]"
+    ]
+   },
+   {
+    "element": "below an opening pressure (506), a rest state (514) in which the valve member is seated on the valve seat and the deflectable element is undeflected",
+    "paragraphs": [
+     "[0009]",
+     "[0040]",
+     "[0044]",
+     "¶61"
+    ]
+   },
+   {
+    "element": "between the opening pressure and an over-travel threshold (508) which is higher than the opening pressure, a normal stroke (510) of the valve member away from the valve seat, in which the deflectable element remains undeflected",
+    "paragraphs": [
+     "[0009]",
+     "[0041]",
+     "[0042]",
+     "¶61",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "above the over-travel threshold, an over-travel (512) of the valve member beyond the normal stroke, produced by the pressure differential acting on the valve member against the biasing member, in which the over-travel of the valve member deflects the deflectable element",
+    "paragraphs": [
+     "[0008]",
+     "[0011]",
+     "¶17",
+     "[0042]",
+     "[0043]",
+     "¶61"
+    ]
+   },
+   {
+    "element": "wherein, when the pressure differential falls, the deflectable element recovers and, as the deflectable element recovers, the deflectable element slides across the sealing face of the valve member in a recovery wipe",
+    "paragraphs": [
+     "[0011]",
+     "¶17",
+     "[0016]",
+     "[0034]",
+     "¶61",
+     "[0055]",
+     "[0117]"
+    ]
+   }
+  ],
+  "71": [
+   {
+    "element": "the valve member (40) has a purge shoulder (44) which is clear of the deflectable element throughout the normal stroke and bears on the deflectable element only during the over-travel",
+    "paragraphs": [
+     "[0016]",
+     "[0029]",
+     "[0041]",
+     "[0054]",
+     "[0119]"
+    ]
+   }
+  ],
+  "72": [
+   {
+    "element": "The valve core of claim 70 or claim 71",
+    "paragraphs": [
+     "[0082]"
+    ]
+   },
+   {
+    "element": "the biasing member (50) has a two-rate characteristic (500) with a first stage (502), which sets the opening pressure",
+    "paragraphs": [
+     "[0016]",
+     "[0033]",
+     "[0063]",
+     "[0112]",
+     "[0120]"
+    ]
+   },
+   {
+    "element": "a stiffer second stage (504), which sets the over-travel threshold",
+    "paragraphs": [
+     "[0016]",
+     "[0033]",
+     "[0063]",
+     "[0112]",
+     "[0120]"
+    ]
+   }
+  ],
+  "73": [
+   {
+    "element": "The valve core of any one of claims 70 to 72",
+    "paragraphs": [
+     "[0082]"
+    ]
+   },
+   {
+    "element": "the deflectable element is of a superelastic alloy having an austenite finish temperature below 5 °C",
+    "paragraphs": [
+     "[0016]",
+     "[0073]",
+     "[0074]",
+     "[0118]"
+    ]
+   }
+  ],
+  "74": [
+   {
+    "element": "The valve core of any one of claims 70 to 73",
+    "paragraphs": [
+     "[0082]"
+    ]
+   },
+   {
+    "element": "the valve seat is provided by the deflectable element, the deflectable element being a seat ring (30)",
+    "paragraphs": [
+     "¶17",
+     "[0016]",
+     "[0048]",
+     "[0049]",
+     "[0051]"
+    ]
+   }
+  ],
+  "75": [
+   {
+    "element": "the seat ring (30) has a convoluted wall (34) which, seen in axial section, has at least one convolution (36)",
+    "paragraphs": [
+     "[0016]",
+     "[0030]",
+     "[0064]",
+     "[0095]"
+    ]
+   },
+   {
+    "element": "deflection of the seat ring by the over-travel of the valve member (40) includes radial expansion of the seat ring",
+    "paragraphs": [
+     "[0030]",
+     "¶45",
+     "[0048]",
+     "[0064]",
+     "[0111]"
+    ]
+   }
+  ],
+  "76": [
+   {
+    "element": "the valve seat is a rigid valve seat (132) which is not deflected during the over-travel",
+    "paragraphs": [
+     "[0016]",
+     "[0049]",
+     "[0094]",
+     "¶110"
+    ]
+   },
+   {
+    "element": "the deflectable element is a wiper ring (130) which is separate from the rigid valve seat and which is deflected by the purge shoulder (44) during the over-travel",
+    "paragraphs": [
+     "¶17",
+     "[0016]",
+     "[0053]",
+     "[0094]",
+     "[0117]"
+    ]
+   }
+  ],
+  "77": [
+   {
+    "element": "The valve core of any one of claims 70 to 76",
+    "paragraphs": [
+     "[0082]"
+    ]
+   },
+   {
+    "element": "the core body (20) has an external thread (26) by which the valve core is threaded into the valve stem (10), the valve core being removable from the valve stem as a unit",
+    "paragraphs": [
+     "[0012]",
+     "[0027]",
+     "[0070]",
+     "[0109]"
+    ]
+   }
+  ],
+  "78": [
+   {
+    "element": "A valve (92) comprising a valve stem (10) and, received in the valve stem, the valve core (90) of any one of claims 70 to 77",
+    "paragraphs": [
+     "[0013]",
+     "[0027]",
+     "[0072]",
+     "[0123]"
+    ]
+   }
+  ],
+  "79": [
+   {
+    "element": "A method of operating a valve (92) for an inflatable body (80) during inflation, the valve having a valve seat, a valve member (40) with a sealing face (42), a biasing member (50) which urges the valve member towards the valve seat",
+    "paragraphs": [
+     "¶22",
+     "[0062]",
+     "[0072]"
+    ]
+   },
+   {
+    "element": "a deflectable element, the method comprising, in one inflation of the inflatable body through the valve by an inflation device (84): applying, by the inflation device, a pressure differential across the valve",
+    "paragraphs": [
+     "¶22",
+     "[0039]",
+     "[0078]",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "when the pressure differential exceeds an opening pressure (506), the valve member making a normal stroke (510) away from the valve seat against the biasing member, while the deflectable element remains undeflected",
+    "paragraphs": [
+     "¶22",
+     "[0040]",
+     "[0041]",
+     "[0111]",
+     "¶133"
+    ]
+   },
+   {
+    "element": "when the pressure differential exceeds an over-travel threshold (508) which is higher than the opening pressure, the valve member making an over-travel (512) beyond the normal stroke against the biasing member",
+    "paragraphs": [
+     "¶22",
+     "[0042]",
+     "[0043]",
+     "[0111]",
+     "¶133"
+    ]
+   },
+   {
+    "element": "the over-travel of the valve member deflecting the deflectable element",
+    "paragraphs": [
+     "¶22",
+     "[0043]",
+     "¶61",
+     "¶133"
+    ]
+   },
+   {
+    "element": "the pressure differential falling when the inflation device ceases to apply pressure to the valve or is removed from it",
+    "paragraphs": [
+     "¶22",
+     "[0039]",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "as the pressure differential falls, the valve member returning towards the valve seat under the biasing member",
+    "paragraphs": [
+     "¶22",
+     "[0034]",
+     "[0055]",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "the deflectable element recovering and, as the deflectable element recovers, sliding across the sealing face of the valve member in a recovery wipe",
+    "paragraphs": [
+     "¶22",
+     "[0034]",
+     "¶61",
+     "[0055]",
+     "[0111]",
+     "¶133"
+    ]
+   }
+  ],
+  "80": [
+   {
+    "element": "the over-travel of the valve member (40) deflects the deflectable element by a purge shoulder (44) of the valve member which is clear of the deflectable element throughout the normal stroke and bears on the deflectable element only during the over-travel",
+    "paragraphs": [
+     "¶22",
+     "[0041]",
+     "[0054]",
+     "[0111]",
+     "[0119]"
+    ]
+   }
+  ],
+  "81": [
+   {
+    "element": "The method of claim 79 or claim 80",
+    "paragraphs": [
+     "[0082]"
+    ]
+   },
+   {
+    "element": "the valve (92) is a valve according to any one of claims 61 to 67 and 78",
+    "paragraphs": [
+     "¶22",
+     "[0011]",
+     "[0013]",
+     "[0082]"
+    ]
+   }
+  ]
+ },
+ "claims_version": "claims.v3.md",
+ "description_version": "description.v3.md",
+ "paragraph_aliases": {
+  "¶17": "[0011a]",
+  "¶22": "[0015a]",
+  "¶45": "[0034a]",
+  "¶61": "[0048a]",
+  "¶110": "[0094a]",
+  "¶120": "[0101a]",
+  "¶133": "[0111a]",
+  "¶158": "[0132a]"
+ },
+ "note": "pc support-map reads only paragraph ids of the form [0000]; the lettered paragraphs of description.v3.md are cited by the positional id the checker assigns, and paragraph_aliases gives the printed number of each. The ids are positional and must be regenerated for any later description version. The previous map (claims.v2.md against description.v2.md) is kept as support-map.v2.json."
+}

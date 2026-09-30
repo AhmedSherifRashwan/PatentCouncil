@@ -1,0 +1,187 @@
+{
+ "rulings": [
+  {
+   "id": "F-28-1",
+   "ruling": "upheld",
+   "reason": "Correct on the text. [0007] attributes specific content (enlarged bore, fluoropolymer-coated sealing face, rigid seat, removable insert) to 'US2019/0123456A1'. The matter's prior-art INDEX.md lists that number only as S1, 'Marked in the file as a fictional test reference … it is not a real publication and was not searched for or fetched'. No saved reference in prior-art/refs/ supports [0007]. If a real document with that number exists, [0007] misdescribes it (US duty of candour, 37 CFR 1.56). At the EPO and UK the paragraph reads as an admission that those features were known. Drafter's best defence: none, because nothing in the package verifies the citation. [0013] ('In the documents referred to above') must be rechecked once [0007] is removed. High is right."
+  },
+  {
+   "id": "F-28-2",
+   "ruling": "upheld",
+   "reason": "The captions exist in the Figure Instructions that the draftsperson will draw from. FIG. 11: 'Candidate alternative seat-ring geometries; not built or tested; shown for disclosure of the genus only'. FIG. 12 and FIG. 13A carry the same wording, and FIG. 10 has 'retained pending confirmation'. Filed on the drawing sheets, these words tell an opponent that the applicant regarded the constructions as unconfirmed, which is evidence against possession under US written description for claims 40-44, 26, 66 and 67. Drafter's best defence: the description presents them as embodiments ([0047], [0048], [0176]-[0178], [0186], [0190]) and says only that they were not tested ([0184], [0202]). That defence answers the lack of testing, which is harmless. It does not answer 'candidate … pending confirmation' printed on the sheets. Severity corrected to medium: the claims affected are dependent, and the text fix is to delete the caption words. Separate point for counsel: the figure plan states that FIGS. 11, 12 and 13A are 'not stated in the inventor's disclosure'. Whether the inventor conceived them is a gate question, not something this ruling decides.",
+   "severity": "medium"
+  },
+  {
+   "id": "F-28-3",
+   "ruling": "upheld",
+   "reason": "Correct on the text. [0081] defines radial expansion as an 'outward movement of the wall'. [0124] says the purge gap 60 is 'an annular clearance between the outer surface of the seat ring 30 and the core body bore 22', closed at rest and open after radial expansion. [0112] and [0195] say the seat ring is pressed into the core body with an interference fit. The text never explains how a wall moving outward against a surrounding bore opens, rather than closes, a clearance to that bore. Drafter's best defence: [0186]-[0187], where the free portion 37 expands into a relief 202 and the gap closes at rest 'by line contact at one end of the core body bore relief 202'. That fails for two reasons. It still does not say how outward movement breaks that line contact. And [0202] states the relief is not the construction of the tested valve cores, so the tested construction behind [0237] (a 0.15 mm radial purge gap width) is not disclosed at all. This goes to enablement and sufficiency of the annular-clearance form behind claims 16-17, 26, 58 and 65. The fix needs the inventor's prototype record (disclosure request). High is right."
+  },
+  {
+   "id": "F-28-4",
+   "ruling": "rejected",
+   "reason": "Duplicate of F-28-5. Both findings attack the same load path: where the purge shoulder bears ([0113] 'for example at its upper edge' against [0117] 'below the sealing face'), and flattening ([0134], [0170], [0237]) against increasing bow ([0172]), including the inconsistency of a 0.15 mm gap from a 0.12 mm convolution. F-28-5 covers all of this and also the FIG. 1 and FIG. 2 instructions and claim 22. The substance is upheld under F-28-5. Its 'stress state of the wall' request belongs in the same new paragraph."
+  },
+  {
+   "id": "F-28-5",
+   "ruling": "upheld",
+   "reason": "Correct on the text: the principal embodiment's load path is internally inconsistent in five ways. (1) [0112] makes the 'upper edge' the sealing edge 32, and [0113] applies the axial load 'for example at its upper edge'. But [0117] puts the purge shoulder 44 'below the sealing face 42', and in the over-travel the sealing face has left the sealing edge ([0116]). (2) The FIG. 2 instruction instead has the purge shoulder touching 'at the fit-band end of the convoluted wall'. (3) [0167] and [0186] put the fit band and locating shoulder at the end opposite the sealing edge, yet the FIG. 1 instruction puts the locating shoulder 'near the tyre-chamber end' and the sealing edge 'at the tyre-chamber end'. (4) [0134], [0170] and [0237] (and claim 22) say the convolution flattens, but [0172] says the equivalent single bow 'increases under axial load'. (5) No passage says what surface reacts the load. Drafter's best defence: [0106] and [0081] make the mechanism functional. They do not cure a contradiction in the only embodiment that was built. Examiners use exactly this for sufficiency (EPO Art. 83) and enablement (US 35 USC 112(a)). The claims need not narrow, but the fix needs the inventor's prototype record. High is right."
+  },
+  {
+   "id": "F-28-6",
+   "ruling": "rejected",
+   "reason": "Duplicate of F-28-20: same defect (purge gap 146 of the two-piece seat is not described, and [0181]-[0183] and Statement 7.1 [0347] describe only outward deflection and wiping). The substance is upheld under F-28-20 at medium, not high: claim 1 does not fall on this point, because the genus is supported by the seat-ring embodiments ([0124], [0133]) and by the definition in [0099]. The request for a dependent two-piece-seat claim can be taken up in the F-28-20 fix."
+  },
+  {
+   "id": "F-28-7",
+   "ruling": "rejected",
+   "reason": "Claim 2 is not broader than the disclosure in the way alleged. Its preamble, 'during an inflation cycle', is a defined term that applies in the claims ([0050]). [0090] defines an inflation cycle as 'one application and removal of the pressure differential by a pump head', so the pump head and the pressure differential are already imported. The description also marks pressure actuation as preferred, not essential: [0072] 'which is the preferred actuation', and [0071] 'In embodiments in which the poppet is moved by the pressure differential'. The explicit pump-head and pressure-differential fallbacks are claims 51 and 52."
+  },
+  {
+   "id": "F-28-8",
+   "ruling": "upheld",
+   "reason": "Correct on the text. Claim 24 may depend on claim 22, so one combination claims a single outward bow that the axial load flattens. [0172] says of the pre-bowed wall, which it equates with the convoluted wall having one convolution, 'The bow increases under axial load'. The description therefore contradicts the claimed combination, which is a clarity and support objection (EPO Art. 84; US 112(a)/(b)). Drafter's best defence: [0134] says 'In some embodiments the convolution 36 flattens'. That does not reconcile it with [0172] for the bow form. The fix is either claim 24 depending on claim 21 only, or reconciling [0172] under F-28-5. The finding's reference to 'F-28-1' should read F-28-5. Medium stands."
+  },
+  {
+   "id": "F-28-9",
+   "ruling": "upheld",
+   "reason": "Upheld at low severity only. Claims as filed are their own basis, and [0098] and [0255] describe shape-setting's effect ('fixes in the NiTi alloy the convolution geometry held by the fixture') independently of the other steps. [0254] shows that laser cutting's role varies. So the support objection is weak. What remains is that [0022] states the fifth aspect as 'laser cutting …, shape-setting …, and quenching', and Statement 5.1 [0340] adds electropolishing, while claim 4 recites shape-setting alone. The EPO will require the statement of invention to be conformed to the claim (Art. 84, adaptation of the description). The fix is to reword [0022] so that laser cutting and quenching are optional, which [0098], [0254] and [0255] already support. No new disclosure is needed.",
+   "severity": "low"
+  },
+  {
+   "id": "F-28-10",
+   "ruling": "upheld",
+   "reason": "Upheld as a clarity point at low severity. Claim 79 is literally supported by [0253] ('cut from a tube of NiTi alloy to the profile of the convoluted wall'), so this is not a support gap. But the term is unclear. [0062] defines a convolution as 'a single wave in the section', and [0170] and [0254] say the wave is pressed in the shape-setting fixture while laser cutting 'serves only to trim the ends'. Read as cutting the sectional wave, claim 79 describes something the description never explains. Read as the axial outline of the blank, it is consistent. The FIG. 7 instruction ('a schematic tube with the convoluted profile being cut') makes this worse. The fix is to define 'profile' in [0253], or delete claim 79.",
+   "severity": "low"
+  },
+  {
+   "id": "F-28-11",
+   "ruling": "upheld",
+   "reason": "Correct on the text. [0035] says optional features are combinable 'as set out under \"Combinations\"'. [0349] says a feature 'may be used with another embodiment in the combinations set out under \"Combinations\"'. [0217] says features 'may be combined as set out in this section'. Read together, these close the set of combinations, so an opponent can quote them against any combination not listed. The claims create unlisted combinations. Claim 30 depends on 25-26, giving a polymer seat ring with a fit band and relief, and the FIG. 8 instruction withholds the fit-band distinction from the polymer seat ring. Claim 36 (hard-anodised sealing face) reaches the polymer seat ring, while [0221] pairs it with NiTi only. Drafter's best defence: claims as filed are part of the disclosure in all three jurisdictions, so the claimed combinations are disclosed. That limits the damage for the claims as filed, but the closed wording still narrows every later amendment and gives nothing in return. The fix is to replace the closed wording with an open statement. The polymer and fit-band combination needs the inventor's confirmation. Medium stands."
+  },
+  {
+   "id": "F-28-12",
+   "ruling": "upheld",
+   "reason": "Correct on the text. The FIG. 1 instruction draws 'the main passage (26) as the annular flow path between the poppet (40) and the core body bore (22)'. [0123] and [0126] place the main passage 'between the sealing edge 32 and the sealing face 42' and 'between the poppet 40 and the seat ring 30'. [0124] makes the core body bore 22 a boundary of the purge gap 60. Claim 1 rests on the purge gap being distinct from the main passage ([0065], [0126]), and a drawing that bounds both by the core body bore gives an opponent a figure to argue they overlap. Severity corrected to low: it is a lead-line correction in the drawing instructions, and the description text itself is clear.",
+   "severity": "low"
+  },
+  {
+   "id": "F-28-13",
+   "ruling": "upheld",
+   "reason": "Correct on the text. The description never mentions FIG. 13A or numerals 146 and 220, although the Figure Instructions draw FIG. 13A with the Schrader-pattern core body 220, the registry lists 146 and 220, and claim 1 uses 146. [0049] describes only 'FIG. 13B'. A figure missing from the brief description, and reference signs used in drawings or claims but not in the description, draw formal objections (EPO Rules 42(1)(d) and 46(2)(i); 37 CFR 1.74 and 1.84(p)(5)). The fix is either to describe FIG. 13A and 146 (146 is tied to F-28-20), or to remove FIG. 13A, renumber FIG. 13B as FIG. 13, and delete 220. Medium stands."
+  },
+  {
+   "id": "F-28-14",
+   "ruling": "upheld",
+   "reason": "Upheld only for what F-28-13 and F-28-2 do not already cover. FIG. 13A, 146 and 220 duplicate F-28-13, and the candidate captions duplicate F-28-2. What remains: FIG. 5's travel axis 402 and force axis 404 are numbered in the FIG. 5 instruction and the registry, but neither numeral appears in the description. [0121] describes the axes without numerals. That is a formal defect of the same kind (37 CFR 1.84(p)(5); EPO Rule 46(2)(i)); the fix is to add the numerals to [0121] or drop them from the figure. The package also contains drawing instructions, not drawings, so formal drawings must be produced before filing; that is a process item for the Orchestrator. Severity corrected to low.",
+   "severity": "low"
+  },
+  {
+   "id": "F-28-15",
+   "ruling": "rejected",
+   "reason": "Duplicate of F-28-17: same forms (slotted sleeve [0176], split seat ring [0177], tapered seat ring [0178]), and the same defect (no closed-at-rest purge gap and no sealing edge identified). The substance is upheld under F-28-17."
+  },
+  {
+   "id": "F-28-16",
+   "ruling": "upheld",
+   "reason": "Upheld at low severity. [0033] in the Summary applies the ranges to embodiments of the first aspect generally. But [0230] opens the ranges section by tying it to 'the valve core 5 described under \"Principal embodiment: structure\"'. [0236] defines the over-travel distance as the travel in which 'the purge shoulder 44 bears on the seat ring 30'. [0237] derives the purge gap width from 'flattening of the convolution 36'. And Statement 1.23 [0320] hangs the ranges from the seat-ring statements 1.6-1.22 only. Drafter's best defence: claims 19 and 33 as filed are their own basis for combining the ranges with the generic element (claim 33 depends directly on claim 1), so no intermediate generalisation arises from the claims as filed. What remains is the internal tension between [0033] and [0230], which a fix of one sentence resolves if the inventor agrees that the ranges apply to other forms. Claim 34 is addressed under F-28-25.",
+   "severity": "low"
+  },
+  {
+   "id": "F-28-17",
+   "ruling": "upheld",
+   "reason": "Correct on the text. Claim 1 requires a purge gap 'closed at rest and throughout the normal stroke' and distinct from the main passage, and claims 40, 42 and 43 apply that to specific forms. (1) Slotted sleeve, [0176]: the axial slots are 'a route for the purge flow when the fingers 172 are spread', but nothing says they are closed at rest, even though slots between fingers exist at rest. (2) Split seat ring, [0177]: this addresses only the seal at rest ('the axial split 182 is closed at rest, or the seal at rest is made on a face beside the axial split'), and does not identify the purge gap. (3) Tapered seat ring, [0178]: nothing on the purge gap or where the sealing edge is. The only basis is the general statement at [0163], which does not identify the flow path for any of the three. This is a support and written-description defect for claims 40-43, and it weakens them as fallbacks. It is subject to the conception question raised under F-28-2, since the figure plan says these forms were not in the inventor's disclosure. Medium stands."
+  },
+  {
+   "id": "F-28-18",
+   "ruling": "rejected",
+   "reason": "Its timing argument duplicates F-28-19, which is upheld. Its separate point, that claims 32 and 76 extend the wipe to polymer seat rings 'beyond Statement 1.20', is answered by the text. [0085] says an embodiment with a polymer seat ring provides the air purge 'whether or not that embodiment also provides a snap-back wipe of comparable effect', and [0208] says of the polymer seat ring that 'the snap-back wipe is weaker'. So a polymer wipe is described, and claims as filed are their own basis."
+  },
+  {
+   "id": "F-28-19",
+   "ruling": "upheld",
+   "reason": "Correct on the text. [0137] gives the sequence: the purge shoulder lifts, the seat ring 'undergoes shape recovery … and the purge gap 60 closes. The poppet 40 then returns through the normal stroke 114 and the sealing face 42 seats again'. When the seat ring recovers, the sealing face is therefore at least the normal stroke (0.6 mm, [0235]) away from the sealing edge. The member in contact with the seat ring is the purge shoulder, which [0117] places 'below the sealing face 42'. [0138] offers the wipe only as a belief ('It is believed that on shape recovery the seat ring 30 moves across the sealing face 42'), and [0289] says the test did not isolate it. Claims 32, 56 and 76 recite a movement 'across the sealing face' that the described sequence does not allow, which is a support and enablement objection. Drafter's best defence: [0140] and [0287] report a clean sealing face after 40 cycles. That result can be explained by the air purge alone, and [0140] expressly makes no statement on each action's share. The fix needs the inventor's observation, or recasting claims 32, 56 and 76 as shape recovery alone. Medium stands."
+  },
+  {
+   "id": "F-28-20",
+   "ruling": "upheld",
+   "reason": "Correct on the text. Claim 1 recites 'a purge gap (60, 146)' and 'a sealing edge (32, 132, 142)', and [0099] brings the wiper ring 144 within the radially deflectable element that 'thereby opens the purge gap'. Yet numeral 146 does not appear in the description. [0181]-[0183], [0092], [0094], [0293]-[0295] and Statement 7.1 [0347] say only that the purge shoulder deflects the wiper ring outward and that it wipes on return. None says that the deflection opens a purge gap, where the gap lies, that it is closed at rest, or that it is distinct from the main passage. [0092] puts the wiper ring 'below the rigid seat' and [0117] puts the purge shoulder 'below the sealing face', but no passage explains how the shoulder reaches the ring past the rigid seat. Only the FIG. 9 instruction mentions this ('passing through or past the rigid seat'). Consequence: the two-piece seat cannot serve as an amendment fallback (the point of F-29-2), and 146 has no description (see F-28-13). Severity: medium, not high. Claim 1 is supported through the seat-ring embodiments, so it does not fall on this point; what is lost is the fallback. The fix needs the inventor's description of the purge path (the figure plan describes the inventor's alternative as deflecting 'to open a purge path').",
+   "severity": "medium"
+  },
+  {
+   "id": "F-28-21",
+   "ruling": "rejected",
+   "reason": "Answered by the definitions. Claim 2 recites 'a radially deflectable element'. [0050] applies the definitions to the claims, and [0099] defines that element as one that 'undergoes shape recovery when the axial load is removed'. Closing of the purge gap in claim 2 is therefore closing by an element that undergoes shape recovery. That element may be assisted, for example by the garter spring of [0211], which [0211] describes as assisting shape recovery. Claim 2 is not broader than the disclosure in the way alleged, and claim 55 states the recovery expressly as a fallback."
+  },
+  {
+   "id": "F-28-22",
+   "ruling": "rejected",
+   "reason": "Duplicate of F-28-8: same combination (claim 24 on claim 22) and same conflict with [0172] ('The bow increases under axial load'). Upheld under F-28-8."
+  },
+  {
+   "id": "F-28-23",
+   "ruling": "rejected",
+   "reason": "Not a defect. Claim 68 introduces 'a convolution amplitude' with the indefinite article, so there is no antecedent problem. A seat ring with a convolution amplitude plainly has a convolution, so the claim is clear and simply narrower. [0096] defines the term. The description sets out the same dependency: Statement 4.5 [0338] hangs 'a convolution amplitude from 0.08 mm to 0.20 mm' from Statement 4.1 (generic load-converting geometry) as well as 4.2. Claim 69 is narrower in the same way. Moving the amplitude to claim 62 is a matter of drafting preference, not a correction."
+  },
+  {
+   "id": "F-28-24",
+   "ruling": "rejected",
+   "reason": "Answered by the claim structure. Claim 9 depends on claim 6, which requires a return bias with 'a two-rate characteristic' having a first and a second spring stage. So claim 9 covers only series or nested arrangements that actually produce two rates, and cannot read on a series pair that gives one rate. [0142] states that 'Each construction provides a first spring stage 52 … and a second spring stage 54', and [0144]-[0145] describe the stop and the staggered engagement as how that is achieved. The stop is a means already required in function by claim 6, not an omitted essential feature."
+  },
+  {
+   "id": "F-28-25",
+   "ruling": "rejected",
+   "reason": "Answered by the text. [0249] provides that 'the prototype value may serve as either limit' of each parameter's range, parameter by parameter. [0238], [0239], [0235] and [0236] state each prototype value in the paragraph for its own parameter. [0350] says the prototype values 'do not limit the embodiments for which a range, or no value, is stated'. The pairs in claims 12 (1.0 bar and 3.5 bar) and 34 (0.6 mm and 0.5 mm) are therefore disclosed individually and together, and claims as filed are their own basis."
+  },
+  {
+   "id": "F-29-1",
+   "ruling": "upheld",
+   "reason": "Correct on the text, and the most important design-around finding in this batch. [0179] describes a disc spring that opens a purge gap and states that 'the deflection is axial … and its deflection is not a radial expansion'. [0180] adds deformations that are 'radial, axial, tilting or a combination'. Claim 1 requires 'a radially deflectable element' and 'a radial expansion'. The description therefore tells a competitor how to avoid claim 1. In the US, subject matter disclosed but not claimed is dedicated to the public and cannot be recaptured under the doctrine of equivalents (Johnson & Johnston v. R.E. Service, Fed. Cir. 2002, en banc). Drafter's best defence: [0099] and [0106] give the generic terms a functional reading. But claim 1 says 'radial' expressly, and [0179] says the disc spring is not radial. On the return bias, the detent of [0148] and the spring-loaded stop of [0151] are covered by claim 5, which recites the crack pressure and over-travel differential without a mechanism, so that part of the finding is weaker. The claim-1 point alone justifies high. Counsel should note that a broader deflectable-element claim needs its own prior-art check, since axial-deflection seats appear in the saved art (US4044791A at [0008]). Whether the inventor conceived the disc-spring form should be confirmed, because [0179] says 'No figure shows this form and no test of it is reported'."
+  },
+  {
+   "id": "F-29-2",
+   "ruling": "rejected",
+   "reason": "Duplicate of F-28-20: the same missing description of the two-piece seat's purge gap 146 in [0181]-[0183] and Statement 7.1 [0347]. F-28-20 is upheld and records the loss of the fallback that this finding describes."
+  },
+  {
+   "id": "F-29-3",
+   "ruling": "rejected",
+   "reason": "Duplicate of F-28-11: the same closed wording in [0035], [0349] and [0217]. Upheld under F-28-11. The request to extend [0217] to every form of the radially deflectable element, load-applying surface and return bias is the same remedy."
+  },
+  {
+   "id": "F-29-4",
+   "ruling": "upheld",
+   "reason": "Correct on the text. [0279] says only that the return spring 'had a two-rate characteristic' and the seat ring 'had a convoluted wall 34'. [0143] offers the variable-pitch spring shown in FIGS. 1 and 2 only 'by way of example', and [0202] says the relief, wall slots and retention variants 'are not stated to be the construction of the valve cores tested'. So the description does not identify the tested convolution count, spring construction or purge-gap boundary. A fallback to the tested embodiment combined with any of those features, or reliance on Example 1 for claims 12, 34 and 69, is therefore open to an intermediate-generalisation objection, and the data cannot be tied to one or two convolutions. Overlaps F-28-3 on the purge-gap boundary; the same inventor record answers both. Medium stands."
+  },
+  {
+   "id": "F-29-5",
+   "ruling": "rejected",
+   "reason": "The first part is answered by the text. [0040] describes FIGS. 4A and 4B as 'showing a fit band and a free portion of the seat ring' without the relief. [0196]-[0197] combine the free portion 37 with axial clamping or staking and no relief. Claim 66 is a seat-ring claim that does not include the core body, and it is its own basis as filed. Claim 26, which recites the relief 202, matches [0186] and [0229]. The second part, that the tested construction is not identified, duplicates F-28-3 (and F-29-4), which are upheld."
+  },
+  {
+   "id": "F-29-6",
+   "ruling": "unclear",
+   "reason": "The observation is true on the text. [0235] gives the normal stroke as 0.6 mm and says 'no range is stated for it'. [0250] lists the interference fit, the composition and the shape-setting conditions as 'a single stated value and no stated range'. [0203] gives the austenite finish temperature as a single upper bound. Whether that is a defect depends on facts outside the package: whether the inventor knows workable ranges, or a relation between the dimensions. Ranges must not be generated and presented as though confirmed. It is resolved by an inventor question at the next gate: what ranges of normal stroke, interference fit, composition, shape-setting temperature and time, and austenite finish temperature are known to work, and how the austenite finish temperature was determined. Severity corrected to low: the claims affected (29, 34, 73, 81, 85) are narrow dependents, and nothing falls as drafted.",
+   "severity": "low"
+  },
+  {
+   "id": "F-29-7",
+   "ruling": "rejected",
+   "reason": "Answered by the claims as filed. Claim 5 recites the crack pressure and the over-travel differential without a mechanism, so it covers the detent of [0148]. Claim 11 depends on claim 5 and adds the ranges of [0238] and [0239]. The detent with the ranges is therefore already within the claims as filed, which are their own basis. That the detent is outside claim 6 duplicates F-29-1."
+  },
+  {
+   "id": "F-29-8",
+   "ruling": "upheld",
+   "reason": "Correct on the text, in two respects. (1) [0190] places the wall slots 204 'in the free portion 37'. But [0191] says 'the outer surface of the seat ring 30 can be retained along its whole length', and [0229] combines the wall slots 'with retention of the outer surface … along its whole length', while [0186] defines the free portion as the part not under the fit. The two arrangements are conflated and need separate description. (2) The valve-stem-bore purge gap rests on [0125] and [0189] ('In one such arrangement the seat ring 30 sits at the end of the core body 20'), with no figure. Claim 47 covers 'any one of claims 1 and 5 to 44', which leaves out claim 45 (bore of the valve stem), the one valve-core claim that most needs the tyre-valve context. Extending claim 47's dependency is a simple fix. Medium stands."
+  },
+  {
+   "id": "F-29-9",
+   "ruling": "rejected",
+   "reason": "Answered by the claim-support statements. Statement 1.10 [0307] recites a purge gap 'bounded by an outer surface of the radially deflectable element and by a bore surrounding the radially deflectable element' and hangs from Statements 1.1-1.9, which include the generic element. Statement 1.11 [0308] names the core body bore, and Statement 1.13 [0310] makes the gap annular. These give generic combination support for claims 16-18 in the same terms. For the wiper ring specifically, the gap's location is dealt with under F-28-20."
+  },
+  {
+   "id": "F-29-10",
+   "ruling": "rejected",
+   "reason": "Answered by the text. [0186]-[0187] describe the fit band 35, the free portion 37 and the core body bore relief 202 together, and [0229] states that 'The fit band 35 and the free portion 37 are combined with the core body bore relief 202'. A numbered statement is not required when the combination is described and claimed (claim 26 as filed). The polymer seat ring point (claim 30 depending on claim 26, against the FIG. 8 instruction) duplicates F-28-11, which is upheld."
+  }
+ ]
+}

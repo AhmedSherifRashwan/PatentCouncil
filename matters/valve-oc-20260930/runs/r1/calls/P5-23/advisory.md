@@ -1,0 +1,1 @@
+23.md: terminology lock: {"locked_terms": 67, "violations": [{"term": "cartridge", "rule": "avoid-hit", "row": "valve core", "context": "he method of claim 4, wherein the inflation device is a CO2 cartridge inflator supplying carbon dioxide as inflation gas. > added"}, {"term": "bellows", "rule": "avoid-hi

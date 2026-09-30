@@ -1,0 +1,72 @@
+{
+  "prompt": "38",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-38-1",
+      "source_prompt": "38",
+      "category": "support",
+      "severity": "medium",
+      "title": "[0078] contradicts the thermally actuated purge embodiment at [0142]",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0078]",
+        "[0142]"
+      ],
+      "attack": "[0078]'s unqualified statement that no heating is involved in reaching the purge state directly contradicts [0142]'s thermally actuated purge, which opens the purge gap by warming.",
+      "least_narrowing_action": "Qualify [0078] to confine it to the over-travel-actuated embodiments, distinguishing the thermally actuated purge.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-38-2",
+      "source_prompt": "38",
+      "category": "novelty",
+      "severity": "low",
+      "title": "Overbroad admission that pre-over-travel operation is conventional",
+      "claim_refs": [
+        "8",
+        "30"
+      ],
+      "spec_refs": [
+        "[0047]"
+      ],
+      "attack": "\"in the same manner as a conventional valve core\" could be read broadly enough to admit the seat ring's sealing role as prior art, beyond the narrower point intended.",
+      "least_narrowing_action": "Narrow the comparison to the specific crack-pressure/sealing behaviour intended, without touching the purge-gap function.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "The thermally actuated purge embodiment is treated as disclosed-but-unclaimed for severity purposes.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "Terminology and numeral cross-checks were performed against the supplied LOCKED.md and registry.md only.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Whether \"inflatable chamber\" is intended to mean the volume or the physical article throughout, bearing on claim 64's construction.",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Whether a Summary section is planned, which would need its own narrower-than-claims check once drafted.",
+      "blocks": []
+    }
+  ]
+}

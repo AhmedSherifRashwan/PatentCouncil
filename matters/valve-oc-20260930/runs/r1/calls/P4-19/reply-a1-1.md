@@ -1,0 +1,7 @@
+`/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/P4/19.md` — Prompt 19 deliverable: definitions for all 39 locked terms flagged "Needs definition: yes" plus the general-construction sub-section (comprising, optionality, singular/plural, direct/indirect coupling, ranges/endpoints, about/approximately, order of steps, functional terminology).
+
+To route:
+- **Open questions (block P4):** purge gap location/mechanism (01 Q1/Q2 — kept definitions functional/direction-neutral); whether the closed purge gap must be airtight (01 Q31); whether the second spring stage is the only threshold-setting means conceived (01 Q6/Q7); whether Alternatives A/B (PEEK ring, fixed-seat-plus-wiper) are confirmed within the invention (01 Q20); no stated measurement method for seat ring wall thickness/free length/convolution amplitude.
+- **Assumptions (2 blocking):** pressure differential = supply-side minus chamber-side (carried from 01 A3); genus-level definitions capped at what `terminology/LOCKED.md` itself already commits to, deliberately not importing the broader Phase-3 design-around genus proposals (e.g. DA-2, DA-6) since those remain "needs inventor confirmation."
+- **new_terms:** 4 genus terms (threshold-setting arrangement, deflecting formation, resilient member, biasing member) declared out of caution — each already appears in LOCKED.md's own "Broader" column, used only in the functional-terminology construction paragraph.
+- No disclosure_requests or open_disagreements.

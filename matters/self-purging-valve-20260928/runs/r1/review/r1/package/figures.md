@@ -1,0 +1,71 @@
+### Figure Plan
+
+This figure plan is a drafting and analysis aid prepared by AI. It is not legal advice or a filing decision; qualified patent counsel signs off before anything is filed. It is built from `CONFIRMED.md` (Gate 2, auto-unattended), `P1/01`, `P2/09`, the blueprint (`P4/16.r1`, section ids S6.1 to S6.7), the worked examples (`P4/18`), the definitions (`P4/19`), `terminology/LOCKED.md`, `intake/disclosure.md` (cited as §) and `intake/drawings/README.md`. The inventors' two sketches, `FIG-1.png` and `FIG-2.png`, exist by name only; no image has been seen, and their content is taken solely from the README captions. Each planned figure names the components to be numbered in locked terms; Prompt 20a assigns the numerals. No AI-proposed construction (a `CONFIRMED.md` entry resting on "nothing yet", "proposed" or "needs confirmation") is drawn in any figure.
+
+Two rules govern every figure. First, the region of the purge gap is drawn schematically and is to be matched to the inventors' sketches when the image files are supplied; no purge gap topology is drawn, because the disclosure does not explain how the purge gap opens (01 Q1; PF-1; PF-12). Second, every figure depicts only what the disclosure states: the inventors' embodiments of blueprint S9.1 to S9.3, the sequence of §2, the values of §4 and the route of §7.
+
+#### FIG. 1
+
+- View type: axial section (longitudinal section on the valve axis) of the complete valve.
+- What it shows: the valve core received in the valve stem, in the rest state: the valve member seated on the valve seat, the deflectable element undeflected, the purge gap closed, the lock nut open. This is the planned figure that the inventors' `FIG-1.png` becomes; its content is the README caption for that file and §3.
+- Confirmed embodiment depicted: first embodiment (blueprint S9.1; `CONFIRMED.md` 14 C2 and K2; 12 E1.1, E2.1, E4.1, E6.1, E7.1, E8.1, E9.1, E14.1, E15.1).
+- Components to be numbered: valve; valve stem and its threaded bore; valve core; core body, its external thread, its core bore, its locating shoulder and the portion of the core body that guides the valve member; seat ring, its upper edge (the valve seat in this embodiment), its convoluted wall with one or two convolutions, and its outer surface; valve member, sealing face and purge shoulder; biasing member with its two-rate characteristic (drawn as a compression spring under the valve member); purge gap (closed, marked schematically between the outer surface of the seat ring and the core bore); main flow passage (indicated as the path between the sealing face and the valve seat, closed); lock nut.
+- Claim concepts and fallbacks supported: the first aspect and its rest-state clause (S5.1, S5.2, S7.1 to S7.4, S8.3; 03 N0, "purge gap closed at rest"); the purge shoulder clear of the deflectable element in the rest state (S7.2, S8.6; 03 N3); the seat ring providing the valve seat and retained in the core bore against the locating shoulder (S7.3, S7.8; 03 N4); the convoluted wall (S7.3; 03 N5); the valve core as a unit received in the valve stem (S7.1; 03 N7); the lock nut and valve stem (03 N10). Distinctions 09 D1 (purge gap closed in the rest state) and D4 (purge shoulder not in contact in the rest state).
+
+#### FIG. 2
+
+- View type: the same axial section as FIG. 1.
+- What it shows: the valve at full over-travel during inflation: the valve member displaced beyond the normal stroke, the purge shoulder bearing on the seat ring, the seat ring expanded radially, the purge gap open, and arrows showing inflation gas passing along the main flow passage past the valve seat and purge flow passing through the purge gap into the inflatable body. This is the planned figure that the inventors' `FIG-2.png` becomes; its content is the README caption for that file and §2 para 1. The inflation device applying the pressure differential and the inflatable body receiving the flow are indicated schematically at the two ends of the valve.
+- Confirmed embodiment depicted: first embodiment (S9.1), in the over-travel condition of S12.1 steps (ii) to (iv) (12 E3.1, E11.1 as the prototype reading of the FIG-2 caption only).
+- Components to be numbered: all of FIG. 1, and in addition the purge flow (arrows through the purge gap), the inflation gas along the main flow passage (arrows), the inflation device (schematic) and the inflatable body (schematic).
+- Claim concepts and fallbacks supported: over-travel of the same valve member beyond the normal stroke deflecting the deflectable element (S5.1, S8.2; 03 N0; 09 D2); the purge gap opened by deflection and separate from the main flow passage, with purge flow in addition to, and not through, the main flow passage (S7.4, S7.5, S8.4; 03 N0; 09 D1, D3; PF-5); the purge shoulder bearing on the deflectable element only during over-travel (S7.2; 03 N3; 09 D4); purge flow of the inflation gas itself into the inflatable body (S7.5; 09 D3); the purging method (S12.1, S16.3).
+
+#### FIG. 3
+
+- View type: schematic axial section of the valve core only.
+- What it shows: the third embodiment, alternative B, at the level of §6 para 2 only: a rigid valve seat on the core body for sealing, and a separate thin wiper ring of stainless spring steel positioned below the rigid valve seat, the wiper ring being deflected outward by the purge shoulder during over-travel. Drawn in the rest state with the over-travel position of the valve member indicated in broken line. The mounting of the wiper ring, its geometry beyond "thin" and "below the rigid valve seat", and the position of its purge gap and purge flow path are not stated in the disclosure (01 Q13; 02 Q2), so those regions are drawn schematically and the figure carries no detail for them.
+- Confirmed embodiment depicted: third embodiment (S9.3; 03 N4-B; 09 D11; 12 E7.2, E12.3; 14 C4).
+- Components to be numbered: core body, core bore, locating shoulder; rigid valve seat; wiper ring; valve member, sealing face, purge shoulder; biasing member; purge gap (schematic, closed); main flow passage; valve core.
+- Claim concepts and fallbacks supported: the deflectable element as a genus distinct from the valve seat, with the wiper ring as its second species (S7.3, S8.5, S13.1; 03 N0 deflectable element clause; 03 N4-B; PF-8); the purge shoulder defined by function, not by contact with a seat ring (S8.6; PF-15); the recovery wipe by a part that is not the valve seat (S7.7; 03 N1; 09 D6). Closes design-around 11 DA-2 within the genus.
+
+#### FIG. 4A and FIG. 4B
+
+- View type: each an axial section and an end view of the seat ring of the first embodiment alone, unloaded.
+- What it shows: FIG. 4A a seat ring whose convoluted wall has one convolution; FIG. 4B a seat ring whose convoluted wall has two convolutions (§3 item 3 says "one or two shallow convolutions"; the prototype count is not stated, 01 Q4). Each shows the upper edge (the valve seat in this embodiment), the convoluted wall, the convolution, the outer surface, and the lower end that seats on the locating shoulder. Dimension lines mark the seat ring inner diameter, the wall thickness, the free length and the convolution amplitude, with the prototype values of §4 given in the description, not on the sheet. Whether the convolution projects outward or inward is not stated (01 Q4); the sheet shows an outward convolution and the description states that the direction is not limited.
+- Confirmed embodiment depicted: the seat ring of the first embodiment (S9.1; 12 E7.1, E8.1, E9.1; 13 Table A section-4 rungs) and, by the same geometry, the polymer seat ring of the second embodiment (S9.2; §6 para 1 "the same convoluted wall").
+- Components to be numbered: seat ring; upper edge; convoluted wall; convolution; outer surface. Dimensions as reference letters, not numerals: seat ring inner diameter; wall thickness; free length; convolution amplitude.
+- Claim concepts and fallbacks supported: the convoluted wall converting axial load on the upper edge into radial expansion (S7.3, S8.9; 03 N5; 09 D7); the seat ring dimension rungs with each endpoint named individually (S14.1; 03 N8; PF-13); the material-neutral seat ring article (S16.6; 10 item 2; family F7 of the blueprint); the polymer seat ring (03 N6-A).
+
+#### FIG. 5
+
+- View type: diagram (graph) of pressure differential (vertical axis) against travel of the valve member from the valve seat (horizontal axis).
+- What it shows: the two-rate characteristic of the biasing member and the three ranges of pressure differential: the rest state below the opening pressure; the normal stroke between the opening pressure and the over-travel threshold, ending where the purge shoulder first bears on the deflectable element; and the over-travel above the over-travel threshold, ending at the full over-travel. The prototype values (opening pressure 1.0 bar; normal stroke 0.6 mm; over-travel threshold 3.5 bar; over-travel 0.5 mm) are marked as examples in the description, not on the sheet, and the two stages are drawn as two straight segments of different slope. No measuring condition is drawn or implied (PF-3).
+- Confirmed embodiment depicted: first embodiment (S9.1; §3 item 5; §4; 12 E3.1, E4.1; 10 item 5 as recorded in S5.2).
+- Components to be numbered: two-rate characteristic (the curve); first stage; second stage; opening pressure; over-travel threshold; normal stroke; over-travel; rest state.
+- Claim concepts and fallbacks supported: the three-band behaviour and the non-circular definitions of opening pressure, normal stroke, over-travel threshold and over-travel (S5.2, S8.2, S12.2; 03 N0; PF-2); the over-travel threshold higher than the opening pressure as a relation (S14.3; 13 Table B qualitative rung; PF-3); the two-rate characteristic as a dependent rung (S7.6; 03 N2; 09 D10; PF-9).
+
+#### FIG. 6
+
+- View type: flow chart.
+- What it shows: the manufacturing route of §7 for the seat ring of the first embodiment and its assembly: laser cutting from superelastic-alloy tube of 2.7 mm outer diameter and 0.20 mm wall to the convoluted profile on a mandrel; shape-setting at a temperature of 500 °C for a period of 10 minutes in a fixture holding the wave geometry; water quench; electropolishing to remove the oxide and the heat-affected edge; pressing into the core body with an interference fit of approximately 0.03 mm on diameter against the locating shoulder. What the laser cut produces is shown as the disclosure states it and not interpreted (01 Q3).
+- Confirmed embodiment depicted: first embodiment (S9.1, S11.1, S11.2; 03 N9; 12 E16.1; 14 K11).
+- Components to be numbered: the method of making the seat ring; laser cutting; shape-setting; water quench; electropolishing; interference fit (the pressing step).
+- Claim concepts and fallbacks supported: the manufacturing route rung (S11.1; 03 N9) and the product-by-process family F8 of the blueprint (S16.5); shape-setting as the step that fixes the convoluted wall (S8.10).
+
+#### FIG. 7
+
+- View type: flow chart.
+- What it shows: the method of purging the valve during inflation, in claim order: applying a pressure differential above the opening pressure so that the valve member makes the normal stroke and inflation gas passes along the main flow passage; the pressure differential exceeding the over-travel threshold so that the valve member makes over-travel; the over-travel deflecting the deflectable element and opening the purge gap; purge flow passing through the purge gap along the sealant-accumulation surfaces into the inflatable body; removal of the inflation device so that the pressure differential falls; recovery of the deflectable element with the recovery wipe across the sealing face, and closing of the purge gap. Timing within an inflation is not drawn (01 Q5; PF-3).
+- Confirmed embodiment depicted: the sequence of §2 paras 1 to 2 (S12.1; 01 (d) S1 to S5), common to all three inventors' embodiments.
+- Components to be numbered: the method of purging and each of its six steps.
+- Claim concepts and fallbacks supported: the purging method family F4 (S12.1, S16.3; 02 rank 4) and the recovery wipe as its dependent step (03 N1); the alternative aspect founded on the recovery wipe (S5.4; 03 N0-W).
+
+#### FIG. 8
+
+- View type: schematic overview.
+- What it shows: an inflatable body containing sealant and fitted with the valve, the valve stem passing through the wall of the inflatable body, the valve core received in the valve stem, the lock nut, and an inflation device applied to the valve. The inflatable body is drawn as a bicycle inner tube (the tested case) and the description names the tubeless tyre set-up as a further case (§1). The inflation device is drawn as the head of a floor pump (the tested case); the description names the CO2 cartridge inflator as untested (§9 item 2).
+- Confirmed embodiment depicted: the use of §1, §2 and §8 (S12.3; 12 E15.4 bicycle cases only; 14 K13 and draft sentence 15).
+- Components to be numbered: inflatable body; sealant; valve; valve stem; valve core; lock nut; inflation device.
+- Claim concepts and fallbacks supported: the valve, valve core and inflatable-body claim levels (S5.4, S16.2; 02 ranks 2 to 3; 14 K13; PF-10); the inflatable body containing sealant as a positive limitation only at that level (family F3); the inflation device as a genus (S8.10 D40 of `P4/19`).
+
+**Alternatives and combinations covered, and those deliberately not drawn.** The polymer seat ring (second embodiment) is covered by FIG. 4A and FIG. 4B, which show the geometry §6 para 1 says it shares, and by FIG. 1 and FIG. 2, which apply to it unchanged; it needs no figure of its own. The rigid valve seat with a wiper ring is FIG. 3. The three claim levels are FIG. 8. The thermal purge variant is not drawn: the disclosure does not describe how warming opens the purge gap (01 Q14; PF-20). No AI-proposed purge gap topology (12 E10.1 to E10.6), deflectable element form (E7.3 to E7.6), wall form (E9.2 to E9.5), purge shoulder form (E6.2 to E6.6), threshold means (E5.1 to E5.6), retention (E14.2 to E14.6), valve architecture (E15.2, E15.3, E3.4) or over-travel stop (E3.2) is drawn, because none is inventor-conceived (PF-4); if the inventor confirms any at a later gate, it is added as a further figure in a new version rather than drawn into these.

@@ -1,0 +1,8 @@
+{"at": "2026-09-30T09:49:35+00:00", "stage": "drafting", "event": "end", "note": ""}
+{"at": "2026-09-30T09:49:35+00:00", "stage": "review", "event": "start", "note": ""}
+{"at": "2026-09-30T09:49:38+00:00", "stage": "review", "event": "end", "note": ""}
+{"at": "2026-09-30T09:49:38+00:00", "stage": "adjudication", "event": "start", "note": ""}
+{"at": "2026-09-30T09:49:39+00:00", "stage": "adjudication", "event": "end", "note": ""}
+{"at": "2026-09-30T09:49:39+00:00", "stage": "fix-and-assess", "event": "start", "note": ""}
+{"at": "2026-09-30T09:49:43+00:00", "stage": "fix-and-assess", "event": "end", "note": ""}
+{"at": "2026-09-30T09:49:43+00:00", "stage": "run", "event": "end", "note": ""}

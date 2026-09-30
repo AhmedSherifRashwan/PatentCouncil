@@ -1,0 +1,534 @@
+{
+ "findings": [
+  {
+   "id": "F-28-2",
+   "source_prompt": "28",
+   "category": "enablement",
+   "severity": "high",
+   "title": "Illustrated purge gap cannot open by the outward deflection described",
+   "claim_refs": [
+    "29",
+    "30",
+    "34",
+    "72",
+    "9"
+   ],
+   "spec_refs": [
+    "[0020]",
+    "[0040]",
+    "[0053]",
+    "[0054]",
+    "[0093]",
+    "[0103]",
+    "[0110]",
+    "[0159]",
+    "[0162]",
+    "Fig. 1",
+    "Fig. 3",
+    "Fig. 6",
+    "Fig. 10B"
+   ],
+   "attack": "The description says the illustrated seat ring (and the wiper ring) deflects radially outward and thereby opens a purge gap between its outer surface and the core body bore; outward movement of an outer surface closes that clearance. [0103] itself says the gap opens only where the outer surface moves away from the bore. The FIG. 1 instruction draws a clearance there in the closed state, contrary to claim 1's 'purge gap ... closed'. Insufficiency and clarity objection against the only built embodiment and claims 29/30/72.",
+   "least_narrowing_action": "Obtain the inventor's statement of the built mechanism; rewrite [0020], [0040], [0053], [0054], [0093], [0162] and the FIG. 1, 3, 6, 10B instructions to it, keeping [0103]-[0106] as alternatives; remove the closed-state clearance from FIG. 1. No claim narrowing.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "28"
+   ],
+   "consensus": false,
+   "ruling": "upheld",
+   "ruling_reason": "Correct on the text. For the illustrated embodiment the purge gap is 'an annular radial clearance between the outer surface of the seat ring 30 and the core body bore 22' ([0018], [0040], [0053], [0102]), and 'In the illustrated embodiment the radial deflection is outward' ([0020]; [0054] 'radially outward, as described for the embodiment of FIG. 3'); FIG. 3 plan 'seat ring deflected radially outward, purge gap open'. [0103] states that such a gap 'opens where the bounding portion of the outer surface ... moves away from the core body bore', by inward or non-uniform movement, and [0110] likewise. An outer surface moving outward inside a rigid bore closes, not opens, that clearance. The wiper ring has the same contradiction ([0093], [0125], [0162], FIG. 10 plan: 'deflected outward ... opening a purge gap between the wiper ring's outer surface and the core body bore'). No passage reconciles it for the only built embodiment, and claim 29 read with claim 30, and claim 72, rest on it. The clearance drawn in the FIG. 1 closed state is dealt with under F-28-9. The rewrite must also cover the flutes (362) of [0110] and the FIG. 13B plan ('when the seat ring's outer surface moves inward'), raised in F-29-7."
+  },
+  {
+   "id": "F-28-3",
+   "source_prompt": "28",
+   "category": "enablement",
+   "severity": "high",
+   "title": "Load path and purge exit of the illustrated embodiment cannot be reconstructed from the text",
+   "claim_refs": [
+    "1",
+    "4",
+    "21",
+    "30",
+    "31",
+    "58",
+    "79"
+   ],
+   "spec_refs": [
+    "[0010]",
+    "[0036]",
+    "[0038]",
+    "[0046]",
+    "[0052]",
+    "[0053]",
+    "[0056]",
+    "[0059]",
+    "[0079]",
+    "[0088]",
+    "[0105]",
+    "[0112]",
+    "[0116]",
+    "Fig. 3",
+    "Fig. 6"
+   ],
+   "attack": "The poppet opens chamber-ward ([0046]); the purge shoulder is on the chamber side of the sealing face ([0038]); the seat ring is seated against the internal shoulder at the end opposite the sealing edge ([0079]) which [0116] places on the chamber side; the purge gap is the outer clearance with the interference band at the internal shoulder ([0036], [0053]) and the flow leaves to the chamber side ([0056], [0059]). The text never names the surface of the ring on which the shoulder bears, and describes no exit from the outer clearance past the interference band and the internal shoulder for the illustrated embodiment. [0105] and claim 31 put a purge gap on the chamber side of the sealing edge along the poppet stem although [0088] has the stem in the ring bore; [0116] has a chamber-ward moving part bearing on the seated chamber-side end. The FIG. 6 instruction calls the interference-fit/purge-gap convention a drafting assumption, not a confirmed mechanism. No drawing exists to resolve it.",
+   "least_narrowing_action": "Add disclosure in [0038]/[0052] of the ring surface that receives the axial load and its axial position relative to the sealing edge and the seated end; add in [0056]/[0059] where the purge flow leaves the outer clearance in the embodiment of FIGS. 1 to 4; reconcile [0079], [0105] and [0116]; give the FIG. 3 and FIG. 6B instructions the same contact location and exit. No claim narrowing.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "28"
+   ],
+   "consensus": false,
+   "ruling": "upheld",
+   "ruling_reason": "Correct on the text. The poppet opens by moving 'towards the chamber side, lifting the sealing face (42) from the sealing edge (34)' ([0046]), so the sealing face lies on the chamber side of the sealing edge. The purge shoulder is 'on the chamber side of the sealing face' ([0038], [0052], [0112], claim 3), so it moves away from the seat ring in the opening direction. [0079] seats the ring at the end opposite the sealing edge, and [0116] calls the end remote from the sealing edge the 'chamber-side end', which would put the sealing edge on the supply side, the opposite of [0046]. No paragraph names the ring surface that the shoulder bears on. For the purge exit, [0036]/[0053] place the interference band at the internal shoulder, while [0056]/[0059] send the purge flow 'to the chamber side of the seat ring' by no stated route past that band. registry.md flag 3 records the FIG. 6 convention as 'a drafting assumption ... not a confirmed mechanism'. [0105]/claim 31 (a gap between the inner surface and the poppet 'on the chamber side of the sealing edge') cannot be placed either. Severity stays high for the claim set. Claims 3-4 may be unworkable as literally drafted ('chamber side of the sealing face'), so the inventor's layout must be checked against the claim 3 wording in the same fix. This ruling covers F-28-5, F-29-1 and F-29-2, dismissed as its duplicates."
+  },
+  {
+   "id": "F-30-6",
+   "source_prompt": "30",
+   "category": "enablement",
+   "severity": "high",
+   "title": "Preferred embodiment: outward deflection is said to open a gap at the outer surface",
+   "claim_refs": [
+    "1",
+    "29",
+    "30",
+    "72",
+    "9"
+   ],
+   "spec_refs": [
+    "[0020]",
+    "[0040]",
+    "[0053]",
+    "[0093]",
+    "[0103]",
+    "[0159]",
+    "[0162]",
+    "[0169]",
+    "Fig. 1",
+    "Fig. 3",
+    "Fig. 6",
+    "Fig. 10",
+    "[0036]",
+    "Fig. 6B",
+    "Fig. 10B"
+   ],
+   "attack": "An outward-moving outer surface reduces its clearance to the core body bore, so the described mechanism of the only built embodiment and of Example 3 is not credible as written. The registry calls the FIG. 6 convention an unconfirmed drafting assumption and draws a clearance at rest, contradicting a closed purge gap. No route for the purge flow past the sealed interference band at the internal shoulder is described. Claim 1 survives on [0054], [0103] and [0106], but the tested embodiment, claim 30, and claims 29 and 30 together face insufficiency and Art. 84 attack.",
+   "least_narrowing_action": "Obtain the actual P-1 to P-3 mechanism (moving surface, sense, gap location, bypass of the retention band) and rewrite [0040], [0053], [0093] and the FIG. 3, 6 and 10 instructions to match, amending 'outward' in the illustrated embodiment if the movement is inward or ovalising. A description correction; claim 1 is not narrowed.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "30",
+    "36"
+   ],
+   "consensus": false,
+   "ruling": "upheld",
+   "ruling_reason": "Best defence: [0053] says the gap opens when deflection 'moves a surface of the seat ring away from the surface against which it bounds the purge gap', and [0054]/[0103] disclose inward and ovalising deflection. That saves claim 1, but not the illustrated embodiment. [0020] says 'In the illustrated embodiment the radial deflection is outward', and [0040]/[0053] place the gap 'between the outer surface of the seat ring (30) and the core body bore (22)'. An outer surface moving outward approaches the bore, so it cannot open that gap. [0103] itself says a gap at the outer surface opens by 'an inward movement of the bounding portion'. The same contradiction appears for the wiper ring in [0093] and [0162] ('deflect the wiper ring radially outward, opening the purge gap between the outer surface of the wiper ring and the core body bore') and in the FIG. 3 and FIG. 10 instructions. [0036]/[0053] confine the interference fit to a band at the internal shoulder (24), but no text explains how purge flow from the supply side ([0056], [0059]) passes that full-circumference band to reach the chamber side; the flutes and ports of [0109]-[0110] are alternatives, not the illustrated embodiment. Claims 29 and 30 read together (outward deflection, outer-surface gap) and claim 72 recite the contradicted combination. High is right: the only built embodiment is described with a mechanism that cannot work as written. The fix needs the actual P-1 to P-3 mechanism from the inventor."
+  },
+  {
+   "id": "F-32-1",
+   "source_prompt": "32",
+   "category": "novelty",
+   "severity": "high",
+   "title": "Claim 67 (seat ring): a known wave ring plus routine dimensions",
+   "claim_refs": [
+    "67",
+    "68",
+    "69",
+    "70",
+    "71",
+    "72",
+    "76",
+    "77",
+    "78"
+   ],
+   "spec_refs": [
+    "[0088]",
+    "[0089]",
+    "[0141]"
+   ],
+   "attack": "Claim 67 recites no poppet, over-travel, gap or material; for a valve core limits only to suitability. Index #1 is summarised as a NiTi wave-section ring giving radial displacement. The remaining dimensions are, by the description's own admission in [0088], routine consequences of the parameter relationships.",
+   "least_narrowing_action": "Narrowing required: add superelastic alloy with Af below 5 C and a continuous sealing edge (gives up polymer and resilient-metal rings as components), or recast as the matched kit of [0141] (gives up the bare-ring claim); check #1's full text first.",
+   "requires_new_disclosure": false,
+   "suggested_target": "P5",
+   "reviewers": [
+    "ip-reviewer",
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "32"
+   ],
+   "consensus": true,
+   "ruling": "upheld",
+   "ruling_reason": "Upheld as an inventive-step objection, not novelty. On the saved text, US 9,982,818 B2 does not anticipate. Its claim 1 recites an SMA ring whose wave-like body runs between planar inner and outer sealing portions, used as a static seal between two members. Its recovery is thermal: claim 10 deforms the ring 'below the martensitic phase transformation temperature' and heats it 'above the austenitic phase transformation temperature'. It shows no sealing edge at an axial end for a poppet, no recovery on removal of an axial load, and no dimensions in mm. Obviousness is credible all the same. Claim 67 recites no poppet, over-travel, gap or material. Its distinguishing features are two dimensional ranges suited to a Presta bore, and 'for a valve core'/'for seating' suitability wording. [0088] presents those dimensions as consequences of stated relationships, and no stated effect attaches to them. Wave-section ring (#1) plus superelastic NiTi seal (#5, US 6,393,765 B1) plus dimensioning for the bore is a credible combination. High is right; narrowing (material and Af, or the matched kit of [0141]) is needed."
+  },
+  {
+   "id": "F-32-2",
+   "source_prompt": "32",
+   "category": "novelty",
+   "severity": "high",
+   "title": "Claim 90 (manufacture): standard NiTi processing applied to a known ring form",
+   "claim_refs": [
+    "90",
+    "92",
+    "94",
+    "95",
+    "96",
+    "97",
+    "98"
+   ],
+   "spec_refs": [
+    "[0147]",
+    "[0148]",
+    "[0149]",
+    "[0150]"
+   ],
+   "attack": "Laser cutting NiTi tube on a mandrel, shape-setting in a fixture around 500 C, quenching and electropolishing is common general knowledge for NiTi components; claim 90 departs only in the product, which F-32-4 shows is weak; no process effect is asserted.",
+   "least_narrowing_action": "Narrowing required: tie the method to the product features that survive F-32-4, or to making the valve core of claim 1 (combining claims 90 and 100 with claim 1), giving up seat-ring manufacture outside such a core.",
+   "requires_new_disclosure": false,
+   "suggested_target": "P5",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "32"
+   ],
+   "consensus": false,
+   "ruling": "upheld",
+   "ruling_reason": "Claim 90's steps (tube stock, laser cutting, fixture shape-setting, heating, water quench) carry no process feature beyond what is needed to make the product. The sealing edge and convoluted wall are product features, and [0147]-[0150] assert no process effect. Claim 90 therefore stands or falls with the ring, which F-32-1 shows is exposed. Caveat for counsel: no saved reference documents this NiTi tube-processing route; that it is standard is a general technical point an examiner would readily support with documents from the tube-component field. High stands. Lead finding; F-32-3 is a duplicate."
+  },
+  {
+   "id": "F-32-20",
+   "source_prompt": "32",
+   "category": "enablement",
+   "severity": "high",
+   "title": "The axial load path of the purge shoulder is not described and reads against the opening direction",
+   "claim_refs": [
+    "3",
+    "4",
+    "22"
+   ],
+   "spec_refs": [
+    "[0038]",
+    "[0046]",
+    "[0116]"
+   ],
+   "attack": "The poppet opens chamber-wards, so a shoulder on the chamber side of the sealing face moves away from the sealing edge and can meet only an undescribed supply-facing ring surface further chamber-wards; the axial order of shoulder 24, edge 34, convolutions and shoulder 44 is never stated, and the retainer of [0116] appears reversed.",
+   "least_narrowing_action": "Add a paragraph stating the axial order and the face contacted, taken from the prototype and the inventor sketches, and correct [0116] if it is reversed.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "32"
+   ],
+   "consensus": false,
+   "ruling": "upheld",
+   "ruling_reason": "Upheld. Severity is raised because the text, as written, puts the core mechanism of claims 3, 4 and 22 into an arrangement that cannot work. [0046]: on opening, 'the poppet (40) moves ... towards the chamber side, lifting the sealing face (42) from the sealing edge (34)'. So the sealing edge lies on the supply side of the sealing face. [0038], [0052] and claim 3 place the purge shoulder 'on the chamber side of the sealing face'. A shoulder there moves away from the seat ring as the poppet opens, and could bear on it only through a supply-facing ring surface lying further chamber-wards. No paragraph or figure description discloses such a surface. [0116] puts the retainer contact at 'the chamber-side end of the seat ring ... remote from the sealing edge', which places the sealing edge at the supply-side end, and that is hard to reconcile with [0046]. The axial order of internal shoulder (24), sealing edge (34), convolutions (32a, 32b) and purge shoulder (44) is never stated. As drafted, claim 3 faces a credible support and enablement objection, and the ordering must come from the inventor's sketches or prototype before filing, because it cannot be added afterwards.",
+   "severity_original": "medium"
+  },
+  {
+   "id": "F-32-4",
+   "source_prompt": "32",
+   "category": "design-around",
+   "severity": "high",
+   "title": "Every independent claim ties the purge to over-travel of the poppet caused by the pressure differential",
+   "claim_refs": [
+    "1",
+    "46",
+    "57",
+    "58",
+    "79"
+   ],
+   "spec_refs": [
+    "[0066]",
+    "[0112]",
+    "[0123]",
+    "[0137]"
+   ],
+   "attack": "Depressor or hand over-travel [0066], a separate purge actuator with the poppet on its normal stroke only [0123], and Schrader cores opened by the head pin [0137] all fall outside claims 1, 58 and 79; claim 57 describes a combination a competitor would not build; if F-32-2 shows depression, the tested embodiment is outside the claims too.",
+   "least_narrowing_action": "Define the purge state by the poppet or a deflecting formation moving with it being beyond the normal stroke, with the pressure-differential trigger and mechanical depression as sibling dependent claims; or add an independent claim with a deflecting formation driven by the poppet or a pressure-responsive purge actuator.",
+   "requires_new_disclosure": false,
+   "suggested_target": "P5",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "32"
+   ],
+   "consensus": false,
+   "ruling": "upheld",
+   "ruling_reason": "Claims 1 and 58 define the purge state as occurring 'at a pressure differential exceeding the over-travel threshold, in which the poppet is in over-travel', and claim 79 requires 'raising the pressure differential above an over-travel threshold, whereby the poppet moves into over-travel'. The description discloses three routes outside that wording: over-travel by a depressor or by hand 'whatever the pressure differential', with the second spring stage omitted ([0066]); a separate purge actuator carrying the deflecting formation 'the poppet (40) performing only its normal stroke' ([0123]); and Schrader poppets depressed by the pump head ([0137]). A competitor with a single-rate spring and pin-driven over-travel, or with an actuator, escapes claims 1, 58 and 79. In the US, disclosed but unclaimed subject matter risks dedication to the public. Claim 46 adds depression only as an extra to the pressure-driven device, and claim 57 keeps the pressure trigger. High is right. The proposed remedy keeps the normal-stroke/over-travel structure. The purge-actuator limb of F-32-6 is carried here."
+  },
+  {
+   "id": "F-33-2",
+   "source_prompt": "33",
+   "category": "design-around",
+   "severity": "high",
+   "title": "Normal-open state requires the ring 'in its at-rest form': escaped by light contact or by a ring-stiffness threshold",
+   "claim_refs": [
+    "1",
+    "58",
+    "79",
+    "40"
+   ],
+   "spec_refs": [
+    "[0010]",
+    "[0050]",
+    "[0102]",
+    "[0118]",
+    "[0122]"
+   ],
+   "attack": "A deflecting formation that touches and slightly loads the ring during the normal stroke, without opening the purge gap, removes the 'at-rest form' of the normal-open state, so claims 1, 58 and 79 are not met. The ring-stiffness threshold of [0122] (initial elastic rise before the plateau), and [0050], describe exactly this, making claim 40 arguably fall outside claim 1. [0118] ('not touched') supports the narrow construction. Proof needs micro-CT or sectioning under pressure.",
+   "least_narrowing_action": "Delete 'the deflectable ring element is in its at-rest form and' from the normal-open state of claims 1, 58 and 79, keeping 'the purge gap is closed' ([0102]). Add a sentence to [0118] and [0122] that the formation may contact and elastically load the ring below the threshold without opening the purge gap, and amend 'is not touched' to 'is not deflected so as to open the purge gap'. Broadening only.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P3",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "33"
+   ],
+   "consensus": false,
+   "ruling": "upheld",
+   "ruling_reason": "The normal-open state of claims 1, 58 and 79 requires 'the deflectable ring element is in its at-rest form'. [0010] ('at rest when it is not deflected by the purge shoulder'), [0047] ('not loaded ... retains its at-rest form') and [0118] ('the deflectable ring element is not touched') support a narrow reading, which a light-contact formation escapes. The finding also exposes an internal conflict. Under claim 40 and [0122], with a single-rate spring and the threshold set by ring stiffness, the formation must load the ring through its 'initial elastic rise' while the pressure differential is still below the threshold, that is, in the normal-open state. Claim 40 therefore sits uneasily with claim 1. Deleting 'the deflectable ring element is in its at-rest form and' from the normal-open state is broadening and is supported by [0043] and [0102] ('purge gap ... closed in ... the normal-open state'). Amending [0118] and [0122] needs inventor confirmation that sub-threshold contact is within the conception."
+  },
+  {
+   "id": "F-33-4",
+   "source_prompt": "33",
+   "category": "design-around",
+   "severity": "high",
+   "title": "Purge state tied to the pressure differential; depressor-actuated and deflation-only purges escape",
+   "claim_refs": [
+    "1",
+    "58",
+    "79",
+    "46",
+    "88"
+   ],
+   "spec_refs": [
+    "[0066]",
+    "[0067]",
+    "[0137]",
+    "Fig. 7",
+    "Fig. 15A"
+   ],
+   "attack": "Claim 1 places the purge state 'at a pressure differential exceeding the over-travel threshold' and claim 79 requires 'raising the pressure differential above an over-travel threshold'; [0066] discloses over-travel by a pump-head depressor 'whatever the pressure differential' and [0067] a deflation-only purge, so a Schrader-style depressor product or a deflation-purge product infringes no independent claim.",
+   "least_narrowing_action": "Reformulate the purge state in an independent claim by poppet position ('when the poppet is displaced beyond the normal stroke into over-travel'), with the pressure threshold, the depressor and the deflation purge as dependent alternatives; supported by [0012], [0066], [0067].",
+   "requires_new_disclosure": false,
+   "suggested_target": "P5",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "33"
+   ],
+   "consensus": false,
+   "ruling": "upheld",
+   "ruling_reason": "Claim 79 requires 'raising the pressure differential above an over-travel threshold', which a depressor-actuated purge never performs. [0066] discloses over-travel by a depressor 'whatever the pressure differential', [0137] says this is how a Schrader poppet is operated, and [0067] discloses a deflation-only purge. For claims 1 and 58 the drafter's best defence is a capability reading: any sprung poppet has some pressure at which it over-travels. The defendant answers with [0058] (threshold 'within the pressure differential that the intended inflation device produces') and with claim 46's 'additionally', which implies that a pressure-driven purge is required. Both are credible. The disclosed but unclaimed routes also invite a US dedication argument. A position-defined purge state ('poppet displaced beyond the normal stroke into over-travel'), with pressure, depressor and deflation as dependents, is supported by [0012], [0066] and [0067]."
+  },
+  {
+   "id": "F-36-1",
+   "source_prompt": "36",
+   "category": "enablement",
+   "severity": "high",
+   "title": "Load path of the purge shoulder and through-route of the purge flow past the retention band not stated for the illustrated embodiment",
+   "claim_refs": [
+    "1",
+    "4",
+    "58",
+    "79"
+   ],
+   "spec_refs": [
+    "[0034]",
+    "[0036]",
+    "[0038]",
+    "[0053]",
+    "[0056]",
+    "[0116]",
+    "Fig. 3",
+    "Fig. 6A"
+   ],
+   "attack": "The description never states which end of the seat ring carries the sealing edge relative to the internal shoulder, which ring surface the purge shoulder (on the chamber side of the sealing face, moving in the opening direction) bears on, or how gas in the annular outer-surface purge gap passes the interference band that seats the ring against the internal shoulder; the registry's flag 3 concedes the FIG. 6 convention is a drafting assumption, so sufficiency and clarity of claim 1's through-flow for the FIG. 1 embodiment are exposed.",
+   "least_narrowing_action": "Add to [0034], [0038] and [0056] a plain statement of the axial arrangement and of the route by which the purge flow enters the annular purge gap at the supply side and leaves at the chamber side (past the free end and the freed region, or via purge ports 262 or flutes 362), taken from the inventor's sketches.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "36"
+   ],
+   "consensus": false,
+   "ruling": "upheld",
+   "ruling_reason": "The text does not give the axial arrangement or the purge route for the FIG. 1 embodiment. [0079] puts the sealing edge at the end opposite the internal shoulder. [0116] makes the chamber-side end of the ring 'remote from the sealing edge', so the internal shoulder and the interference band ([0036], [0053]) sit at the chamber-side end, which is the end the purge gas must leave by ([0056], [0059]). No paragraph says how gas in the outer-surface gap passes that band. The mechanism also does not cohere as described: [0040] and [0053] place the gap at the outer surface, closed at rest and opened when the surface 'moves away from' the bore, yet [0020], [0053] and [0093] (and FIG. 3 in the plan) give the illustrated deflection as outward, which moves the outer surface towards the bore. [0103] concedes that this location needs inward movement. The figure plan (FIG. 6) calls the band convention a drawing convention 'adopted to reconcile' the disclosure, not something taken from the inventor. Best defence: claim 1 is generic, and the third arrangement ([0105], inner-surface gap opened by outward deflection) is coherent and supports it. That saves claim 1's scope, but not the enablement of the illustrated embodiment, and claims 4, 30 and 21 read directly on it. Only the inventor's sketches can resolve this, so it needs an answer at the gate, not a drafting assumption."
+  },
+  {
+   "id": "F-gate14-2",
+   "source_prompt": "gate14",
+   "category": "enablement",
+   "severity": "high",
+   "title": "Axial layout of seat ring, sealing edge, internal shoulder and chamber-side purge shoulder cannot be reconstructed from the text",
+   "claim_refs": [
+    "3",
+    "4",
+    "8"
+   ],
+   "spec_refs": [
+    "[0038]",
+    "[0046]",
+    "[0061]",
+    "[0088]",
+    "[0116]",
+    "Fig. 1"
+   ],
+   "attack": "The poppet opens towards the chamber, so the sealing face lies on the chamber side of the sealing edge; a purge shoulder on the chamber side of the sealing face then moves away from a ring whose 2.3 mm bore admits only the stem, and [0116] puts the sealing edge at the supply-side end. With no drawing sheets, the preferred embodiment of claims 3 and 4 cannot be built from the words (Art. 83/84; 112(a)).",
+   "least_narrowing_action": "Add one paragraph, from the inventor's FIG-1 sketch, stating the axial order of the parts, and draw it; if the shoulder is not on the chamber side of the sealing face, conform [0021], [0038], [0112] and claim 3.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "gate14"
+   ],
+   "consensus": false,
+   "ruling": "upheld",
+   "ruling_reason": "Correct on the text. [0046]: to open, the poppet 'moves ... towards the chamber side, lifting the sealing face (42) from the sealing edge (34)', so the sealing face sits on the chamber side of the sealing edge. [0021], [0038] and [0112] then place the purge shoulder 'on the chamber side of the sealing face', so it moves further from the sealing edge as the poppet opens. [0088] makes the ring bore (2.3 mm, [0089]) admit only 'the poppet stem (41)'. [0116] puts the chamber-side end of the seat ring 'remote from the sealing edge', implying the ring extends chamber-ward from the edge. No paragraph explains how a ring whose bore takes only the stem can present a surface on the chamber side of the poppet head for the shoulder to reach in over-travel. [0038] only asserts the result ('contacts the seat ring 30 only during over-travel'). Best defence: claim 1 is functional and [0105], [0113] and [0116] describe other workable arrangements, so claim 1 itself is not left without an enabled form. But claims 3 and 4 and the tested embodiment cannot be rebuilt from the words, and there are no drawings (F-gate14-1). High stands. It is resolved only by the inventor's FIG-1 sketch or an account of the axial order of the parts, which is a disclosure request."
+  },
+  {
+   "id": "F-gate14-4",
+   "source_prompt": "gate14",
+   "category": "enablement",
+   "severity": "high",
+   "title": "Illustrated embodiment's outward deflection said to open an outer-surface clearance that the description says needs inward movement",
+   "claim_refs": [
+    "9",
+    "29",
+    "30",
+    "72"
+   ],
+   "spec_refs": [
+    "[0020]",
+    "[0040]",
+    "[0053]",
+    "[0054]",
+    "[0093]",
+    "[0103]",
+    "Fig. 3",
+    "Fig. 6",
+    "Fig. 10B"
+   ],
+   "attack": "Outward movement of the outer surface towards the core body bore narrows the clearance between them and cannot open it; [0103] itself says such a gap opens by inward movement. The only built embodiment and FIG. 3/10B as instructed therefore depict a mechanism the specification rules out. The FIG. 1 instructions draw a clearance at rest, contradicting 'purge gap closed'. This draws Art. 84/112 objections against claims 29 and 30 and undermines the evidential weight of Example 1.",
+   "least_narrowing_action": "Get the inventor to confirm the prototype's actual kinematics, then conform [0020], [0040], [0053], [0054], [0093] and the FIG. 1/3/6/10B instructions (using the wording of [0103] if the gap opens by inward movement). No claim narrowing.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "gate14"
+   ],
+   "consensus": false,
+   "ruling": "upheld",
+   "ruling_reason": "Correct on the text. [0040] and [0053] place the purge gap of the illustrated embodiment between 'the outer surface of the seat ring (30) and the core body bore (22)'. [0020] and [0054] say the illustrated deflection 'is outward', and [0093] does the same for the wiper ring ('deflects the wiper ring (132) radially outward, opening the purge gap ... between the outer surface of the wiper ring (132) and the core body bore (22)'). But [0103] says such a gap 'opens where the bounding portion of the outer surface ... moves away from the core body bore (22). That movement may be an inward movement', which is the only kinematics consistent with the geometry: outward movement closes that clearance. Separately, [0036], [0053] and [0103] say the non-interference remainder of the outer surface is 'free of the core body bore', which reads as a clearance at rest, against [0040] 'In the closed state the purge gap 60 is closed'. Best defence: claim 29 (outward) is supported by the third arrangement [0105], and claim 30 by the inward movement of [0103], so each claim alone has a coherent basis. But the only built embodiment, Example 1 ([0155]-[0159]) and the FIG. 3/10B instructions describe a mechanism the specification itself rules out, which undermines the example's evidential weight and invites Art. 83/84 and 112(a)/(b) objections. High stands. The prototype's actual kinematics are an inventor fact, so this goes out as a disclosure request."
+  },
+  {
+   "id": "F-gate14-5",
+   "source_prompt": "gate14",
+   "category": "design-around",
+   "severity": "high",
+   "title": "Wipe-only embodiment disclosed but outside every independent claim",
+   "claim_refs": [
+    "1",
+    "58",
+    "67",
+    "79"
+   ],
+   "spec_refs": [
+    "[0061]",
+    "[0065]",
+    "[0124]",
+    "[0165]",
+    "[0167]"
+   ],
+   "attack": "A competitor seals the ring periphery so that no purge flow path exists and keeps the over-travel deflection and recovery wipe of the sealing face. [0167] shows the clean surfaces are the wiped ones. This escapes claims 1, 58 and 79 (all require the purge gap and purge flow path), and escapes claim 67 outside the dimensional window.",
+   "least_narrowing_action": "Add an independent valve-core claim, supported by [0065], [0124] and [0061], reciting over-travel radial deflection of the ring and recovery movement across a poppet surface, without the purge gap; claim 1 is kept.",
+   "requires_new_disclosure": false,
+   "suggested_target": "P5",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "gate14"
+   ],
+   "consensus": false,
+   "ruling": "upheld",
+   "ruling_reason": "Correct. [0065] expressly discloses an embodiment in which the cleaning action is 'provided by the snap-back wipe alone, the deflectable ring element being sealed at its periphery so that no inflation gas flows past it'. [0167] records that the clean surfaces after testing were the wiped ones (sealing edge and sealing face). Claims 1, 58 and 79 each require the purge gap to open and a purge flow path 'from the supply side through the purge gap', so a peripherally sealed wipe-only core escapes all three. Claim 67 is bounded by an inner diameter of 2.0-2.6 mm and a wall of 0.15-0.30 mm, so a seat ring outside that window escapes it too. In the US, subject matter disclosed but not claimed is at risk of being dedicated to the public. Support for the proposed independent claim is in [0061], [0065] and [0124]. On the saved art, no reference discloses recovery of the seat itself wiping the poppet (INDEX coverage statement; #3, #7 and #12 use separate wipers or rotation). High stands. Whether to add the claim, and how it fits unity, is a counsel decision."
+  },
+  {
+   "id": "F-30-7",
+   "source_prompt": "30",
+   "category": "formal",
+   "severity": "high",
+   "title": "Rule 43(2) and unity: claims 67 and 90 do not share the purge-gap feature with claim 1",
+   "claim_refs": [
+    "1",
+    "58",
+    "67",
+    "79",
+    "90"
+   ],
+   "spec_refs": [],
+   "attack": "Three independent product claims plus two methods; claims 67-78 and 90-102 recite no purge gap, over-travel or threshold, so a posteriori they share no special technical feature with claim 1 once a convoluted thin-walled ring or the standard laser-cut/shape-set route is found.",
+   "least_narrowing_action": "Narrowing is the only in-application route: add the superelastic alloy and a link to the sealing-and-purging function to claim 67 and make claim 90 recite that ring, or divide claims 67-78 and 90-102 out; scope given up is the polymer seat ring per se and the generic route.",
+   "requires_new_disclosure": false,
+   "suggested_target": "P5",
+   "reviewers": [
+    "ip-reviewer-b"
+   ],
+   "sources": [
+    "30",
+    "32"
+   ],
+   "consensus": false,
+   "ruling": "upheld",
+   "ruling_reason": "Claim 67 recites a seat ring with a sealing edge, a convoluted wall, shape recovery and two dimensions, but no poppet, over-travel, threshold or purge gap. Claim 90 recites a manufacturing route for such a ring. The feature they share with claim 1 is a ring deflecting radially and recovering, which claim 1 does not even limit to a convoluted wall. A posteriori, that shared feature is weak: saved ref US 9,982,818 B2, claim 1, discloses an SMA sealing ring with a 'wave-like shape comprising at least one peak and at least one trough'. Best defence under R. 43(2)(a), interrelated products, fails because claim 67 is not specifically adapted to claim 1's purge-gap/over-travel features ([0141] ties the matched kit to those features, but claim 67 does not recite the kit). Lack of unity plus the R. 43(2) objection to three product independents (1, 58, 67) needs amendment or division in the EPO and GB and will draw a US restriction. Lead finding on unity; F-30-24 is a duplicate."
+  },
+  {
+   "id": "F-gate14-1",
+   "source_prompt": "gate14",
+   "category": "formal",
+   "severity": "high",
+   "title": "Abstract, drawing sheets, brief description of drawings and field/background/summary absent; [0160] refers to a missing background",
+   "claim_refs": [],
+   "spec_refs": [
+    "[0001]",
+    "[0160]",
+    "Figs. 1-15"
+   ],
+   "attack": "An abstract is required in the US, at the EPO and in the UK; a brief description of the drawings is required by 37 CFR 1.74 and EPC Rule 42(1)(d). Drawings relied on throughout but not filed trigger EPO Rule 56 and US 35 U.S.C. 113 consequences. [0160]'s cross-reference points to no background section.",
+   "least_narrowing_action": "The owning drafter supplies the abstract, the list of figures, the field/background/summary and the drawing sheets (from stripped instructions), and points [0160] at the background or rewords it to 'both failure modes, leak-down and blockage, as defined herein'.",
+   "requires_new_disclosure": true,
+   "suggested_target": "P4",
+   "reviewers": [
+    "ip-reviewer"
+   ],
+   "sources": [
+    "gate14"
+   ],
+   "consensus": false,
+   "ruling": "upheld",
+   "ruling_reason": "Correct on the package. It contains a description beginning at '#### Definitions and conventions' [0001], the claims, and figures.md, which is a figure plan ('Their content is known only from the README's one-line descriptions'), not drawing sheets. There is no abstract, no brief description of the drawings, and no field, background or summary. [0160] says the conventional cores 'exhibited both of the failure modes described in the background', but no background exists. The description relies on FIGS. 1-15 throughout (e.g. [0030], [0053], [0081], [0113]). Filed without drawings, this triggers Rule 56 EPC (the date moves or the references are deleted) and 35 U.S.C. 113. If the abstract and list of figures are produced at a later step outside this package, that limb closes there; the missing drawings, the missing summary and the [0160] cross-reference remain. High is right: filed as is, the date or the figure-based support is at risk. The drawings need the inventor's sketches (a disclosure request)."
+  }
+ ]
+}

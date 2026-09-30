@@ -1,0 +1,693 @@
+{
+ "tasks": {
+  "P1a": {
+   "status": "done",
+   "started": "2026-09-30T10:49:28+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:29+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "P1-02": {
+   "status": "done",
+   "started": "2026-09-30T10:49:29+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:29+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "P1-03": {
+   "status": "done",
+   "started": "2026-09-30T10:49:29+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:29+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "P1-04": {
+   "status": "done",
+   "started": "2026-09-30T10:49:29+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:29+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "G1": {
+   "status": "done",
+   "started": "2026-09-30T10:49:29+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:29+01:00",
+   "info": {
+    "lock": {
+     "locked_terms": 56,
+     "written": "/Users/ahmed/PatentCouncil/matters/sim-valve/runs/r1/terminology/LOCKED.md",
+     "ok": true
+    }
+   },
+   "minutes": 0.0
+  },
+  "P1b": {
+   "status": "done",
+   "started": "2026-09-30T10:49:29+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:29+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "QF": {
+   "status": "done",
+   "started": "2026-09-30T10:49:29+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:29+01:00",
+   "info": {
+    "questions": "/Users/ahmed/PatentCouncil/matters/sim-valve/intake/questions-for-inventor.md"
+   },
+   "minutes": 0.0
+  },
+  "RES": {
+   "status": "done",
+   "started": "2026-09-30T10:49:28+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:28+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "FETCH": {
+   "status": "done",
+   "started": "2026-09-30T10:49:29+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:29+01:00",
+   "info": {
+    "fetched": [],
+    "already_saved": [
+     "US3473561A",
+     "US4044791A",
+     "US3570510A",
+     "EP3171056A1",
+     "US4050473A",
+     "US20210323363A1",
+     "US11148485B2",
+     "US5918628A",
+     "US1934572A",
+     "US3595265A",
+     "US9611937B2",
+     "US8100410B2",
+     "US20040194970A1",
+     "US20050210675A1",
+     "US5924444A",
+     "US6019118A",
+     "US11549591B1",
+     "US9126251B2",
+     "US11179979B2"
+    ],
+    "failed": [],
+    "refs": 19
+   },
+   "minutes": 0.0
+  },
+  "P2b": {
+   "status": "done",
+   "started": "2026-09-30T10:49:29+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:32+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.1
+  },
+  "P3-11": {
+   "status": "done",
+   "started": "2026-09-30T10:49:29+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:30+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "P3-12": {
+   "status": "done",
+   "started": "2026-09-30T10:49:29+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:30+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "P3-13": {
+   "status": "done",
+   "started": "2026-09-30T10:49:29+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:30+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "P3-14": {
+   "status": "done",
+   "started": "2026-09-30T10:49:29+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:30+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "P3-15": {
+   "status": "done",
+   "started": "2026-09-30T10:49:29+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:30+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "G2": {
+   "status": "done",
+   "started": "2026-09-30T10:49:30+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:30+01:00",
+   "info": {
+    "confirm": {
+     "sources": 5,
+     "written": "/Users/ahmed/PatentCouncil/matters/sim-valve/runs/r1/CONFIRMED.md",
+     "ok": true
+    }
+   },
+   "minutes": 0.0
+  },
+  "D1a": {
+   "status": "done",
+   "started": "2026-09-30T10:49:32+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:32+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "D2a": {
+   "status": "done",
+   "started": "2026-09-30T10:49:30+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:30+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "RISK": {
+   "status": "done",
+   "started": "2026-09-30T10:49:32+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:32+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "P4a": {
+   "status": "done",
+   "started": "2026-09-30T10:49:30+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:31+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "P4-18": {
+   "status": "done",
+   "started": "2026-09-30T10:49:30+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:31+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "P4-19": {
+   "status": "done",
+   "started": "2026-09-30T10:49:30+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:31+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "P4-20": {
+   "status": "done",
+   "started": "2026-09-30T10:49:30+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:32+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "P4-part1": {
+   "status": "done",
+   "started": "2026-09-30T10:49:32+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:33+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "P4-part2": {
+   "status": "done",
+   "started": "2026-09-30T10:49:32+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:33+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "P4-part3": {
+   "status": "done",
+   "started": "2026-09-30T10:49:32+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:33+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "P4-part4": {
+   "status": "done",
+   "started": "2026-09-30T10:49:32+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:33+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "P4-stitch": {
+   "status": "done",
+   "started": "2026-09-30T10:49:33+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:33+01:00",
+   "info": {
+    "paragraphs": 350,
+    "numerals_ok": true
+   },
+   "minutes": 0.0
+  },
+  "P4-17": {
+   "status": "done",
+   "started": "2026-09-30T10:49:33+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:34+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "P5a": {
+   "status": "done",
+   "started": "2026-09-30T10:49:32+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:33+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "P5-23": {
+   "status": "done",
+   "started": "2026-09-30T10:49:33+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:34+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "P5-24": {
+   "status": "done",
+   "started": "2026-09-30T10:49:33+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:34+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "P5-27": {
+   "status": "done",
+   "started": "2026-09-30T10:49:33+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:34+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "P5d": {
+   "status": "done",
+   "started": "2026-09-30T10:49:34+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:34+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "PKG-REVIEW": {
+   "status": "done",
+   "started": "2026-09-30T10:49:34+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:36+01:00",
+   "info": {
+    "package": [
+     "/Users/ahmed/PatentCouncil/matters/sim-valve/runs/r1/review/r1/package/description.md",
+     "/Users/ahmed/PatentCouncil/matters/sim-valve/runs/r1/review/r1/package/claims.md",
+     "/Users/ahmed/PatentCouncil/matters/sim-valve/runs/r1/review/r1/package/figures.md",
+     "/Users/ahmed/PatentCouncil/matters/sim-valve/runs/r1/review/r1/package/registry.md"
+    ],
+    "claims": 86,
+    "checks": {
+     "support_map": true,
+     "claims_format": true,
+     "antecedent": true
+    }
+   },
+   "minutes": 0.0
+  },
+  "R1-Exa-G1": {
+   "status": "done",
+   "started": "2026-09-30T10:49:36+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:37+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "R1-Exa-G2": {
+   "status": "done",
+   "started": "2026-09-30T10:49:36+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:36+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "R1-Exa-G3": {
+   "status": "done",
+   "started": "2026-09-30T10:49:36+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:37+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "R1-Exa-G4": {
+   "status": "done",
+   "started": "2026-09-30T10:49:36+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:37+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "R1-Lit-G1": {
+   "status": "done",
+   "started": "2026-09-30T10:49:36+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:37+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "R1-Lit-G2": {
+   "status": "done",
+   "started": "2026-09-30T10:49:36+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:36+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "R1-Lit-G3": {
+   "status": "done",
+   "started": "2026-09-30T10:49:36+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:37+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "R1-Lit-G4": {
+   "status": "done",
+   "started": "2026-09-30T10:49:36+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:37+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "PK-gate14": {
+   "status": "done",
+   "started": "2026-09-30T10:49:36+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:36+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "MERGE": {
+   "status": "done",
+   "started": "2026-09-30T10:49:37+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:38+01:00",
+   "info": {
+    "findings": 150,
+    "consensus": 6
+   },
+   "minutes": 0.0
+  },
+  "AJ-1": {
+   "status": "done",
+   "started": "2026-09-30T10:49:38+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:38+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "AJ-2": {
+   "status": "done",
+   "started": "2026-09-30T10:49:38+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:38+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "AJ-3": {
+   "status": "done",
+   "started": "2026-09-30T10:49:38+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:38+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "AJ-4": {
+   "status": "done",
+   "started": "2026-09-30T10:49:38+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:38+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "AJ-5": {
+   "status": "done",
+   "started": "2026-09-30T10:49:38+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:38+01:00",
+   "info": {
+    "simulated": true,
+    "warnings": [
+     "rulings-5.json: no ruling for: F-gate14-1, F-gate14-2"
+    ]
+   },
+   "minutes": 0.0
+  },
+  "ROUTE": {
+   "status": "done",
+   "started": "2026-09-30T10:49:38+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:39+01:00",
+   "info": {
+    "rulings": {
+     "upheld": 78,
+     "rejected": 58,
+     "unclear": 12,
+     "unruled": 2
+    },
+    "plan": {
+     "description": [
+      "F-28-3",
+      "F-28-5",
+      "F-29-1",
+      "F-30-1",
+      "F-30-7",
+      "F-32-1",
+      "F-32-17",
+      "F-32-4",
+      "F-32-5",
+      "F-32-6",
+      "F-32-7",
+      "F-33-2",
+      "F-33-3",
+      "F-36-2",
+      "F-38-1",
+      "F-38-2"
+     ],
+     "claims": [
+      "F-28-3",
+      "F-28-5",
+      "F-29-1",
+      "F-32-1",
+      "F-32-17",
+      "F-32-4",
+      "F-32-5",
+      "F-32-6",
+      "F-32-7",
+      "F-33-2",
+      "F-33-3",
+      "F-36-2"
+     ],
+     "formal": [
+      "F-28-1",
+      "F-30-2",
+      "F-37-3"
+     ],
+     "corrections": {
+      "description": 7,
+      "claims": 43
+     }
+    }
+   },
+   "minutes": 0.0
+  },
+  "LB-desc": {
+   "status": "done",
+   "started": "2026-09-30T10:49:39+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:40+01:00",
+   "info": {
+    "simulated": true,
+    "post": {
+     "applied": 2,
+     "missing_anchor": []
+    }
+   },
+   "minutes": 0.0
+  },
+  "LB-abstract": {
+   "status": "done",
+   "started": "2026-09-30T10:49:40+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:40+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "LB-claims": {
+   "status": "done",
+   "started": "2026-09-30T10:49:39+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:40+01:00",
+   "info": {
+    "simulated": true,
+    "warnings": [
+     "x-p5-revise.md: terminology lock: {\"locked_terms\": 56, \"violations\": [{\"term\": \"split seat\", \"rule\": \"undeclared-synonym\", \"row\": \"two-piece seat\", \"context\": \"of claim 39, wherein the radially deflectable element is a split seat ring (180) having an axial split (182) that the purge shoul\"}], \"drift\": [], \"warnings"
+    ]
+   },
+   "minutes": 0.0
+  },
+  "PK-GRANT": {
+   "status": "done",
+   "started": "2026-09-30T10:49:39+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:39+01:00",
+   "info": {
+    "simulated": true
+   },
+   "minutes": 0.0
+  },
+  "FINAL": {
+   "status": "done",
+   "started": "2026-09-30T10:49:40+01:00",
+   "attempts": 1,
+   "finished": "2026-09-30T10:49:43+01:00",
+   "info": {
+    "score": "6 / 10",
+    "claims": 86,
+    "severity_rows": {
+     "critical": 0,
+     "high": 20,
+     "medium": 39,
+     "low": 34
+    },
+    "prior_art_rows": 21,
+    "fix_pass_rows_marked": 7,
+    "claims_needs_rows": 1,
+    "assessment_check_ok": true,
+    "files": [
+     "/Users/ahmed/PatentCouncil/matters/sim-valve/runs/r1/package/readable/sim-valve-patent-application.docx",
+     "/Users/ahmed/PatentCouncil/matters/sim-valve/runs/r1/package/readable/sim-valve-patent-application.pdf",
+     "/Users/ahmed/PatentCouncil/matters/sim-valve/runs/r1/package/readable/prosecution-assessment.docx",
+     "/Users/ahmed/PatentCouncil/matters/sim-valve/runs/r1/package/readable/prosecution-assessment.pdf"
+    ]
+   },
+   "minutes": 0.1
+  }
+ },
+ "settings": {
+  "profile": "full",
+  "parts": 4,
+  "slug": "sim-valve",
+  "run": "r1"
+ },
+ "started": "2026-09-30T10:49:28+01:00",
+ "status": "done",
+ "pid": 55414,
+ "finished": "2026-09-30T10:49:43+01:00"
+}

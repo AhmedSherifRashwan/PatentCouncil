@@ -1,0 +1,10 @@
+I'll draft Part 5 (manufacture, examples, data, robustness, use) to the blueprint's section assignment, using the FIG. 8 manufacturing figures and registry numerals from Prompt 20a, then write it to the named path.
+
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/P4/parts/part5.md` — Part 5 of the Description (S12 manufacture and assembly, S13 Examples 1–4 with actual/prophetic labelling, S14 data table and interpretation, S15 robustness, S16 use), 30 paragraphs under one `### Description` wrapper, registry numerals, FIG. 5/8/10 cited; plus Rationale, Assumptions, Open Questions and the json envelope.
+
+To route:
+
+- **Open questions:** Q1 which unconfirmed `CONFIRMED.md` passages in Part 5 (alternative forming routes, supplementary ring retention, assembly check, larger purge gap opening and bore finish, two convolutions or fillet radius, lower austenite finish temperature, verification steps) are kept at Gate 3 (blocks PACKAGE); Q2 which step imparts the convolution (01 Q11); Q3 process windows and interference range (01 Q17, Q32); Q4 was the stainless 303 core body tested (01 Q18); Q5 wiper ring form, retention and wiping behaviour (01 Q20; 03 Q7); Q6 any sub-threshold inflation event or direct measurement of over-travel distance or purge gap opening (01 Q23); Q7 whether to add a data chart figure, since the figure plan has none and Part 5 uses a table.
+- **Disclosure requests:** CF-E process windows and convolution-forming step; CF-F interference range and supplementary retention; CF-H wiper ring details; CF-L stainless 303 test status; CF-A/CF-D sub-threshold event and direct measurements.
+- **Open disagreement:** Part 5 includes `CONFIRMED.md` alternatives and mitigations as hedged, expressly untested embodiments per the blueprint's A4, whereas Prompt 18 and PF-4 hold them out; the passages are listed in Q1 for counsel to strike at Gate 3.
+- **Narrowing suggested:** none.

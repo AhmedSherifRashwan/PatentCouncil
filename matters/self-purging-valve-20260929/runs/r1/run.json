@@ -1,0 +1,9 @@
+{
+  "slug": "self-purging-valve-20260929",
+  "run": "r1",
+  "profile": "full",
+  "flow": "fast",
+  "from": "P1",
+  "base_run": null,
+  "matter_issue": "a8a6fa70-40d3-4d62-acff-932f9da5c3fe"
+}

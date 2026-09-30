@@ -1,0 +1,352 @@
+{
+  "prompt": "36",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-36-1",
+      "source_prompt": "36",
+      "category": "enablement",
+      "severity": "high",
+      "title": "Load path of the purge shoulder and through-route of the purge flow past the retention band not stated for the illustrated embodiment",
+      "claim_refs": [
+        "1",
+        "4",
+        "58",
+        "79"
+      ],
+      "spec_refs": [
+        "[0034]",
+        "[0036]",
+        "[0038]",
+        "[0053]",
+        "[0056]",
+        "[0116]",
+        "Fig. 3",
+        "Fig. 6A"
+      ],
+      "attack": "The description never states which end of the seat ring carries the sealing edge relative to the internal shoulder, which ring surface the purge shoulder (on the chamber side of the sealing face, moving in the opening direction) bears on, or how gas in the annular outer-surface purge gap passes the interference band that seats the ring against the internal shoulder; the registry's flag 3 concedes the FIG. 6 convention is a drafting assumption, so sufficiency and clarity of claim 1's through-flow for the FIG. 1 embodiment are exposed.",
+      "least_narrowing_action": "Add to [0034], [0038] and [0056] a plain statement of the axial arrangement and of the route by which the purge flow enters the annular purge gap at the supply side and leaves at the chamber side (past the free end and the freed region, or via purge ports 262 or flutes 362), taken from the inventor's sketches.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-2",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "high",
+      "title": "Wipe-only embodiment of [0065] has no claim family",
+      "claim_refs": [
+        "1",
+        "25",
+        "79",
+        "80"
+      ],
+      "spec_refs": [
+        "[0061]",
+        "[0065]",
+        "[0092]",
+        "[0167]",
+        "Fig. 4"
+      ],
+      "attack": "[0065] discloses cleaning 'by the snap-back wipe alone, the deflectable ring element being sealed at its periphery so that no inflation gas flows past it'; claim 25 depends on claim 1 which requires the purge gap and purge flow path, so a sealed-periphery deflectable seat ring that snaps back across the sealing face infringes nothing while getting the benefit [0167] attributes to the wiped surfaces.",
+      "least_narrowing_action": "Add an independent valve core claim to the deflectable ring element carrying the sealing edge, deflected by the poppet in over-travel and moving across the sealing face on shape recovery, without the purge gap (purge gap dependent), plus a corresponding method claim and a figure of the sealed-periphery form; supported by [0061], [0065], [0092], FIG. 4.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-3",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "medium",
+      "title": "Two-state, depressor-actuated and deflation-only operating modes have no independent claim",
+      "claim_refs": [
+        "1",
+        "58",
+        "79"
+      ],
+      "spec_refs": [
+        "[0012]",
+        "[0051]",
+        "[0066]",
+        "[0067]",
+        "Fig. 7",
+        "Fig. 15A"
+      ],
+      "attack": "[0051] (threshold at the crack pressure, single-rate spring), [0066] (depressor over-travel whatever the differential) and [0067] (deflation-only purge) are each disclosed as embodiments and each is outside every independent claim, which require the three-state sequence driven by the pressure differential.",
+      "least_narrowing_action": "Add an independent claim defining the purge state by poppet displacement beyond a first displacement with the pressure threshold, the depressor and the deflation purge as dependent alternatives; supported by [0012], [0051], [0066], [0067].",
+      "requires_new_disclosure": true,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-4",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "medium",
+      "title": "No ranges for the normal stroke, the rest clearance of the purge shoulder, or the spring-stage rate ratio",
+      "claim_refs": [
+        "2",
+        "37",
+        "41",
+        "43"
+      ],
+      "spec_refs": [
+        "[0038]",
+        "[0039]",
+        "[0046]",
+        "[0088]",
+        "[0090]",
+        "[0119]"
+      ],
+      "attack": "The normal stroke is a single value (0.6 mm), the rest clearance has no value and the second-stage rate is only 'higher'; the parameters a competitor's core will differ in have no numeric fallback, and [0088] supports only a qualitative amendment.",
+      "least_narrowing_action": "Add ranges for the normal stroke, the rest clearance (at least the normal stroke plus a margin) and the ratio of second to first spring-stage rate, bracketing the tested values, as ranges within which the mechanism is expected to operate in the manner of [0006] and [0088].",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-5",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "medium",
+      "title": "No generic definition of a 'closed' purge gap and no tolerance on 'at-rest form'",
+      "claim_refs": [
+        "1",
+        "58",
+        "67",
+        "79"
+      ],
+      "spec_refs": [
+        "[0013]",
+        "[0018]",
+        "[0099]",
+        "[0105]"
+      ],
+      "attack": "[0018] says the purge gap is 'closed' and [0105] gives the 'no significant flow' test for one location only; claims recite recovery 'to its at-rest form' while [0013] says 'towards' and [0099] admits residual set; strict construction gives two escapes and support for a cure at one location only.",
+      "least_narrowing_action": "Add to [0018] that the purge gap is closed when closed or carrying no significant flow relative to the main passage, for every location, and to [0013] that shape recovery is return towards the at-rest form sufficient to close the purge gap, residual set notwithstanding.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-6",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "medium",
+      "title": "Claimed and disclosed features without a figure",
+      "claim_refs": [
+        "24",
+        "28",
+        "31",
+        "32",
+        "45",
+        "46"
+      ],
+      "spec_refs": [
+        "[0049]",
+        "[0065]",
+        "[0082]",
+        "[0096]",
+        "[0099]",
+        "[0105]",
+        "[0106]",
+        "[0116]",
+        "[0117]",
+        "[0123]",
+        "[0126]"
+      ],
+      "attack": "Claims 24, 28, 31, 32, 45 and 46, and the unclaimed retainer/sleeve, conical disc, purge actuator, inverted arrangement, wiping land, helical wipe and wipe-only forms appear in no figure; 37 CFR 1.83(a) requires claimed features to be shown and a post-filing figure cannot add matter, and at the EPO and UK an undrawn alternative is the first called an unsupported generalisation.",
+      "least_narrowing_action": "Add schematic partial sections in the style of FIGs. 11\u201314 for the claimed features at least and for the wipe-only and purge-actuator forms; the description already gives the structure.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-7",
+      "source_prompt": "36",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "How the band-limited interference fit is made is not disclosed",
+      "claim_refs": [
+        "21"
+      ],
+      "spec_refs": [
+        "[0036]",
+        "[0053]",
+        "[0089]",
+        "[0133]",
+        "[0151]",
+        "Fig. 6A"
+      ],
+      "attack": "Claim 21 and four paragraphs recite an interference over an axial band with the remainder clear, but none says whether that is by a relief in the bore, a reduced outer diameter on the ring's free portion, or a step, and the ring is drawn from plain 2.7 mm tube; the registry's flag 3 concedes the convention is a drafting assumption.",
+      "least_narrowing_action": "Add one sentence at [0036] stating the means (bore relief, ring relief, or both) and, if known, the axial length of the band, after inventor confirmation.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-8",
+      "source_prompt": "36",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "Behaviour on top-up inflation is not described",
+      "claim_refs": [
+        "1",
+        "79",
+        "87"
+      ],
+      "spec_refs": [
+        "[0011]",
+        "[0068]",
+        "[0069]",
+        "[0157]",
+        "[0179]"
+      ],
+      "attack": "Every tested event ran from fully deflated to 6 bar; on a top-up from riding pressure the differential across the open poppet is the flow-induced drop, not the gauge pressure, and the package does not say whether the 3.5 bar threshold is reached on a floor-pump stroke into a pressurised chamber, while [0068] states the cleaning actions occur 'once per inflation event'.",
+      "least_narrowing_action": "Add a paragraph after [0069] stating whether and on what basis the purge state is reached on top-up inflation, and that the tested event is inflation from fully deflated; if unknown, say so in the manner of [0165].",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-9",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "medium",
+      "title": "No claims to non-bicycle sealant-holding chambers, to the kit, or to the inflation system with a depressor head",
+      "claim_refs": [
+        "64",
+        "65",
+        "66"
+      ],
+      "spec_refs": [
+        "[0066]",
+        "[0139]",
+        "[0141]",
+        "Fig. 5"
+      ],
+      "attack": "Claims 64\u201366 are limited to bicycle chambers; [0139] extends the mechanism to other sealant-holding chambers, [0141] discloses the seat ring kit and [0066] the depressor head or adaptor, none of which is claimed and none of which can be added after filing.",
+      "least_narrowing_action": "Add a chamber claim generic to an inflatable chamber holding liquid sealant with bicycle forms dependent, a kit claim per [0141], and an inflation system claim (valve plus device head or adaptor with a depressor sized to move the poppet into over-travel) per [0066].",
+      "requires_new_disclosure": true,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-10",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "low",
+      "title": "Springless poppet closed by chamber pressure is not disclosed",
+      "claim_refs": [
+        "1",
+        "58",
+        "79"
+      ],
+      "spec_refs": [
+        "[0009]",
+        "[0022]",
+        "[0122]"
+      ],
+      "attack": "Every independent product claim recites a return spring; [0122] keeps a single-rate spring even where the ring sets the threshold, so the cheapest design-around (chamber pressure closes the poppet, ring stiffness sets the threshold) has no cover; evidence of conception is weak.",
+      "least_narrowing_action": "If within the inventors' conception, add that in some embodiments the poppet is biased closed by chamber-side pressure alone and the over-travel threshold is set by the deflectable ring element; otherwise record the boundary.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-11",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "low",
+      "title": "Inverted arrangement and purge actuator have no fallback claim",
+      "claim_refs": [
+        "1",
+        "58"
+      ],
+      "spec_refs": [
+        "[0117]",
+        "[0123]"
+      ],
+      "attack": "[0117] (ring carried by the poppet, fixed formation deflects it) and [0123] (separate purge actuator, poppet does only its normal stroke) are described as workable and are outside claim 1's 'carried by the core body' and poppet-produced deflection.",
+      "least_narrowing_action": "Add formulations in which the ring is carried by the core body or the poppet and in which a deflecting member movable in response to the pressure differential produces the deflection; supported by [0112], [0117], [0123].",
+      "requires_new_disclosure": true,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. The inventor's sketches FIG-1.png and FIG-2.png exist and show the closed state and full over-travel with air-flow arrows, as the figure plan records; their content has not been seen and F-36-1 assumes they resolve the axial arrangement.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. In a Presta-pattern core the poppet opens by moving towards the chamber side under supply pressure ([0046]); F-36-1's geometric difficulty is stated on that basis.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. 37 CFR 1.83(a) requires the drawings to show every feature specified in the claims (common general knowledge of US practice; premise of F-36-6).",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. Cyclists top up tyres more often than they inflate from fully deflated (common general knowledge; premise of F-36-8).",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Which end of the seat ring carries the sealing edge, where does the internal shoulder sit, and by what route does the purge flow pass the interference band (F-36-1)?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Is the springless variant of F-36-10 within the inventors' conception?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. Is the purge state reached on a floor-pump top-up from riding pressure (F-36-8)? Has the audible snap been observed on top-ups?",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. How is the interference band physically produced (F-36-7)?",
+      "blocks": []
+    },
+    {
+      "id": "Q5",
+      "text": "Q5. Are the adjacent markets of [0139] (motor-vehicle and motorcycle sealant-holding chambers) commercially intended, so that F-36-9's generic chamber claim should be added before filing?",
+      "blocks": []
+    }
+  ]
+}

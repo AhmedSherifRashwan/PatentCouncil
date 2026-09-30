@@ -1,0 +1,50 @@
+[
+ {
+  "target": "description",
+  "location": "[0060]",
+  "from_text": "When the inflation device is removed from the supply side, the pressure differential collapses.",
+  "to": "When the inflation device is removed from the supply side, the pressure differential falls.",
+  "reason": "Only occurrence of the locked avoid-term 'collapse'; 'falls' is used consistently elsewhere for the same event.",
+  "source": "38b.envelope"
+ },
+ {
+  "target": "description",
+  "location": "[0176]",
+  "from_text": "Brass is subject to stress-corrosion cracking in ammoniacal environments as a matter of general materials knowledge, and for that reason a core body (20) of stainless steel 303 is described in Example 4 and in connection with the alternatives above.",
+  "to": "Liquid sealants containing ammonia can attack brass over time. A core body (20) of stainless steel 303 is described in Example 4 and in connection with the alternatives above as an option for applications where this is a concern.",
+  "reason": "Removes an express admission that the stainless-steel core body is an obvious response to common general knowledge; resolves F-38-2.",
+  "source": "38b.envelope"
+ },
+ {
+  "target": "description",
+  "location": "[0078]",
+  "from_text": "The geometry is loaded mechanically by the purge shoulder (44), at a defined location and at service temperature; no heating or other external actuation is involved in reaching the purge state.",
+  "to": "The geometry is loaded mechanically by the purge shoulder (44), at a defined location and at service temperature; for the mechanically actuated embodiments described in this section, no heating or other external actuation is involved in reaching the purge state by this route.",
+  "reason": "Avoids apparent contradiction with the thermally actuated purge of [0142]; resolves F-38-4.",
+  "source": "38b.envelope"
+ },
+ {
+  "target": "description",
+  "location": "[0031]",
+  "from_text": "a valve stem 10 having a stem bore 12",
+  "to": "a valve stem (10) having a stem bore (12)",
+  "reason": "F-40a-3, representative instance.",
+  "source": "40a.envelope"
+ },
+ {
+  "target": "description",
+  "location": "[0033]",
+  "from_text": "The core body 20 is a turned component having an external thread engaged in the stem bore 12, a core body bore 22 that receives the seat ring 30, and an internal shoulder 24",
+  "to": "The core body (20) is a turned component having an external thread engaged in the stem bore (12), a core body bore (22) that receives the seat ring (30), and an internal shoulder (24)",
+  "reason": "F-40a-3.",
+  "source": "40a.envelope"
+ },
+ {
+  "target": "description",
+  "location": "before [0001]",
+  "from_text": "(no equivalent paragraph present)",
+  "to": "A short summary paragraph stating the technical problem and the general solution at a level no narrower than claim 1.",
+  "reason": "F-40a-4.",
+  "source": "40a.envelope"
+ }
+]

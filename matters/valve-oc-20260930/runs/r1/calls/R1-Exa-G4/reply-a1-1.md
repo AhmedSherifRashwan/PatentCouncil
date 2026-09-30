@@ -1,0 +1,11 @@
+Now writing the three deliverables. Given the scale of the claim set (102 claims), the dominant finding is a pervasive multiple-dependent-claim-on-multiple-dependent-claim defect affecting over half the claims — I traced it claim-by-claim before writing.
+
+Now the formal compliance pass.
+
+All three deliverables are written.
+
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/review/r1/37.md` — Claims-only forensic audit. Headline finding: a systemic 37 CFR 1.75(c)/Rule 43(4) EPC violation (multiple dependent claim depending on another multiple dependent claim) traced claim-by-claim across the full 102-claim set — 56 claims affected. Also flags an antecedent-basis gap in claim 28 ("bears"), a reference-numeral conflict between claim 1's genus and claim 9's species, a definitional mismatch in claim 64 against §[0025], and cross-category claim-incorporation language in claims 61/89/99.
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/review/r1/38.md` — Specification consistency audit. Terminology-lock and reference-numeral cross-checks came back clean (no drift found, so `## Corrections` is empty). Two substantive findings: [0078] contradicts the thermally-actuated-purge embodiment at [0142], and [0047] contains an admission ("in the same manner as a conventional valve core") that reads broader than intended.
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/review/r1/40a.md` — Formal/mechanical compliance pass across US/EPO/UK. Flags: no EPO two-part claim form, no non-limiting reference-sign disclaimer, inconsistent parenthetical numeral convention between early and later description paragraphs, and no EPO Rule 42(1)(c) problem/solution summary. The multiple-dependent-claim defect is listed in the jurisdictional table for completeness but deliberately not re-raised as a duplicate finding, since F-37-1 already owns it.
+
+Routing: F-37-1 (critical) and F-37-2 (high) should route back per the category/severity rules — both formal, target P5 (Claims Architect). F-37-4 (medium, support) targets P4 for the drafter's judgment call between broadening §[0025] or narrowing claim 64 (open question, not resolvable from the package). F-38-1 (medium, support) targets P4. Everything else is medium/low and goes to the human's residual list per the standard cap.

@@ -1,0 +1,216 @@
+{
+  "prompt": "29",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-29-1",
+      "source_prompt": "29",
+      "category": "support",
+      "severity": "low",
+      "title": "The direction of the recovery wipe is unstated, so no amendment can use it",
+      "claim_refs": [
+        "5",
+        "35",
+        "52"
+      ],
+      "spec_refs": [
+        "[0034a]",
+        "[0055]"
+      ],
+      "attack": "[0034a] and [0055] expressly leave the direction of the sliding unstated, so Path 1 cannot be distinguished by direction or by wiping surface from references that wipe as the valve closes.",
+      "least_narrowing_action": "If the inventors know the direction of the sliding in the prototype, or the contacting portion of the upper edge 32, add it to [0034a] as a stated feature of the first embodiment.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-29-2",
+      "source_prompt": "29",
+      "category": "enablement",
+      "severity": "high",
+      "title": "Paths 2, 4, 5 and 8 have no coherent geometry to amend into",
+      "claim_refs": [
+        "6",
+        "7",
+        "14",
+        "17",
+        "39",
+        "41"
+      ],
+      "spec_refs": [
+        "[0029]",
+        "[0030]",
+        "[0054]",
+        "[0084]",
+        "[0111]"
+      ],
+      "attack": "On the orientation of [0084], a purge shoulder below a sealing face that seals on the upper edge cannot bear on that upper edge by travel away from the seat under a pressure differential from the upper side, so every fallback built on the first embodiment inherits an Art. 83 and Art. 84 objection that cannot be cured after filing.",
+      "least_narrowing_action": "Before filing, add the inventors' statement of the stroke direction, the side on which the sealing face seals, and where and in which direction the purge shoulder loads the seat ring; align [0029], [0030], [0054], [0111] and the FIG. 1 and FIG. 2 instructions.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-29-3",
+      "source_prompt": "29",
+      "category": "enablement",
+      "severity": "high",
+      "title": "Path 5 has no coherent purge gap mechanism to amend into",
+      "claim_refs": [
+        "15",
+        "16",
+        "17",
+        "40",
+        "41"
+      ],
+      "spec_refs": [
+        "[0031]",
+        "[0035]",
+        "[0048]"
+      ],
+      "attack": "The seat ring is interference-fitted in the core bore, so its outward expansion cannot open a gap on its outer surface, and no outlet past the locating shoulder 24 is described; the most distinctive structural fallback cannot be relied on as filed.",
+      "least_narrowing_action": "Before filing, add the inventors' statement of where the interference fit acts, which surfaces separate, and the passage by which purge flow reaches the inflatable body.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-29-4",
+      "source_prompt": "29",
+      "category": "support",
+      "severity": "high",
+      "title": "The pressure and travel ranges are tied to the first embodiment by [0124] and [0125], defeating Path 7",
+      "claim_refs": [
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "47"
+      ],
+      "spec_refs": [
+        "[0040]",
+        "[0042]",
+        "[0043]",
+        "[0066]",
+        "[0124]",
+        "[0125]",
+        "[0126]",
+        "[0127]"
+      ],
+      "attack": "An examiner will cite [0124] and [0125] to say that the pressure and travel ranges are disclosed only with the superelastic seat ring of the first embodiment, making their addition to claim 1 an intermediate generalisation (Art. 123(2)) unless the seat ring features are added too, which collapses Path 7 into Path 8.",
+      "least_narrowing_action": "Obtain the inventors' confirmation; if the ranges belong to the valve as such, restate them in [0126] and [0127] for every embodiment and confine [0124] and [0125] to the seat ring dimensions.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-29-5",
+      "source_prompt": "29",
+      "category": "support",
+      "severity": "high",
+      "title": "Path 9 lacks a disclosed purge gap for the wiper ring",
+      "claim_refs": [
+        "1",
+        "27",
+        "28",
+        "45"
+      ],
+      "spec_refs": [
+        "[0046]",
+        "[0094]",
+        "[0094a]"
+      ],
+      "attack": "A wiper ring below the rigid valve seat sees only gas that has passed the seat, so its purge gap is not the parallel path that claim 1 and [0046] require, and [0094] leaves the gap position unstated; combining claim 1 with the wiper ring would be added matter as the text stands.",
+      "least_narrowing_action": "Add the inventors' statement of where the third embodiment's purge gap lies and how inflation gas reaches it without passing the rigid valve seat 132; if there is none, confine Path 9 to the recovery-wipe aspect of [0011].",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-29-6",
+      "source_prompt": "29",
+      "category": "support",
+      "severity": "medium",
+      "title": "No basis exists to amend the method to over-travel during a pump stroke",
+      "claim_refs": [
+        "4",
+        "55",
+        "56"
+      ],
+      "spec_refs": [
+        "[0102]",
+        "[0111]",
+        "[0115]"
+      ],
+      "attack": "The natural method distinction, that purge flow occurs while the device is supplying gas, has no basis: [0111] expressly declines to state the timing and the only observation is a snap on removal.",
+      "least_narrowing_action": "If the inventors have observed when over-travel occurs during pumping, add that observation to [0111] and [0102].",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. This review is a drafting and analysis aid prepared by AI. It is not legal advice, a patentability opinion or a filing decision; qualified patent counsel signs off before anything is filed.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. The rejection premise is hypothetical; no view is expressed on whether claims 1, 2 or 4 are novel or inventive over the saved references.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. Added matter is assessed on the EPO directly-and-unambiguously standard as the strictest of the three jurisdictions.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. General statements of combinability ([0016], [0082], [0124], [0134]) are treated as helpful but not decisive where a specific paragraph ties a feature to one embodiment.",
+      "blocking": false
+    },
+    {
+      "id": "A5",
+      "text": "A5. Paths are written for claim 1; the same analysis applies to claim 2 through [0038] and to claim 4 as the matching method step.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Do the pressure, over-travel and purge gap width ranges apply to the polymer seat ring and to the wiper ring?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. What is the actual geometry of the purge shoulder, the sealing face and the upper edge, and how does the purge gap open and vent?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. How does the wiper ring embodiment admit purge flow without it passing the rigid valve seat?",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. Is there an observation of the direction of the recovery wipe, or of when over-travel occurs during pumping?",
+      "blocks": []
+    }
+  ]
+}

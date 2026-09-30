@@ -1,0 +1,56 @@
+{
+  "prompt": "34",
+  "status": "complete",
+  "findings": [],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. Bicycle valve cores and stems are commonly manufactured in Taiwan and China; those jurisdictions are added for manufacture and export (common general knowledge).",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. Expiry dates are priority date plus 20 years from the dates in prior-art/INDEX.md and are lower bounds only; filing dates, maintenance, adjustments and disclaimers have not been checked.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. The two requester-supplied intake references are stated to be fictional test documents and are used only as pointers to feature types.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. Laser cutting, shape-setting and electropolishing of NiTi tube are standard NiTi stent-industry operations with numerous process patents (common general knowledge).",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Which product configurations will be sold (replacement Presta core, OEM tubeless valve with proprietary stem, Schrader version, kit with sealant)? FTO scope follows the product.",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Where will the seat ring be made, and does the NiTi supplier hold or license process patents that extend to non-medical parts?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. Have the commercial clog-resistant tubeless valves marked 'patent-pending' in the search log been resolved to publication numbers?",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. Are the independent claims of index #1 (UTC Aerospace shape memory sealing ring) limited to a thermally actuated static seal? This decides whether the claim 67 seat ring sold as a component needs a design change or a licence.",
+      "blocks": []
+    },
+    {
+      "id": "Q5",
+      "text": "Q5. Will counsel commission the professional FTO search before product launch rather than before filing?",
+      "blocks": []
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+{
+  "prompt": "28",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-28-1",
+      "source_prompt": "28",
+      "category": "enablement",
+      "severity": "high",
+      "title": "Illustrated purge gap cannot open by the outward deflection described",
+      "claim_refs": [
+        "29",
+        "30",
+        "34",
+        "72",
+        "9"
+      ],
+      "spec_refs": [
+        "[0020]",
+        "[0040]",
+        "[0053]",
+        "[0054]",
+        "[0093]",
+        "[0103]",
+        "[0110]",
+        "[0159]",
+        "[0162]",
+        "Fig. 1",
+        "Fig. 3",
+        "Fig. 6",
+        "Fig. 10B"
+      ],
+      "attack": "The description says the illustrated seat ring (and the wiper ring) deflects radially outward and thereby opens a purge gap between its outer surface and the core body bore; outward movement of an outer surface closes that clearance. [0103] itself says the gap opens only where the outer surface moves away from the bore. The FIG. 1 instruction draws a clearance there in the closed state, contrary to claim 1's 'purge gap ... closed'. Insufficiency and clarity objection against the only built embodiment and claims 29/30/72.",
+      "least_narrowing_action": "Obtain the inventor's statement of the built mechanism; rewrite [0020], [0040], [0053], [0054], [0093], [0162] and the FIG. 1, 3, 6, 10B instructions to it, keeping [0103]-[0106] as alternatives; remove the closed-state clearance from FIG. 1. No claim narrowing.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-2",
+      "source_prompt": "28",
+      "category": "enablement",
+      "severity": "high",
+      "title": "Stated axial layout does not bring the purge shoulder into contact with the seat ring",
+      "claim_refs": [
+        "3",
+        "4"
+      ],
+      "spec_refs": [
+        "[0010]",
+        "[0021]",
+        "[0038]",
+        "[0046]",
+        "[0088]",
+        "[0112]",
+        "[0116]",
+        "Fig. 1",
+        "Fig. 6A"
+      ],
+      "attack": "The poppet opens towards the chamber side, lifting the sealing face from the sealing edge; the purge shoulder is 'on the chamber side of the sealing face' and so moves away from the sealing edge; the seat ring bore admits only the poppet stem. Nothing places any part of the seat ring on the chamber side of the purge shoulder, and the text never states which end carries the sealing edge or which surface the shoulder meets. The reader cannot reconstruct a working arrangement from the words.",
+      "least_narrowing_action": "Add an inventor-confirmed closed-state layout paragraph giving the axial order of internal shoulder, seat ring ends, sealing edge, sealing face, purge shoulder and poppet head, the face of the ring contacted and the main-passage route; correct [0021], [0038], [0112] and claim 3 together if 'chamber side of the sealing face' is wrong.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-3",
+      "source_prompt": "28",
+      "category": "support",
+      "severity": "high",
+      "title": "Dimension and pressure ranges confined by the description to the superelastic convoluted seat ring but claimed generally",
+      "claim_refs": [
+        "67",
+        "13",
+        "16",
+        "17",
+        "35",
+        "41",
+        "42",
+        "43",
+        "57",
+        "69",
+        "70",
+        "76",
+        "77",
+        "82"
+      ],
+      "spec_refs": [
+        "[0028]",
+        "[0088]",
+        "[0089]",
+        "[0090]",
+        "[0091]",
+        "[0146]",
+        "[0161]"
+      ],
+      "attack": "[0088] and [0091] state that the ranges 'correspond to the superelastic seat ring (30) with a convoluted wall (32)' and are to be adapted for polymer, resilient metal, other geometries, wiper rings and larger bores; claims 67 (independent, no material), 76/77 (PEEK) and the dependent range claims apply them to all of those. Art 84 lack of support over the claimed scope; 'seat ring wall thickness' is defined only for a convoluted wall yet claimed via claim 8.",
+      "least_narrowing_action": "Ask the inventor whether the ranges hold for PEEK, resilient metal and other geometries; if so, add that statement, remove the self-limiting sentences in [0091], [0146], [0161], and redefine seat ring wall thickness in [0028]. If not, narrowing is the only route: claim 67 takes 'formed from a superelastic alloy' and claims 76/77 lose the claim 67 ranges (scope given up: polymer or plain-metal seat rings of the claimed dimensions).",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-4",
+      "source_prompt": "28",
+      "category": "support",
+      "severity": "medium",
+      "title": "Single-rate spring with ring-stiffness threshold not shown to keep the ring at rest in the normal-open state",
+      "claim_refs": [
+        "40",
+        "1",
+        "51",
+        "52",
+        "53"
+      ],
+      "spec_refs": [
+        "[0010]",
+        "[0050]",
+        "[0051]",
+        "[0122]"
+      ],
+      "attack": "Per [0122] the deflecting formation loads the ring before the threshold ('initial elastic rise' before the plateau), so the ring is not 'in its at-rest form' throughout claim 1's normal-open state; for polymer or plain metal the threshold is 'less distinct', leaving no defined state boundary.",
+      "least_narrowing_action": "Add inventor-confirmed disclosure that sub-threshold elastic loading leaves the purge gap closed and define 'at rest' in [0010] accordingly; alternatively restrict claim 40 to claim 47 (scope given up: polymer and plain-metal rings with a stiffness-set threshold).",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-5",
+      "source_prompt": "28",
+      "category": "support",
+      "severity": "medium",
+      "title": "Multiple dependencies create combinations the description excludes or makes incoherent",
+      "claim_refs": [
+        "10",
+        "23",
+        "24",
+        "29",
+        "34",
+        "47",
+        "48",
+        "49",
+        "50",
+        "99"
+      ],
+      "spec_refs": [
+        "[0054]",
+        "[0083]",
+        "[0096]",
+        "[0110]",
+        "[0113]",
+        "[0114]",
+        "[0134]",
+        "[0144]"
+      ],
+      "attack": "Claim 10 via 5 (axial load converted, with a tapered shoulder applying radial load); 29 with 6 (outward, with ovalising lugs); 34 via 29 (outward deflection cannot uncover flutes); 23 with 54 (over-moulding a stainless core body); 24 via 8/16/17 ([0096] 'no separate seat ring'); 47-50 via 24 (superelastic flexure integral with a polymer or stainless core body); 99 via 76/77 (polymer seat ring from superelastic tube stock).",
+      "least_narrowing_action": "Prune dependencies: claim 10 on claims 1-4, 6-9; claim 34 excluding 29; claim 29 excluding 6; claim 23 over-moulding only for a polymer core body; claim 24 on claims 1-7, 10-15; claims 47-50 excluding 24; claim 99 on claims 67-75 or 78. No supported scope lost.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-6",
+      "source_prompt": "28",
+      "category": "support",
+      "severity": "medium",
+      "title": "Inner-surface purge gap not shown to be separate from the main passage",
+      "claim_refs": [
+        "31",
+        "1"
+      ],
+      "spec_refs": [
+        "[0019]",
+        "[0045]",
+        "[0105]"
+      ],
+      "attack": "The main passage route is never described beyond 'past the sealing face'; in [0105] the purge path runs along the poppet stem through the seat-ring bore, the clearance being 'closed, or ... sufficiently small to carry no significant flow' in the normal-open state, while the main passage then carries full flow by an unstated route. Separateness required by claim 1 is asserted, not shown; 'no significant flow' is relative.",
+      "least_narrowing_action": "Add the main-passage route for the illustrated embodiment and the third arrangement and show how the two paths differ; replace 'no significant flow' with a statable criterion.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-7",
+      "source_prompt": "28",
+      "category": "support",
+      "severity": "medium",
+      "title": "Package labels the interference-band arrangement an unconfirmed drafting convention",
+      "claim_refs": [
+        "21"
+      ],
+      "spec_refs": [
+        "[0036]",
+        "[0053]",
+        "[0103]",
+        "[0133]",
+        "[0151]",
+        "Fig. 6"
+      ],
+      "attack": "The FIG. 6 instruction and registry flag 3 state the axial-band interference fit is 'not an asserted inventor fact' and instruct a footnote on the sheet; if filed, the application itself disclaims the inventor's conception of claim 21's feature, raising entitlement and inventorship questions.",
+      "least_narrowing_action": "Obtain inventor confirmation and delete the footnote instruction and flag 3; if not confirmed, delete claim 21 and the corresponding passages of [0036], [0053], [0103], [0133], [0151].",
+      "requires_new_disclosure": false,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-8",
+      "source_prompt": "28",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "[0009] invites US means-plus-function construction of the genus terms",
+      "claim_refs": [
+        "1",
+        "2",
+        "36"
+      ],
+      "spec_refs": [
+        "[0009]"
+      ],
+      "attack": "[0009] defines 'threshold-setting arrangement', 'deflecting formation' and 'deflectable ring element' by function 'consistent with the corresponding structures described ... and their equivalents'; with nonce words this risks 35 USC 112(f) construction limiting each term to the disclosed species, leaving undisclosed structures free.",
+      "least_narrowing_action": "Rewrite [0009] to state each is a structural term with the listed species as non-limiting examples and delete the 'corresponding structures ... and their equivalents' wording; counsel to confirm no 112(f) treatment is intended.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-9",
+      "source_prompt": "28",
+      "category": "support",
+      "severity": "low",
+      "title": "'Defined wiping edge' undefined in the claim and disclosed only for the laser-cut seat ring",
+      "claim_refs": [
+        "27"
+      ],
+      "spec_refs": [
+        "[0127]",
+        "[0149]",
+        "[0150]"
+      ],
+      "attack": "[0127] discloses a 'sharp-cornered edge set by the cut profile of the seat ring' preserved by limited electropolishing; claim 27 drops 'sharp-cornered' and extends it to any ring element, including stamped wiper rings and moulded PEEK rings where neither step applies; 'defined' has no measurable boundary.",
+      "least_narrowing_action": "Define 'defined wiping edge' in the definitions section and, if the inventor agrees, state that it may be provided on a wiper ring or moulded ring by the forming route.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-10",
+      "source_prompt": "28",
+      "category": "support",
+      "severity": "low",
+      "title": "Limitations supported only implicitly in the claimed combination",
+      "claim_refs": [
+        "9",
+        "18",
+        "20",
+        "26",
+        "59",
+        "63",
+        "102"
+      ],
+      "spec_refs": [
+        "[0076]",
+        "[0093]",
+        "[0125]",
+        "[0132]",
+        "[0138]",
+        "[0139]",
+        "[0143]",
+        "[0152]"
+      ],
+      "attack": "Wiper ring 'carried by the core body' (claim 1 with 9) and retained against the internal shoulder (18 via 9); 0.03 mm interference for a polymer ring (20 with 52); wiper ring wiping 'the sealing face' (26 via 9); 'carried by the valve stem through the core body' (59); convoluted wall on seat ring 730 (63); check 'during the pressing' (102) - each rests on general statements, not a direct passage.",
+      "least_narrowing_action": "Add one explicit confirmatory sentence for each combination in the relevant paragraph.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-11",
+      "source_prompt": "28",
+      "category": "formal",
+      "severity": "low",
+      "title": "Wording drift and package defects bearing on support",
+      "claim_refs": [
+        "1",
+        "58"
+      ],
+      "spec_refs": [
+        "[0011]",
+        "[0013]",
+        "[0014]",
+        "[0043]",
+        "[0160]",
+        "Fig. 1",
+        "Fig. 6"
+      ],
+      "attack": "Claim 1 'not exceeding' vs [0043] 'below'; claim 1 'to its at-rest form' vs [0013]/[0014] 'towards'; claim 58 uses (30) for the stem-carried ring registered as 730; [0160] refers to a background section absent from the package; no Brief Description of the Drawings; figure instructions carry internal working references and the registry states description and claims do not exist.",
+      "least_narrowing_action": "Align [0043] to 'does not exceed'; align 'to'/'towards'; use (730) or no numeral in claim 58; supply or re-point the background reference; strip internal references from the figure instructions and refresh the registry.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. The package is judged as it stands: no drawings (figure plan and instructions only), no abstract, no Brief Description of the Drawings, no background section.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. Common general knowledge: a surface moving radially outward towards a surrounding coaxial bore reduces the clearance between them.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. General EPO practice (not cited authority): a claim must be supported over its whole scope; a description confining a range to one material weakens support for the range claimed without it.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. General US practice (not cited authority): a generic word such as 'arrangement' or 'formation' paired with a function, read with 'corresponding structures ... and their equivalents', risks 35 USC 112(f) construction.",
+      "blocking": false
+    },
+    {
+      "id": "A5",
+      "text": "A5. Multiple dependencies are read as written; each claimed combination is one the application asserts.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. (Inventor) In prototypes P-1 to P-3, which surface of the seat ring bounds the purge gap and which way does it move in over-travel; is there an outer-surface clearance in the closed state?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. (Inventor) What is the axial order, supply side to chamber side, of internal shoulder, seat ring ends, sealing edge, sealing face, purge shoulder and poppet head, and which face of the seat ring does the purge shoulder meet?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. (Inventor) Do the ranges of [0089]-[0090] hold for a PEEK seat ring, a resilient-metal ring and the non-convoluted wall geometries?",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. (Inventor) Was the axial-band interference fit of claim 21 part of the inventor's conception or of the built prototype?",
+      "blocks": []
+    },
+    {
+      "id": "Q5",
+      "text": "Q5. (Counsel) Is any US means-plus-function treatment of 'threshold-setting arrangement' or 'deflecting formation' intended?",
+      "blocks": []
+    }
+  ]
+}

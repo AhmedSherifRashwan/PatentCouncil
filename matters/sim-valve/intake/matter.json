@@ -1,0 +1,16 @@
+{
+ "title": "Self-purging bicycle tube valve",
+ "jurisdictions": [
+  "US",
+  "EP",
+  "GB"
+ ],
+ "profile": "full",
+ "mode": "unattended",
+ "flow": "fast",
+ "matter_identifier": "PAT-50",
+ "requested_by": "PAT-49",
+ "fictional_test": true,
+ "platform": "openclaw",
+ "simulation": true
+}

@@ -1,0 +1,205 @@
+{
+ "support_map": {
+  "claims": 102,
+  "paragraphs": 243,
+  "unmapped_claims": [],
+  "uncovered_limitations": [
+   {
+    "claim": 8,
+    "limitation": "The valve core of any one of claims 1 to 7"
+   },
+   {
+    "claim": 10,
+    "limitation": "The valve core of any one of claims 1 to 9"
+   },
+   {
+    "claim": 13,
+    "limitation": "The valve core of claim 11 or claim 12"
+   },
+   {
+    "claim": 14,
+    "limitation": "The valve core of any one of claims 11 to 13"
+   },
+   {
+    "claim": 27,
+    "limitation": "The valve core of claim 25 or claim 26"
+   },
+   {
+    "claim": 28,
+    "limitation": "The valve core of any one of claims 1 to 27"
+   },
+   {
+    "claim": 29,
+    "limitation": "The valve core of any one of claims 1 to 28"
+   },
+   {
+    "claim": 32,
+    "limitation": "The valve core of any one of claims 1 to 29"
+   },
+   {
+    "claim": 35,
+    "limitation": "The valve core of any one of claims 1 to 34"
+   },
+   {
+    "claim": 36,
+    "limitation": "The valve core of any one of claims 1 to 35"
+   },
+   {
+    "claim": 40,
+    "limitation": "The valve core of any one of claims 1 to 35"
+   },
+   {
+    "claim": 41,
+    "limitation": "The valve core of any one of claims 1 to 40"
+   },
+   {
+    "claim": 42,
+    "limitation": "The valve core of any one of claims 1 to 41"
+   },
+   {
+    "claim": 43,
+    "limitation": "The valve core of any one of claims 1 to 42"
+   },
+   {
+    "claim": 44,
+    "limitation": "The valve core of any one of claims 1 to 40"
+   },
+   {
+    "claim": 46,
+    "limitation": "The valve core of any one of claims 1 to 45"
+   },
+   {
+    "claim": 47,
+    "limitation": "The valve core of any one of claims 1 to 46"
+   },
+   {
+    "claim": 49,
+    "limitation": "The valve core of claim 47 or claim 48"
+   },
+   {
+    "claim": 50,
+    "limitation": "The valve core of claim 47 or claim 48"
+   },
+   {
+    "claim": 51,
+    "limitation": "The valve core of any one of claims 1 to 46"
+   },
+   {
+    "claim": 52,
+    "limitation": "The valve core of any one of claims 1 to 46"
+   },
+   {
+    "claim": 55,
+    "limitation": "The valve core of any one of claims 1 to 54"
+   },
+   {
+    "claim": 58,
+    "limitation": "An inflation valve for an inflatable chamber, the inflation valve comprising a valve stem (10) having a stem bore (12) and, carried by the valve stem, a deflect"
+   },
+   {
+    "claim": 69,
+    "limitation": "The seat ring of claim 67 or claim 68"
+   },
+   {
+    "claim": 72,
+    "limitation": "The seat ring of any one of claims 67 to 71"
+   },
+   {
+    "claim": 75,
+    "limitation": "The seat ring of claim 73 or claim 74"
+   }
+  ],
+  "bad_citations": [],
+  "weak_citations": [
+   {
+    "claim": 7,
+    "paragraph": "[0037]",
+    "element": "the deflecting formation is provided on a separate collar (444) fixed on a poppet stem (41) of the poppet"
+   },
+   {
+    "claim": 36,
+    "paragraph": "[0009]",
+    "element": "a threshold-setting arrangement by which a force resisting movement of the poppet rises at an end of the normal stroke, "
+   },
+   {
+    "claim": 44,
+    "paragraph": "[0007]",
+    "element": "the crack pressure is about 1.0 bar and the over-travel threshold is about 3.5 bar"
+   },
+   {
+    "claim": 45,
+    "paragraph": "[0174]",
+    "element": "the core body has an over-travel stop which the poppet meets at an end of over-travel, the over-travel stop limiting an "
+   },
+   {
+    "claim": 58,
+    "paragraph": "[0005]",
+    "element": "carried by the valve stem, a deflectable ring element (30), a poppet (40) and a return spring (50)"
+   },
+   {
+    "claim": 58,
+    "paragraph": "[0031]",
+    "element": "carried by the valve stem, a deflectable ring element (30), a poppet (40) and a return spring (50)"
+   },
+   {
+    "claim": 59,
+    "paragraph": "[0005]",
+    "element": "a core body (20) received in the stem bore, the deflectable ring element, the poppet and the return spring being carried"
+   },
+   {
+    "claim": 63,
+    "paragraph": "[0136]",
+    "element": "the seat ring has a sealing edge on which the sealing face rests in the closed state and a convoluted wall which convert"
+   },
+   {
+    "claim": 63,
+    "paragraph": "[0138]",
+    "element": "the seat ring has a sealing edge on which the sealing face rests in the closed state and a convoluted wall which convert"
+   },
+   {
+    "claim": 79,
+    "paragraph": "[0014]",
+    "element": "the inflation valve comprising a poppet having a supply side, a chamber side and a sealing face, a deflectable ring elem"
+   },
+   {
+    "claim": 79,
+    "paragraph": "[0068]",
+    "element": "raising the pressure differential above an over-travel threshold higher than the crack pressure, whereby the poppet move"
+   },
+   {
+    "claim": 79,
+    "paragraph": "[0058]",
+    "element": "inflation gas flows as an air purge along a purge flow path, separate from the main passage, from the supply side throug"
+   },
+   {
+    "claim": 87,
+    "paragraph": "[0070]",
+    "element": "repeating the coupling, the raising and the removing over a plurality of inflation events, the purge gap opening and the"
+   },
+   {
+    "claim": 90,
+    "paragraph": "[0147]",
+    "element": "A method of manufacturing a seat ring (30) for a valve core of an inflation valve"
+   }
+  ],
+  "ok": false
+ },
+ "claims_format": {
+  "claims": 102,
+  "independent": [
+   1,
+   58,
+   67,
+   79,
+   90
+  ],
+  "problems": [],
+  "ok": true
+ },
+ "antecedent": {
+  "claims": 102,
+  "flags": [],
+  "method": "heuristic: a definite article with no earlier indefinite introduction in the claim or the claims it depends on",
+  "ok": true
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "assemble": {
+  "parts": 5,
+  "paragraphs": 180,
+  "written": "/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/description.md",
+  "ok": true
+ },
+ "numerals": {
+  "problems": 12,
+  "numerals_in_text_not_in_registry": [
+   "11",
+   "13",
+   "14",
+   "15",
+   "17",
+   "18",
+   "32a",
+   "43",
+   "303",
+   "500",
+   "700",
+   "2026"
+  ],
+  "registry_numerals_not_in_figures": [],
+  "claim_components_without_numeral": [],
+  "ok": false
+ }
+}

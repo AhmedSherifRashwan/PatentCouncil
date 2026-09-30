@@ -1,0 +1,56 @@
+{
+  "prompt": "34",
+  "status": "complete",
+  "findings": [],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. The contemplated product is the replacement Presta valve core ([0140], [0180]), with later Schrader, stem-integrated OEM and kit forms ([0137], [0138], [0141]).",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. The expiry remarks rest on the general-knowledge premise of a 20-year term from filing applied to the index priority dates; filing dates, term adjustments and maintenance status were not checked.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. The index was compiled for patentability and is self-described as thin; absence from this list is not evidence that a feature is clear.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. This list is a drafting and analysis aid, not a freedom-to-operate opinion; qualified patent counsel signs off.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Where will the seat ring and core be manufactured? Process claims in the country of manufacture matter there.",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Will the product be sold as a core only, as a complete tubeless valve, with an adaptor, or with sealant?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. Is a Schrader-pattern or non-bicycle product planned?",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. For counsel: a professional FTO search with claim charts, starting with INDEX #1 against the seat ring and #2, #17, #8, #9, #10 and #4 against the valve and stem.",
+      "blocks": []
+    },
+    {
+      "id": "Q5",
+      "text": "Q5. For counsel: legal status and family check of every index reference with a priority date after 2005.",
+      "blocks": []
+    }
+  ]
+}

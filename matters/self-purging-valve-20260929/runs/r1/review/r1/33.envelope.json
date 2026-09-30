@@ -1,0 +1,201 @@
+{
+  "prompt": "33",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-33-1",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "high",
+      "title": "Axially deflecting element taught in [0179]-[0180] avoids 'radially deflectable element' and 'radial expansion'",
+      "claim_refs": [
+        "1",
+        "2"
+      ],
+      "spec_refs": [
+        "[0179]",
+        "[0180]",
+        "[0081]",
+        "[0065]"
+      ],
+      "attack": "Claim 1 requires 'a radially deflectable element' and 'a radial expansion'. [0179] discloses a conical disc spring whose rim lifts axially to open a purge gap at a face and states that its deflection 'is not a radial expansion'; [0180] adds axial and tilting deformations. The disc spring also provides the second spring stage, so it is a cheaper one-part design that the specification teaches but claims 1 and 2 exclude (dedication to the public in the US; weak equivalents position in EPO/UK).",
+      "least_narrowing_action": "Add a separate independent valve-core claim (and matching method claim) reciting 'a deflectable element' whose deflection by the load-applying surface in the over-travel opens the purge gap, with the other claim 1 limitations unchanged; support [0179], [0180], [0081], [0065]. Keep claim 1 unchanged because the broader claim is closer to US4044791A (INDEX #2).",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-2",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "high",
+      "title": "Contact from lift-off avoids 'spaced ... throughout the normal stroke'",
+      "claim_refs": [
+        "1",
+        "2"
+      ],
+      "spec_refs": [
+        "[0071]",
+        "[0072]",
+        "[0015]",
+        "[0148]",
+        "[0132]",
+        "[0239]"
+      ],
+      "attack": "The normal stroke ends where the load-applying surface first meets the element ([0071]) and the over-travel is the travel in which, and only in which, it bears on the element ([0072]). A competitor sets the collar at zero clearance or light contact from lift-off and makes the purge gap open only above a load threshold (stiffer convolution, detent). The commercial effect is kept but no travel exists in which the surface is spaced from the element, so claim 1 is not literally met, and [0015] presents the spacing as essential, weakening equivalents.",
+      "least_narrowing_action": "Add a parallel claim bounding the travel ranges by pressure and gap state: purge gap closed while the pressure differential is between the crack pressure and the over-travel differential and opened when it exceeds the over-travel differential ([0071] last sentence, [0120], [0132], [0239]); this needs a disclosed embodiment in which the load-applying surface contacts or preloads the element through the normal stroke and the gap opens only above a load threshold, if within the inventor's conception.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-3",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Cleaning method claim is performed by end users, not the manufacturer",
+      "claim_refs": [
+        "2"
+      ],
+      "spec_refs": [
+        "[0273]",
+        "[0276]",
+        "[0018]",
+        "[0160]"
+      ],
+      "attack": "Every step of claim 2 is performed by the cyclist with a pump; the competitor manufacturer is at most an indirect infringer (US inducement or contributory infringement, UK s60(2), national indirect infringement in EPC states), and the steps occur only when the user reaches the over-travel differential ([0273]). Proof of user conduct and of knowledge is hard, and direct infringers are individual consumers.",
+      "least_narrowing_action": "No amendment; rely on product claims 1, 3, 47, 50 and 77. Counsel may add a claim to a tyre chamber fitted with the valve core ([0018], [0160]) to reach factory fitters.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-4",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "'Load-converting geometry' at risk of US 112(f) structure-limited construction; no strut-pattern or helical-slot dependents",
+      "claim_refs": [
+        "3",
+        "21"
+      ],
+      "spec_refs": [
+        "[0104]",
+        "[0106]",
+        "[0171]",
+        "[0172]",
+        "[0173]"
+      ],
+      "attack": "'a wall having a load-converting geometry' is defined only by function ([0104], [0106]). A US court may treat 'geometry' as a nonce term under 35 U.S.C. 112(f), confining the claim to disclosed structures and equivalents, with indefiniteness risk if the link to structure is found unclear. The seat ring dependents name only the convoluted wall (62-64) and wall slots (67), leaving strut-pattern and helical-slot rings without a named fallback.",
+      "least_narrowing_action": "Add dependent claims to claim 3 and in the claim 21 family: 'wherein the load-converting geometry is a strut pattern cut in the wall' ([0171]) and 'wherein the load-converting geometry is a helical slot through the wall' ([0173]).",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-5",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Flow-actuated expansion and main-passage enlargement excluded by the package's own definitions",
+      "claim_refs": [
+        "1",
+        "2"
+      ],
+      "spec_refs": [
+        "[0016]",
+        "[0064]",
+        "[0126]",
+        "[0135]",
+        "[0011]"
+      ],
+      "attack": "[0016] and [0135] exclude radial deflection produced by fluid flow, and [0064]/[0126] exclude a main passage enlarged by deflection of the seat. A pressure-bulged sleeve or a compliant seat that swings its edge away from the poppet at high flow can be sold as self-cleaning and falls outside claims 1 and 2.",
+      "least_narrowing_action": "No free fix: widening would move toward US5924444A (INDEX #15) and US4044791A (INDEX #2). Record as residual scope limitation for the human; no change proposed.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-33-6",
+      "source_prompt": "33",
+      "category": "design-around",
+      "severity": "low",
+      "title": "Seat ring claim is proved only through the core it is fitted to",
+      "claim_refs": [
+        "3"
+      ],
+      "spec_refs": [
+        "[0020]",
+        "[0162]"
+      ],
+      "attack": "Claim 3 defines the ring by 'a load-applying surface that is moved by the poppet in an over-travel (116)' and 'when the seat ring is installed in the valve core, the radial expansion opens a purge gap (60)'. A spare-ring seller argues its ring is intended for a core without over-travel; a US court may require proof of behaviour in a specific core.",
+      "least_narrowing_action": "No amendment; use dependent claims 62-69 and 71-73, whose structural limitations are provable on the ring alone, as the spare-part enforcement claims.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. The package is the whole application as filed; no abstract is present.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. Indirect-infringement rules are stated at the level of general patent practice (35 U.S.C. 271(b),(c); UK PA 1977 s60(2); national provisions in EPC states), not as legal opinion.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. US dedication-to-the-public doctrine and 112(f) construction of nonce terms are assumed as general practice.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. The positional definition of 'closed at rest' in [0067] is assumed to be given effect as lexicography, with a construction risk noted for the clarity review.",
+      "blocking": false
+    },
+    {
+      "id": "A5",
+      "text": "A5. Detectability assumes the accused product can be bought, sectioned and bench-tested.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Inventor: is a construction in which the load-applying surface touches or preloads the deflectable element from lift-off, with the purge gap opening only above a load threshold, within your conception (F-33-2)?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Inventor: is a kinematic inversion (deflectable element on the poppet, stationary abutment on the core body) within your conception?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. Counsel: should a tyre chamber fitted with the valve core ([0018], [0160]) be claimed directly?",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. Counsel: is the US 112(f) exposure of the functional genus terms acceptable with [0099]-[0106], or should structural dependents be multiplied (F-33-4)?",
+      "blocks": []
+    }
+  ]
+}

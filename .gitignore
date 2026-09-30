@@ -1,6 +1,10 @@
-# Confidential matter dossiers: never committed.
-matters/
+# Confidential matter dossiers: never committed. Only the fictional test matters below are tracked;
+# any new (real) matter stays ignored unless it is added here deliberately.
+matters/*
+!matters/self-purging-valve-20260928/
+!matters/self-purging-valve-20260929/
+!matters/sim-valve/
+!matters/valve-oc-20260930/
 __pycache__/
 *.pyc
 .DS_Store
-watch.log

@@ -1,0 +1,1333 @@
+{
+ "description": "description.md (stitched, [0001]-[0350])",
+ "claims": {
+  "1": [
+   {
+    "element": "A valve core (5) for a tyre valve (1) that admits air into a tyre chamber (80), the valve core",
+    "paragraphs": [
+     "[0001]",
+     "[0014]",
+     "[0108]"
+    ]
+   },
+   {
+    "element": "a core body (20)",
+    "paragraphs": [
+     "[0014]",
+     "[0111]"
+    ]
+   },
+   {
+    "element": "a sealing edge (32, 132, 142)",
+    "paragraphs": [
+     "[0059]",
+     "[0298]"
+    ]
+   },
+   {
+    "element": "a poppet (40) having a sealing face (42) that seats on the sealing edge when the poppet is in a closed position, the poppet being movable from the closed position through a normal stroke (114), in which a main passage (26) past the sealing edge is open",
+    "paragraphs": [
+     "[0014]",
+     "[0116]",
+     "[0123]",
+     "[0298]"
+    ]
+   },
+   {
+    "element": "through an over-travel (116) beyond the normal stroke",
+    "paragraphs": [
+     "[0072]",
+     "[0116]"
+    ]
+   },
+   {
+    "element": "a radially deflectable element",
+    "paragraphs": [
+     "[0099]",
+     "[0163]"
+    ]
+   },
+   {
+    "element": "a load-applying surface that is moved by the poppet",
+    "paragraphs": [
+     "[0102]",
+     "[0152]"
+    ]
+   },
+   {
+    "element": "the load-applying surface is spaced from the radially deflectable element throughout the normal stroke",
+    "paragraphs": [
+     "[0071]",
+     "[0102]",
+     "[0299]"
+    ]
+   },
+   {
+    "element": "wherein, in the over-travel, the load-applying surface bears on the radially deflectable element and applies an axial load that produces a radial expansion of the radially deflectable element, the radial expansion opening a purge gap (60, 146)",
+    "paragraphs": [
+     "[0014]",
+     "[0072]",
+     "[0081]",
+     "[0298]"
+    ]
+   },
+   {
+    "element": "the purge gap is a secondary flow path that is distinct from the main passage and that is closed at rest and throughout the normal stroke",
+    "paragraphs": [
+     "[0065]",
+     "[0067]",
+     "[0105]"
+    ]
+   },
+   {
+    "element": "the radially deflectable element undergoes shape recovery, which closes the purge gap, when the axial load is removed",
+    "paragraphs": [
+     "[0083]",
+     "[0298]"
+    ]
+   }
+  ],
+  "2": [
+   {
+    "element": "A method of cleaning a tyre valve (1) during an inflation cycle, the tyre valve having a valve core (5) that has a sealing edge (32), a poppet (40) having a sealing face (42) that is seated on the sealing edge in a closed position of the poppet, a radially deflectable element",
+    "paragraphs": [
+     "[0021]",
+     "[0329]",
+     "[0269]"
+    ]
+   },
+   {
+    "element": "a load-applying surface that is moved by the poppet, the method",
+    "paragraphs": [
+     "[0102]",
+     "[0329]"
+    ]
+   },
+   {
+    "element": "moving the poppet from the closed position through a normal stroke (114), so that air flows through a main passage (26) past the sealing edge into a tyre chamber (80) while a purge gap (60) remains closed",
+    "paragraphs": [
+     "[0270]",
+     "[0131]",
+     "[0132]"
+    ]
+   },
+   {
+    "element": "moving the poppet through an over-travel (116) beyond the normal stroke, so that the load-applying surface bears on the radially deflectable element and applies an axial load that produces a radial expansion of the radially deflectable element, the radial expansion opening the purge gap, the purge gap being a secondary flow path that is distinct from the main passage",
+    "paragraphs": [
+     "[0271]",
+     "[0133]",
+     "[0021]"
+    ]
+   },
+   {
+    "element": "passing air through the open purge gap into the tyre chamber",
+    "paragraphs": [
+     "[0021]",
+     "[0329]",
+     "[0136]"
+    ]
+   },
+   {
+    "element": "returning the poppet to the closed position, so that the axial load is removed and the purge gap closes",
+    "paragraphs": [
+     "[0137]",
+     "[0272]"
+    ]
+   }
+  ],
+  "3": [
+   {
+    "element": "A seat ring (30) for a valve core (5) of a tyre valve (1), the seat ring being tubular and",
+    "paragraphs": [
+     "[0020]",
+     "[0334]",
+     "[0112]"
+    ]
+   },
+   {
+    "element": "a sealing edge (32) at one end of the seat ring, for seating a sealing face (42) of a poppet (40) of the valve core",
+    "paragraphs": [
+     "[0334]",
+     "[0112]"
+    ]
+   },
+   {
+    "element": "a wall having a load-converting geometry",
+    "paragraphs": [
+     "[0020]",
+     "[0104]"
+    ]
+   },
+   {
+    "element": "an axial load, applied to the seat ring by a load-applying surface that is moved by the poppet in an over-travel (116) of the poppet beyond a normal stroke (114), produces through the load-converting geometry a radial expansion of the wall",
+    "paragraphs": [
+     "[0020]",
+     "[0334]"
+    ]
+   },
+   {
+    "element": "wherein, when the seat ring is installed in the valve core, the radial expansion opens a purge gap (60) that is distinct from a main passage (26) of the valve core",
+    "paragraphs": [
+     "[0020]",
+     "[0334]"
+    ]
+   },
+   {
+    "element": "the seat ring undergoes shape recovery, which closes the purge gap, when the axial load is removed",
+    "paragraphs": [
+     "[0020]",
+     "[0083]"
+    ]
+   }
+  ],
+  "4": [
+   {
+    "element": "A method of manufacturing the seat ring (30) of claim 3, the seat ring being of a NiTi alloy, the method comprising shape-setting (512) the seat ring in a fixture that holds the load-converting geometry",
+    "paragraphs": [
+     "[0022]",
+     "[0098]",
+     "[0255]"
+    ]
+   }
+  ],
+  "5": [
+   {
+    "element": "the poppet lifts off the sealing edge when a pressure differential across the poppet exceeds a crack pressure (110)",
+    "paragraphs": [
+     "[0300]",
+     "[0069]",
+     "[0070]",
+     "[0072]"
+    ]
+   },
+   {
+    "element": "moves through the over-travel when the pressure differential exceeds an over-travel differential (112) that is greater than the crack pressure",
+    "paragraphs": [
+     "[0300]",
+     "[0069]",
+     "[0070]",
+     "[0072]"
+    ]
+   }
+  ],
+  "6": [
+   {
+    "element": "a return bias that biases the poppet towards the closed position and that has a two-rate characteristic, the two-rate characteristic having a first spring stage (52), which the crack pressure overcomes",
+    "paragraphs": [
+     "[0301]",
+     "[0023]",
+     "[0075]",
+     "[0076]"
+    ]
+   },
+   {
+    "element": "a second spring stage (54), which the over-travel differential overcomes",
+    "paragraphs": [
+     "[0301]",
+     "[0023]",
+     "[0075]",
+     "[0076]"
+    ]
+   }
+  ],
+  "7": [
+   {
+    "element": "the return bias is a return spring (50)",
+    "paragraphs": [
+     "[0302]",
+     "[0101]",
+     "[0119]"
+    ]
+   }
+  ],
+  "8": [
+   {
+    "element": "the return spring is a single compression spring of variable pitch",
+    "paragraphs": [
+     "[0143]",
+     "[0149]"
+    ]
+   }
+  ],
+  "9": [
+   {
+    "element": "the return bias comprises a soft spring and a stiff spring arranged in series, or comprises nested springs that act in parallel",
+    "paragraphs": [
+     "[0144]",
+     "[0145]"
+    ]
+   }
+  ],
+  "10": [
+   {
+    "element": "the second spring stage is provided by an elastomeric bumper, which the poppet reaches at an end of the normal stroke, or by a disc spring, which is engaged at the end of the normal stroke",
+    "paragraphs": [
+     "[0146]",
+     "[0147]"
+    ]
+   }
+  ],
+  "11": [
+   {
+    "element": "The valve core of any one of claims 5 to 10",
+    "paragraphs": [
+     "[0238]",
+     "[0239]"
+    ]
+   },
+   {
+    "element": "the crack pressure is from 0.8 bar to 1.5 bar and the over-travel differential is from 2.5 bar to 5.0 bar",
+    "paragraphs": [
+     "[0238]",
+     "[0239]"
+    ]
+   }
+  ],
+  "12": [
+   {
+    "element": "the crack pressure is 1.0 bar and the over-travel differential is 3.5 bar",
+    "paragraphs": [
+     "[0238]",
+     "[0239]",
+     "[0280]"
+    ]
+   }
+  ],
+  "13": [
+   {
+    "element": "The valve core of any one of claims 1 and 5 to 12",
+    "paragraphs": [
+     "[0152]",
+     "[0026]",
+     "[0117]"
+    ]
+   },
+   {
+    "element": "the load-applying surface is a purge shoulder (44) formed on the poppet",
+    "paragraphs": [
+     "[0152]",
+     "[0026]",
+     "[0117]"
+    ]
+   }
+  ],
+  "14": [
+   {
+    "element": "the purge shoulder is an annular surface of the poppet located below the sealing face",
+    "paragraphs": [
+     "[0117]",
+     "[0313]"
+    ]
+   }
+  ],
+  "15": [
+   {
+    "element": "The valve core of any one of claims 1 and 5 to 12",
+    "paragraphs": [
+     "[0153]",
+     "[0103]"
+    ]
+   },
+   {
+    "element": "the load-applying surface is provided on a collar that is a separate part carried by the poppet",
+    "paragraphs": [
+     "[0153]",
+     "[0103]"
+    ]
+   }
+  ],
+  "16": [
+   {
+    "element": "The valve core of any one of claims 1 and 5 to 15",
+    "paragraphs": [
+     "[0307]",
+     "[0124]",
+     "[0065]"
+    ]
+   },
+   {
+    "element": "the purge gap is bounded by an outer surface of the radially deflectable element and by a bore surrounding the radially deflectable element",
+    "paragraphs": [
+     "[0307]",
+     "[0124]",
+     "[0065]"
+    ]
+   }
+  ],
+  "17": [
+   {
+    "element": "the bore is a core body bore (22) of the core body",
+    "paragraphs": [
+     "[0308]",
+     "[0124]"
+    ]
+   }
+  ],
+  "18": [
+   {
+    "element": "The valve core of claim 16 or claim 17",
+    "paragraphs": [
+     "[0310]",
+     "[0024]",
+     "[0124]"
+    ]
+   },
+   {
+    "element": "the purge gap is annular",
+    "paragraphs": [
+     "[0310]",
+     "[0024]",
+     "[0124]"
+    ]
+   }
+  ],
+  "19": [
+   {
+    "element": "The valve core of any one of claims 16 to 18",
+    "paragraphs": [
+     "[0237]",
+     "[0097]"
+    ]
+   },
+   {
+    "element": "the purge gap has a purge gap width of from 0.10 mm to 0.25 mm",
+    "paragraphs": [
+     "[0237]",
+     "[0097]"
+    ]
+   }
+  ],
+  "20": [
+   {
+    "element": "The valve core of any one of claims 1 and 5 to 19",
+    "paragraphs": [
+     "[0303]",
+     "[0058]",
+     "[0114]"
+    ]
+   },
+   {
+    "element": "the radially deflectable element is a seat ring (30) retained in the core body",
+    "paragraphs": [
+     "[0303]",
+     "[0058]",
+     "[0114]"
+    ]
+   },
+   {
+    "element": "the sealing edge is an edge of the seat ring",
+    "paragraphs": [
+     "[0303]",
+     "[0058]",
+     "[0114]"
+    ]
+   }
+  ],
+  "21": [
+   {
+    "element": "the seat ring has a convoluted wall (34, 134) having at least one convolution (36), the convoluted wall converting the axial load into the radial expansion",
+    "paragraphs": [
+     "[0113]",
+     "[0061]",
+     "[0305]",
+     "[0207]"
+    ]
+   }
+  ],
+  "22": [
+   {
+    "element": "the axial load flattens the at least one convolution, the convoluted wall deforming by bending",
+    "paragraphs": [
+     "[0134]",
+     "[0305]"
+    ]
+   }
+  ],
+  "23": [
+   {
+    "element": "The valve core of claim 21 or claim 22",
+    "paragraphs": [
+     "[0168]",
+     "[0306]"
+    ]
+   },
+   {
+    "element": "the convoluted wall has two convolutions (36, 38)",
+    "paragraphs": [
+     "[0168]",
+     "[0306]"
+    ]
+   }
+  ],
+  "24": [
+   {
+    "element": "The valve core of claim 21 or claim 22",
+    "paragraphs": [
+     "[0172]"
+    ]
+   },
+   {
+    "element": "the at least one convolution is a single outward bow of the convoluted wall",
+    "paragraphs": [
+     "[0172]"
+    ]
+   }
+  ],
+  "25": [
+   {
+    "element": "The valve core of any one of claims 20 to 24",
+    "paragraphs": [
+     "[0319]",
+     "[0112]",
+     "[0195]"
+    ]
+   },
+   {
+    "element": "the seat ring is retained in the core body by an interference fit and is seated against a locating shoulder (24) of the core body",
+    "paragraphs": [
+     "[0319]",
+     "[0112]",
+     "[0195]"
+    ]
+   }
+  ],
+  "26": [
+   {
+    "element": "the interference fit acts on a fit band (35) of the seat ring",
+    "paragraphs": [
+     "[0186]",
+     "[0187]"
+    ]
+   },
+   {
+    "element": "the seat ring has a free portion (37) which, on the radial expansion, expands into a core body bore relief (202) of the core body",
+    "paragraphs": [
+     "[0186]",
+     "[0187]"
+    ]
+   }
+  ],
+  "27": [
+   {
+    "element": "The valve core of any one of claims 20 to 26",
+    "paragraphs": [
+     "[0314]",
+     "[0204]"
+    ]
+   },
+   {
+    "element": "the seat ring is of a superelastic material",
+    "paragraphs": [
+     "[0314]",
+     "[0204]"
+    ]
+   }
+  ],
+  "28": [
+   {
+    "element": "the superelastic material is a NiTi alloy",
+    "paragraphs": [
+     "[0315]",
+     "[0203]"
+    ]
+   }
+  ],
+  "29": [
+   {
+    "element": "the NiTi alloy has an austenite finish temperature below 5 °C",
+    "paragraphs": [
+     "[0316]",
+     "[0203]",
+     "[0028]"
+    ]
+   }
+  ],
+  "30": [
+   {
+    "element": "The valve core of any one of claims 20 to 26",
+    "paragraphs": [
+     "[0318]",
+     "[0207]",
+     "[0091]"
+    ]
+   },
+   {
+    "element": "the seat ring is a polymer seat ring (130)",
+    "paragraphs": [
+     "[0318]",
+     "[0207]",
+     "[0091]"
+    ]
+   }
+  ],
+  "31": [
+   {
+    "element": "the polymer seat ring is of polyether ether ketone (PEEK)",
+    "paragraphs": [
+     "[0207]",
+     "[0030]"
+    ]
+   }
+  ],
+  "32": [
+   {
+    "element": "The valve core of any one of claims 20 to 31, wherein, on the shape recovery, the seat ring moves across the sealing face of the poppet in a snap-back wipe",
+    "paragraphs": [
+     "[0317]",
+     "[0085]",
+     "[0138]"
+    ]
+   }
+  ],
+  "33": [
+   {
+    "element": "The valve core of any one of claims 1 and 5 to 32",
+    "paragraphs": [
+     "[0236]",
+     "[0074]"
+    ]
+   },
+   {
+    "element": "the over-travel has an over-travel distance of from 0.4 mm to 0.9 mm",
+    "paragraphs": [
+     "[0236]",
+     "[0074]"
+    ]
+   }
+  ],
+  "34": [
+   {
+    "element": "the normal stroke is 0.6 mm and the over-travel distance is 0.5 mm",
+    "paragraphs": [
+     "[0235]",
+     "[0236]"
+    ]
+   }
+  ],
+  "35": [
+   {
+    "element": "The valve core of any one of claims 1 and 5 to 34",
+    "paragraphs": [
+     "[0213]",
+     "[0032]"
+    ]
+   },
+   {
+    "element": "the core body is of stainless steel",
+    "paragraphs": [
+     "[0213]",
+     "[0032]"
+    ]
+   }
+  ],
+  "36": [
+   {
+    "element": "The valve core of any one of claims 1 and 5 to 35",
+    "paragraphs": [
+     "[0214]",
+     "[0032]"
+    ]
+   },
+   {
+    "element": "the sealing face is of hard-anodised aluminium",
+    "paragraphs": [
+     "[0214]",
+     "[0032]"
+    ]
+   }
+  ],
+  "37": [
+   {
+    "element": "The valve core of any one of claims 1 and 5 to 36",
+    "paragraphs": [
+     "[0128]",
+     "[0219]"
+    ]
+   },
+   {
+    "element": "a lock nut (70) on the poppet, by which the poppet is closed manually",
+    "paragraphs": [
+     "[0128]",
+     "[0219]"
+    ]
+   }
+  ],
+  "38": [
+   {
+    "element": "The valve core of any one of claims 1 and 5 to 37, wherein, when the purge gap is open, air at pump pressure flows through the purge gap, across a surface of the valve core on which sealant film accumulates",
+    "paragraphs": [
+     "[0312]",
+     "[0084]",
+     "[0194]"
+    ]
+   },
+   {
+    "element": "into the tyre chamber, as an air purge",
+    "paragraphs": [
+     "[0312]",
+     "[0084]",
+     "[0194]"
+    ]
+   }
+  ],
+  "39": [
+   {
+    "element": "the purge shoulder is conical",
+    "paragraphs": [
+     "[0154]"
+    ]
+   }
+  ],
+  "40": [
+   {
+    "element": "the radially deflectable element is a slotted sleeve (170) having fingers (172) that the purge shoulder spreads in the over-travel",
+    "paragraphs": [
+     "[0176]",
+     "[0154]"
+    ]
+   }
+  ],
+  "41": [
+   {
+    "element": "the slotted sleeve is of a spring-tempered metal",
+    "paragraphs": [
+     "[0210]"
+    ]
+   }
+  ],
+  "42": [
+   {
+    "element": "the radially deflectable element is a split seat ring (180) having an axial split (182) that the purge shoulder opens in the over-travel",
+    "paragraphs": [
+     "[0177]",
+     "[0154]"
+    ]
+   }
+  ],
+  "43": [
+   {
+    "element": "The valve core of any one of claims 1 and 5 to 12",
+    "paragraphs": [
+     "[0178]"
+    ]
+   },
+   {
+    "element": "the radially deflectable element is a tapered seat ring (190) having a taper (192)",
+    "paragraphs": [
+     "[0178]"
+    ]
+   },
+   {
+    "element": "the load-applying surface is a matching taper (194) of the poppet that wedges the tapered seat ring outwards in the over-travel",
+    "paragraphs": [
+     "[0178]"
+    ]
+   }
+  ],
+  "44": [
+   {
+    "element": "The valve core of any one of claims 1 and 5 to 15",
+    "paragraphs": [
+     "[0190]",
+     "[0191]",
+     "[0311]"
+    ]
+   },
+   {
+    "element": "the radially deflectable element is a seat ring (30) having a convoluted wall (34)",
+    "paragraphs": [
+     "[0190]",
+     "[0191]",
+     "[0311]"
+    ]
+   },
+   {
+    "element": "the purge gap comprises wall slots (204) through the convoluted wall, the wall slots being closed at rest and open on the radial expansion",
+    "paragraphs": [
+     "[0190]",
+     "[0191]",
+     "[0311]"
+    ]
+   }
+  ],
+  "45": [
+   {
+    "element": "the bore is a bore of a valve stem (10) in which the valve core is fitted",
+    "paragraphs": [
+     "[0309]",
+     "[0189]",
+     "[0125]"
+    ]
+   }
+  ],
+  "46": [
+   {
+    "element": "The valve core of any one of claims 1 and 5 to 44, being a removable threaded valve core, the core body having a thread by which the core body is screwed into a bore of a valve stem (10) of the tyre valve",
+    "paragraphs": [
+     "[0158]",
+     "[0111]",
+     "[0346]"
+    ]
+   }
+  ],
+  "47": [
+   {
+    "element": "A tyre valve (1) comprising a valve stem (10) and the valve core (5) of any one of claims 1 and 5 to 44, the valve core being received in a bore of the valve stem",
+    "paragraphs": [
+     "[0323]",
+     "[0108]",
+     "[0018]"
+    ]
+   }
+  ],
+  "48": [
+   {
+    "element": "the valve core is a removable threaded valve core, the core body being screwed into the bore of the valve stem",
+    "paragraphs": [
+     "[0324]",
+     "[0158]"
+    ]
+   }
+  ],
+  "49": [
+   {
+    "element": "the valve core is a valve core integral with the valve stem (230), the core body being formed in the valve stem",
+    "paragraphs": [
+     "[0325]",
+     "[0159]"
+    ]
+   }
+  ],
+  "50": [
+   {
+    "element": "The tyre valve of any one of claims 47 to 49",
+    "paragraphs": [
+     "[0108]",
+     "[0160]",
+     "[0327]"
+    ]
+   },
+   {
+    "element": "the valve stem is fixed to the tyre chamber",
+    "paragraphs": [
+     "[0108]",
+     "[0160]",
+     "[0327]"
+    ]
+   },
+   {
+    "element": "the tyre chamber contains sealant",
+    "paragraphs": [
+     "[0108]",
+     "[0160]",
+     "[0327]"
+    ]
+   }
+  ],
+  "51": [
+   {
+    "element": "the poppet is moved through the normal stroke by a pressure differential across the poppet that exceeds a crack pressure (110)",
+    "paragraphs": [
+     "[0270]",
+     "[0271]",
+     "[0300]"
+    ]
+   },
+   {
+    "element": "is moved through the over-travel by the pressure differential when the pressure differential exceeds an over-travel differential (112) that is greater than the crack pressure",
+    "paragraphs": [
+     "[0270]",
+     "[0271]",
+     "[0300]"
+    ]
+   }
+  ],
+  "52": [
+   {
+    "element": "the pressure differential is applied by a pump head (90) coupled to the tyre valve",
+    "paragraphs": [
+     "[0329]",
+     "[0270]",
+     "[0089]"
+    ]
+   }
+  ],
+  "53": [
+   {
+    "element": "The method of claim 51 or claim 52",
+    "paragraphs": [
+     "[0238]",
+     "[0239]"
+    ]
+   },
+   {
+    "element": "the crack pressure is from 0.8 bar to 1.5 bar and the over-travel differential is from 2.5 bar to 5.0 bar",
+    "paragraphs": [
+     "[0238]",
+     "[0239]"
+    ]
+   }
+  ],
+  "54": [
+   {
+    "element": "The method of any one of claims 2 and 51 to 53",
+    "paragraphs": [
+     "[0152]",
+     "[0271]"
+    ]
+   },
+   {
+    "element": "the load-applying surface is a purge shoulder (44) formed on the poppet",
+    "paragraphs": [
+     "[0152]",
+     "[0271]"
+    ]
+   }
+  ],
+  "55": [
+   {
+    "element": "The method of any one of claims 2 and 51 to 54, wherein, when the axial load is removed, the radially deflectable element undergoes shape recovery, which closes the purge gap",
+    "paragraphs": [
+     "[0272]",
+     "[0083]",
+     "[0329]"
+    ]
+   }
+  ],
+  "56": [
+   {
+    "element": "the radially deflectable element is a seat ring (30) and the shape recovery produces a snap-back wipe, in which the seat ring moves across the sealing face of the poppet",
+    "paragraphs": [
+     "[0331]",
+     "[0085]",
+     "[0272]"
+    ]
+   }
+  ],
+  "57": [
+   {
+    "element": "The method of any one of claims 2 and 51 to 56",
+    "paragraphs": [
+     "[0136]",
+     "[0271]",
+     "[0084]",
+     "[0021]"
+    ]
+   },
+   {
+    "element": "the tyre chamber contains sealant",
+    "paragraphs": [
+     "[0136]",
+     "[0271]",
+     "[0084]",
+     "[0021]"
+    ]
+   },
+   {
+    "element": "the air passing through the open purge gap flows, as an air purge, across a surface of the valve core on which sealant film is present",
+    "paragraphs": [
+     "[0136]",
+     "[0271]",
+     "[0084]",
+     "[0021]"
+    ]
+   }
+  ],
+  "58": [
+   {
+    "element": "The method of any one of claims 2 and 51 to 57",
+    "paragraphs": [
+     "[0126]",
+     "[0136]",
+     "[0307]"
+    ]
+   },
+   {
+    "element": "the purge gap is bounded by an outer surface of the radially deflectable element and by a bore surrounding the radially deflectable element, the air passing through the open purge gap flowing over the outer surface",
+    "paragraphs": [
+     "[0126]",
+     "[0136]",
+     "[0307]"
+    ]
+   }
+  ],
+  "59": [
+   {
+    "element": "The method of any one of claims 2 and 51 to 58, carried out with the valve core in place in a valve stem (10) of the tyre valve",
+    "paragraphs": [
+     "[0332]",
+     "[0273]",
+     "[0021]"
+    ]
+   }
+  ],
+  "60": [
+   {
+    "element": "The method of any one of claims 2 and 51 to 59",
+    "paragraphs": [
+     "[0273]",
+     "[0283]"
+    ]
+   },
+   {
+    "element": "the method is repeated in each of a plurality of inflation cycles",
+    "paragraphs": [
+     "[0273]",
+     "[0283]"
+    ]
+   }
+  ],
+  "61": [
+   {
+    "element": "the valve core is the valve core of any one of claims 1 and 5 to 46",
+    "paragraphs": [
+     "[0329]",
+     "[0021]"
+    ]
+   }
+  ],
+  "62": [
+   {
+    "element": "the load-converting geometry is a convoluted wall (34) having at least one convolution (36)",
+    "paragraphs": [
+     "[0335]",
+     "[0027]"
+    ]
+   }
+  ],
+  "63": [
+   {
+    "element": "the convoluted wall has two convolutions (36, 38)",
+    "paragraphs": [
+     "[0168]",
+     "[0040]"
+    ]
+   }
+  ],
+  "64": [
+   {
+    "element": "the at least one convolution is a single outward bow of the convoluted wall",
+    "paragraphs": [
+     "[0172]"
+    ]
+   }
+  ],
+  "65": [
+   {
+    "element": "The seat ring of any one of claims 3 and 62 to 64",
+    "paragraphs": [
+     "[0334]",
+     "[0124]"
+    ]
+   },
+   {
+    "element": "the purge gap is bounded by an outer surface of the seat ring and by a bore surrounding the seat ring",
+    "paragraphs": [
+     "[0334]",
+     "[0124]"
+    ]
+   }
+  ],
+  "66": [
+   {
+    "element": "the outer surface comprises a fit band (35), for retention of the seat ring by an interference fit",
+    "paragraphs": [
+     "[0186]",
+     "[0188]"
+    ]
+   },
+   {
+    "element": "a free portion (37) that undergoes the radial expansion",
+    "paragraphs": [
+     "[0186]",
+     "[0188]"
+    ]
+   }
+  ],
+  "67": [
+   {
+    "element": "The seat ring of any one of claims 3 and 62 to 64",
+    "paragraphs": [
+     "[0190]",
+     "[0025]"
+    ]
+   },
+   {
+    "element": "the purge gap comprises wall slots (204) through the wall, the wall slots being closed at rest and open on the radial expansion",
+    "paragraphs": [
+     "[0190]",
+     "[0025]"
+    ]
+   }
+  ],
+  "68": [
+   {
+    "element": "The seat ring of any one of claims 3 and 62 to 67, having at least one of: a seat ring inner diameter of from 2.0 mm to 2.6 mm",
+    "paragraphs": [
+     "[0338]",
+     "[0231]"
+    ]
+   },
+   {
+    "element": "a wall thickness of from 0.15 mm to 0.30 mm",
+    "paragraphs": [
+     "[0338]",
+     "[0232]"
+    ]
+   },
+   {
+    "element": "a free length of from 2.5 mm to 4.0 mm",
+    "paragraphs": [
+     "[0338]",
+     "[0233]"
+    ]
+   },
+   {
+    "element": "a convolution amplitude of from 0.08 mm to 0.20 mm",
+    "paragraphs": [
+     "[0338]",
+     "[0234]"
+    ]
+   }
+  ],
+  "69": [
+   {
+    "element": "The seat ring of any one of claims 3 and 62 to 68, having a seat ring inner diameter of 2.3 mm, a wall thickness of 0.20 mm, a free length of 3.0 mm and a convolution amplitude of 0.12 mm",
+    "paragraphs": [
+     "[0280]",
+     "[0321]"
+    ]
+   }
+  ],
+  "70": [
+   {
+    "element": "The seat ring of any one of claims 3 and 62 to 69",
+    "paragraphs": [
+     "[0204]",
+     "[0314]"
+    ]
+   },
+   {
+    "element": "the seat ring is of a superelastic material",
+    "paragraphs": [
+     "[0204]",
+     "[0314]"
+    ]
+   }
+  ],
+  "71": [
+   {
+    "element": "the superelastic material is a NiTi alloy",
+    "paragraphs": [
+     "[0315]",
+     "[0203]"
+    ]
+   }
+  ],
+  "72": [
+   {
+    "element": "the NiTi alloy has an austenite finish temperature below 5 °C",
+    "paragraphs": [
+     "[0336]",
+     "[0203]"
+    ]
+   }
+  ],
+  "73": [
+   {
+    "element": "The seat ring of claim 71 or claim 72",
+    "paragraphs": [
+     "[0250]",
+     "[0203]"
+    ]
+   },
+   {
+    "element": "the NiTi alloy has a nominal composition of 55.8 wt% nickel",
+    "paragraphs": [
+     "[0250]",
+     "[0203]"
+    ]
+   }
+  ],
+  "74": [
+   {
+    "element": "The seat ring of any one of claims 3 and 62 to 69",
+    "paragraphs": [
+     "[0337]",
+     "[0091]",
+     "[0207]"
+    ]
+   },
+   {
+    "element": "the seat ring is a polymer seat ring (130)",
+    "paragraphs": [
+     "[0337]",
+     "[0091]",
+     "[0207]"
+    ]
+   }
+  ],
+  "75": [
+   {
+    "element": "the polymer seat ring is of polyether ether ketone (PEEK)",
+    "paragraphs": [
+     "[0207]",
+     "[0030]"
+    ]
+   }
+  ],
+  "76": [
+   {
+    "element": "The seat ring of any one of claims 3 and 62 to 75, wherein, on the shape recovery, the seat ring moves across the sealing face of the poppet in a snap-back wipe",
+    "paragraphs": [
+     "[0085]",
+     "[0138]",
+     "[0317]"
+    ]
+   }
+  ],
+  "77": [
+   {
+    "element": "A valve core (5) comprising a core body (20), a poppet (40) having a sealing face (42)",
+    "paragraphs": [
+     "[0110]",
+     "[0161]",
+     "[0303]"
+    ]
+   },
+   {
+    "element": "the seat ring (30) of any one of claims 3 and 62 to 76, the seat ring being retained in the core body",
+    "paragraphs": [
+     "[0110]",
+     "[0161]",
+     "[0303]"
+    ]
+   }
+  ],
+  "78": [
+   {
+    "element": "before the shape-setting, laser cutting (510) the seat ring from a tube of the NiTi alloy, the tube being held on a mandrel",
+    "paragraphs": [
+     "[0253]",
+     "[0022]"
+    ]
+   }
+  ],
+  "79": [
+   {
+    "element": "the load-converting geometry is a convoluted wall (34)",
+    "paragraphs": [
+     "[0253]"
+    ]
+   },
+   {
+    "element": "the laser cutting cuts the seat ring to a profile of the convoluted wall",
+    "paragraphs": [
+     "[0253]"
+    ]
+   }
+  ],
+  "80": [
+   {
+    "element": "The method of claim 4 or claim 78",
+    "paragraphs": [
+     "[0170]",
+     "[0254]"
+    ]
+   },
+   {
+    "element": "the load-converting geometry is a convoluted wall (34) having at least one convolution (36)",
+    "paragraphs": [
+     "[0170]",
+     "[0254]"
+    ]
+   },
+   {
+    "element": "the at least one convolution is formed in the shape-setting, the fixture pressing a plain wall of the seat ring into at least one circumferential wave",
+    "paragraphs": [
+     "[0170]",
+     "[0254]"
+    ]
+   }
+  ],
+  "81": [
+   {
+    "element": "The method of any one of claims 4 and 78 to 80",
+    "paragraphs": [
+     "[0255]",
+     "[0341]"
+    ]
+   },
+   {
+    "element": "the shape-setting is carried out at a temperature of 500 °C for a period of 10 minutes",
+    "paragraphs": [
+     "[0255]",
+     "[0341]"
+    ]
+   }
+  ],
+  "82": [
+   {
+    "element": "The method of any one of claims 4 and 78 to 81",
+    "paragraphs": [
+     "[0256]",
+     "[0341]"
+    ]
+   },
+   {
+    "element": "quenching (514) the seat ring in water after the shape-setting",
+    "paragraphs": [
+     "[0256]",
+     "[0341]"
+    ]
+   }
+  ],
+  "83": [
+   {
+    "element": "after the quenching, electropolishing (516) the seat ring to remove an oxide layer and a heat-affected edge",
+    "paragraphs": [
+     "[0257]",
+     "[0342]",
+     "[0222]"
+    ]
+   }
+  ],
+  "84": [
+   {
+    "element": "The method of any one of claims 4 and 78 to 83",
+    "paragraphs": [
+     "[0343]",
+     "[0259]"
+    ]
+   },
+   {
+    "element": "press-fitting (518) the seat ring into a core body (20) of the valve core, with an interference fit, against a locating shoulder (24) of the core body",
+    "paragraphs": [
+     "[0343]",
+     "[0259]"
+    ]
+   }
+  ],
+  "85": [
+   {
+    "element": "the interference fit is about 0.03 mm on diameter",
+    "paragraphs": [
+     "[0344]",
+     "[0259]",
+     "[0250]"
+    ]
+   }
+  ],
+  "86": [
+   {
+    "element": "the seat ring is the seat ring of any one of claims 62 to 69",
+    "paragraphs": [
+     "[0022]",
+     "[0335]",
+     "[0338]"
+    ]
+   }
+  ]
+ },
+ "note": "Elements are the limitation chunks of claims.md as split by the support checker, verbatim. Built at Prompt 25; rebuild after every claims edit."
+}

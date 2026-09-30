@@ -1,0 +1,1 @@
+11.md: terminology lock: {"locked_terms": 56, "violations": [{"term": "film", "rule": "undeclared-synonym", "row": "sealant film", "context": "ssure. | N0 feature 2 \"air at pump pressure ... carries the film into the tyre chamber\". | Low\u2013medium: reverse flow would ca"}, {"term": "ID", "rule": "undec

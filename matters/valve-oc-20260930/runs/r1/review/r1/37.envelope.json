@@ -1,0 +1,278 @@
+{
+  "prompt": "37",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-37-1",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "critical",
+      "title": "Pervasive multiple-dependent-claim-on-multiple-dependent-claim defect across 56 claims",
+      "claim_refs": [
+        "10",
+        "14",
+        "18",
+        "22",
+        "23",
+        "24",
+        "25",
+        "27",
+        "28",
+        "29",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "49",
+        "50",
+        "51",
+        "52",
+        "54",
+        "55",
+        "56",
+        "57",
+        "64",
+        "66",
+        "70",
+        "71",
+        "72",
+        "73",
+        "75",
+        "76",
+        "78",
+        "82",
+        "83",
+        "84",
+        "85",
+        "86",
+        "87",
+        "88",
+        "89",
+        "93",
+        "94",
+        "95",
+        "96",
+        "98",
+        "99",
+        "100",
+        "102"
+      ],
+      "spec_refs": [],
+      "attack": "Each cited claim multiply depends on a range including an already multiply-dependent claim, contrary to 37 CFR 1.75(c), Rule 43(4) EPC and the aligned UK rule.",
+      "least_narrowing_action": "Restructure the affected claims' back-reference ranges (split or renumber) so no multiple dependent claim depends on another multiple dependent claim; no narrowing of scope required.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-2",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "high",
+      "title": "Antecedent basis gap for \"bears\" in claim 28",
+      "claim_refs": [
+        "28",
+        "1",
+        "2"
+      ],
+      "spec_refs": [],
+      "attack": "\"a side on which the poppet bears in over-travel\" has no antecedent when claim 28 depends from claim 1 alone, since only claim 2 recites \"bears.\"",
+      "least_narrowing_action": "Replace \"bears\" with language tracking claim 1's own vocabulary (contact producing the radial deflection), or restrict claim 28's dependency to claim 2 and its dependents.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-3",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Reference numeral (30) conflict between genus claim 1 and species claim 9",
+      "claim_refs": [
+        "1",
+        "8",
+        "9"
+      ],
+      "spec_refs": [],
+      "attack": "Claim 1's genus \"deflectable ring element\" is numbered (30), the seat ring's own numeral, conflicting with claim 9's equally valid wiper-ring species numbered (132).",
+      "least_narrowing_action": "Delete the numeral from claim 1's genus recitation; retain numerals only on the narrowing species claims.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-4",
+      "source_prompt": "37",
+      "category": "support",
+      "severity": "medium",
+      "title": "Claim 64 preamble conflicts with the description's definition of \"inflatable chamber\"",
+      "claim_refs": [
+        "64"
+      ],
+      "spec_refs": [
+        "[0025]"
+      ],
+      "attack": "[0025] defines inflatable chamber as the internal volume of the tube, not the tube itself, but claim 64 treats it as the physical article comprising the tube.",
+      "least_narrowing_action": "Broaden [0025]'s definition to also cover the physical article, or amend claim 64 to the volume-based reading.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-5",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Cross-category incorporation of other claims by number within claims 61, 89 and 99",
+      "claim_refs": [
+        "61",
+        "89",
+        "99"
+      ],
+      "spec_refs": [],
+      "attack": "Limitations incorporate entire alternative claim ranges (themselves containing F-37-1 defects) as claim features rather than as formal dependencies, compounding indefiniteness.",
+      "least_narrowing_action": "Retain the construction once the incorporated ranges are cleaned up under F-37-1; no independent narrowing needed.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-6",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "low",
+      "title": "Relative term \"about\" in claim 44",
+      "claim_refs": [
+        "44"
+      ],
+      "spec_refs": [
+        "[0007]"
+      ],
+      "attack": "\"about\" remains a term of degree inviting an EPO Art. 84 clarity objection despite [0007]'s definition.",
+      "least_narrowing_action": "No pre-emptive action; substitute a stated numeric tolerance if objected to in prosecution.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-7",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "low",
+      "title": "Dangling final clause in claim 1",
+      "claim_refs": [
+        "1"
+      ],
+      "spec_refs": [],
+      "attack": "The shape-recovery clause is not framed as a fourth named state parallel to the preceding three, creating ambiguity about its status.",
+      "least_narrowing_action": "Insert a lead-in phrase making the parallel structure explicit.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [
+    {
+      "target": "claims",
+      "location": "claim 10",
+      "from_text": "The valve core of any one of claims 1 to 9, wherein...",
+      "to": "Split into a range excluding claims 8/9 combined, plus separate singly-dependent claims from claim 8 and claim 9.",
+      "reason": "F-37-1: claims 8 and 9 are themselves multiply dependent."
+    },
+    {
+      "target": "claims",
+      "location": "claim 22",
+      "from_text": "The valve core of any one of claims 18 to 21, wherein...",
+      "to": "Restructure once claims 18 and 21 are corrected so the range excludes multiply dependent claims.",
+      "reason": "F-37-1."
+    },
+    {
+      "target": "claims",
+      "location": "claim 18",
+      "from_text": "The valve core of any one of claims 1 to 17, wherein...",
+      "to": "Restructure so the range 1-17 is not used as a single back-reference for a further multiple dependent claim.",
+      "reason": "F-37-1."
+    },
+    {
+      "target": "claims",
+      "location": "claims 14, 23, 24, 25, 27, 28, 29, 32-36, 40-47, 49-52, 54-57, 64, 66, 70-73, 75, 76, 78, 82-89, 93-96, 98-100, 102",
+      "from_text": "each currently a multiple dependent claim whose range includes an intervening multiply dependent claim",
+      "to": "apply the same restructuring pattern shown for claims 10, 18 and 22 throughout",
+      "reason": "F-37-1, full list traced claim-by-claim."
+    },
+    {
+      "target": "claims",
+      "location": "claim 28",
+      "from_text": "on a side on which the poppet bears in over-travel",
+      "to": "on a side which the poppet contacts to produce the radial deflection in over-travel",
+      "reason": "F-37-2: removes reliance on unsupported antecedent \"bears.\""
+    },
+    {
+      "target": "claims",
+      "location": "claim 1",
+      "from_text": "a deflectable ring element (30)",
+      "to": "a deflectable ring element",
+      "reason": "F-37-3: numeral conflicts with claim 9's wiper ring (132)."
+    },
+    {
+      "target": "claims",
+      "location": "claim 1, final clause",
+      "from_text": "the deflectable ring element undergoing shape recovery to its at-rest form and closing the purge gap when the pressure differential falls below the over-travel threshold.",
+      "to": "; and on the pressure differential falling below the over-travel threshold, the deflectable ring element undergoing shape recovery to its at-rest form and closing the purge gap.",
+      "reason": "F-37-7: clarifies this is a distinct recited condition."
+    }
+  ],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "Reference numerals in the claims are assumed to carry interpretive weight absent an express disclaimer in the description.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "The multiple-dependent-claim rule is assumed to apply in substance identically across US, EPO and UK practice.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "Claim 66's alternative categories are counted only within F-37-1; no separate unity finding is made here.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Whether the cascading multiple-dependency drafting style is deliberate and should be resequenced with claim-fee strategy.",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Whether [0025]'s definition of \"inflatable chamber\" should be broadened or claim 64 narrowed instead.",
+      "blocks": []
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+`runs/r1/P3/14.md` — combination matrix (3 core embodiments × 9 optional-feature rows, with 2 incompatible and 5 conditional cells), 5 commercially important/design-around-closing combinations, and 7 draft specification sentences expressly scoped to avoid asserting incompatible permutations.
+
+Routing for the runner: status `partial` (12 and 10 were not yet available, so the embodiment set is limited to the nucleus ladder plus the inventor's own §6 alternatives — flagged in A1/Q7 for revision once those land). Two blocking assumptions (A4, A5) and 7 open questions (Q1–Q7), plus 4 disclosure_requests, all detailed in the file's envelope — no open_disagreements or new_terms.

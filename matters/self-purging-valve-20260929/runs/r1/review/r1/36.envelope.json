@@ -1,0 +1,410 @@
+{
+  "prompt": "36",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-36-1",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "high",
+      "title": "Claims recite constructions the package records as not yet confirmed by the inventor",
+      "claim_refs": [
+        "26",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "67"
+      ],
+      "spec_refs": [
+        "[0176]",
+        "[0177]",
+        "[0178]",
+        "[0186]",
+        "[0187]",
+        "[0190]",
+        "[0191]",
+        "Fig. 11",
+        "Fig. 12",
+        "Fig. 13A"
+      ],
+      "attack": "The registry (note 4) and the FIG. 11, 12 and 13A captions state these constructions are not in the inventor's disclosure, not built or tested, with confirmation open, while the description presents them as embodiments and claims 26, 40-45 and 67 recite them. A US claim with no natural-person inventor who contributed significantly is open to an inventorship and validity challenge; EPO/UK entitlement and designation also exposed.",
+      "least_narrowing_action": "Inventor confirms or declines each construction; confirmed forms stay; unconfirmed forms are deleted from the claims and counsel decides whether to keep them as description-only defensive disclosure.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-2",
+      "source_prompt": "36",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Background [0007] cites a publication the matter's index records as fictional",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0007]",
+        "[0013]"
+      ],
+      "attack": "[0007] characterises 'US2019/0123456A1'; prior-art/INDEX.md lists it as requester-supplied reference S1 marked 'FICTIONAL' and 'not a real publication'. A filed Background describing a non-existent publication fails at the first search, sits badly with the US duty of candour, and undermines [0013].",
+      "least_narrowing_action": "Delete [0007] or replace it with a real fetched reference; adjust [0013] accordingly.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-3",
+      "source_prompt": "36",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "Evidence of over-travel (snap on removal of the pump head) does not match the stated pressure mechanism",
+      "claim_refs": [
+        "5",
+        "11",
+        "12",
+        "51",
+        "52",
+        "53"
+      ],
+      "spec_refs": [
+        "[0137]",
+        "[0141]",
+        "[0274]",
+        "[0288]",
+        "[0068]",
+        "[0133]"
+      ],
+      "attack": "The poppet is moved by the pressure differential; with pumping stopped and the head coupled, pressure equalises through the open poppet and it closes before removal. A snap 'on removal of the pump head' therefore suggests over-travel held by something else (e.g. the head bearing on the poppet) or a different event; Example 1 does not show the 3.5 bar over-travel differential (about 9.5 bar upstream at 6 bar tyre pressure) was reached by pressure.",
+      "least_narrowing_action": "Add from the test record when over-travel occurred, how the head engaged, and whether it bore on the poppet or lock nut; correct [0141] and [0288] if the snap has another cause.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-4",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "medium",
+      "title": "Mechanical actuation of the over-travel is implied ('preferred actuation') but not described",
+      "claim_refs": [
+        "1",
+        "2",
+        "5",
+        "51"
+      ],
+      "spec_refs": [
+        "[0072]",
+        "[0089]",
+        "[0273]"
+      ],
+      "attack": "[0072] calls pressure actuation 'preferred' but no alternative (pump-head depressor pin, pressing the poppet or lock nut, push-button) is disclosed. A pin-actuated competitor product avoids dependents 5-12 and method claims 51-53, and there is no text for a mechanical-actuation method claim.",
+      "least_narrowing_action": "If within conception, add a paragraph on over-travel produced by a mechanically applied force (pump-head pin, lock nut 70 by hand, push-button) and a matching dependent method claim.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-5",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "medium",
+      "title": "Disc-spring deflectable element has no drawing and no claim",
+      "claim_refs": [
+        "1"
+      ],
+      "spec_refs": [
+        "[0179]",
+        "[0180]"
+      ],
+      "attack": "[0179] describes a conical disc spring that opens a face purge gap and provides the second spring stage, but 'No figure shows this form'. It is the cheapest one-part alternative (see F-33-1) and its single paragraph is the first thing an opponent would test for sufficiency.",
+      "least_narrowing_action": "Add a figure (at rest and in over-travel) and, if available, indicative dimensions or force-deflection relation for the disc spring.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-6",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "medium",
+      "title": "No range is stated for the normal stroke",
+      "claim_refs": [
+        "34"
+      ],
+      "spec_refs": [
+        "[0235]",
+        "[0240]"
+      ],
+      "attack": "[0235] gives only 0.6 mm and 'no range is stated'; claim 34 is the only normal-stroke claim and any other stroke avoids it. A range cannot be added after filing without an added-matter objection.",
+      "least_narrowing_action": "If the inventor has an operating window, state it with nested ranges containing 0.6 mm in the form of [0240]-[0248].",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-7",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "medium",
+      "title": "Two-piece seat has no fallback claim",
+      "claim_refs": [
+        "1",
+        "20"
+      ],
+      "spec_refs": [
+        "[0092]",
+        "[0093]",
+        "[0094]",
+        "[0181]",
+        "[0182]",
+        "[0183]",
+        "[0347]",
+        "[0348]",
+        "Fig. 9A",
+        "Fig. 9B"
+      ],
+      "attack": "The rigid seat 140 and wiper ring 144 are disclosed with figures and statements 7.1-7.2, but no claim recites them. If claim 1 is narrowed toward claim 20 (seat ring carrying the sealing edge), the two-piece seat is lost with no fallback.",
+      "least_narrowing_action": "Add dependent claims to claim 1: sealing edge provided by a rigid seat (140) and radially deflectable element being a wiper ring (144) below it; wiper ring recovers and wipes on return. Claim text only; support exists.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-8",
+      "source_prompt": "36",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "Polymer seat ring and two-piece seat lack operative dimensions",
+      "claim_refs": [
+        "30",
+        "31",
+        "74",
+        "75"
+      ],
+      "spec_refs": [
+        "[0261]",
+        "[0290]",
+        "[0291]",
+        "[0292]",
+        "[0293]"
+      ],
+      "attack": "The only PEEK geometry is the NiTi geometry copied across, which [0261] calls thin for a turned polymer part, with 'No value \u2026 for the radial expansion or for the purge gap width' ([0290]); the two-piece seat has 'No dimensions' ([0293]). EPO sufficiency/plausibility and US enablement objections to claims 30-31 and 74-75 are predictable.",
+      "least_narrowing_action": "If available, add a polymer wall-thickness and convolution-amplitude window, expected expansion or purge gap width in PEEK, and indicative rigid-seat and wiper-ring dimensions; otherwise counsel weighs keeping claims 30-31 and 74-75.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-9",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "medium",
+      "title": "No use case beyond bicycle tyres is named",
+      "claim_refs": [
+        "1",
+        "2",
+        "50"
+      ],
+      "spec_refs": [
+        "[0001]",
+        "[0088]",
+        "[0160]"
+      ],
+      "attack": "All examples, dimensions and named tyre chambers are bicycle-specific. A competitor in motorcycle, wheelchair, e-scooter, off-road or automotive sealant markets argues lack of support there, and dependent fallbacks naming those uses cannot be added later.",
+      "least_narrowing_action": "If within conception, add a paragraph naming other vehicle tyre chambers and sealant-filled inflatables, with how the parameters scale.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-10",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "medium",
+      "title": "No valve pattern other than Presta is described",
+      "claim_refs": [
+        "46",
+        "47",
+        "48"
+      ],
+      "spec_refs": [
+        "[0157]",
+        "Fig. 13A"
+      ],
+      "attack": "[0157] calls Presta 'an example of a pattern' and the registry numbers a Schrader-pattern core body (220) for FIG. 13A, but no paragraph describes a Schrader or other pattern core. There is no fallback claim and no scaling guidance for the pattern that dominates outside road cycling.",
+      "least_narrowing_action": "If within conception, describe the architecture in a Schrader-pattern (and any other contemplated) core with dimensional differences; keep FIG. 13A only if so.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-11",
+      "source_prompt": "36",
+      "category": "formal",
+      "severity": "low",
+      "title": "FIG. 13A and numeral 220 are numbered but not described",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0049]",
+        "Fig. 13A"
+      ],
+      "attack": "The figure plan and registry define FIG. 13A with numeral 220, while [0049] lists only FIG. 13B and no paragraph mentions FIG. 13A or 220; a formal objection under 37 CFR 1.74 and 1.84(p)(5) and Rules 42(1)(d) and 46(2)(i) EPC.",
+      "least_narrowing_action": "After F-36-10 is decided, either add FIG. 13A to [0049] and describe it with numeral 220, or remove FIG. 13A and numeral 220.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-12",
+      "source_prompt": "36",
+      "category": "enablement",
+      "severity": "low",
+      "title": "No value for cold-service and CO2 margins",
+      "claim_refs": [
+        "29",
+        "72"
+      ],
+      "spec_refs": [
+        "[0212]",
+        "[0275]"
+      ],
+      "attack": "[0212] states 'No value of the margin is stated' and [0275] identifies CO2 chilling well below 0 C; claims 29 and 72 recite only Af below 5 C, leaving the cold-robust commercial version as an unclaimed improvement.",
+      "least_narrowing_action": "If the inventor has a target Af or margin for cold and CO2 use, state it with a range before filing.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-13",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "low",
+      "title": "Strut-pattern and helical-slot geometries have no drawing",
+      "claim_refs": [
+        "3",
+        "21"
+      ],
+      "spec_refs": [
+        "[0171]",
+        "[0173]"
+      ],
+      "attack": "Both load-converting geometries are described in words only; F-33-4 proposes claiming them, and a drawing makes each a credible structural species and supports the 112(f) link of 'load-converting geometry' to structure.",
+      "least_narrowing_action": "Add a two-panel figure (strut pattern, helical slot) in the form of FIG. 11.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-14",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "low",
+      "title": "No dimensionless fallback survives scaling",
+      "claim_refs": [
+        "11",
+        "33",
+        "53"
+      ],
+      "spec_refs": [
+        "[0236]",
+        "[0238]",
+        "[0239]"
+      ],
+      "attack": "Crack pressure, over-travel differential and over-travel distance are stated in absolute units only; a scaled core escapes them, and a ratio fallback (e.g. over-travel differential as a multiple of crack pressure) cannot be derived after filing without an added-matter argument.",
+      "least_narrowing_action": "If the inventor regards a ratio as the design rule, state it and its range explicitly before filing.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. The package is the whole application; no abstract is present.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. The registry note 4 and FIG. 11, 12 and 13A captions stating these constructions are not in the inventor's disclosure are taken at face value.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. Common general knowledge: with flow stopped and the pump head coupled, pressure equalises through an open pressure-actuated check valve, which then closes below its crack pressure (basis of F-36-3).",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. US natural-person inventorship per claim and the formal rules cited in F-36-11 are stated as general practice, not legal opinion.",
+      "blocking": false
+    },
+    {
+      "id": "A5",
+      "text": "A5. prior-art/INDEX.md is taken as accurate in recording requester-supplied reference S1 as fictional.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Inventor: is each of the slotted sleeve, split seat ring, tapered seat ring, core body bore relief, wall slots and Schrader-pattern core your own conception (F-36-1, F-36-10)?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Inventor: in Example 1, when did the snap occur, how did the pump head engage, and did any part of it bear on the poppet or lock nut (F-36-3)?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. Requester or counsel: should the Background keep a document at the place of [0007], and which real reference (F-36-2)?",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. Inventor and counsel: claim, keep as description only, or remove the thermal variant (FIG. 10, [0216])?",
+      "blocks": []
+    },
+    {
+      "id": "Q5",
+      "text": "Q5. Inventor: operating windows for normal stroke, polymer wall, Af for cold use and pressure ratio (F-36-6, F-36-8, F-36-12, F-36-14)?",
+      "blocks": []
+    },
+    {
+      "id": "Q6",
+      "text": "Q6. Inventor: is injection moulding of the polymer seat ring contemplated ([0261] describes turning only)?",
+      "blocks": []
+    }
+  ]
+}

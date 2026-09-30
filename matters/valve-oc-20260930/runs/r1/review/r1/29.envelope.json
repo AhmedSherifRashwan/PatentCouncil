@@ -1,0 +1,195 @@
+{
+  "prompt": "29",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-29-1",
+      "source_prompt": "29",
+      "category": "support",
+      "severity": "medium",
+      "title": "Multi-feature fallbacks rest only on the generic combination statement of [0143]",
+      "claim_refs": [
+        "1",
+        "58",
+        "67",
+        "79"
+      ],
+      "spec_refs": [
+        "[0143]",
+        "[0145]"
+      ],
+      "attack": "Fallbacks selecting one species from each of several lists (deflecting formation, wall, purge-gap location, flow path, threshold arrangement, material, retention) rely on [0143]'s blanket 'disclosed in combination with each of the others'; at the EPO this is commonly given little weight for multi-list selections, and only [0145] states specific combinations.",
+      "least_narrowing_action": "Add a short 'preferred combinations' section on the model of [0145], stating in terms the combinations of amendment paths 1, 2, 5, 6, 7, 8 and 10.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-29-2",
+      "source_prompt": "29",
+      "category": "support",
+      "severity": "medium",
+      "title": "Nested range tiers are separate lists, not linked to each other or to rings other than the NiTi convoluted seat ring",
+      "claim_refs": [
+        "13",
+        "16",
+        "17",
+        "35",
+        "41",
+        "42",
+        "43",
+        "67",
+        "69",
+        "70",
+        "82"
+      ],
+      "spec_refs": [
+        "[0006]",
+        "[0088]",
+        "[0089]",
+        "[0090]",
+        "[0091]"
+      ],
+      "attack": "Each parameter has its own three-tier 'in some embodiments' list; combining intermediate tiers of two parameters is a selection from two lists, and [0006]'s sub-range boilerplate does not disclose the combination; all tiers are tied to the superelastic convoluted seat ring.",
+      "least_narrowing_action": "Add sentences stating the intermediate tiers together and the narrow tiers together, for dimensions and for pressures/strokes, and record the inventor's answer on other materials.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-29-3",
+      "source_prompt": "29",
+      "category": "support",
+      "severity": "medium",
+      "title": "No coherent embodiment gives basis to amend to an outer-surface purge gap with flutes",
+      "claim_refs": [
+        "30",
+        "34"
+      ],
+      "spec_refs": [
+        "[0020]",
+        "[0053]",
+        "[0054]",
+        "[0103]",
+        "[0110]",
+        "Fig. 13B"
+      ],
+      "attack": "The only basis for the outer surface moving 'away from the core body bore' is [0103]'s 'may be' list, while the illustrated-embodiment passages describe outward deflection; an examiner can refuse the amendment as not disclosed as a working embodiment.",
+      "least_narrowing_action": "After inventor confirmation of the mechanism, add an end-to-end paragraph for the illustrated embodiment covering the outer-surface gap, direction of movement, uncovering of flutes (362) and the free portion left by the interference band.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-29-4",
+      "source_prompt": "29",
+      "category": "support",
+      "severity": "medium",
+      "title": "Interference band disclosed only for the seat ring, only optionally, and flagged as unconfirmed",
+      "claim_refs": [
+        "21",
+        "1"
+      ],
+      "spec_refs": [
+        "[0036]",
+        "[0094]",
+        "[0133]",
+        "[0151]",
+        "Fig. 6A"
+      ],
+      "attack": "The band is disclosed for 'the seat ring 30' only; extending it to the wiper ring and to crimp or sleeve retention relies on [0094]'s general equivalence statement, an intermediate-generalisation target; the figure instructions call it 'not an asserted inventor fact'.",
+      "least_narrowing_action": "After inventor confirmation, add a sentence that for any deflectable ring element, including the wiper ring, retention may act over an axial band adjacent the locating formation, leaving the deflecting portion free of the bore.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-29-5",
+      "source_prompt": "29",
+      "category": "support",
+      "severity": "medium",
+      "title": "Face of the seat ring on which the purge shoulder bears is never stated",
+      "claim_refs": [
+        "3",
+        "4"
+      ],
+      "spec_refs": [
+        "[0038]",
+        "[0052]",
+        "[0112]",
+        "[0116]"
+      ],
+      "attack": "[0038] and [0052] say only that the purge shoulder 'bears on the seat ring'; [0116] implies the illustrated contact is not at the remote end but never states where it is; no fallback narrower than claim 4 on load location has basis.",
+      "least_narrowing_action": "Add, with the inventor's layout, a sentence stating the face or region of the seat ring contacted by the purge shoulder and its relation to the sealing edge and convolutions.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-29-6",
+      "source_prompt": "29",
+      "category": "support",
+      "severity": "low",
+      "title": "Wipe of the sealing face not stated to occur for every one-piece seat ring material",
+      "claim_refs": [
+        "26",
+        "80"
+      ],
+      "spec_refs": [
+        "[0061]",
+        "[0062]",
+        "[0063]",
+        "[0092]",
+        "[0124]"
+      ],
+      "attack": "The sealing-face wipe is described for the NiTi seat ring; for PEEK [0063]/[0124] say only 'a surface of the poppet', so a material-free sealing-face wipe fallback may be treated as generalised from the NiTi example.",
+      "least_narrowing_action": "Add a sentence that in every one-piece seat ring, whatever its material, the sealing-edge region moves across the sealing face during shape recovery, if the inventor agrees.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. The EPO direct-and-unambiguous test is applied as the strictest of the three offices (general practice, not cited authority).",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. General EPO practice: blanket 'all combinations' statements carry limited weight for multi-list selections, and a sub-range declaration does not disclose combinations of sub-ranges of different parameters.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. The package is judged as it stands: no drawings, no abstract.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. (Inventor) Do the intermediate and narrow range tiers of [0089]-[0090] belong together as preferred combinations, and do they apply to rings other than the NiTi convoluted seat ring?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. (Counsel) Which of the ten amendment paths are commercially worth their own pre-filed preferred-combination sentence?",
+      "blocks": []
+    }
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "prompt": "28",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-28-1",
+      "source_prompt": "28",
+      "category": "enablement",
+      "severity": "high",
+      "title": "The axial load path through the seat ring is not described consistently",
+      "claim_refs": [
+        "1",
+        "2",
+        "3",
+        "21",
+        "22",
+        "62"
+      ],
+      "spec_refs": [
+        "[0112]",
+        "[0113]",
+        "[0116]",
+        "[0117]",
+        "[0134]",
+        "[0167]",
+        "[0168]",
+        "[0172]",
+        "[0186]",
+        "[0237]",
+        "Fig. 1",
+        "Fig. 2"
+      ],
+      "attack": "The load point, the reaction and the direction of wall movement are not stated, and the text conflicts: [0113] loads the upper (sealing) edge, FIG. 2 instructions load the fit-band end, [0167]/[0186] put the fit band at the end opposite the sealing edge, FIG. 1 instructions put both at the tyre-chamber end, and [0116] has the poppet moving away from the sealing edge. [0134], [0237] and claim 22 say the convolution flattens under the axial load, while [0172] says the equivalent bow increases under the same load. An examiner has a verifiable internal contradiction to raise sufficiency (EPO) and enablement/written description (US) against the principal embodiment.",
+      "least_narrowing_action": "Add one paragraph from the built prototype stating which end of the seat ring faces the tyre chamber, where the purge shoulder bears, what surface of the core body reacts the load and how the convoluted wall moves; conform [0113], [0134], [0237], FIG. 1 and FIG. 2 instructions and claim 22. No claim narrowing needed.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-2",
+      "source_prompt": "28",
+      "category": "support",
+      "severity": "high",
+      "title": "Drawn captions call FIGS. 10, 11A-11C, 12A-12B and 13A candidate constructions shown for disclosure of the genus only",
+      "claim_refs": [
+        "26",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "66",
+        "67"
+      ],
+      "spec_refs": [
+        "Fig. 10",
+        "Fig. 11A",
+        "Fig. 11B",
+        "Fig. 11C",
+        "Fig. 12A",
+        "Fig. 12B",
+        "Fig. 13A",
+        "[0183]",
+        "[0184]",
+        "[0202]"
+      ],
+      "attack": "The figure instructions require captions on the sheets such as 'Candidate alternative seat-ring geometries; not built or tested; shown for disclosure of the genus only' and 'retained pending confirmation'. A drawing stating that the construction is a candidate pending confirmation invites a US written-description attack on possession of claims 26, 40-44, 66 and 67 and gives an opponent a quotation against reliance on those figures.",
+      "least_narrowing_action": "Remove 'Candidate', 'shown for disclosure of the genus only' and 'pending confirmation' from the drawn captions; keep the description's plain statements that no test was made. The human confirms conception at the gate; unconfirmed embodiments and their claims come out rather than being filed as candidates.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-3",
+      "source_prompt": "28",
+      "category": "support",
+      "severity": "medium",
+      "title": "Slotted sleeve, split seat ring and tapered seat ring: no closed-at-rest purge gap and no seal at rest described",
+      "claim_refs": [
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "spec_refs": [
+        "[0163]",
+        "[0176]",
+        "[0177]",
+        "[0178]",
+        "Fig. 11A",
+        "Fig. 11B",
+        "Fig. 11C"
+      ],
+      "attack": "Claim 1 requires a purge gap 'closed at rest and throughout the normal stroke' and a sealing face seated on a sealing edge. [0176] calls the axial slots a purge route when spread but never says they are closed at rest or whether the sleeve carries the sealing edge; [0177] does not say which path is the purge gap; [0178] says nothing of the purge gap or seal. The combination rests only on the general statement at [0163].",
+      "least_narrowing_action": "For each form add one sentence stating where the sealing edge is, which path is the purge gap and what closes it at rest and through the normal stroke, if within the inventor's conception.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-4",
+      "source_prompt": "28",
+      "category": "support",
+      "severity": "medium",
+      "title": "Two-piece seat: purge gap 146 and the route of the purge shoulder to the wiper ring are not described",
+      "claim_refs": [
+        "1"
+      ],
+      "spec_refs": [
+        "[0092]",
+        "[0099]",
+        "[0181]",
+        "[0182]",
+        "[0183]",
+        "[0293]",
+        "[0294]",
+        "Fig. 9A",
+        "Fig. 9B"
+      ],
+      "attack": "Claim 1 recites 'a purge gap (60, 146)' and 'a sealing edge (32, 132, 142)'. Numeral 146 does not occur in the description; [0181]-[0183] and [0293]-[0295] never say the wiper ring deflection opens a purge gap, where it lies or that it is distinct from the main passage, nor how a purge shoulder below the sealing face reaches a wiper ring below the rigid seat.",
+      "least_narrowing_action": "Add to [0182] the location of purge gap 146, that it is distinct from the main passage 26, and the path by which the purge shoulder reaches the wiper ring.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-5",
+      "source_prompt": "28",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "The snap-back wipe cannot occur in the sequence the description gives",
+      "claim_refs": [
+        "32",
+        "56",
+        "76"
+      ],
+      "spec_refs": [
+        "[0137]",
+        "[0138]",
+        "[0140]",
+        "[0235]",
+        "[0289]"
+      ],
+      "attack": "Claims recite 'the seat ring moves across the sealing face of the poppet in a snap-back wipe'. [0137] has the seat ring recover and the purge gap close before 'The poppet 40 then returns through the normal stroke 114 and the sealing face 42 seats again', so the sealing face is at least a normal stroke away when the ring recovers. [0138] states the mechanism only as a belief.",
+      "least_narrowing_action": "State from the inventor's observation what surface the recovering seat ring moves across and when the sealing face contacts it; or recast claims 32, 56 and 76 to shape recovery of a superelastic seat ring on removal of the axial load.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-6",
+      "source_prompt": "28",
+      "category": "support",
+      "severity": "medium",
+      "title": "Claim 24 dependent on claim 22 combines two contradictory statements",
+      "claim_refs": [
+        "24",
+        "22"
+      ],
+      "spec_refs": [
+        "[0134]",
+        "[0172]"
+      ],
+      "attack": "Claim 24 ('a single outward bow') may depend on claim 22 ('the axial load flattens the at least one convolution'); [0172] says 'The bow increases under axial load'. The combination is contradicted by the description.",
+      "least_narrowing_action": "Make claim 24 depend on claim 21 only, unless F-28-1 is resolved in a way that reconciles the two.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-7",
+      "source_prompt": "28",
+      "category": "support",
+      "severity": "medium",
+      "title": "Ranges and prototype values generalised from the seat ring to every radially deflectable element",
+      "claim_refs": [
+        "19",
+        "33",
+        "34"
+      ],
+      "spec_refs": [
+        "[0230]",
+        "[0235]",
+        "[0236]",
+        "[0237]",
+        "[0320]"
+      ],
+      "attack": "Claims 19 ('a purge gap width of from 0.10 mm to 0.25 mm'), 33 and 34 depend on claim 1 without the seat ring. [0236] and [0237] state the ranges for the purge shoulder bearing on the seat ring 30 and for purge gap 60 opened by flattening of convolution 36; statement 1.23 attaches them only to the seat ring. No disclosure with the wiper ring, slotted sleeve, split or tapered seat ring; amendment of claim 1 with these ranges alone would be an intermediate generalisation.",
+      "least_narrowing_action": "If the inventor agrees, add a sentence that these ranges apply to each form of the radially deflectable element; otherwise make claims 19, 33 and 34 depend on claim 20, giving up the ranges for the other forms.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-8",
+      "source_prompt": "28",
+      "category": "formal",
+      "severity": "high",
+      "title": "Background cites a publication that the saved prior art records as fictional",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0007]"
+      ],
+      "attack": "[0007] describes 'US2019/0123456A1'. The prior-art index lists it only as requester-supplied reference S1, marked as a fictional test reference that is not a real publication. A filed description that describes a non-existent publication as prior art misstates the background art (EPO Rule 42(1)(b)) and is an untrue statement to the USPTO.",
+      "least_narrowing_action": "Delete [0007], or replace it with a real, fetched reference if the teaching is needed; the human confirms which.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-9",
+      "source_prompt": "28",
+      "category": "formal",
+      "severity": "medium",
+      "title": "FIG. 13A and numerals 146 and 220 have no description",
+      "claim_refs": [
+        "1"
+      ],
+      "spec_refs": [
+        "[0049]",
+        "Fig. 13A",
+        "Fig. 9A",
+        "Fig. 9B"
+      ],
+      "attack": "The figure plan and instructions include FIG. 13A (Schrader-pattern core body 220) and the registry lists 146 and 220; the brief description lists FIG. 13B alone and neither FIG. 13A, 146 nor 220 appears in the description. Claim 1 uses 146. Formal objections under EPO Rules 42(1)(d) and 46(2)(i) and 37 CFR 1.74 and 1.84(p)(5).",
+      "least_narrowing_action": "Describe FIG. 13A and purge gap 146, or remove FIG. 13A, renumber FIG. 13B as FIG. 13 and remove 146 and 220 from claims and registry.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-10",
+      "source_prompt": "28",
+      "category": "formal",
+      "severity": "medium",
+      "title": "FIG. 1 instructions place the main passage against the core body bore",
+      "claim_refs": [
+        "1",
+        "2",
+        "3"
+      ],
+      "spec_refs": [
+        "[0064]",
+        "[0123]",
+        "[0124]",
+        "[0126]",
+        "Fig. 1"
+      ],
+      "attack": "FIG. 1 instructions draw 'the main passage (26) as the annular flow path between the poppet (40) and the core body bore (22)', whereas [0123] and [0126] put it between the sealing edge and the sealing face, and the purge gap is bounded by the core body bore. The drawing blurs the distinction on which claim 1 rests.",
+      "least_narrowing_action": "Change the FIG. 1 instruction so that the lead line for 26 ends at the path between the sealing face 42 and the sealing edge 32.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-11",
+      "source_prompt": "28",
+      "category": "support",
+      "severity": "low",
+      "title": "Claim 2 recites closing of the purge gap without the shape recovery the description pairs with it",
+      "claim_refs": [
+        "2"
+      ],
+      "spec_refs": [
+        "[0014]",
+        "[0021]",
+        "[0137]",
+        "[0211]",
+        "[0272]",
+        "[0329]"
+      ],
+      "attack": "Claim 2: 'so that the axial load is removed and the purge gap closes'. Every passage states the closing is by shape recovery; claim 2 is broader, a support weakness if read to cover closing by other means.",
+      "least_narrowing_action": "Add a sentence that the purge gap closes on removal of the axial load, by the shape recovery alone or assisted, for example by the garter spring of [0211].",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-12",
+      "source_prompt": "28",
+      "category": "support",
+      "severity": "low",
+      "title": "Claim 4 claims shape-setting alone; every method passage includes laser cutting and quenching",
+      "claim_refs": [
+        "4"
+      ],
+      "spec_refs": [
+        "[0022]",
+        "[0098]",
+        "[0170]",
+        "[0252]",
+        "[0340]"
+      ],
+      "attack": "Claim 4: 'shape-setting (512) the seat ring in a fixture that holds the load-converting geometry'. [0022], [0252] and statement 5.1 always present laser cutting, shape-setting and quenching together; standalone shape-setting appears only in the definition [0098].",
+      "least_narrowing_action": "Add a sentence that the NiTi seat ring may be made by a method comprising the shape-setting, the other FIG. 7 steps being optional.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-13",
+      "source_prompt": "28",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "Claim 79 laser cutting to a profile of the convoluted wall is not explained and conflicts with [0170] and [0254]",
+      "claim_refs": [
+        "79"
+      ],
+      "spec_refs": [
+        "[0062]",
+        "[0170]",
+        "[0253]",
+        "[0254]"
+      ],
+      "attack": "Claim 79: 'the laser cutting cuts the seat ring to a profile of the convoluted wall'. The convolution is a wave in the wall section; [0170] and [0254] say it is pressed in the shape-setting fixture and laser cutting only trims the ends. How a laser produces a sectional wave is not described.",
+      "least_narrowing_action": "State in [0253] what 'profile' means (for example the axial outline of the blank), or delete claim 79.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-28-14",
+      "source_prompt": "28",
+      "category": "formal",
+      "severity": "low",
+      "title": "Claim 68 recites a convolution amplitude when it may depend on claim 3 alone",
+      "claim_refs": [
+        "68",
+        "69"
+      ],
+      "spec_refs": [
+        "[0171]",
+        "[0172]",
+        "[0173]",
+        "[0178]"
+      ],
+      "attack": "Claim 68 ('a convolution amplitude of from 0.08 mm to 0.20 mm') may depend on claim 3, which does not require a convolution; the load-converting geometry may be a strut pattern, helical slot or taper. Claim 69 likewise.",
+      "least_narrowing_action": "Make the convolution-amplitude alternative of claim 68 and all of claim 69 depend on claim 62.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. This review is a drafting and analysis aid, not legal advice. Qualified patent counsel decides what is filed.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. The package is reviewed as it stands; no abstract is in it. Figure instructions and description are both treated as part of the filed disclosure.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. Common general knowledge: a thin tubular wall with a shallow wave, compressed axially, shortens by deepening the wave, not by flattening it; [0172] states the same for the pre-bowed wall.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. Claims as filed form part of the application as filed; support rows identify Art. 84 / 35 U.S.C. 112(a) weaknesses and amendment or priority exposure, not added matter in the claims as filed.",
+      "blocking": false
+    },
+    {
+      "id": "A5",
+      "text": "A5. The prior-art index was read only to check the publication cited at [0007].",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Did the inventor conceive the constructions of FIGS. 11A-11C, 12A-12B and 13A? If not confirmed, claims 26, 40-44, 66, 67 should come out before filing.",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Should [0007] be deleted, or replaced with a real, fetched reference?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. In the built prototype, where does the purge shoulder bear, what reacts the load, and does the convolution deepen or flatten as the free portion moves outward?",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. What did the inventor observe for the snap-back wipe: is the sealing face in contact with the seat ring when it recovers?",
+      "blocks": []
+    }
+  ]
+}

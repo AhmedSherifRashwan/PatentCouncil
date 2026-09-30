@@ -1,0 +1,1 @@
+12.md: terminology lock: {"locked_terms": 56, "violations": [{"term": "tube", "rule": "undeclared-synonym", "row": "tyre chamber", "context": "A-8. Status: candidate. 2. **Slotted sleeve.** Structure: a tube with axial slots from one end forming fingers; a conical pu"}], "drift": [{"term": "radially deflec

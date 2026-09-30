@@ -1,0 +1,5 @@
+Removing every occurrence of the avoid-list word "cartridge" from the Prompt 25 reply (Audit row, `new_terms` reason, disclosure request), and the same phrase in the unsupported list for consistency.
+
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/P5/25.md` — the three occurrences of the avoid-list word (Audit row for 23 cl.65→84, the `compressed-gas inflation device` reason in `new_terms`, and the claim 84 disclosure request) replaced by a reference to "the locked CO2 inflator species term of the inflation device row"; the claims and the rest of the file are unchanged.
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/P5/unsupported.md` — the same phrase removed from the 23 cl.65 line for consistency.
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/claims.md` and `support-map.json` — untouched; neither contained the flagged word.

@@ -1,0 +1,346 @@
+[
+ {
+  "target": "claims",
+  "location": "claim 13",
+  "from_text": "of any one of claims 1 and 5 to 12",
+  "to": "of any one of claims 1, 5 to 12",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 15",
+  "from_text": "of any one of claims 1 and 5 to 12",
+  "to": "of any one of claims 1, 5 to 12",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 16",
+  "from_text": "of any one of claims 1 and 5 to 15",
+  "to": "of any one of claims 1, 5 to 15",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 20",
+  "from_text": "of any one of claims 1 and 5 to 19",
+  "to": "of any one of claims 1, 5 to 19",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 33",
+  "from_text": "of any one of claims 1 and 5 to 32",
+  "to": "of any one of claims 1, 5 to 32",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 35",
+  "from_text": "of any one of claims 1 and 5 to 34",
+  "to": "of any one of claims 1, 5 to 34",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 36",
+  "from_text": "of any one of claims 1 and 5 to 35",
+  "to": "of any one of claims 1, 5 to 35",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 37",
+  "from_text": "of any one of claims 1 and 5 to 36",
+  "to": "of any one of claims 1, 5 to 36",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 38",
+  "from_text": "of any one of claims 1 and 5 to 37",
+  "to": "of any one of claims 1, 5 to 37",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 43",
+  "from_text": "of any one of claims 1 and 5 to 12",
+  "to": "of any one of claims 1, 5 to 12",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 44",
+  "from_text": "of any one of claims 1 and 5 to 15",
+  "to": "of any one of claims 1, 5 to 15",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 46",
+  "from_text": "of any one of claims 1 and 5 to 44",
+  "to": "of any one of claims 1, 5 to 44",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 47",
+  "from_text": "of any one of claims 1 and 5 to 44",
+  "to": "of any one of claims 1, 5 to 44",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 54",
+  "from_text": "of any one of claims 2 and 51 to 53",
+  "to": "of any one of claims 2, 51 to 53",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 55",
+  "from_text": "of any one of claims 2 and 51 to 54",
+  "to": "of any one of claims 2, 51 to 54",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 57",
+  "from_text": "of any one of claims 2 and 51 to 56",
+  "to": "of any one of claims 2, 51 to 56",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 58",
+  "from_text": "of any one of claims 2 and 51 to 57",
+  "to": "of any one of claims 2, 51 to 57",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 59",
+  "from_text": "of any one of claims 2 and 51 to 58",
+  "to": "of any one of claims 2, 51 to 58",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 60",
+  "from_text": "of any one of claims 2 and 51 to 59",
+  "to": "of any one of claims 2, 51 to 59",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 61",
+  "from_text": "of any one of claims 1 and 5 to 46",
+  "to": "of any one of claims 1, 5 to 46",
+  "reason": "Alternative-only multiple dependency (embedded reference)",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 65",
+  "from_text": "of any one of claims 3 and 62 to 64",
+  "to": "of any one of claims 3, 62 to 64",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 67",
+  "from_text": "of any one of claims 3 and 62 to 64",
+  "to": "of any one of claims 3, 62 to 64",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 68",
+  "from_text": "of any one of claims 3 and 62 to 67",
+  "to": "of any one of claims 3, 62 to 67",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 69",
+  "from_text": "of any one of claims 3 and 62 to 68",
+  "to": "of any one of claims 3, 62 to 68",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 70",
+  "from_text": "of any one of claims 3 and 62 to 69",
+  "to": "of any one of claims 3, 62 to 69",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 74",
+  "from_text": "of any one of claims 3 and 62 to 69",
+  "to": "of any one of claims 3, 62 to 69",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 76",
+  "from_text": "of any one of claims 3 and 62 to 75",
+  "to": "of any one of claims 3, 62 to 75",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 77",
+  "from_text": "of any one of claims 3 and 62 to 76",
+  "to": "of any one of claims 3, 62 to 76",
+  "reason": "Alternative-only multiple dependency (embedded reference)",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 81",
+  "from_text": "of any one of claims 4 and 78 to 80",
+  "to": "of any one of claims 4, 78 to 80",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 82",
+  "from_text": "of any one of claims 4 and 78 to 81",
+  "to": "of any one of claims 4, 78 to 81",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 84",
+  "from_text": "of any one of claims 4 and 78 to 83",
+  "to": "of any one of claims 4, 78 to 83",
+  "reason": "Alternative-only multiple dependency",
+  "source": "37.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 9",
+  "from_text": "wherein the return bias comprises a soft spring and a stiff spring arranged in series, or comprises nested springs that act in parallel.",
+  "to": "wherein the return bias comprises a soft spring and a stiff spring arranged in series, with a stop that takes the soft spring out of the load path at the end of the normal stroke, or comprises nested springs that act in parallel with staggered engagement.",
+  "reason": "The dropped language is what [0144]/[0145] identify as producing the two-rate characteristic required by parent claim 6.",
+  "source": "37b.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 47",
+  "from_text": "the valve core (5) of any one of claims 1 and 5 to 44",
+  "to": "the valve core (5) of any one of claims 1 and 5 to 46",
+  "reason": "Restores the disclosed valve-stem-bore purge-gap species (claim 45) and the removable-threaded-core species (claim 46) to the tyre valve claim family.",
+  "source": "37b.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 85",
+  "from_text": "the interference fit is about 0.03 mm on diameter",
+  "to": "the interference fit is 0.03 mm \u00b1 0.01 mm on diameter (illustrative; exact tolerance for counsel to confirm)",
+  "reason": "Removes sole reliance on the specification's general 'about' definition to fix claim scope.",
+  "source": "37b.envelope"
+ },
+ {
+  "target": "description",
+  "location": "[0206]",
+  "from_text": "The recoverable strain of such alloys is lower than that of NiTi alloy, and their compatibility with an ammonia-bearing sealant is not established.",
+  "to": "The recoverable strain of such alloys is lower than that of NiTi alloy, and their compatibility with an ammonia-bearing sealant is not established; the load-conversion function described herein does not depend on that compatibility, which is a separate question of material selection for contact with the sealant.",
+  "reason": "Prevent an untested-species caveat from reading across to enablement of the claimed mechanical genus (F-38-2)",
+  "source": "38.envelope"
+ },
+ {
+  "target": "description",
+  "location": "registry.md, Inconsistency flags \u00a71",
+  "from_text": "description.md and claims.md do not yet exist in this run (Prompt 21 onward has not run), so the cross-check of this registry against the description text and the claims is deferred; it must be re-run with pc numerals once both exist.",
+  "to": "(remove; both files exist and the numeral cross-check has been run cleanly against them)",
+  "reason": "Remove stale drafting-process note (F-38-5)",
+  "source": "38.envelope"
+ },
+ {
+  "target": "description",
+  "location": "[0014]",
+  "from_text": "produces a radial deflection of the radially deflectable element, and the radial deflection opens a purge gap",
+  "to": "produces a radial expansion of the radially deflectable element, and the radial expansion opens a purge gap",
+  "reason": "\"Radial deflection\" is a listed synonym, not the locked preferred term \"radial expansion\" used everywhere else in the specification and claims.",
+  "source": "38b.envelope"
+ },
+ {
+  "target": "description",
+  "location": "[0058]",
+  "from_text": "a wall that converts an axial load applied by the purge shoulder in the over-travel into a radial expansion that opens the purge gap",
+  "to": "a wall that converts an axial load applied by the load-applying surface in the over-travel into a radial expansion that opens the purge gap",
+  "reason": "Aligns the lexicographic definition of \"seat ring\" with the genus term used in claim 1/15, avoiding a construction conflict with the collar embodiment of claim 15.",
+  "source": "38b.envelope"
+ },
+ {
+  "target": "description",
+  "location": "[0182]",
+  "from_text": "In over-travel the purge shoulder 44 bears on the wiper ring 144 and deflects it outward, as shown in FIG. 9B.",
+  "to": "In over-travel the purge shoulder 44 bears on the wiper ring 144 and deflects it outward, so that a purge gap 146, closed at rest, opens between the wiper ring 144 and the core body bore 22, as shown in FIG. 9B.",
+  "reason": "Numeral 146, used in claim 1, otherwise has no antecedent anywhere in the description text.",
+  "source": "38b.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 13 (representative; full list in 37.md)",
+  "from_text": "of any one of claims 1 and 5 to 12",
+  "to": "of any one of claims 1, 5 to 12",
+  "reason": "Alternative-only multiple dependency, 37 CFR 1.75(c)/MPEP 608.01(n)",
+  "source": "40a.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 13 (representative)",
+  "from_text": "The valve core of any one of claims 1 and 5 to 12, wherein the load-applying surface is a purge shoulder (44) formed on the poppet.",
+  "to": "Restructured so claim 13's range excludes claim 11 (an MDC); full renumbering is a Claims Architect task, illustrated but not reproduced claim-by-claim here.",
+  "reason": "37 CFR 1.75(c): an MDC may not have another MDC among its bases.",
+  "source": "40ab.envelope"
+ },
+ {
+  "target": "claims",
+  "location": "claim 61",
+  "from_text": "The method of claim 2, wherein the valve core is the valve core of any one of claims 1 and 5 to 46.",
+  "to": "Restructured as a proper multiple dependent claim citing its full combined base range in the introductory clause.",
+  "reason": "Obscures true dependency and compounds the multiple-dependency defect.",
+  "source": "40ab.envelope"
+ },
+ {
+  "target": "description",
+  "location": "[0182]",
+  "from_text": "In over-travel the purge shoulder 44 bears on the wiper ring 144 and deflects it outward, as shown in FIG. 9B.",
+  "to": "In over-travel the purge shoulder 44 bears on the wiper ring 144 and deflects it outward, so that a purge gap 146, closed at rest, opens between the wiper ring 144 and the core body bore 22, as shown in FIG. 9B.",
+  "reason": "Numeral 146 (used in claim 1) is otherwise unsupported in the description.",
+  "source": "40ab.envelope"
+ }
+]

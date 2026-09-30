@@ -1,0 +1,198 @@
+{
+ "support_map": {
+  "claims": 86,
+  "paragraphs": 385,
+  "unmapped_claims": [],
+  "uncovered_limitations": [],
+  "bad_citations": [],
+  "weak_citations": [
+   {
+    "claim": 6,
+    "paragraph": "[0075]",
+    "element": "a second spring stage (54), which the over-travel differential overcomes"
+   },
+   {
+    "claim": 13,
+    "paragraph": "[0152]",
+    "element": "The valve core of any one of claims 1 and 5 to 12"
+   },
+   {
+    "claim": 13,
+    "paragraph": "[0026]",
+    "element": "The valve core of any one of claims 1 and 5 to 12"
+   },
+   {
+    "claim": 15,
+    "paragraph": "[0103]",
+    "element": "The valve core of any one of claims 1 and 5 to 12"
+   },
+   {
+    "claim": 19,
+    "paragraph": "[0097]",
+    "element": "The valve core of any one of claims 16 to 18"
+   },
+   {
+    "claim": 23,
+    "paragraph": "[0168]",
+    "element": "The valve core of claim 21 or claim 22"
+   },
+   {
+    "claim": 24,
+    "paragraph": "[0172]",
+    "element": "The valve core of claim 21 or claim 22"
+   },
+   {
+    "claim": 27,
+    "paragraph": "[0204]",
+    "element": "The valve core of any one of claims 20 to 26"
+   },
+   {
+    "claim": 30,
+    "paragraph": "[0091]",
+    "element": "The valve core of any one of claims 20 to 26"
+   },
+   {
+    "claim": 33,
+    "paragraph": "[0074]",
+    "element": "The valve core of any one of claims 1 and 5 to 32"
+   },
+   {
+    "claim": 36,
+    "paragraph": "[0214]",
+    "element": "The valve core of any one of claims 1 and 5 to 35"
+   },
+   {
+    "claim": 37,
+    "paragraph": "[0219]",
+    "element": "The valve core of any one of claims 1 and 5 to 36"
+   },
+   {
+    "claim": 43,
+    "paragraph": "[0178]",
+    "element": "The valve core of any one of claims 1 and 5 to 12"
+   },
+   {
+    "claim": 44,
+    "paragraph": "[0190]",
+    "element": "The valve core of any one of claims 1 and 5 to 15"
+   },
+   {
+    "claim": 44,
+    "paragraph": "[0191]",
+    "element": "The valve core of any one of claims 1 and 5 to 15"
+   },
+   {
+    "claim": 53,
+    "paragraph": "[0238]",
+    "element": "The method of claim 51 or claim 52"
+   },
+   {
+    "claim": 53,
+    "paragraph": "[0239]",
+    "element": "The method of claim 51 or claim 52"
+   },
+   {
+    "claim": 54,
+    "paragraph": "[0152]",
+    "element": "The method of any one of claims 2 and 51 to 53"
+   },
+   {
+    "claim": 54,
+    "paragraph": "[0271]",
+    "element": "The method of any one of claims 2 and 51 to 53"
+   },
+   {
+    "claim": 57,
+    "paragraph": "[0136]",
+    "element": "The method of any one of claims 2 and 51 to 56"
+   },
+   {
+    "claim": 57,
+    "paragraph": "[0271]",
+    "element": "The method of any one of claims 2 and 51 to 56"
+   },
+   {
+    "claim": 57,
+    "paragraph": "[0084]",
+    "element": "The method of any one of claims 2 and 51 to 56"
+   },
+   {
+    "claim": 58,
+    "paragraph": "[0126]",
+    "element": "The method of any one of claims 2 and 51 to 57"
+   },
+   {
+    "claim": 58,
+    "paragraph": "[0136]",
+    "element": "The method of any one of claims 2 and 51 to 57"
+   },
+   {
+    "claim": 58,
+    "paragraph": "[0307]",
+    "element": "The method of any one of claims 2 and 51 to 57"
+   },
+   {
+    "claim": 60,
+    "paragraph": "[0273]",
+    "element": "The method of any one of claims 2 and 51 to 59"
+   },
+   {
+    "claim": 60,
+    "paragraph": "[0283]",
+    "element": "The method of any one of claims 2 and 51 to 59"
+   },
+   {
+    "claim": 60,
+    "paragraph": "[0273]",
+    "element": "the method is repeated in each of a plurality of inflation cycles"
+   },
+   {
+    "claim": 70,
+    "paragraph": "[0204]",
+    "element": "The seat ring of any one of claims 3 and 62 to 69"
+   },
+   {
+    "claim": 80,
+    "paragraph": "[0170]",
+    "element": "The method of claim 4 or claim 78"
+   },
+   {
+    "claim": 80,
+    "paragraph": "[0254]",
+    "element": "The method of claim 4 or claim 78"
+   },
+   {
+    "claim": 81,
+    "paragraph": "[0255]",
+    "element": "The method of any one of claims 4 and 78 to 80"
+   },
+   {
+    "claim": 82,
+    "paragraph": "[0256]",
+    "element": "The method of any one of claims 4 and 78 to 81"
+   },
+   {
+    "claim": 84,
+    "paragraph": "[0259]",
+    "element": "The method of any one of claims 4 and 78 to 83"
+   }
+  ],
+  "ok": true
+ },
+ "claims_format": {
+  "claims": 86,
+  "independent": [
+   1,
+   2,
+   3
+  ],
+  "problems": [],
+  "ok": true
+ },
+ "antecedent": {
+  "claims": 86,
+  "flags": [],
+  "method": "heuristic: a definite article with no earlier indefinite introduction in the claim or the claims it depends on",
+  "ok": true
+ }
+}

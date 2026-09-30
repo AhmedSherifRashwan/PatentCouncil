@@ -1,0 +1,539 @@
+{
+  "entries": [
+    {
+      "numeral": "1",
+      "component": "tyre valve",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "numeral": "5",
+      "component": "valve core",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "numeral": "10",
+      "component": "valve stem",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "3",
+        "8",
+        "9",
+        "10",
+        "13B"
+      ]
+    },
+    {
+      "numeral": "20",
+      "component": "core body",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "3",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ]
+    },
+    {
+      "numeral": "22",
+      "component": "core body bore",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "8",
+        "9",
+        "11"
+      ]
+    },
+    {
+      "numeral": "24",
+      "component": "locating shoulder",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "4",
+        "7",
+        "9"
+      ]
+    },
+    {
+      "numeral": "26",
+      "component": "main passage",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "numeral": "30",
+      "component": "seat ring",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "6",
+        "7",
+        "12",
+        "13A"
+      ]
+    },
+    {
+      "numeral": "32",
+      "component": "sealing edge",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "4",
+        "12B"
+      ]
+    },
+    {
+      "numeral": "34",
+      "component": "convoluted wall",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "4",
+        "12B"
+      ]
+    },
+    {
+      "numeral": "35",
+      "component": "fit band",
+      "first_figure": "4",
+      "figures": [
+        "4",
+        "12A"
+      ]
+    },
+    {
+      "numeral": "36",
+      "component": "convolution",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "4A",
+        "4B"
+      ]
+    },
+    {
+      "numeral": "37",
+      "component": "free portion",
+      "first_figure": "4",
+      "figures": [
+        "4",
+        "12A"
+      ]
+    },
+    {
+      "numeral": "38",
+      "component": "convolution",
+      "first_figure": "4B",
+      "figures": [
+        "4B"
+      ]
+    },
+    {
+      "numeral": "40",
+      "component": "poppet",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "3",
+        "6",
+        "8",
+        "9",
+        "10",
+        "11C",
+        "13"
+      ]
+    },
+    {
+      "numeral": "42",
+      "component": "sealing face",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "6",
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "numeral": "44",
+      "component": "purge shoulder",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "6",
+        "9",
+        "11A",
+        "13"
+      ]
+    },
+    {
+      "numeral": "50",
+      "component": "return spring",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "3",
+        "8",
+        "9",
+        "10",
+        "11",
+        "13"
+      ]
+    },
+    {
+      "numeral": "52",
+      "component": "first spring stage",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "5"
+      ]
+    },
+    {
+      "numeral": "54",
+      "component": "second spring stage",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "5"
+      ]
+    },
+    {
+      "numeral": "60",
+      "component": "purge gap",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "6",
+        "8",
+        "10"
+      ]
+    },
+    {
+      "numeral": "70",
+      "component": "lock nut",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "3",
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "numeral": "80",
+      "component": "tyre chamber",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "numeral": "90",
+      "component": "pump head",
+      "first_figure": "1",
+      "figures": [
+        "1",
+        "2"
+      ]
+    },
+    {
+      "numeral": "110",
+      "component": "crack pressure",
+      "first_figure": "5",
+      "figures": [
+        "5"
+      ]
+    },
+    {
+      "numeral": "112",
+      "component": "over-travel differential",
+      "first_figure": "5",
+      "figures": [
+        "5"
+      ]
+    },
+    {
+      "numeral": "114",
+      "component": "normal stroke",
+      "first_figure": "5",
+      "figures": [
+        "5"
+      ]
+    },
+    {
+      "numeral": "116",
+      "component": "over-travel",
+      "first_figure": "5",
+      "figures": [
+        "5"
+      ]
+    },
+    {
+      "numeral": "130",
+      "component": "polymer seat ring",
+      "first_figure": "8",
+      "figures": [
+        "8"
+      ]
+    },
+    {
+      "numeral": "132",
+      "component": "sealing edge",
+      "first_figure": "8",
+      "figures": [
+        "8"
+      ]
+    },
+    {
+      "numeral": "134",
+      "component": "convoluted wall",
+      "first_figure": "8",
+      "figures": [
+        "8"
+      ]
+    },
+    {
+      "numeral": "140",
+      "component": "rigid seat",
+      "first_figure": "9",
+      "figures": [
+        "9"
+      ]
+    },
+    {
+      "numeral": "142",
+      "component": "sealing edge",
+      "first_figure": "9",
+      "figures": [
+        "9"
+      ]
+    },
+    {
+      "numeral": "144",
+      "component": "wiper ring",
+      "first_figure": "9",
+      "figures": [
+        "9"
+      ]
+    },
+    {
+      "numeral": "146",
+      "component": "purge gap",
+      "first_figure": "9",
+      "figures": [
+        "9"
+      ]
+    },
+    {
+      "numeral": "150",
+      "component": "thermal variant",
+      "first_figure": "10",
+      "figures": [
+        "10"
+      ]
+    },
+    {
+      "numeral": "170",
+      "component": "slotted sleeve",
+      "first_figure": "11A",
+      "figures": [
+        "11A"
+      ]
+    },
+    {
+      "numeral": "172",
+      "component": "fingers",
+      "first_figure": "11A",
+      "figures": [
+        "11A"
+      ]
+    },
+    {
+      "numeral": "180",
+      "component": "split seat ring",
+      "first_figure": "11B",
+      "figures": [
+        "11B"
+      ]
+    },
+    {
+      "numeral": "182",
+      "component": "axial split",
+      "first_figure": "11B",
+      "figures": [
+        "11B"
+      ]
+    },
+    {
+      "numeral": "190",
+      "component": "tapered seat ring",
+      "first_figure": "11C",
+      "figures": [
+        "11C"
+      ]
+    },
+    {
+      "numeral": "192",
+      "component": "taper",
+      "first_figure": "11C",
+      "figures": [
+        "11C"
+      ]
+    },
+    {
+      "numeral": "194",
+      "component": "matching taper",
+      "first_figure": "11C",
+      "figures": [
+        "11C"
+      ]
+    },
+    {
+      "numeral": "202",
+      "component": "core body bore relief",
+      "first_figure": "12A",
+      "figures": [
+        "12A"
+      ]
+    },
+    {
+      "numeral": "204",
+      "component": "wall slots",
+      "first_figure": "12B",
+      "figures": [
+        "12B"
+      ]
+    },
+    {
+      "numeral": "220",
+      "component": "Schrader-pattern core body",
+      "first_figure": "13A",
+      "figures": [
+        "13A"
+      ]
+    },
+    {
+      "numeral": "230",
+      "component": "valve core integral with the valve stem",
+      "first_figure": "13B",
+      "figures": [
+        "13B"
+      ]
+    },
+    {
+      "numeral": "500",
+      "component": "step: at rest",
+      "first_figure": "6",
+      "figures": [
+        "6"
+      ]
+    },
+    {
+      "numeral": "502",
+      "component": "step: normal stroke",
+      "first_figure": "6",
+      "figures": [
+        "6"
+      ]
+    },
+    {
+      "numeral": "504",
+      "component": "step: over-travel",
+      "first_figure": "6",
+      "figures": [
+        "6"
+      ]
+    },
+    {
+      "numeral": "506",
+      "component": "step: return",
+      "first_figure": "6",
+      "figures": [
+        "6"
+      ]
+    },
+    {
+      "numeral": "510",
+      "component": "step: laser cutting",
+      "first_figure": "7",
+      "figures": [
+        "7"
+      ]
+    },
+    {
+      "numeral": "512",
+      "component": "step: shape-setting",
+      "first_figure": "7",
+      "figures": [
+        "7"
+      ]
+    },
+    {
+      "numeral": "514",
+      "component": "step: quenching",
+      "first_figure": "7",
+      "figures": [
+        "7"
+      ]
+    },
+    {
+      "numeral": "516",
+      "component": "step: electropolishing",
+      "first_figure": "7",
+      "figures": [
+        "7"
+      ]
+    },
+    {
+      "numeral": "518",
+      "component": "step: press-fitting",
+      "first_figure": "7",
+      "figures": [
+        "7"
+      ]
+    }
+  ],
+  "source": "P4/20a.md (manually rebuilt; parser drops 'Also appears in' column)"
+}

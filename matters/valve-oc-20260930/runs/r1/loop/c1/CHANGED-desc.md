@@ -1,0 +1,49 @@
+# CHANGED-desc — loop c1, x-p4-revise (valve-oc-20260930, r1)
+
+One line per finding, correction or gap addressed: id | paragraphs changed | how. Inserted paragraphs are named by the runner's lettered convention ([0001a] series after the replaced [0001]; [0048a]; [0149a]).
+
+- F-28-1 | [0028], [0088], [0091], [0094], [0146], [0161] | ranges stated for the seat ring generally, only NiTi built, parameter relationships govern; seat ring wall thickness redefined geometry-neutrally; inventor asked whether ranges hold for other materials (Q4).
+- F-28-2 | [0020], [0040], [0053], [0054], [0093], [0103], [0113], [0162] | every outward-plus-outer-surface pairing removed or re-paired; sense-of-deflection rule stated; prototype's sense recorded as not measured.
+- F-28-3 | [0021], [0034], [0038], [0052], [0056], [0059], [0079], [0103], [0105], [0116] | load-receiving surface named as species, positioning rule, axial order relative to seated end, route past ring retention as ports or flutes, [0105] and [0116] side-neutral; prototype layout and route routed as disclosure requests.
+- F-30-6 | [0020], [0036], [0040], [0053], [0054], [0056], [0093], [0162] | as F-28-2 plus closed-state seal and purge route species.
+- F-32-1 | [0088], [0141], [0149a] | seat ring as component adapted to the valve core; distinction from a static wave-section ring (mechanical load and recovery at service temperature, seat for a moving poppet); narrowing left to P5.
+- F-32-2 | [0149a] | each manufacturing step tied to an operating feature of the valve core; narrowing left to P5.
+- F-32-20 | [0021], [0038], [0052], [0116] | as F-28-3; [0116] "chamber-side end" replaced by "end remote from the sealing edge".
+- F-32-4 | [0001a] series (summary), [0012], [0013], [0066] | purge state and over-travel defined by poppet position, pressure differential and mechanical depression as the two ways of producing it.
+- F-33-2 | [0012], [0013], [0047], [0118], [0122] | normal-open state defined by main passage open and purge gap closed; sub-threshold contact without deflection stated within the normal-open state; "not touched" replaced.
+- F-33-4 | [0012], [0013], [0066], [0067] | as F-32-4; deflation purge kept, hedged and marked untested.
+- F-36-1 | [0034], [0036], [0038], [0052], [0056], [0059], [0103] | as F-28-3 and F-30-6.
+- F-36-2 | [0001a] series (brief description of the drawings) | brief description of FIGS. 1–15 added; drawing sheets cannot be produced here, routed (Q7).
+- F-gate14-2 | [0021], [0034], [0038], [0052], [0079], [0116] | as F-28-3; inventor's "chamber side of the sealing face" retained and flagged (Q1).
+- F-gate14-4 | [0020], [0036], [0040], [0053], [0054], [0093], [0162] | as F-28-2; at-rest clearance reconciled with "purge gap closed" in [0036], [0040].
+- F-gate14-5 | [0014], [0020], [0065] | wipe-only embodiment reconciled with the definitions, elaborated and marked untested; support for the wipe-only independent claim P5 proposes.
+- F-30-7 | [0088], [0141], [0149a] | interrelation of seat ring, method and valve core stated; division or narrowing left to P5.
+- F-gate14-1 | [0001] replaced by field, background, summary and brief description of the drawings followed by the original definitions paragraph; [0160] | cross-reference to the background now resolves; abstract and list of figures are written at the abstract step from the final text; drawing sheets routed.
+- correction 38b [0060] | [0060] | "collapses" → "falls".
+- correction 38b [0176] | [0176] | brass/ammonia sentence replaced as supplied.
+- correction 38b [0078] | [0078] | thermal-purge qualification added as supplied.
+- correction 40a numerals | [0030]–[0041] | numerals parenthesised throughout the structure section.
+- correction 40a summary | [0001] block | summary paragraph inserted before the definitions.
+- P5/unsupported first/second axial end, seatable | [0034], [0141] | terms added.
+- P5/unsupported recovers elastically on removal of the axial load | [0098] | sentence added.
+- P5/unsupported seat ring blank / shape-set seat ring | [0147], [0148], [0149] | terms introduced.
+- P5/unsupported quench genus | [0148] | not changed: cannot support without new matter; inventor asked (Q6).
+- P5/unsupported shape recovery moves the ring relative to the poppet | [0061] | sentence added.
+- P5/unsupported wheel | [0139] | mounted-to-wheel wording added.
+- P5/unsupported CO2 inflator term | [0023], [0058] | "compressed-CO2 inflation device supplying carbon dioxide as the inflation gas" added; the locked species wording itself is rejected by the lock (avoid-list word), so it is not used.
+- EN-1 | [0056], [0059], [0103] | route past retention as species; no prototype route asserted.
+- EN-2 | [0020], [0053], [0054], [0093], [0113], [0162] | as F-28-2.
+- EN-21 | [0036], [0040] | closed-state seal species; pressure-retaining seal at the sealing edge.
+- EN-7 | [0014], [0020], [0065] | definition reconciled; untested statements added.
+- EN-3 | [0021], [0038] | axial clearance at rest equals the normal stroke, 0.6 mm.
+- EN-4 | [0048a] | spring design relation, no numbers.
+- EN-6 | [0051] | untested statement added.
+- EN-8 | [0062] | softened to the sealing face or an adjacent surface.
+- EN-9 | [0091], [0094], [0146] | as F-28-1.
+- EN-10 | [0026] | DSC convention added.
+- EN-12 | [0156] | convolution count of prototype rings not recorded.
+- EN-14 | [0161] | no polymer-specific dimensions; relationships govern.
+- EN-16 | [0093], [0162] | wiper ring sense/location re-paired.
+- EN-17 | [0118] | verification of the over-travel threshold on the assembled valve core.
+- EN-18 | [0066], [0067] | untested statements; "may carry".
+- EN-5, EN-11, EN-13, EN-15, EN-19, EN-20, EN-22, EN-23, EN-24, EN-25, EN-26, EN-27 | none | inventor gaps or no-change items; no drafting cure applied.

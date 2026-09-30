@@ -1,0 +1,1 @@
+12.md: terminology lock: {"locked_terms": 67, "violations": [{"term": "two-rate spring", "rule": "avoid-hit", "row": "return spring", "context": "e tuned independently. Covers the route \"two springs, not a two-rate spring\". - Genus: threshold-setting arrangement. - Credibili"}], "drift": [{"term": "thres

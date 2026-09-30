@@ -1,0 +1,1 @@
+14.md: terminology lock: {"locked_terms": 67, "violations": [{"term": "two-rate spring", "rule": "avoid-hit", "row": "return spring", "context": "|---| | CB1 | Full nucleus product | E-I | Rows 3, 4, 8, 9 (two-rate spring, N6 ranges, lock nut, Af < 5 \u00b0C) | This is the tested, evid"}, {"term": "transit

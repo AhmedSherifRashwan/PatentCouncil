@@ -1,0 +1,1 @@
+11.md: terminology lock: {"locked_terms": 67, "violations": [{"term": "conventional core", "rule": "undeclared-synonym", "row": "conventional valve core", "context": "core including the core body (02 rank 1). | **Low\u2013medium.** Conventional core bodies are not designed to be taken apart. | **Low\u2013m

@@ -1,0 +1,443 @@
+{
+  "prompt": "38",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-38-1",
+      "source_prompt": "38",
+      "category": "enablement",
+      "severity": "high",
+      "title": "Example 1 is internally impossible as written (test dates and C-2 failure row)",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0099]",
+        "[0100]",
+        "[0101]",
+        "[0102]",
+        "[0129]",
+        "[0132a]"
+      ],
+      "attack": "[0099] states forty inflation cycles each with 'a hold of 24 hours', yet 'The test ran from 2026-08-12 to 2026-08-20' (eight days for at least forty days of holds). Table 1 row C-2 records 0.7 bar leak-down at last measured cycle 11 but failure at cycle 12, against the 0.5 bar criterion of [0100]. The only actual example is impeachable, and the error is not correctable after filing because the correct values are not derivable from the text (EPC Rule 139).",
+      "least_narrowing_action": "Obtain the actual test record from the inventor and correct the dates or hold duration in [0099], [0100] and [0059], and the C-2 row and column headings of Table 1. No claim change.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-38-2",
+      "source_prompt": "38",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "The summary states a sealant-film removal effect that the only data partly contradict",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0007]",
+        "[0017]",
+        "[0103]",
+        "[0131]",
+        "[0037]",
+        "[0058]"
+      ],
+      "attack": "[0007] 'The valves described herein remove sealant film that has already formed' and [0017] 'purge themselves of sealant film' are contradicted by [0103] 'Cured sealant film was present on the outer surface 38 of each seat ring 30 in the region of the purge gap 60', which is a sealant-accumulation surface. An EPO examiner will reformulate the problem as a less ambitious one, and a litigant will attack purge flow as the mechanism.",
+      "least_narrowing_action": "Recast [0007] and [0017] to state the action (purge flow along the sealant-accumulation surfaces; recovery wipe) and the observation of Example 1, not an unqualified removal result (Corrections 1 and 2).",
+      "requires_new_disclosure": false,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-38-3",
+      "source_prompt": "38",
+      "category": "support",
+      "severity": "medium",
+      "title": "Definitions of 'sealing face' and 'inflatable body' import dependent-claim features into independent claims",
+      "claim_refs": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "35",
+        "50",
+        "52"
+      ],
+      "spec_refs": [
+        "[0050]",
+        "[0079]"
+      ],
+      "attack": "[0050] defines 'sealing face' as the surface 'across which the deflectable element slides in the recovery wipe', which by US lexicography imports claim 5 into claims 1, 2 and 4. [0079] defines 'inflatable body' as one that 'contains the sealant', which imports claim 50 into claim 3 and lets a tube supplied dry escape direct infringement.",
+      "least_narrowing_action": "Limit each definition to what the term is: make the recovery wipe a conditional sentence and the sealant a condition of use (Corrections 5 and 6).",
+      "requires_new_disclosure": false,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-38-4",
+      "source_prompt": "38",
+      "category": "support",
+      "severity": "medium",
+      "title": "'The valves described herein' statements exclude viable embodiments (added valve, one moving part, whole mechanism in the core)",
+      "claim_refs": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "spec_refs": [
+        "[0007]",
+        "[0017]",
+        "[0122]",
+        "[0034]",
+        "[0111]"
+      ],
+      "attack": "[0007] 'by the action of one moving part, with no tool, no action by the rider, no stored gas and no valve additional to the valve member' and [0017] 'the whole mechanism is contained in the valve core' are general statements about the invention. They support a US disavowal argument by a competitor who adds a series one-way valve, conflict with claim 1 (no valve core required) and with [0122] (clamping by the valve stem), and are inaccurate on the description's own terms (the deflectable element and biasing member move).",
+      "least_narrowing_action": "Recast them as statements about the embodiments described and drop 'one moving part' (Corrections 1 and 4).",
+      "requires_new_disclosure": false,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-38-5",
+      "source_prompt": "38",
+      "category": "support",
+      "severity": "medium",
+      "title": "Ranges disclaimed for the polymer seat ring and wiper ring, yet claims 30-34 and 47 depend on those embodiments",
+      "claim_refs": [
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "47",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "44",
+        "45"
+      ],
+      "spec_refs": [
+        "[0093]",
+        "[0106]",
+        "[0124]",
+        "[0125]",
+        "[0127]"
+      ],
+      "attack": "[0093] 'are not stated for the polymer seat ring', [0106] 'No dimension is stated for the wiper ring 130' and [0124] 'not stated for the alternatives' deny the ranges for combinations that claims 30-34 (through claims 25-29) and 47 (through claims 44-45) expressly claim. This draws an EPC Art. 84 / 35 U.S.C. 112(a) inconsistency objection, and an opponent will cite the description's own denial.",
+      "least_narrowing_action": "Ask the inventor whether the pressure, over-travel and purge gap width ranges apply to those embodiments. If yes, amend [0093], [0106], [0124] and [0125]. If no, restrict the dependencies of claims 30-34 and 47 (narrowing, which loses only those combinations).",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-38-6",
+      "source_prompt": "38",
+      "category": "novelty",
+      "severity": "low",
+      "title": "'Operates as a conventional valve' characterises the claimed normal-stroke behaviour as known",
+      "claim_refs": [
+        "1",
+        "2"
+      ],
+      "spec_refs": [
+        "[0009]",
+        "[0017]",
+        "[0041]",
+        "[0042]",
+        "[0078]",
+        "[0113]"
+      ],
+      "attack": "'in this range the valve operates as a conventional valve' and its variants let an examiner cite the applicant's own words for ranges (a) and (b) and the main flow passage without a reference. The practical effect is small because reference 1 already shows this.",
+      "least_narrowing_action": "Replace with 'operates without purge flow' (Corrections 3 and 7 to 10).",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-38-7",
+      "source_prompt": "38",
+      "category": "support",
+      "severity": "low",
+      "title": "The method summary in [0015] is narrower than claim 4",
+      "claim_refs": [
+        "4"
+      ],
+      "spec_refs": [
+        "[0015]",
+        "[0039]"
+      ],
+      "attack": "[0015] 'and removing the inflation device, so that the pressure differential falls' is narrower than claim 4 'ceases to apply pressure to the valve or is removed from it'. Read as 'the invention', it could confine claim 4 to removal of the device.",
+      "least_narrowing_action": "Align [0015] with claim 4 and [0039] (Correction 11).",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-38-8",
+      "source_prompt": "38",
+      "category": "formal",
+      "severity": "low",
+      "title": "The description contradicts itself on the core body material of the tested prototype",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0028]",
+        "[0067]",
+        "[0090]",
+        "[0092]",
+        "[0132]"
+      ],
+      "attack": "[0028] 'The core body 20 is turned from free-machining brass CW614N in the prototype', with 'prototype' defined in [0090] as the tested units, conflicts with [0132] 'the material of the core body 20 of the valve cores 90 tested in Example 1 ... not recorded herein'. This invites an attack on the accuracy of the record.",
+      "least_narrowing_action": "Ask the inventor, then either delete the words from [0132] or detach CW614N from the tested units in [0028] and [0067].",
+      "requires_new_disclosure": true,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-38-9",
+      "source_prompt": "38",
+      "category": "formal",
+      "severity": "low",
+      "title": "Background pinpoints use database paragraph indices, not the documents' own numbering",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0004]",
+        "[0005]",
+        "[0006]"
+      ],
+      "attack": "'at paragraph [13] and at paragraph [6] respectively' (US4050473A, US4236547A), 'at paragraphs [22] and [26]' (US3570510A) and 'at paragraph [10]' (US6053992A) cite paragraphs that do not exist in grants printed with column and line numbering. '[26]' is not the [00NN] form of US20080188352A1. This misstates where the art is found.",
+      "least_narrowing_action": "Drop the pinpoints and keep the characterisations (Corrections 12 to 17). Counsel can add column-and-line pinpoints from the official documents.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [
+    {
+      "target": "description",
+      "location": "[0007], last sentence",
+      "from_text": "The valves described herein remove sealant film that has already formed, at every inflation in which the inflation device applies a pressure differential above a threshold, by the action of one moving part, with no tool, no action by the rider, no stored gas and no valve additional to the valve member.",
+      "to": "The valves described herein act on the sealant-accumulation surfaces, including those on which sealant film has already formed, at every inflation in which the inflation device applies a pressure differential above a threshold, with no tool and no action by the rider; in the embodiments described they use no stored gas and no valve additional to the valve member.",
+      "reason": "F-38-2 and F-38-4: the action, not an unqualified result; exclusions confined to the embodiments; 'one moving part' removed."
+    },
+    {
+      "target": "description",
+      "location": "[0017], first sentence",
+      "from_text": "The valves described herein purge themselves of sealant film at every inflation in which the over-travel threshold is exceeded, with no tool and no action by the rider.",
+      "to": "In the valves described herein, purge flow passes through the purge gap along the sealant-accumulation surfaces at every inflation in which the over-travel threshold is exceeded, with no tool and no action by the rider.",
+      "reason": "F-38-2: the action replaces an unqualified result that [0103] partly contradicts."
+    },
+    {
+      "target": "description",
+      "location": "[0017], second sentence",
+      "from_text": "Below the over-travel threshold the valve behaves as a conventional valve.",
+      "to": "Below the over-travel threshold the valve operates without purge flow.",
+      "reason": "F-38-6."
+    },
+    {
+      "target": "description",
+      "location": "[0017], third sentence",
+      "from_text": "so the valve needs no stored gas and no valve additional to the valve member, and the whole mechanism is contained in the valve core.",
+      "to": "so in the embodiments described the valve needs no stored gas and no valve additional to the valve member, and the mechanism is contained in the valve core.",
+      "reason": "F-38-4: confined to the embodiments; consistent with claim 1 and [0122]."
+    },
+    {
+      "target": "description",
+      "location": "[0050]",
+      "from_text": "means the surface of the valve member that seals against the valve seat when the valve member is seated, and across which the deflectable element slides in the recovery wipe.",
+      "to": "means the surface of the valve member that seals against the valve seat when the valve member is seated. Where the deflectable element slides across the valve member in the recovery wipe, it slides across the sealing face.",
+      "reason": "F-38-3: stops the recovery wipe being imported into claims 1, 2 and 4."
+    },
+    {
+      "target": "description",
+      "location": "[0079]",
+      "from_text": "means a body that is inflated through the valve, retains the inflation gas, and contains the sealant, including a bicycle inner tube and a tubeless tyre set-up.",
+      "to": "means a body that is inflated through the valve and retains the inflation gas, and which in use contains the sealant, including a bicycle inner tube and a tubeless tyre set-up.",
+      "reason": "F-38-3: the sealant becomes a condition of use; claim 50 keeps its effect."
+    },
+    {
+      "target": "description",
+      "location": "[0009]",
+      "from_text": "in this range the valve operates as a conventional valve.",
+      "to": "in this range the valve operates without purge flow.",
+      "reason": "F-38-6."
+    },
+    {
+      "target": "description",
+      "location": "[0041]",
+      "from_text": "A valve whose valve member has made the normal stroke and no more is, during that inflation, operating as a conventional valve.",
+      "to": "A valve whose valve member has made the normal stroke and no more operates, during that inflation, without purge flow.",
+      "reason": "F-38-6."
+    },
+    {
+      "target": "description",
+      "location": "[0042]",
+      "from_text": "no over-travel occurs, and the valve operates as a conventional valve.",
+      "to": "no over-travel occurs, and the valve operates without purge flow.",
+      "reason": "F-38-6."
+    },
+    {
+      "target": "description",
+      "location": "[0078] and [0113]",
+      "from_text": "with the valve operating as a conventional valve, and no purge flow occurs. ([0078]) / no purge flow 64 occurs, and the valve 92 behaves as a conventional valve; ([0113])",
+      "to": "and no purge flow occurs. ([0078]) / no purge flow 64 occurs; ([0113])",
+      "reason": "F-38-6: the absence of purge flow is already stated."
+    },
+    {
+      "target": "description",
+      "location": "[0015]",
+      "from_text": "and removing the inflation device, so that the pressure differential falls, the deflectable element recovers and the purge gap closes.",
+      "to": "and the inflation device ceasing to apply pressure to the valve or being removed from it, so that the pressure differential falls, the deflectable element recovers and the purge gap closes.",
+      "reason": "F-38-7: aligns with claim 4 and [0039]."
+    },
+    {
+      "target": "description",
+      "location": "[0004]",
+      "from_text": "US11338632B2 states, at paragraph [0004], that",
+      "to": "US11338632B2 states that",
+      "reason": "F-38-9."
+    },
+    {
+      "target": "description",
+      "location": "[0004]",
+      "from_text": "US11179979B2 describes, at paragraphs [0016] and [0101], a sealing lip",
+      "to": "US11179979B2 describes a sealing lip",
+      "reason": "F-38-9."
+    },
+    {
+      "target": "description",
+      "location": "[0005]",
+      "from_text": "US20080188352A1 describes, at paragraph [26], a two-stage check valve",
+      "to": "US20080188352A1 describes a two-stage check valve",
+      "reason": "F-38-9."
+    },
+    {
+      "target": "description",
+      "location": "[0006]",
+      "from_text": "US3570510A describes, at paragraphs [22] and [26], a valve",
+      "to": "US3570510A describes a valve",
+      "reason": "F-38-9."
+    },
+    {
+      "target": "description",
+      "location": "[0006]",
+      "from_text": "US4050473A and US4236547A describe, at paragraph [13] and at paragraph [6] respectively, a flexible disc, or a cutting edge,",
+      "to": "US4050473A and US4236547A describe, respectively, a flexible disc and a cutting edge,",
+      "reason": "F-38-9."
+    },
+    {
+      "target": "description",
+      "location": "[0006]",
+      "from_text": "US6053992A describes, at paragraph [10], sealing plugs",
+      "to": "US6053992A describes sealing plugs",
+      "reason": "F-38-9."
+    },
+    {
+      "target": "description",
+      "location": "[0029]",
+      "from_text": "Hard-anodised aluminium has been considered for the sealing face 42.",
+      "to": "Hard-anodised aluminium may alternatively be used for the sealing face 42.",
+      "reason": "Consistency with [0069] and [0095]."
+    },
+    {
+      "target": "description",
+      "location": "registry.md, numeral 610",
+      "from_text": "| 610 | interference fit (pressing the seat ring into the core body) | FIG. 6 | - |",
+      "to": "| 610 | assembly step (pressing the seat ring into the core body with an interference fit) | FIG. 6 | - |",
+      "reason": "Registry name conflicts with [0109] 'assembly step 610' and the FIG. 6 box text."
+    },
+    {
+      "target": "description",
+      "location": "registry.md, numeral 92",
+      "from_text": "| 92 | valve | FIG. 1 | FIG. 8 |",
+      "to": "| 92 | valve | FIG. 1 | FIG. 2; FIG. 8 |",
+      "reason": "FIG. 2 repeats every element of FIG. 1, including the bracket 92."
+    },
+    {
+      "target": "description",
+      "location": "registry.md, FIG. 1 instructions, core body",
+      "from_text": "closely surrounding the stem of the valve member 40",
+      "to": "closely surrounding the shank of the valve member 40",
+      "reason": "'Stem' is a locked synonym of 'valve stem' (10)."
+    },
+    {
+      "target": "description",
+      "location": "registry.md, FIG. 1 instructions, valve member",
+      "from_text": "with a slender stem passing up through the guide portion 28",
+      "to": "with a slender shank passing up through the guide portion 28",
+      "reason": "As the previous correction."
+    }
+  ],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. This reply is a drafting and analysis aid prepared by AI; it is not legal advice or a filing decision, and qualified patent counsel reviews and signs off before anything is filed.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. No numeral cross-check was in the package; one was generated with pc registry (49 entries) and pc numerals (0 problems). pc terms against LOCKED.md found 0 violations, 0 drift and 0 warnings.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. Common general knowledge: US grants issued before 2001 are printed with column and line numbering and no paragraph numbers; the bracketed indices in prior-art/refs are those of the public database extract.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. The EPO problem-solution approach, US lexicography and disavowal, and EPC Rule 139 are stated from general knowledge of patent practice.",
+      "blocking": false
+    },
+    {
+      "id": "A5",
+      "text": "A5. F-38-1 assumes each cycle includes the full 24-hour hold of [0099] and that the cycles on one valve core are sequential.",
+      "blocking": false
+    },
+    {
+      "id": "A6",
+      "text": "A6. Registry and figure-instruction corrections carry target 'description' because the contract offers no registry target.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. What are the true dates and hold duration of the Example 1 test, and what do the Table 1 columns for C-2 mean?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Do the pressure, over-travel and purge gap width ranges apply to the polymer seat ring and wiper ring embodiments?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. Were the core bodies of the tested valve cores of brass CW614N, or is their material unknown?",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. Should column-and-line pinpoints to the official documents be restored in [0004]-[0006]?",
+      "blocks": []
+    }
+  ]
+}

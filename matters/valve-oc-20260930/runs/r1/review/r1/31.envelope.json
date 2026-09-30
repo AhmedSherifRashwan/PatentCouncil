@@ -1,0 +1,26 @@
+{
+  "prompt": "31",
+  "status": "partial",
+  "findings": [],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. The empty priority folder is taken to mean that no earlier application exists or none has been supplied; the package does not say which.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. Whether the August 2026 bench test ([0157]) or anything else was disclosed publicly before filing cannot be judged from the package; that is a novelty and grace-period question for counsel, not a priority question.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. (Requester or counsel) Is priority to be claimed from any earlier application? If so, place it in intake/priority/ so Prompt 31 can be run; if not, confirm this is a first filing so the priority control can be closed as not applicable.",
+      "blocks": []
+    }
+  ]
+}

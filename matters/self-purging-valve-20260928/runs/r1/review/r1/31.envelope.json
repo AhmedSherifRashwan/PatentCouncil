@@ -1,0 +1,26 @@
+{
+  "prompt": "31",
+  "status": "partial",
+  "findings": [],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. This review is a drafting and analysis aid prepared by AI. It is not legal advice or a filing decision; qualified patent counsel signs off before anything is filed.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. The absence of intake/priority/ is read as 'no priority document supplied', not as a confirmation that no earlier filing exists.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Is there any earlier application (for example a provisional or national first filing) from which this application will claim priority? If so, supply it under intake/priority/ so that Prompt 31 can be run against it; if not, confirm that this is the first filing.",
+      "blocks": []
+    }
+  ]
+}

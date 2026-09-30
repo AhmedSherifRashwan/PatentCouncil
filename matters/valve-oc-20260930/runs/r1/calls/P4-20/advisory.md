@@ -1,0 +1,1 @@
+20a.md: terminology lock: {"locked_terms": 67, "violations": [{"term": "two-rate spring", "rule": "avoid-hit", "row": "return spring", "context": "st spring stage (52) and second spring stage (54) (a single two-rate spring, or two springs, per the manufacturing note under FIG. 5);"}, {"term": "electropolish

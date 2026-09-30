@@ -1,0 +1,263 @@
+{
+  "prompt": "37",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-37-1",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "high",
+      "title": "Multiple dependent claims depend on other multiple dependent claims",
+      "claim_refs": [
+        "13",
+        "15",
+        "16",
+        "18",
+        "19",
+        "20",
+        "25",
+        "30",
+        "33",
+        "35",
+        "36",
+        "37",
+        "38",
+        "43",
+        "44",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60",
+        "65",
+        "67",
+        "68",
+        "69",
+        "74",
+        "75",
+        "76",
+        "77",
+        "84",
+        "86"
+      ],
+      "spec_refs": [],
+      "attack": "Under 37 CFR 1.75(c) / MPEP 608.01(n), a multiple dependent claim shall not serve as a basis for any other multiple dependent claim, directly or indirectly. Claim 13's range (1 and 5-12) includes MDC claim 11; claim 16's range includes MDCs 11, 13, 15; and the pattern cascades through nearly every later multiply-dependent claim in the set. A US examiner will object to claim form and require a renumbered claim set before substantive examination proceeds.",
+      "least_narrowing_action": "Restructure the dependency tree so no MDC's range includes another MDC, e.g. by converting the cascading 'any one of claims 1 and 5 to N' ranges into parallel singly-dependent claims. No scope is lost; this is a renumbering exercise.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-2",
+      "source_prompt": "37",
+      "category": "support",
+      "severity": "high",
+      "title": "Claim 9's return-bias alternatives omit the feature that produces the required two-rate characteristic",
+      "claim_refs": [
+        "9",
+        "6"
+      ],
+      "spec_refs": [
+        "[0144]",
+        "[0145]"
+      ],
+      "attack": "Claim 9 depends from claim 6, which requires a two-rate characteristic. Claim 9 recites 'a soft spring and a stiff spring arranged in series, or... nested springs that act in parallel', but [0144] and [0145] both attribute the two-rate result to a feature claim 9 omits ('with a stop that takes the soft spring out of the load path'; 'with staggered engagement'). Without those features, both claimed alternatives present a single combined rate throughout travel, not two rates, so as literally claimed the alternatives are not shown to satisfy the parent claim's own requirement.",
+      "least_narrowing_action": "Reinsert the enabling language from [0144]/[0145] into claim 9 ('with a stop that takes the soft spring out of the load path at the end of the normal stroke'; 'with staggered engagement').",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-3",
+      "source_prompt": "37",
+      "category": "support",
+      "severity": "high",
+      "title": "Claim 1's reference numeral 146 has no antecedent in the description text",
+      "claim_refs": [
+        "1"
+      ],
+      "spec_refs": [
+        "[0181]",
+        "[0182]",
+        "[0183]",
+        "[0184]"
+      ],
+      "attack": "Claim 1 recites 'a purge gap (60, 146)'. Numeral 146 is registered in the figure instructions (registry.md, FIG. 9) but is never used anywhere in description.md's body text; the two-piece-seat paragraphs describe the wiper ring deflecting and wiping but never name or number the gap it opens. A claim numeral with no corresponding specification passage is an unsupported-claim-term objection on the broadest independent claim.",
+      "least_narrowing_action": "Add numeral 146 to the existing two-piece-seat description passage (e.g. append to [0182] a sentence naming the purge gap 146 that opens between the wiper ring 144 and the core body bore 22).",
+      "requires_new_disclosure": false,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-4",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Claim cross-references embedded in the claim body rather than the dependency clause",
+      "claim_refs": [
+        "47",
+        "61",
+        "77",
+        "86"
+      ],
+      "spec_refs": [],
+      "attack": "Claims 47, 77 and 86 are drafted with independent-claim-style preambles that embed a multi-claim range ('...of any one of claims...') inside the body. Claim 61 is the most severe instance: nominally dependent only on claim 2, it incorporates the entire valve-core claim tree (claims 1, 5-46), including every MDC identified in F-37-1, inside a 'wherein' clause, obscuring the claim's true scope and category.",
+      "least_narrowing_action": "Rewrite each as a standard dependent claim with the full base range in the introductory clause; restructure claim 61 as a proper multiple dependent claim rather than embedding the cross-reference in a 'wherein.'",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-5",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "medium",
+      "title": "\"Load-applying surface\" and \"radially deflectable element\" risk means-plus-function construction",
+      "claim_refs": [
+        "1"
+      ],
+      "spec_refs": [
+        "[0099]",
+        "[0102]",
+        "[0106]"
+      ],
+      "attack": "Claim 1's two broadest structural terms are defined purely functionally at [0099]/[0102], and [0106] states expressly that such terms cover 'each structure described herein that performs the function... and is not limited to the preferred structure.' A generic placeholder ('surface', 'element') coupled with purely functional recitation risks 35 U.S.C. 112(f) / Williamson v. Citrix construction, confining claim 1 to the disclosed corresponding structures and equivalents rather than the intended functional genus.",
+      "least_narrowing_action": "Retain the existing structural relationships already recited (moved by the poppet; spaced from/bears on the radially deflectable element) and consider minimal further structural anchoring, without narrowing to a single species; a matter for counsel's claim-construction judgement.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-6",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Numeral scope inconsistent between claim 1 and claim 2",
+      "claim_refs": [
+        "1",
+        "2",
+        "61"
+      ],
+      "spec_refs": [],
+      "attack": "Claim 1 lists multi-species numerals '(32, 132, 142)' and '(60, 146)' without 'or'; claim 2 recites only the principal-embodiment numerals '(32)' and '(60)'. Claim 61 then combines claim 2 with any valve core of claims 1 and 5-46, so claim 2's numerals no longer reflect the full scope it can be read to cover, leaving a reader unable to tell whether claim 2's numerals are generic or species-specific.",
+      "least_narrowing_action": "Align claim 2's reference numerals with claim 1's generic set, or state expressly that the numerals are illustrative only.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-7",
+      "source_prompt": "37",
+      "category": "support",
+      "severity": "low",
+      "title": "Claim 47 excludes the disclosed valve-stem-bore purge gap species",
+      "claim_refs": [
+        "47",
+        "45"
+      ],
+      "spec_refs": [
+        "[0125]",
+        "[0189]"
+      ],
+      "attack": "Claim 47 incorporates 'any one of claims 1 and 5 to 44', excluding claim 45 (the valve-stem-bore purge gap species disclosed at [0125]/[0189]) and claim 46. Because claim 47 is the only route by which a valve stem is positively combined with the valve core, this disclosed species cannot be reached through the tyre valve / tyre chamber claim family.",
+      "least_narrowing_action": "Extend claim 47's range to include claims 45 and 46.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-37-8",
+      "source_prompt": "37",
+      "category": "formal",
+      "severity": "low",
+      "title": "Relative term \"about\" in claim 85",
+      "claim_refs": [
+        "85"
+      ],
+      "spec_refs": [
+        "[0056]"
+      ],
+      "attack": "\"About 0.03 mm on diameter\" is defined at [0056] but the claim itself states no numeric tolerance, leaving it open to a 112(b) clarity objection independent of the specification's general definition.",
+      "least_narrowing_action": "Optionally state a numeric tolerance in the claim itself.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [
+    {
+      "target": "claims",
+      "location": "claim 9",
+      "from_text": "wherein the return bias comprises a soft spring and a stiff spring arranged in series, or comprises nested springs that act in parallel.",
+      "to": "wherein the return bias comprises a soft spring and a stiff spring arranged in series, with a stop that takes the soft spring out of the load path at the end of the normal stroke, or comprises nested springs that act in parallel with staggered engagement.",
+      "reason": "The dropped language is what [0144]/[0145] identify as producing the two-rate characteristic required by parent claim 6."
+    },
+    {
+      "target": "claims",
+      "location": "claim 47",
+      "from_text": "the valve core (5) of any one of claims 1 and 5 to 44",
+      "to": "the valve core (5) of any one of claims 1 and 5 to 46",
+      "reason": "Restores the disclosed valve-stem-bore purge-gap species (claim 45) and the removable-threaded-core species (claim 46) to the tyre valve claim family."
+    },
+    {
+      "target": "claims",
+      "location": "claim 85",
+      "from_text": "the interference fit is about 0.03 mm on diameter",
+      "to": "the interference fit is 0.03 mm \u00b1 0.01 mm on diameter (illustrative; exact tolerance for counsel to confirm)",
+      "reason": "Removes sole reliance on the specification's general 'about' definition to fix claim scope."
+    }
+  ],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. \"Radially deflectable element\" and \"load-applying surface\" are read as intended genus/functional claim terms, not inadvertent placeholders.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. The multiple-dependency analysis applies 37 CFR 1.75(c) / MPEP 608.01(n) as common general knowledge of US claim-drafting practice.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. Claim 61's broad incorporation is read as intended to make the method claim combinable with every disclosed valve-core species.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. No claim recites the two-piece seat by its own dependent-claim ladder despite full description support ([0181]-[0184], statements 7.1-7.2); whether this is deliberate cannot be determined from the package.",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Whether claim 1's reference-sign lists (32, 132, 142; 60, 146) are intended as full open alternatives or whether some numerals were carried over in error cannot be resolved without the drafting rationale.",
+      "blocks": []
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "prompt": "35",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-35-1",
+      "source_prompt": "35",
+      "category": "design-around",
+      "severity": "high",
+      "title": "No independent claim covers cleaning by deflection of the seat without a secondary flow path",
+      "claim_refs": [
+        "1",
+        "2",
+        "3",
+        "32",
+        "56",
+        "76"
+      ],
+      "spec_refs": [
+        "[0064]",
+        "[0126]",
+        "[0287]",
+        "[0289]",
+        "[0347]"
+      ],
+      "attack": "Design-around resistance 3. Every independent claim requires a purge gap that is a secondary flow path. [0064] and [0126] state that a flow path enlarged by deflection of the seat remains the main passage, and [0287] reports clean sealing surfaces with cured sealant film on the purge gap surface. A seat that deflects and recovers without a purge gap is outside every claim.",
+      "least_narrowing_action": "Add an independent claim to the snap-back wipe with no purge gap recited. Basis for the two-piece seat at [0182], [0294], [0347]; the one-piece seat ring needs a statement from the inventors.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-35-2",
+      "source_prompt": "35",
+      "category": "design-around",
+      "severity": "high",
+      "title": "Axially deflecting and tilting elements are described but lie outside every claim",
+      "claim_refs": [
+        "1",
+        "2",
+        "3"
+      ],
+      "spec_refs": [
+        "[0179]",
+        "[0180]"
+      ],
+      "attack": "Design-around resistance 3. [0179] describes a disc spring whose rim lifts from a face and states that its deflection is not a radial expansion. The form is disclosed, unclaimed and expressly distinguished from the claims.",
+      "least_narrowing_action": "Claim a deflectable element and a deflection, with radial expansion in a dependent claim. Basis [0179], [0180].",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-35-3",
+      "source_prompt": "35",
+      "category": "design-around",
+      "severity": "high",
+      "title": "Contact from lift-off avoids \"spaced from\" and the normal stroke",
+      "claim_refs": [
+        "1",
+        "2",
+        "3"
+      ],
+      "spec_refs": [
+        "[0071]",
+        "[0072]",
+        "[0102]"
+      ],
+      "attack": "Design-around resistance 3, evidentiary ease 4. The two ranges of travel are defined by first contact alone. A surface in light contact from the closed position leaves no normal stroke and no over-travel as defined, and the claimant must prove an absence of contact.",
+      "least_narrowing_action": "Add a formulation that defines the ranges by the state of the purge gap and by the load. The inventors must confirm that contact below the opening load is within their conception.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-35-4",
+      "source_prompt": "35",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Claim 2 is performed by the rider and reaches a supplier only indirectly",
+      "claim_refs": [
+        "2",
+        "51",
+        "52",
+        "53",
+        "57",
+        "60"
+      ],
+      "spec_refs": [
+        "[0273]",
+        "[0274]",
+        "[0265]"
+      ],
+      "attack": "Infringement detectability 2. Every step is a private act of a user, whether the over-travel is reached depends on the pump, and a supplier is liable only indirectly.",
+      "least_narrowing_action": "Keep claim 2 and rely on the product claims. [0265] supports a claim to the manufacturer's test of each valve core.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-35-5",
+      "source_prompt": "35",
+      "category": "design-around",
+      "severity": "medium",
+      "title": "Claim 3 is avoided by a part that has no sealing edge or no load-converting geometry of its own",
+      "claim_refs": [
+        "3"
+      ],
+      "spec_refs": [
+        "[0099]",
+        "[0164]",
+        "[0165]"
+      ],
+      "attack": "Design-around resistance 3. The wiper ring has no sealing edge and a plain ring spread by a conical surface has no load-converting geometry of its own, so neither part is reached by claim 3.",
+      "least_narrowing_action": "Add an independent claim to a radially deflectable element as a part. Basis [0099], [0164], [0165].",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-35-6",
+      "source_prompt": "35",
+      "category": "design-around",
+      "severity": "low",
+      "title": "The shape-setting step of claim 4 cannot be seen in the product and is avoided by another forming route",
+      "claim_refs": [
+        "4",
+        "78",
+        "79",
+        "80"
+      ],
+      "spec_refs": [
+        "[0171]",
+        "[0254]"
+      ],
+      "attack": "Infringement detectability 2, design-around resistance 2. The step leaves no distinguishing mark in the ring and is avoided by cutting the geometry into tube that is already superelastic.",
+      "least_narrowing_action": "Add a method claim in which the geometry is formed by laser cutting a pattern in the wall. Treat the manufacturing claims as fallback positions.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "The commercially successful architecture is the form built and tested for Example 1; the package contains no sales or market information.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "Novelty and inventive-step resilience are scored against the saved references only; the index states that the search was thin.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "Claim 4 is treated as an independent claim concept although it is written by reference to claim 3.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "The scores are ordinal judgements; a difference of one point carries no weight.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Is the product to be sold the one-piece seat ring of superelastic NiTi alloy, or a cheaper form?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Is the replacement-part market for the seat ring large enough to justify the additional independent claim proposed in F-35-5?",
+      "blocks": [
+        "F-35-5"
+      ]
+    },
+    {
+      "id": "Q3",
+      "text": "For counsel: should claims 2 and 4 be kept as independent claims, given their scores and the claim fees?",
+      "blocks": []
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "claims": {
+    "1": [
+      {"element": "A valve core for an inflation valve", "paragraphs": ["[0031]", "[0032]"]},
+      {"element": "a core body (20)", "paragraphs": ["[0032]", "[0033]"]},
+      {"element": "a poppet (40) guided by the core body", "paragraphs": ["[0032]", "[0033]", "[0037]"]},
+      {"element": "a deflectable ring element (30) carried by the core body", "paragraphs": ["[0014]", "[0032]"]},
+      {"element": "a return spring (50) biasing the poppet towards a closed state of the valve core", "paragraphs": ["[0022]", "[0032]", "[0039]"]},
+      {"element": "a main passage (64) past a sealing face (42) of the poppet, the main passage being closed by the sealing face in the closed state", "paragraphs": ["[0013]", "[0019]", "[0040]", "[0043]"]},
+      {"element": "the poppet having a supply side and a chamber side and being displaced from the closed state in response to a pressure differential between the supply side and the chamber side", "paragraphs": ["[0010]", "[0011]", "[0042]", "[0046]"]},
+      {"element": "the closed state, at a pressure differential below a crack pressure, in which the main passage is closed, the deflectable ring element is in its at-rest form and a purge gap (60) associated with the deflectable ring element is closed", "paragraphs": ["[0013]", "[0018]", "[0041]", "[0043]", "[0045]"]},
+      {"element": "a normal-open state, at a pressure differential at or above the crack pressure and not exceeding an over-travel threshold higher than the crack pressure, in which the poppet is displaced within a normal stroke, the main passage is open, the deflectable ring element is in its at-rest form and the purge gap is closed", "paragraphs": ["[0011]", "[0012]", "[0013]", "[0043]", "[0047]"]},
+      {"element": "a purge state, at a pressure differential exceeding the over-travel threshold, in which the poppet is in over-travel beyond the normal stroke and produces a radial deflection of the deflectable ring element", "paragraphs": ["[0013]", "[0043]", "[0052]", "[0064]"]},
+      {"element": "the radial deflection opening the purge gap so that a purge flow path (62), separate from the main passage, extends from the supply side through the purge gap to the chamber side", "paragraphs": ["[0019]", "[0043]", "[0053]", "[0056]"]},
+      {"element": "the deflectable ring element undergoing shape recovery to its at-rest form and closing the purge gap when the pressure differential falls below the over-travel threshold", "paragraphs": ["[0013]", "[0044]", "[0060]", "[0098]"]}
+    ],
+    "2": [
+      {"element": "the poppet has a deflecting formation (44) which is spaced from the deflectable ring element in the closed state and throughout the normal stroke and which bears on the deflectable ring element in over-travel so as to produce the radial deflection", "paragraphs": ["[0012]", "[0021]", "[0038]", "[0047]", "[0112]"]}
+    ],
+    "3": [
+      {"element": "the deflecting formation is a purge shoulder (44) of the poppet on the chamber side of the sealing face", "paragraphs": ["[0021]", "[0038]", "[0112]"]}
+    ],
+    "4": [
+      {"element": "the purge shoulder is an annular shoulder integral with the poppet which bears axially on the deflectable ring element in over-travel", "paragraphs": ["[0038]", "[0112]"]}
+    ],
+    "5": [
+      {"element": "the deflecting formation is a tapered purge shoulder (244) having a frustoconical flank which enters the deflectable ring element in over-travel and deflects the deflectable ring element radially outward by direct radial contact with an inner surface of the deflectable ring element", "paragraphs": ["[0083]", "[0113]"]}
+    ],
+    "6": [
+      {"element": "the deflecting formation comprises two or more discrete lugs (344) spaced around a circumference of the poppet, which load the deflectable ring element at discrete points so that the purge gap opens over arcs of a circumference of the deflectable ring element", "paragraphs": ["[0054]", "[0114]"]}
+    ],
+    "7": [
+      {"element": "the deflecting formation is provided on a separate collar (444) fixed on a poppet stem (41) of the poppet", "paragraphs": ["[0037]", "[0115]"]}
+    ],
+    "8": [
+      {"element": "the deflectable ring element is a seat ring (30) having a sealing edge (34) on which the sealing face rests in the closed state", "paragraphs": ["[0014]", "[0015]", "[0034]", "[0037]"]}
+    ],
+    "9": [
+      {"element": "a fixed seat (130) carried by the core body, the fixed seat not deflecting in over-travel and providing a sealing edge on which the sealing face rests in the closed state", "paragraphs": ["[0016]", "[0093]"]},
+      {"element": "the deflectable ring element is a wiper ring (132) separate from the fixed seat and positioned on the chamber side of the fixed seat", "paragraphs": ["[0016]", "[0055]", "[0093]"]}
+    ],
+    "10": [
+      {"element": "the deflectable ring element has a wall arranged such that an axial load applied to the deflectable ring element by the poppet in over-travel is converted into the radial deflection", "paragraphs": ["[0017]", "[0034]", "[0052]", "[0078]", "[0093]"]}
+    ],
+    "11": [
+      {"element": "the wall comprises a convoluted wall (32) having one or more convolutions", "paragraphs": ["[0004]", "[0017]", "[0034]", "[0079]"]}
+    ],
+    "12": [
+      {"element": "the convoluted wall has one convolution or two convolutions", "paragraphs": ["[0017]", "[0034]", "[0079]"]}
+    ],
+    "13": [
+      {"element": "the convoluted wall has a convolution amplitude of from 0.08 mm to 0.20 mm", "paragraphs": ["[0028]", "[0089]"]}
+    ],
+    "14": [
+      {"element": "a root of each convolution of the convoluted wall is provided with a fillet radius", "paragraphs": ["[0079]", "[0101]", "[0170]"]}
+    ],
+    "15": [
+      {"element": "the wall is a frustoconical wall (232), a slotted wall (332) or a cellular wall (432)", "paragraphs": ["[0081]", "[0084]"]}
+    ],
+    "16": [
+      {"element": "the seat ring has a seat ring inner diameter of from 2.0 mm to 2.6 mm and a seat ring wall thickness of from 0.15 mm to 0.30 mm", "paragraphs": ["[0028]", "[0089]"]}
+    ],
+    "17": [
+      {"element": "the seat ring has a seat ring free length of from 2.5 mm to 4.0 mm", "paragraphs": ["[0028]", "[0089]"]}
+    ],
+    "18": [
+      {"element": "the core body has an internal shoulder (24) and the deflectable ring element is retained in the core body against the internal shoulder", "paragraphs": ["[0033]", "[0036]", "[0052]", "[0132]"]},
+      {"element": "the radial deflection being an elastic deformation of a wall of the deflectable ring element while the deflectable ring element remains retained in the core body", "paragraphs": ["[0020]", "[0052]", "[0092]"]}
+    ],
+    "19": [
+      {"element": "the deflectable ring element is retained in a core body bore (22) of the core body by an interference fit", "paragraphs": ["[0036]", "[0132]", "[0151]"]}
+    ],
+    "20": [
+      {"element": "the interference fit has an interference of approximately 0.03 mm on diameter", "paragraphs": ["[0007]", "[0036]", "[0132]"]}
+    ],
+    "21": [
+      {"element": "the interference fit is provided over an axial band of the deflectable ring element adjacent the internal shoulder, and a remainder of an outer surface of the deflectable ring element, including a portion of the wall which undergoes the radial deflection, is not in interference with the core body bore", "paragraphs": ["[0036]", "[0053]", "[0133]"]}
+    ],
+    "22": [
+      {"element": "the deflectable ring element is retained by a crimped lip (224) formed on the core body over an end of the deflectable ring element remote from the internal shoulder, or by a retaining sleeve (324) pressed or threaded into the core body and clamping the deflectable ring element against the internal shoulder", "paragraphs": ["[0133]", "[0152]"]}
+    ],
+    "23": [
+      {"element": "the deflectable ring element is further retained by an adhesive bond, by staking of the core body over the deflectable ring element, by laser welding of the deflectable ring element to the core body, by over-moulding of the core body around the deflectable ring element, or by clamping of the deflectable ring element between two parts of the core body", "paragraphs": ["[0134]", "[0135]"]}
+    ],
+    "24": [
+      {"element": "the deflectable ring element is an integral flexure section of the core body formed in one piece with the core body, the core body being formed from a resilient polymer or from stainless steel of spring temper", "paragraphs": ["[0096]", "[0131]"]}
+    ],
+    "25": [
+      {"element": "as the deflectable ring element undergoes shape recovery when the pressure differential falls, the deflectable ring element moves across a surface of the poppet and shears sealant film from that surface", "paragraphs": ["[0023]", "[0060]", "[0061]", "[0124]"]}
+    ],
+    "26": [
+      {"element": "the surface of the poppet is the sealing face", "paragraphs": ["[0061]", "[0062]"]}
+    ],
+    "27": [
+      {"element": "the deflectable ring element has a defined wiping edge at an inner surface of the deflectable ring element which is presented to the poppet as the deflectable ring element undergoes shape recovery", "paragraphs": ["[0127]", "[0149]"]}
+    ],
+    "28": [
+      {"element": "the poppet has a second formation, on a side of the deflectable ring element opposite to a side on which the poppet bears in over-travel, which meets the deflectable ring element on a return movement of the poppet and drives the deflectable ring element towards its at-rest form", "paragraphs": ["[0099]", "[0171]"]}
+    ],
+    "29": [
+      {"element": "the radial deflection is radially outward", "paragraphs": ["[0020]", "[0054]"]}
+    ],
+    "30": [
+      {"element": "the purge gap is an annular radial clearance between an outer surface of the seat ring and a core body bore (22) of the core body", "paragraphs": ["[0018]", "[0040]", "[0053]", "[0103]"]}
+    ],
+    "31": [
+      {"element": "the purge gap is bounded by an inner surface of the seat ring and the poppet on the chamber side of the sealing edge, and the purge flow path passes along a poppet stem (41) of the poppet", "paragraphs": ["[0105]"]}
+    ],
+    "32": [
+      {"element": "the purge gap is formed by one or more openings through a wall of the deflectable ring element, the openings being closed in the closed state and in the normal-open state and being opened or uncovered by the radial deflection in the purge state", "paragraphs": ["[0086]", "[0106]"]}
+    ],
+    "33": [
+      {"element": "the purge flow path includes one or more purge ports (262) formed through a wall of the core body on the chamber side of the purge gap", "paragraphs": ["[0109]"]}
+    ],
+    "34": [
+      {"element": "the purge flow path includes one or more flutes (362) formed as axial grooves in a core body bore (22) of the core body at an axial position of the deflectable ring element, an outer surface of the deflectable ring element lying on lands between the flutes and closing the flutes in the closed state and in the normal-open state", "paragraphs": ["[0110]"]}
+    ],
+    "35": [
+      {"element": "the purge gap has a purge gap opening of from 0.10 mm to 0.25 mm in the purge state", "paragraphs": ["[0019]", "[0090]"]}
+    ],
+    "36": [
+      {"element": "a threshold-setting arrangement by which a force resisting movement of the poppet rises at an end of the normal stroke, the threshold-setting arrangement setting the over-travel threshold", "paragraphs": ["[0009]", "[0022]", "[0118]"]}
+    ],
+    "37": [
+      {"element": "the threshold-setting arrangement is a second spring stage (54) of the return spring, the return spring having a first spring stage (52) of lower rate which resists the normal stroke and sets the crack pressure, and the second spring stage having a higher rate than the first spring stage, coming into action when the normal stroke is complete and setting the over-travel threshold", "paragraphs": ["[0022]", "[0039]", "[0048]", "[0119]"]}
+    ],
+    "38": [
+      {"element": "the threshold-setting arrangement comprises an auxiliary spring (254) which is engaged when a lost-motion clearance between the auxiliary spring and the poppet closes at the end of the normal stroke, after which the auxiliary spring acts in parallel with the return spring", "paragraphs": ["[0120]"]}
+    ],
+    "39": [
+      {"element": "the threshold-setting arrangement comprises a detent (354) which holds the poppet at the end of the normal stroke until a force on the poppet exceeds a breakaway value", "paragraphs": ["[0121]"]}
+    ],
+    "40": [
+      {"element": "the return spring has a single rate and the over-travel threshold is set by a stiffness of the deflectable ring element", "paragraphs": ["[0050]", "[0122]"]}
+    ],
+    "41": [
+      {"element": "the over-travel threshold is from 2.5 bar to 5.0 bar", "paragraphs": ["[0011]", "[0090]"]}
+    ],
+    "42": [
+      {"element": "the crack pressure is from 0.8 bar to 1.5 bar", "paragraphs": ["[0011]", "[0090]"]}
+    ],
+    "43": [
+      {"element": "in over-travel the poppet moves beyond an end of the normal stroke by an over-travel distance of from 0.4 mm to 0.9 mm", "paragraphs": ["[0012]", "[0049]", "[0090]"]}
+    ],
+    "44": [
+      {"element": "the crack pressure is about 1.0 bar and the over-travel threshold is about 3.5 bar", "paragraphs": ["[0007]", "[0046]", "[0048]", "[0051]"]}
+    ],
+    "45": [
+      {"element": "the core body has an over-travel stop which the poppet meets at an end of over-travel, the over-travel stop limiting an over-travel distance of the poppet", "paragraphs": ["[0049]", "[0174]"]}
+    ],
+    "46": [
+      {"element": "the poppet is additionally movable into over-travel by mechanical depression of the poppet by a depressor in a head of an inflation device or in an adaptor fitted between the inflation device and the supply side", "paragraphs": ["[0066]"]}
+    ],
+    "47": [
+      {"element": "the deflectable ring element is formed from a superelastic alloy", "paragraphs": ["[0026]", "[0035]", "[0072]"]}
+    ],
+    "48": [
+      {"element": "the superelastic alloy has an austenite finish temperature below 5 °C", "paragraphs": ["[0026]", "[0035]", "[0072]", "[0144]"]}
+    ],
+    "49": [
+      {"element": "the superelastic alloy is a nickel-titanium alloy of nominally 55.8 wt% nickel content", "paragraphs": ["[0026]", "[0035]", "[0072]"]}
+    ],
+    "50": [
+      {"element": "the superelastic alloy is a NiTiCu alloy, a NiTiFe alloy or a NiTiCr alloy", "paragraphs": ["[0074]"]}
+    ],
+    "51": [
+      {"element": "the deflectable ring element is formed from a resilient metal which recovers its shape elastically without a phase transformation, the resilient metal being stainless steel of spring temper, cold-worked austenitic stainless steel, precipitation-hardened stainless steel or a beta-titanium alloy", "paragraphs": ["[0027]", "[0075]"]}
+    ],
+    "52": [
+      {"element": "the deflectable ring element is formed from a resilient polymer", "paragraphs": ["[0027]", "[0035]", "[0076]"]}
+    ],
+    "53": [
+      {"element": "the resilient polymer is polyether ether ketone", "paragraphs": ["[0027]", "[0076]"]}
+    ],
+    "54": [
+      {"element": "the core body is formed from stainless steel", "paragraphs": ["[0033]", "[0130]"]}
+    ],
+    "55": [
+      {"element": "the sealing face is of hard-anodised aluminium or carries a hard low-adhesion coating", "paragraphs": ["[0129]", "[0163]"]}
+    ],
+    "56": [
+      {"element": "the core body has an external thread for engagement in a stem bore of a valve stem, the valve core being removable from the valve stem as a unit", "paragraphs": ["[0031]", "[0033]", "[0140]"]}
+    ],
+    "57": [
+      {"element": "the core body is a Schrader-pattern core body (620) and the poppet is a Schrader-pattern poppet (630)", "paragraphs": ["[0137]"]}
+    ],
+    "58": [
+      {"element": "An inflation valve for an inflatable chamber", "paragraphs": ["[0025]", "[0031]", "[0139]"]},
+      {"element": "a valve stem (10) having a stem bore (12)", "paragraphs": ["[0031]"]},
+      {"element": "carried by the valve stem, a deflectable ring element (30), a poppet (40) and a return spring (50)", "paragraphs": ["[0005]", "[0031]", "[0097]", "[0138]", "[0139]"]},
+      {"element": "the poppet having a sealing face (42), a supply side and a chamber side", "paragraphs": ["[0010]", "[0037]"]},
+      {"element": "a main passage (64) past the sealing face being closed by the sealing face in a closed state of the inflation valve", "paragraphs": ["[0013]", "[0019]", "[0040]"]},
+      {"element": "the return spring biasing the poppet towards the closed state", "paragraphs": ["[0022]", "[0039]"]},
+      {"element": "the poppet being displaced from the closed state in response to a pressure differential between the supply side and the chamber side", "paragraphs": ["[0011]", "[0042]", "[0046]"]},
+      {"element": "the closed state, at a pressure differential below a crack pressure, in which the main passage is closed, the deflectable ring element is in its at-rest form and a purge gap (60) associated with the deflectable ring element is closed", "paragraphs": ["[0013]", "[0018]", "[0041]", "[0043]", "[0045]"]},
+      {"element": "a normal-open state, at a pressure differential at or above the crack pressure and not exceeding an over-travel threshold higher than the crack pressure, in which the poppet is displaced within a normal stroke, the main passage is open, the deflectable ring element is in its at-rest form and the purge gap is closed", "paragraphs": ["[0011]", "[0012]", "[0013]", "[0043]", "[0047]"]},
+      {"element": "a purge state, at a pressure differential exceeding the over-travel threshold, in which the poppet is in over-travel beyond the normal stroke and produces a radial deflection of the deflectable ring element", "paragraphs": ["[0013]", "[0043]", "[0052]", "[0064]"]},
+      {"element": "the radial deflection opening the purge gap so that a purge flow path (62), separate from the main passage, extends from the supply side through the purge gap to the chamber side", "paragraphs": ["[0019]", "[0043]", "[0053]", "[0056]"]},
+      {"element": "the deflectable ring element undergoing shape recovery to its at-rest form and closing the purge gap when the pressure differential falls below the over-travel threshold", "paragraphs": ["[0013]", "[0044]", "[0060]", "[0098]"]}
+    ],
+    "59": [
+      {"element": "a core body (20) received in the stem bore, the deflectable ring element, the poppet and the return spring being carried by the valve stem through the core body", "paragraphs": ["[0005]", "[0031]", "[0032]", "[0139]"]}
+    ],
+    "60": [
+      {"element": "the core body is threaded into the stem bore and is removable from the valve stem as a unit with the deflectable ring element, the poppet and the return spring", "paragraphs": ["[0031]", "[0032]", "[0140]"]}
+    ],
+    "61": [
+      {"element": "the core body, the deflectable ring element, the poppet and the return spring form a valve core according to any one of claims 1 to 57", "paragraphs": ["[0031]", "[0032]", "[0139]"]}
+    ],
+    "62": [
+      {"element": "the inflation valve has no separate core body, the valve stem directly carrying the deflectable ring element, which is a seat ring (730), together with the poppet and the return spring, and the valve stem providing a locating formation against which the seat ring is retained and a bore in which the poppet is guided", "paragraphs": ["[0097]", "[0138]"]}
+    ],
+    "63": [
+      {"element": "the seat ring has a sealing edge on which the sealing face rests in the closed state and a convoluted wall which converts an axial load applied to the seat ring by the poppet in over-travel into the radial deflection", "paragraphs": ["[0015]", "[0017]", "[0136]", "[0138]"]}
+    ],
+    "64": [
+      {"element": "An inflatable chamber comprising a bicycle inner tube or a tubeless bicycle tyre set-up fitted with an inflation valve according to any one of claims 58 to 63", "paragraphs": ["[0025]", "[0139]", "[0180]"]}
+    ],
+    "65": [
+      {"element": "the inflatable chamber holds liquid sealant", "paragraphs": ["[0025]", "[0031]", "[0139]"]}
+    ],
+    "66": [
+      {"element": "A wheel or a bicycle incorporating an inflatable chamber according to claim 64 or claim 65", "paragraphs": ["[0139]", "[0180]"]}
+    ],
+    "67": [
+      {"element": "A seat ring (30) for a valve core of an inflation valve", "paragraphs": ["[0015]", "[0141]"]},
+      {"element": "the seat ring being an annular element having a sealing edge (34) at one axial end of the seat ring for seating a sealing face of a poppet", "paragraphs": ["[0034]", "[0047]", "[0088]"]},
+      {"element": "a wall between the one axial end and an opposite axial end of the seat ring, the wall comprising a convoluted wall (32) having one or more convolutions", "paragraphs": ["[0017]", "[0034]", "[0079]"]},
+      {"element": "the convoluted wall converting an axial load applied to the seat ring into a radial deflection of the seat ring", "paragraphs": ["[0017]", "[0034]", "[0052]"]},
+      {"element": "the seat ring undergoing shape recovery to its at-rest form on removal of the axial load", "paragraphs": ["[0014]", "[0060]", "[0098]"]},
+      {"element": "the seat ring having a seat ring inner diameter of from 2.0 mm to 2.6 mm and a seat ring wall thickness of from 0.15 mm to 0.30 mm", "paragraphs": ["[0028]", "[0089]"]}
+    ],
+    "68": [
+      {"element": "the convoluted wall has one convolution or two convolutions", "paragraphs": ["[0017]", "[0034]", "[0079]"]}
+    ],
+    "69": [
+      {"element": "the convoluted wall has a convolution amplitude of from 0.08 mm to 0.20 mm", "paragraphs": ["[0028]", "[0089]"]}
+    ],
+    "70": [
+      {"element": "the seat ring has a seat ring free length of from 2.5 mm to 4.0 mm", "paragraphs": ["[0028]", "[0089]"]}
+    ],
+    "71": [
+      {"element": "the seat ring is a continuous ring and the sealing edge is continuous around a circumference of the seat ring", "paragraphs": ["[0085]"]}
+    ],
+    "72": [
+      {"element": "the radial deflection is radially outward", "paragraphs": ["[0020]", "[0054]"]}
+    ],
+    "73": [
+      {"element": "the seat ring is formed from a superelastic alloy", "paragraphs": ["[0015]", "[0035]", "[0072]"]}
+    ],
+    "74": [
+      {"element": "the superelastic alloy has an austenite finish temperature below 5 °C", "paragraphs": ["[0035]", "[0072]"]}
+    ],
+    "75": [
+      {"element": "the superelastic alloy is a nickel-titanium alloy of nominally 55.8 wt% nickel content", "paragraphs": ["[0026]", "[0035]", "[0072]"]}
+    ],
+    "76": [
+      {"element": "the seat ring is formed from a resilient polymer", "paragraphs": ["[0015]", "[0035]", "[0076]"]}
+    ],
+    "77": [
+      {"element": "the resilient polymer is polyether ether ketone", "paragraphs": ["[0027]", "[0076]"]}
+    ],
+    "78": [
+      {"element": "the seat ring inner diameter is 2.3 mm, the seat ring wall thickness is 0.20 mm, the seat ring has a seat ring free length of 3.0 mm, and the convoluted wall has a convolution amplitude of 0.12 mm", "paragraphs": ["[0089]", "[0156]"]}
+    ],
+    "79": [
+      {"element": "A method of operating an inflation valve of an inflatable chamber which holds liquid sealant", "paragraphs": ["[0025]", "[0031]", "[0178]"]},
+      {"element": "the inflation valve comprising a poppet having a supply side, a chamber side and a sealing face, a deflectable ring element, a main passage past the sealing face which is closed by the sealing face in a closed state of the inflation valve, and a return spring biasing the poppet towards the closed state", "paragraphs": ["[0010]", "[0013]", "[0014]", "[0032]", "[0138]", "[0139]"]},
+      {"element": "within one inflation event", "paragraphs": ["[0025]", "[0068]"]},
+      {"element": "coupling an inflation device to the supply side and raising a pressure differential between the supply side and the chamber side to at or above a crack pressure, whereby the poppet moves through a normal stroke into a normal-open state in which inflation gas flows through the main passage into the inflatable chamber while the deflectable ring element remains in its at-rest form and a purge gap associated with the deflectable ring element remains closed", "paragraphs": ["[0018]", "[0043]", "[0046]", "[0047]", "[0068]"]},
+      {"element": "raising the pressure differential above an over-travel threshold higher than the crack pressure, whereby the poppet moves into over-travel beyond the normal stroke and produces a radial deflection of the deflectable ring element, the radial deflection opening the purge gap", "paragraphs": ["[0011]", "[0048]", "[0052]", "[0053]", "[0068]"]},
+      {"element": "inflation gas flows as an air purge along a purge flow path, separate from the main passage, from the supply side through the purge gap into the inflatable chamber across surfaces on which sealant film accumulates", "paragraphs": ["[0019]", "[0023]", "[0043]", "[0056]", "[0058]"]},
+      {"element": "removing the inflation device from the supply side, whereby the pressure differential falls and the deflectable ring element undergoes shape recovery to its at-rest form and closes the purge gap", "paragraphs": ["[0044]", "[0060]", "[0068]"]}
+    ],
+    "80": [
+      {"element": "as the deflectable ring element undergoes shape recovery, the deflectable ring element moves across a surface of the poppet and shears sealant film from that surface", "paragraphs": ["[0023]", "[0060]", "[0061]"]}
+    ],
+    "81": [
+      {"element": "the air purge carries sealant film from the surfaces on which sealant film accumulates into the inflatable chamber", "paragraphs": ["[0023]", "[0056]", "[0057]"]}
+    ],
+    "82": [
+      {"element": "the crack pressure is from 0.8 bar to 1.5 bar and the over-travel threshold is from 2.5 bar to 5.0 bar", "paragraphs": ["[0090]"]}
+    ],
+    "83": [
+      {"element": "the inflation device is a floor pump and the pressure differential exceeding the over-travel threshold is produced by the floor pump", "paragraphs": ["[0011]", "[0051]", "[0058]", "[0090]", "[0179]"]}
+    ],
+    "84": [
+      {"element": "the inflation device is a compressed-gas inflation device", "paragraphs": ["[0023]", "[0025]", "[0058]"]}
+    ],
+    "85": [
+      {"element": "the inflatable chamber is a bicycle inner tube or a tubeless bicycle tyre set-up", "paragraphs": ["[0025]", "[0178]"]}
+    ],
+    "86": [
+      {"element": "the liquid sealant is an emulsion of latex containing ammonia", "paragraphs": ["[0024]", "[0157]"]}
+    ],
+    "87": [
+      {"element": "repeating the coupling, the raising and the removing over a plurality of inflation events, the purge gap opening and the air purge occurring in each inflation event in which the pressure differential exceeds the over-travel threshold", "paragraphs": ["[0068]", "[0069]", "[0070]", "[0179]"]}
+    ],
+    "88": [
+      {"element": "while the inflatable chamber is pressurised and no inflation device is supplying gas to the supply side, pressing the poppet into over-travel so that the purge gap opens and gas from the inflatable chamber flows through the purge gap from the chamber side to the supply side, carrying sealant film out of the inflation valve", "paragraphs": ["[0067]"]}
+    ],
+    "89": [
+      {"element": "the inflation valve comprises a valve core according to any one of claims 1 to 57 or is an inflation valve according to any one of claims 58 to 63", "paragraphs": ["[0031]", "[0139]"]}
+    ],
+    "90": [
+      {"element": "A method of manufacturing a seat ring (30) for a valve core of an inflation valve", "paragraphs": ["[0147]"]},
+      {"element": "providing tube stock of a superelastic alloy", "paragraphs": ["[0072]", "[0147]"]},
+      {"element": "laser cutting a profile of the seat ring from the tube stock, the seat ring having a sealing edge (34) at one axial end of the seat ring", "paragraphs": ["[0034]", "[0147]"]},
+      {"element": "forming, in a wall of the seat ring, a convoluted wall (32) having one or more convolutions, the convoluted wall being defined by the laser cutting, by forming on a mandrel, by shape-setting, or by a combination thereof", "paragraphs": ["[0017]", "[0147]"]},
+      {"element": "shape-setting the seat ring by holding the seat ring in a fixture which constrains the convoluted wall to its intended geometry, heating the seat ring in the fixture and then water quenching the seat ring", "paragraphs": ["[0148]"]},
+      {"element": "the shape-setting fixing an at-rest geometry of the seat ring to which the seat ring returns by shape recovery", "paragraphs": ["[0148]"]},
+      {"element": "the convoluted wall converting an axial load applied to the seat ring into a radial deflection of the seat ring", "paragraphs": ["[0017]", "[0034]"]}
+    ],
+    "91": [
+      {"element": "the tube stock has an outer diameter of 2.7 mm and a wall of 0.20 mm", "paragraphs": ["[0089]", "[0147]", "[0156]"]}
+    ],
+    "92": [
+      {"element": "the tube stock is mounted on a mandrel during the laser cutting", "paragraphs": ["[0147]"]}
+    ],
+    "93": [
+      {"element": "the convoluted wall is formed with one convolution or with two convolutions", "paragraphs": ["[0017]", "[0034]", "[0147]"]}
+    ],
+    "94": [
+      {"element": "the shape-setting comprises heating the seat ring in the fixture at 500 °C for 10 minutes and then water quenching the seat ring", "paragraphs": ["[0148]"]}
+    ],
+    "95": [
+      {"element": "a shape-setting temperature and a shape-setting time are selected so that the seat ring has an austenite finish temperature below 5 °C, and the austenite finish temperature is verified on sampled seat rings after the shape-setting", "paragraphs": ["[0148]", "[0175]"]}
+    ],
+    "96": [
+      {"element": "after the shape-setting, electropolishing the seat ring to remove surface oxide and a heat-affected edge left by the laser cutting", "paragraphs": ["[0149]"]}
+    ],
+    "97": [
+      {"element": "a depth of the electropolishing is limited at an inner surface of the seat ring so as to preserve a defined wiping edge formed by the laser cutting", "paragraphs": ["[0127]", "[0149]"]}
+    ],
+    "98": [
+      {"element": "the superelastic alloy is a nickel-titanium alloy of nominally 55.8 wt% nickel content", "paragraphs": ["[0072]", "[0147]"]}
+    ],
+    "99": [
+      {"element": "the seat ring is a seat ring according to any one of claims 67 to 78", "paragraphs": ["[0147]", "[0150]"]}
+    ],
+    "100": [
+      {"element": "pressing the seat ring into a core body bore (22) of a core body (20) of the valve core until the seat ring seats against an internal shoulder (24) of the core body, with an interference fit between the seat ring and the core body bore", "paragraphs": ["[0036]", "[0151]"]}
+    ],
+    "101": [
+      {"element": "the interference fit has an interference of approximately 0.03 mm on diameter", "paragraphs": ["[0007]", "[0151]"]}
+    ],
+    "102": [
+      {"element": "checking a press-in force or a press-in travel of the seat ring during the pressing", "paragraphs": ["[0152]", "[0172]"]}
+    ]
+  }
+}

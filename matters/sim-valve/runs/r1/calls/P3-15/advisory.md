@@ -1,0 +1,1 @@
+15.md: terminology lock: {"locked_terms": 56, "violations": [{"term": "core", "rule": "undeclared-synonym", "row": "valve core", "context": "acing surfaces (seat ring outer surface and, if needed, the core body bore) to reduce adhesion in that region | alternative"}, {"term": "differential", "rule": "undec

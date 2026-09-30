@@ -1,0 +1,65 @@
+{
+  "prompt": "35",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-35-1",
+      "source_prompt": "35",
+      "category": "design-around",
+      "severity": "low",
+      "title": "Manufacturing method claim is performed out of sight and avoided by a different process",
+      "claim_refs": [
+        "4"
+      ],
+      "spec_refs": [
+        "[0207]",
+        "[0252]",
+        "[0255]",
+        "[0262]"
+      ],
+      "attack": "Claim 4 ('shape-setting (512) the seat ring in a fixture that holds the load-converting geometry') is avoided by cold-forming the convolution, a polymer ring ([0207]) or a stamped slotted sleeve ([0262]); where shape-setting is used it happens at a supplier, usually abroad, and leaves no reliable signature in the ring. Design-around resistance 3, detectability 2.",
+      "least_narrowing_action": "No amendment; keep the claim but place enforcement weight on claim 3's structural dependents (62-69, 71-73).",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. Scores are relative 1-10 judgements against the saved prior-art set only, not probabilities and not the grant-likelihood score.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. Commercial relevance assumes the principal-embodiment core sold as a replacement core and in Presta-pattern valves; no market data in the package.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. EPO 'suitable for' reading of purpose and use features in product claims assumed as general practice.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. Product-by-process protection (Art. 64(2) EPC, UK s60(1)(c), 35 U.S.C. 271(g)) stated as general practice, not legal opinion.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Requester: which product forms carry the revenue (replacement cores, complete valves, spare seat rings, factory-fitted tubes or wheels)?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Counsel: re-score novelty and inventive-step resilience for claims 1 and 3 after a professional prior-art search.",
+      "blocks": []
+    }
+  ]
+}

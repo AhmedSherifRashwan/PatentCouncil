@@ -1,0 +1,174 @@
+{
+  "prompt": "gate14",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-gate14-1",
+      "source_prompt": "gate14",
+      "category": "formal",
+      "severity": "medium",
+      "title": "The package has no abstract",
+      "claim_refs": [
+        "1",
+        "2",
+        "3"
+      ],
+      "spec_refs": [
+        "package README.md"
+      ],
+      "attack": "An abstract is required in all three offices (37 CFR 1.72(b); Art. 78(1)(e) and Rule 47 EPC; s.14(2)(d) PA 1977). None is in the package, so question 12 cannot be answered and an abstract drafted later would be unreviewed text.",
+      "least_narrowing_action": "Draft an abstract of not more than 150 words summarising claims 1, 2 and 3 in the locked terms, with reference signs and no 'means for' language, and check it against question 12 before Gate 3.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-gate14-2",
+      "source_prompt": "gate14",
+      "category": "formal",
+      "severity": "medium",
+      "title": "No drawing sheets exist; only figure instructions",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0036]-[0049]",
+        "figures.md Figure Instructions"
+      ],
+      "attack": "The description relies on FIGS. 1-13B but only a figure plan and instructions exist. Late-filed drawings risk missing-parts treatment (Rule 56 EPC; s.15(5) PA 1977) and new matter in the US; drawing formalities (Rule 46 EPC; 37 CFR 1.84; r.14 PR 2007) cannot be checked.",
+      "least_narrowing_action": "Render drawing sheets from the figure instructions, check every numeral against registry.md, file them with the description, and remove the candidate/unconfirmed wording from the captions once the inventor has decided on those constructions.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [
+    {
+      "q": 1,
+      "answer": "yes",
+      "evidence": "Depends on commercial facts not in the package. Claim 1 valve core (replacement unit, [0161]); claim 3 seat ring (replacement part, [0162]); claim 47 tyre valve; claim 2 method; claim 4 manufacture. Validity of claims 1 and 3 contested (F-32-1, F-32-2)."
+    },
+    {
+      "q": 2,
+      "answer": "yes",
+      "evidence": "Adverse. [0179]-[0180] axial disc-spring deflection escapes 'radially deflectable element' and 'radial expansion' (F-33-1); contact from lift-off escapes 'spaced ... throughout the normal stroke' (F-33-2)."
+    },
+    {
+      "q": 3,
+      "answer": "no",
+      "evidence": "Disc spring of [0179] has no drawing or claim (F-36-5); FIGS. 11A-11C, 12A-12B, 13A captioned as not stated in the inventor's disclosure yet claimed in claims 26, 40-44, 66, 67 (F-32-4, F-36-1)."
+    },
+    {
+      "q": 4,
+      "answer": "no",
+      "evidence": "'closed at rest and throughout the normal stroke' has no limiting content (F-32-3); unconfirmed constructions claimed (F-32-4); axial load path inconsistent (F-28-1); detent not disclosed in combination (F-29-2)."
+    },
+    {
+      "q": 5,
+      "answer": "yes",
+      "evidence": "Claims 5-12, 20-29, 33-34, 68-69; nested narrower ranges containing the prototype value [0240]-[0248]. No fallback cures the evidential gap of F-32-1."
+    },
+    {
+      "q": 6,
+      "answer": "unclear",
+      "evidence": "Principal embodiment enabled ([0230]-[0250], [0279]-[0281]); ranges untested ([0230]); PEEK seat ring gives no purge gap value ([0290]); two-piece seat has no dimensions ([0293]). F-32-9, F-32-10, F-36-8."
+    },
+    {
+      "q": 7,
+      "answer": "yes",
+      "evidence": "Broad, two narrower ranges and prototype value for each parameter ([0231]-[0249]); normal stroke has no range ([0235], F-36-6)."
+    },
+    {
+      "q": 8,
+      "answer": "yes",
+      "evidence": "Device claims 1, 77; replacement seat ring claim 3; system claims 47-50; use claims 2, 51-61; manufacture claims 4, 78-86; no software or control aspect disclosed."
+    },
+    {
+      "q": 9,
+      "answer": "yes",
+      "evidence": "Depends on commercial facts not in the package. Internal structure shown by teardown and bench test; over-travel audible ([0288]). Manufacture claim 4 not detectable (F-35-1); claim 2 performed by end users (F-33-3)."
+    },
+    {
+      "q": 10,
+      "answer": "unclear",
+      "evidence": "No priority document supplied (Prompt 31). Design-around candidates separated only by captions in figures.md and registry.md, not in the description (F-28-2, F-32-4)."
+    },
+    {
+      "q": 11,
+      "answer": "unclear",
+      "evidence": "Thermal variant [0296] (no data), two-piece seat [0293]-[0295] (no dimensions), disc spring [0179] disclosed but unclaimed; later claims to them face F-36-8."
+    },
+    {
+      "q": 12,
+      "answer": "no",
+      "evidence": "No abstract in the package (F-gate14-1)."
+    },
+    {
+      "q": 13,
+      "answer": "no",
+      "evidence": "Prompt 40a corrections not applied: conjunctive multiple dependencies, e.g. claim 13 (F-40a-1); FIG. 13A missing from [0036]-[0049] (F-40a-2); no drawing sheets (F-gate14-2)."
+    },
+    {
+      "q": 14,
+      "answer": "no",
+      "evidence": "The package records no review by counsel; cannot be answered on counsel's behalf."
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. The package is the whole application as it would be filed; no abstract, drawing sheets or priority document exist elsewhere.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. Questions 1 and 9 are answered from the package text only; commercial facts are not known.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. Question 2 'yes' is the adverse answer.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. Question 13 is 'no' because the formal pass found defects not applied to this package.",
+      "blocking": false
+    },
+    {
+      "id": "A5",
+      "text": "A5. Treated as a first filing because no priority document is supplied.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Is priority to be claimed from any earlier filing? Supply it under intake/priority/.",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Which candidate constructions of FIGS. 11A-11C, 12A-12B and 13A has the inventor conceived?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. What product will be sold first, and to whom?",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. Will the thermal variant or the two-piece seat be pursued later? If so, supply operative values before the first filing.",
+      "blocks": []
+    },
+    {
+      "id": "Q5",
+      "text": "Q5. Counsel's review of jurisdiction-specific requirements is for the human to arrange.",
+      "blocks": []
+    }
+  ]
+}

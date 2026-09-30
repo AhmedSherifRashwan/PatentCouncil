@@ -1,0 +1,11 @@
+I'll draft Part 4 (blueprint sections S11.1–S11.12) and write it to the named path.
+
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/P4/parts/part4.md` — Part 4 of the detailed description (blueprint S11.1–S11.12): purge gap locations, purge flow paths, deflecting formations, threshold-setting arrangements, wiping arrangements, sealing faces, core body materials, ring retention, valve formats and systems, component and kit supply, thermally actuated purge, combinations; one `### Description` wrapper, `####` sections, no paragraph numbers, registry numerals in "term (NN)" form, figures per 20/20a numbering; Rationale, Assumptions, Open Questions and json envelope.
+
+To route:
+
+- **Open questions:** Q1 purge gap bounding surfaces, deflection sense and air path (01 Q1/Q2); Q2 which Part 4 engineering alternatives the inventor confirms as conceived, so unconfirmed passages can be struck before filing; Q3 keep or drop the thermally actuated purge; Q4 whether the wiper ring wipes, and its form, thickness and retention; Q5 whether the registry should gain numerals for the undrawn alternatives named in Part 4 (return-spring retainer, purge sleeve, purge actuator, disc springs, compression bush, lost-motion clearance, fixed wiping land, wiping edge, core body windows, snap groove); Q6 any threshold-setting arrangement conceived beyond the second spring stage; Q7 which parts are for separate sale.
+- **Disclosure requests:** prototype purge gap surfaces and air path; wiper ring wipe details; confirmation of threshold-setting species; confirmation of Schrader-pattern and non-removable formats.
+- **Open disagreement:** Part 4 describes, in hedged language, the 11/12 species still marked "not conceived" because the blueprint and the unattended Gate 2 assigned them, against pre-drafting PF-4/PF-9; the envelope lists every passage resting on unconfirmed entries for the package cover note and Gate 3 review.
+- **Note for the compose step:** figure numbers in this part follow 20/20a (FIG. 8D/8E, 10, 11, 13, 14, 15), not the blueprint's S6 list; the brief description of drawings must be written from 20/20a.
+- **Narrowing suggested:** none.

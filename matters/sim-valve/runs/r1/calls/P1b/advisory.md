@@ -1,0 +1,1 @@
+05.md: terminology lock: {"locked_terms": 56, "violations": [{"term": "valve", "rule": "undeclared-synonym", "row": "tyre valve", "context": "ire the snap-back wipe, the air purge, or both, to keep the valve sealing and opening over many sealant-loaded inflation cycl"}, {"term": "differential", "rule": "un

@@ -1,0 +1,215 @@
+{
+  "prompt": "38",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-38-1",
+      "source_prompt": "38",
+      "category": "support",
+      "severity": "high",
+      "title": "\"Seat ring\" and \"purge shoulder\" definitions are narrower than the broader claims they must support",
+      "claim_refs": [
+        "1",
+        "15",
+        "20"
+      ],
+      "spec_refs": [
+        "[0058]",
+        "[0063]",
+        "[0153]",
+        "[0182]"
+      ],
+      "attack": "[0058] defines 'seat ring' as converting a load applied by 'the purge shoulder' specifically, and [0063] defines 'purge shoulder' as contacting 'the seat ring' specifically. Claim 15's collar-based load-applying surface and [0182]'s purge shoulder acting on the wiper ring both fall outside these lexicographic definitions even though they are within the claims and elsewhere in the disclosure, creating a construction conflict a court must resolve against the patentee's own express definitions.",
+      "least_narrowing_action": "Update [0058] and [0063] to use the genus terms ('the load-applying surface', 'the radially deflectable element') consistently with [0067], [0071], [0072] and [0081].",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-38-2",
+      "source_prompt": "38",
+      "category": "support",
+      "severity": "high",
+      "title": "figures.md's \"candidate, not confirmed\" status for FIGS. 11/12 contradicts description.md's and claims.md's unconditional treatment of the same subject matter",
+      "claim_refs": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "67"
+      ],
+      "spec_refs": [
+        "[0176]",
+        "[0177]",
+        "[0178]",
+        "[0186]",
+        "[0190]"
+      ],
+      "attack": "figures.md states the slotted sleeve, split seat ring, tapered seat ring, core body bore relief and wall slots are 'not stated in the inventor's disclosure... pending inventor confirmation', and registry.md flag 4 leaves this as an open question. description.md incorporates the identical subject matter without any such qualifier, and claims.md claims it outright. If figures.md is accurate, claims 40-44 and 67 rest on unconfirmed candidate subject matter, contrary to the rule that generated content is a candidate until a human gate confirms it.",
+      "least_narrowing_action": "Reconcile the two documents: either remove the 'candidate/pending confirmation' language from figures.md and registry.md if the subject matter is now confirmed, or hedge the description paragraphs and flag claims 40-44/67 as pending confirmation if it is not.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-38-3",
+      "source_prompt": "38",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Reference numeral 146 never appears in the description text",
+      "claim_refs": [
+        "1"
+      ],
+      "spec_refs": [
+        "[0181]",
+        "[0182]",
+        "[0183]",
+        "[0184]"
+      ],
+      "attack": "Numeral 146 (purge gap of the two-piece seat) exists only in registry.md and the FIG. 9A/9B drawing instructions; description.md never names or numbers the gap the wiper ring opens, and claim 1 itself uses the numeral with no antecedent.",
+      "least_narrowing_action": "Add numeral 146 to [0182] where the wiper ring's deflection is described.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-38-4",
+      "source_prompt": "38",
+      "category": "support",
+      "severity": "medium",
+      "title": "\"Radially deflectable element\" and \"load-converting geometry\" have no preferred-term row in the locked terminology table",
+      "claim_refs": [
+        "1",
+        "3"
+      ],
+      "spec_refs": [
+        "[0099]",
+        "[0104]",
+        "[0106]"
+      ],
+      "attack": "These two genus terms are central to the description and to claim 1/3 but are absent from terminology/LOCKED.md as their own preferred-term rows; the closest entries are differently-worded Broader-column synonyms under 'seat ring' and 'convoluted wall'. LOCKED.md's own Note 1 concedes the table was not cross-checked against all Prompt 03 features. This is a defect in the lock, not a drafting drift.",
+      "least_narrowing_action": "Add preferred-term rows for both terms to terminology/LOCKED.md, or correct the description/claims to the existing Broader-column wording.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-38-5",
+      "source_prompt": "38",
+      "category": "formal",
+      "severity": "low",
+      "title": "FIG. 13A / numeral 220 is registered but has no description text",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0048]",
+        "[0049]"
+      ],
+      "attack": "registry.md and figures.md register FIG. 13A and numeral 220 (Schrader-pattern core body); description.md's brief description of drawings jumps from FIGS. 12A/12B directly to FIG. 13B, and no body paragraph mentions FIG. 13A or numeral 220 at all.",
+      "least_narrowing_action": "Add a brief-description entry and body paragraph for FIG. 13A, or remove it and numeral 220 from figures.md/registry.md.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-38-6",
+      "source_prompt": "38",
+      "category": "formal",
+      "severity": "low",
+      "title": "\"FIGS. 13B is\" grammatical number mismatch",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0049]"
+      ],
+      "attack": "Plural \"FIGS.\" governs a single figure reference and singular verb.",
+      "least_narrowing_action": "Correct to \"FIG. 13B is\".",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [
+    {
+      "target": "description",
+      "location": "[0014]",
+      "from_text": "produces a radial deflection of the radially deflectable element, and the radial deflection opens a purge gap",
+      "to": "produces a radial expansion of the radially deflectable element, and the radial expansion opens a purge gap",
+      "reason": "\"Radial deflection\" is a listed synonym, not the locked preferred term \"radial expansion\" used everywhere else in the specification and claims."
+    },
+    {
+      "target": "description",
+      "location": "[0058]",
+      "from_text": "a wall that converts an axial load applied by the purge shoulder in the over-travel into a radial expansion that opens the purge gap",
+      "to": "a wall that converts an axial load applied by the load-applying surface in the over-travel into a radial expansion that opens the purge gap",
+      "reason": "Aligns the lexicographic definition of \"seat ring\" with the genus term used in claim 1/15, avoiding a construction conflict with the collar embodiment of claim 15."
+    },
+    {
+      "target": "description",
+      "location": "[0063]",
+      "from_text": "that is spaced from the seat ring throughout the normal stroke, that contacts the seat ring only in the over-travel, and that applies the axial load which produces the radial expansion",
+      "to": "that is spaced from the radially deflectable element throughout the normal stroke, that contacts the radially deflectable element only in the over-travel, and that applies the axial load which produces the radial expansion",
+      "reason": "Aligns the lexicographic definition of \"purge shoulder\" with the genus term, consistent with [0182]'s use against the wiper ring."
+    },
+    {
+      "target": "description",
+      "location": "[0049]",
+      "from_text": "FIGS. 13B is an axial section of an embodiment in which the valve core is integral with the valve stem.",
+      "to": "FIG. 13B is an axial section of an embodiment in which the valve core is integral with the valve stem.",
+      "reason": "Grammatical number mismatch: single figure reference with plural \"FIGS.\""
+    },
+    {
+      "target": "description",
+      "location": "[0182]",
+      "from_text": "In over-travel the purge shoulder 44 bears on the wiper ring 144 and deflects it outward, as shown in FIG. 9B.",
+      "to": "In over-travel the purge shoulder 44 bears on the wiper ring 144 and deflects it outward, so that a purge gap 146, closed at rest, opens between the wiper ring 144 and the core body bore 22, as shown in FIG. 9B.",
+      "reason": "Numeral 146, used in claim 1, otherwise has no antecedent anywhere in the description text."
+    }
+  ],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. The Prior-Art Analyst's/Specification Drafter's inventor-confirmation status is not visible to this review; F-38-2 is reported as an unresolved contradiction, not a conclusion.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. No numeral_crosscheck artefact was supplied; this audit performed a manual cross-check in its place and may not have caught every discrepancy across all 350 paragraphs.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. \"As used herein\" definitions are treated as controlling lexicography over ordinary claim-term meaning, as common general knowledge of claim construction practice.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Whether FIGS. 11/12's subject matter has inventor confirmation, given the direct contradiction between figures.md/registry.md and the unqualified description/claims treatment.",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Whether the locked terminology table was meant to carry \"radially deflectable element\" and \"load-converting geometry\" as their own preferred terms.",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. Whether a numeral_crosscheck file exists elsewhere in the run outside this task's supplied inputs.",
+      "blocks": []
+    }
+  ]
+}

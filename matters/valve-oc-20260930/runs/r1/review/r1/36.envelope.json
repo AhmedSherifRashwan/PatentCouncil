@@ -1,0 +1,348 @@
+{
+  "prompt": "36",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-36-1",
+      "source_prompt": "36",
+      "category": "enablement",
+      "severity": "high",
+      "title": "The preferred embodiment says outward deflection opens a gap at the outer surface; outward movement closes it",
+      "claim_refs": [
+        "29",
+        "30",
+        "9"
+      ],
+      "spec_refs": [
+        "[0036]",
+        "[0040]",
+        "[0053]",
+        "[0093]",
+        "[0103]",
+        "[0159]",
+        "Fig. 3",
+        "Fig. 6B",
+        "Fig. 10B"
+      ],
+      "attack": "An outward-moving outer surface reduces its clearance to the core body bore, so the described mechanism of the only built embodiment and of Example 3 is not credible as written. The registry calls the FIG. 6 convention an unconfirmed drafting assumption and draws a clearance at rest, contradicting a closed purge gap. No route for the purge flow past the sealed interference band at the internal shoulder is described. Claim 1 survives on [0054], [0103] and [0106], but the tested embodiment, claim 30, and claims 29 and 30 together face insufficiency and Art. 84 attack.",
+      "least_narrowing_action": "Obtain the actual P-1 to P-3 mechanism (moving surface, sense, gap location, bypass of the retention band) and rewrite [0040], [0053], [0093] and the FIG. 3, 6 and 10 instructions to match, amending 'outward' in the illustrated embodiment if the movement is inward or ovalising. A description correction; claim 1 is not narrowed.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-2",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "high",
+      "title": "No drawings exist: the package holds a figure plan that contains internal working references",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0030]",
+        "Fig. 1",
+        "Fig. 3",
+        "Fig. 6",
+        "Fig. 15"
+      ],
+      "attack": "The description relies on FIGs. 1-15, but the package holds only a figure plan and draftsperson instructions. Filing without drawings risks re-dating (EPC R. 56) or loss of the figure references, and the US requires drawings where necessary (35 USC 113). The plan text contains internal references ('01 Q22', 'DA-7', 'Assumption A2 in Prompt 20') that must not be filed.",
+      "least_narrowing_action": "Produce FIGs. 1-15 from registry.md (after F-36-1 for FIGs. 1, 3, 6 and 10), complete the deferred numeral cross-check, add a Brief Description of the Drawings, and exclude all figure-plan working text from the filing.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-3",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "medium",
+      "title": "The package contradicts itself on whether the ring is touched below the over-travel threshold",
+      "claim_refs": [
+        "1",
+        "40"
+      ],
+      "spec_refs": [
+        "[0050]",
+        "[0118]",
+        "[0122]"
+      ],
+      "attack": "[0118] says the ring is 'not touched' below the threshold, while [0122] sets the threshold by the force to deflect the ring after an initial elastic rise, which requires contact below it. Claim 40 read with claim 1's normal-open 'at-rest form' lacks support and clarity, and [0118] fixes a narrow construction.",
+      "least_narrowing_action": "Add control logic that the formation may contact and elastically load the ring below the threshold with the purge gap still closed, amend [0118] to 'is not deflected so as to open the purge gap', and align claim 1 as in F-33-1.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-4",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "medium",
+      "title": "'Inflatable chamber' is defined as bicycle-only; sealant-filled e-scooter, motorcycle and other tyres are left out",
+      "claim_refs": [
+        "58",
+        "79"
+      ],
+      "spec_refs": [
+        "[0025]",
+        "[0139]"
+      ],
+      "attack": "The [0025] definition confines claims 58 and 79 to bicycle chambers, so an e-scooter or motorcycle tubeless valve with the mechanism argues non-infringement. [0139] gives only a general sentence as basis for later amendment.",
+      "least_narrowing_action": "Redefine the inflatable chamber as any tyre or inner tube inflated through the valve and holding liquid sealant, with bicycle chambers as the tested example, and name the other contemplated chambers.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-5",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "medium",
+      "title": "No embodiment purges from first lift (zero normal stroke)",
+      "claim_refs": [
+        "1",
+        "58",
+        "79"
+      ],
+      "spec_refs": [
+        "[0051]"
+      ],
+      "attack": "Every independent claim requires a normal-open state. A product purging from first lift has none, and [0051] discloses only a short normal stroke, so there is no basis for a claim family without it.",
+      "least_narrowing_action": "If within conception, add an embodiment with the purge gap opening as the poppet lifts (single-rate spring, no normal stroke) and an independent claim without the normal-open state, with counsel weighing index #14 and #16.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-6",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "medium",
+      "title": "Parameter ranges are disclosed only for the superelastic convoluted seat ring but are claimed for every species",
+      "claim_refs": [
+        "35",
+        "41",
+        "42",
+        "43"
+      ],
+      "spec_refs": [
+        "[0088]",
+        "[0090]",
+        "[0091]"
+      ],
+      "attack": "[0091] says the ranges correspond to the superelastic convoluted seat ring and must be adapted for other species, yet claims 35 and 41-43 apply them to polymer rings, wiper rings and Schrader cores, which lacks support and invites intermediate-generalisation objections.",
+      "least_narrowing_action": "State which ranges are independent of ring material and geometry (crack pressure and over-travel threshold, per [0090]), and give ranges or an adaptation rule for the purge gap opening and over-travel distance for the other species. Otherwise restrict claims 35 and 43 to claim 47 with a convoluted wall.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-7",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "medium",
+      "title": "The cheapest competitor combination is disclosed only by a blanket combination statement",
+      "claim_refs": [
+        "24",
+        "34",
+        "40"
+      ],
+      "spec_refs": [
+        "[0096]",
+        "[0110]",
+        "[0122]",
+        "[0131]",
+        "[0143]"
+      ],
+      "attack": "A moulded polymer core body with an integral flexure, a single-rate spring with a stiffness-set threshold, and moulded flutes is the lowest-cost competitor product. The [0143] blanket statement is weak EPO basis for selecting that combination from several lists.",
+      "least_narrowing_action": "Add a written prophetic embodiment of this combination, including how the threshold is set without a second spring stage.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-8",
+      "source_prompt": "36",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "Over-travel by a depressor has no geometry or control logic",
+      "claim_refs": [
+        "46",
+        "57"
+      ],
+      "spec_refs": [
+        "[0066]",
+        "[0137]"
+      ],
+      "attack": "There is no relation between depressor travel, normal stroke and over-travel distance, and no account of how a Schrader core, whose pin every head depresses, keeps a normal-open state. The Schrader and adaptor variants, and any claim built on [0066], are exposed on enablement and support.",
+      "least_narrowing_action": "Add the depressor geometry (travel exceeding the normal stroke plus a stated fraction of the over-travel distance) and the Schrader variant's operating sequence.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-9",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "medium",
+      "title": "No embodiment opens the purge path by out-of-plane (axial) flexure of the ring",
+      "claim_refs": [
+        "1",
+        "58",
+        "67",
+        "79"
+      ],
+      "spec_refs": [
+        "[0020]",
+        "[0082]"
+      ],
+      "attack": "A diaphragm ring flexing axially to lift a lip opens a purge path only in over-travel and escapes every claim reciting 'radial deflection'.",
+      "least_narrowing_action": "If within conception, add the embodiment and a generic statement that the elastic deformation opening the purge gap may be radial or axial.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-10",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "low",
+      "title": "The diameter measurement convention fails for a wall convoluted along its whole length",
+      "claim_refs": [
+        "16",
+        "67"
+      ],
+      "spec_refs": [
+        "[0028]",
+        "[0079]"
+      ],
+      "attack": "With no convolution-free portion, the inner-diameter limitation cannot be measured and a defendant argues it is not met.",
+      "least_narrowing_action": "Add a fallback convention to [0028], for example the diameter at the sealing edge (34) or the mean of crest and root diameters.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-11",
+      "source_prompt": "36",
+      "category": "support",
+      "severity": "low",
+      "title": "No fallback ladder for the austenite finish temperature",
+      "claim_refs": [
+        "48",
+        "74"
+      ],
+      "spec_refs": [
+        "[0073]",
+        "[0171]"
+      ],
+      "attack": "If cold or CO2-chilling performance becomes the inventive-step battleground, there is no narrower supported value to retreat to.",
+      "least_narrowing_action": "If the inventors have target values, add a nested ladder and any specified martensite start temperature; add no values they have not chosen.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-36-12",
+      "source_prompt": "36",
+      "category": "enablement",
+      "severity": "low",
+      "title": "Any test data the inventors hold beyond Example 1 should be added before filing",
+      "claim_refs": [
+        "1"
+      ],
+      "spec_refs": [
+        "[0159]",
+        "[0165]"
+      ],
+      "attack": "Durability, cold performance and the PEEK and wiper variants are where inventive step and plausibility will be argued; data held but not filed carries less weight later.",
+      "least_narrowing_action": "Ask whether further results exist (including P-1 to P-3 beyond 40 cycles) and add them as actual examples with their scope stated.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. EPC Rule 56, the corresponding UK late-filed-drawings provisions and 35 USC 113 are relied on as general knowledge of the rules, not as checked authority.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. That an outward-moving surface cannot open a clearance between itself and a surrounding bore is a common-general-knowledge geometric premise.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. That a blanket combination statement is weak EPO basis for a specific selection from several lists is a general-knowledge premise of EPO practice.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. Conception is inferred only from the text; every addition is a candidate until the inventor confirms it at a gate.",
+      "blocking": false
+    },
+    {
+      "id": "A5",
+      "text": "A5. This analysis is a drafting and analysis aid and does not clear the application for filing; qualified patent counsel signs off.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. For the inventors: in P-1 to P-3, which seat-ring surface moved, in which direction, where did the purge gap open, and how did the purge flow pass the interference band at the internal shoulder (24)?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. For the inventors: does the production design have the purge shoulder touching the ring below the over-travel threshold?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. For the inventors: are non-bicycle sealant tyres, a zero-normal-stroke variant, or an axially flexing ring contemplated?",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. For the inventors: do test results exist beyond Example 1, and are there target austenite finish and martensite start temperatures?",
+      "blocks": []
+    },
+    {
+      "id": "Q5",
+      "text": "Q5. For the runner (formal): no Abstract, no Technical Field, Background or Summary, and no Brief Description of the Drawings; [0160] refers to a background section that does not exist.",
+      "blocks": []
+    },
+    {
+      "id": "Q6",
+      "text": "Q6. For the runner: figures.md and registry.md contain drafting-phase references despite the blind-package assertion; they must be removed from anything filed.",
+      "blocks": []
+    }
+  ]
+}

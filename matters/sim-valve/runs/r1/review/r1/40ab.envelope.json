@@ -1,0 +1,201 @@
+{
+  "prompt": "40a",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-40a-1",
+      "source_prompt": "40a",
+      "category": "formal",
+      "severity": "medium",
+      "title": "US multiple-dependency form defect (37 CFR 1.75(c))",
+      "claim_refs": [
+        "11",
+        "13",
+        "15",
+        "16",
+        "18",
+        "19",
+        "20",
+        "25",
+        "30",
+        "33",
+        "35",
+        "36",
+        "37",
+        "38",
+        "43",
+        "44",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60",
+        "65",
+        "67",
+        "68",
+        "69",
+        "74",
+        "75",
+        "76",
+        "77",
+        "84",
+        "86"
+      ],
+      "spec_refs": [],
+      "attack": "37 CFR 1.75(c) / MPEP 608.01(n) prohibit a multiple dependent claim from serving as a basis for another multiple dependent claim, directly or indirectly. The claim set cascades this violation from claim 13 onward. This is a US-specific formal objection to claim form, not a merits rejection; EPO/UK carry no equivalent prohibition.",
+      "least_narrowing_action": "Restructure the dependency tree so no MDC's range includes another MDC; see Prompt 37 reply F-37-1 for the mechanism and full claim list.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-40a-2",
+      "source_prompt": "40a",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Registered figure/numeral with no corresponding description text",
+      "claim_refs": [
+        "1"
+      ],
+      "spec_refs": [
+        "[0048]",
+        "[0049]",
+        "[0182]"
+      ],
+      "attack": "FIG. 13A / numeral 220 is registered in figures.md/registry.md but absent from the description's brief description of drawings and body text; numeral 146, used in claim 1, is never introduced in the description's prose. Both fail the requirement, common to US/EPO/UK practice, that every claim and drawing numeral be supported by description text.",
+      "least_narrowing_action": "Add the missing description text for FIG. 13A (or remove it and numeral 220), and add numeral 146 to [0182]; see Prompt 38 reply F-38-3/F-38-5.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-40a-3",
+      "source_prompt": "40a",
+      "category": "formal",
+      "severity": "low",
+      "title": "Non-standard dependent-claim format",
+      "claim_refs": [
+        "47",
+        "61",
+        "77",
+        "86"
+      ],
+      "spec_refs": [],
+      "attack": "Claims 47, 61, 77 and 86 embed multi-claim cross-references inside the claim body/preamble rather than a standard dependency clause, obscuring dependency and category and compounding F-40a-1 for claim 61 especially.",
+      "least_narrowing_action": "Rewrite with the full base range in the introductory dependency clause; see Prompt 37 reply F-37-4.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-40a-4",
+      "source_prompt": "40a",
+      "category": "formal",
+      "severity": "low",
+      "title": "Description grammatical mismatch at [0049]",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0049]"
+      ],
+      "attack": "\"FIGS. 13B is\" pairs a plural article with a single figure reference and singular verb.",
+      "least_narrowing_action": "Correct to \"FIG. 13B is\".",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-40a-5",
+      "source_prompt": "40a",
+      "category": "formal",
+      "severity": "low",
+      "title": "EPO two-part claim form not used",
+      "claim_refs": [
+        "1",
+        "3"
+      ],
+      "spec_refs": [],
+      "attack": "Claims 1 and 3 are single-part form throughout; Rule 43(1) EPC contemplates a preamble/characterising-portion split, though single-part form is commonly accepted at filing.",
+      "least_narrowing_action": "No correction needed at filing; prepare a two-part fallback of claim 1 against US4044791A/US3473561A for use if the EPO examiner requests it.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [
+    {
+      "target": "claims",
+      "location": "claim 13 (representative)",
+      "from_text": "The valve core of any one of claims 1 and 5 to 12, wherein the load-applying surface is a purge shoulder (44) formed on the poppet.",
+      "to": "Restructured so claim 13's range excludes claim 11 (an MDC); full renumbering is a Claims Architect task, illustrated but not reproduced claim-by-claim here.",
+      "reason": "37 CFR 1.75(c): an MDC may not have another MDC among its bases."
+    },
+    {
+      "target": "claims",
+      "location": "claim 61",
+      "from_text": "The method of claim 2, wherein the valve core is the valve core of any one of claims 1 and 5 to 46.",
+      "to": "Restructured as a proper multiple dependent claim citing its full combined base range in the introductory clause.",
+      "reason": "Obscures true dependency and compounds the multiple-dependency defect."
+    },
+    {
+      "target": "description",
+      "location": "[0049]",
+      "from_text": "FIGS. 13B is an axial section of an embodiment in which the valve core is integral with the valve stem.",
+      "to": "FIG. 13B is an axial section of an embodiment in which the valve core is integral with the valve stem.",
+      "reason": "Singular/plural mismatch."
+    },
+    {
+      "target": "description",
+      "location": "[0182]",
+      "from_text": "In over-travel the purge shoulder 44 bears on the wiper ring 144 and deflects it outward, as shown in FIG. 9B.",
+      "to": "In over-travel the purge shoulder 44 bears on the wiper ring 144 and deflects it outward, so that a purge gap 146, closed at rest, opens between the wiper ring 144 and the core body bore 22, as shown in FIG. 9B.",
+      "reason": "Numeral 146 (used in claim 1) is otherwise unsupported in the description."
+    }
+  ],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. Default jurisdictions are US, EPO and UK per the matter's standing default; no matter.json override was supplied among this task's inputs.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. 37 CFR 1.75(c) and the absence of an equivalent EPO/UK prohibition are treated as common general knowledge of patent-office practice.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. \"Cannot assess\" is used for requirements dependent on artefacts not yet produced in this run (drawings, abstract).",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. Whether two-part EPO claim form is expected now or deferred to examination is a filing-strategy question for counsel.",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Whether an abstract will be produced before this package is treated as complete for a formal filing check.",
+      "blocks": []
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+13.md: terminology lock: {"locked_terms": 67, "violations": [{"term": "latex sealant", "rule": "avoid-hit", "row": "liquid sealant", "context": "disclosed | not disclosed | none | \u00a71, \u00a75 (ammonia-bearing latex sealant, unquantified) | Yes (01 Q23) | | first spring stage rate/f"}], "drift": [{"ter

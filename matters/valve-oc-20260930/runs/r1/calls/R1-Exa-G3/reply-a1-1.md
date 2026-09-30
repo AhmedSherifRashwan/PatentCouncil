@@ -1,0 +1,23 @@
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/review/r1/33.md`: enforcement table for claims 1, 58, 64/66, 67, 79 and 90, plus 11 design-around findings: 2 high (F-33-1, F-33-2), 5 medium, 4 low.
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/review/r1/34.md`: 14-item FTO issue list for counsel's claim charts, led by INDEX #1 (NiTi wave-section ring) against the seat ring; no findings.
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/review/r1/35.md`: moat scores for 6 independent-claim concepts. Claims 1 and 58 score 53/80; claim 90 scores 30/80 and is rated technically interesting only. 3 design-around findings: 2 medium, 1 low.
+- `/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/review/r1/36.md`: 15-row gap analysis and 12 findings: 2 high (F-36-1 enablement, F-36-2 support), 7 medium, 3 low.
+
+**Route:**
+- **High findings:**
+  - F-33-1 (design-around, target P3): the normal-open "at-rest form" limitation is easy to escape. It also conflicts with the ring-stiffness threshold of claim 40.
+  - F-33-2 (design-around, target P5): no independent claim covers over-travel by mechanical depression.
+  - F-36-1 (enablement, target P4): the preferred embodiment says outward deflection opens a gap at the outer surface of the seat ring. Moving outward would close that gap. No path for the purge flow past the interference band is described. The fix needs the inventors' answer.
+  - F-36-2 (support, target P4): no drawings exist, only a figure plan.
+- **Disclosure requests for the inventors:** 36 Q1–Q4 and 33 Q1–Q3:
+  - the real P-1 to P-3 mechanism;
+  - whether the purge shoulder touches the ring below the threshold;
+  - non-bicycle tyres, a zero-normal-stroke variant, an axially flexing ring;
+  - test data beyond Example 1;
+  - target austenite finish and martensite start temperatures.
+- **Formal items for Prompts 38/40a:** the package has no Abstract, no Technical Field, Background or Summary, and no Brief Description of the Drawings. [0160] refers to a background section that does not exist. `figures.md` and `registry.md` contain drafting-phase references ("01 Q22", "DA-7", "Assumption A2 in Prompt 20"), which breaks the blind-package assertion; they must be stripped before filing.
+- **Narrowing suggested, for the human to decide:**
+  - F-33-4/F-36-9: counsel to weigh bodily displacement against refs #13 and #16 before any claim to it.
+  - F-33-5/F-35-2: claim 67's dimensional window gives up every non-Presta-scale ring; a seat-ring claim without dimensions needs counsel's view on ref #1.
+  - F-36-6: if no disclosure is added, claims 35 and 43 would have to be limited to claim 47 with a convoluted wall.
+- **FTO questions for counsel:** 34 Q1–Q5, starting with a professional search and claim chart of INDEX #1 against the seat ring.

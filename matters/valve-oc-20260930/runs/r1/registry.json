@@ -1,0 +1,293 @@
+{
+  "entries": [
+    {
+      "numeral": "10",
+      "component": "valve stem",
+      "first_figure": "1",
+      "figures": [
+        "1"
+      ]
+    },
+    {
+      "numeral": "12",
+      "component": "stem bore",
+      "first_figure": "1",
+      "figures": [
+        "1"
+      ]
+    },
+    {
+      "numeral": "20",
+      "component": "core body",
+      "first_figure": "1",
+      "figures": [
+        "1"
+      ]
+    },
+    {
+      "numeral": "22",
+      "component": "core body bore",
+      "first_figure": "1",
+      "figures": [
+        "1"
+      ]
+    },
+    {
+      "numeral": "24",
+      "component": "internal shoulder",
+      "first_figure": "1",
+      "figures": [
+        "1"
+      ]
+    },
+    {
+      "numeral": "30",
+      "component": "seat ring",
+      "first_figure": "1",
+      "figures": [
+        "1"
+      ]
+    },
+    {
+      "numeral": "32",
+      "component": "convoluted wall",
+      "first_figure": "1",
+      "figures": [
+        "1"
+      ]
+    },
+    {
+      "numeral": "34",
+      "component": "sealing edge",
+      "first_figure": "1",
+      "figures": [
+        "1"
+      ]
+    },
+    {
+      "numeral": "40",
+      "component": "poppet",
+      "first_figure": "1",
+      "figures": [
+        "1"
+      ]
+    },
+    {
+      "numeral": "41",
+      "component": "poppet stem",
+      "first_figure": "1",
+      "figures": [
+        "1"
+      ]
+    },
+    {
+      "numeral": "42",
+      "component": "sealing face",
+      "first_figure": "1",
+      "figures": [
+        "1"
+      ]
+    },
+    {
+      "numeral": "44",
+      "component": "purge shoulder",
+      "first_figure": "1",
+      "figures": [
+        "1"
+      ]
+    },
+    {
+      "numeral": "50",
+      "component": "return spring",
+      "first_figure": "1",
+      "figures": [
+        "1"
+      ]
+    },
+    {
+      "numeral": "52",
+      "component": "first spring stage",
+      "first_figure": "1",
+      "figures": [
+        "1"
+      ]
+    },
+    {
+      "numeral": "54",
+      "component": "second spring stage",
+      "first_figure": "1",
+      "figures": [
+        "1"
+      ]
+    },
+    {
+      "numeral": "60",
+      "component": "purge gap",
+      "first_figure": "1",
+      "figures": [
+        "1"
+      ]
+    },
+    {
+      "numeral": "62",
+      "component": "purge flow path",
+      "first_figure": "3",
+      "figures": [
+        "3"
+      ]
+    },
+    {
+      "numeral": "64",
+      "component": "main passage",
+      "first_figure": "2",
+      "figures": [
+        "2"
+      ]
+    },
+    {
+      "numeral": "70",
+      "component": "lock nut",
+      "first_figure": "1",
+      "figures": [
+        "1"
+      ]
+    },
+    {
+      "numeral": "130",
+      "component": "fixed seat",
+      "first_figure": "10",
+      "figures": [
+        "10"
+      ]
+    },
+    {
+      "numeral": "132",
+      "component": "wiper ring",
+      "first_figure": "10",
+      "figures": [
+        "10"
+      ]
+    },
+    {
+      "numeral": "224",
+      "component": "crimped lip",
+      "first_figure": "8",
+      "figures": [
+        "8"
+      ]
+    },
+    {
+      "numeral": "232",
+      "component": "frustoconical wall",
+      "first_figure": "12",
+      "figures": [
+        "12"
+      ]
+    },
+    {
+      "numeral": "244",
+      "component": "tapered purge shoulder",
+      "first_figure": "11",
+      "figures": [
+        "11"
+      ]
+    },
+    {
+      "numeral": "254",
+      "component": "auxiliary spring",
+      "first_figure": "14",
+      "figures": [
+        "14"
+      ]
+    },
+    {
+      "numeral": "262",
+      "component": "purge port",
+      "first_figure": "13",
+      "figures": [
+        "13"
+      ]
+    },
+    {
+      "numeral": "324",
+      "component": "retaining sleeve",
+      "first_figure": "8",
+      "figures": [
+        "8"
+      ]
+    },
+    {
+      "numeral": "332",
+      "component": "slotted wall",
+      "first_figure": "12",
+      "figures": [
+        "12"
+      ]
+    },
+    {
+      "numeral": "344",
+      "component": "discrete lugs",
+      "first_figure": "11",
+      "figures": [
+        "11"
+      ]
+    },
+    {
+      "numeral": "354",
+      "component": "detent",
+      "first_figure": "14",
+      "figures": [
+        "14"
+      ]
+    },
+    {
+      "numeral": "362",
+      "component": "flute",
+      "first_figure": "13",
+      "figures": [
+        "13"
+      ]
+    },
+    {
+      "numeral": "432",
+      "component": "cellular wall",
+      "first_figure": "12",
+      "figures": [
+        "12"
+      ]
+    },
+    {
+      "numeral": "444",
+      "component": "separate collar",
+      "first_figure": "11",
+      "figures": [
+        "11"
+      ]
+    },
+    {
+      "numeral": "620",
+      "component": "Schrader-pattern core body",
+      "first_figure": "15",
+      "figures": [
+        "15"
+      ]
+    },
+    {
+      "numeral": "630",
+      "component": "Schrader-pattern poppet",
+      "first_figure": "15",
+      "figures": [
+        "15"
+      ]
+    },
+    {
+      "numeral": "730",
+      "component": "seat ring (stem-integrated)",
+      "first_figure": "15",
+      "figures": [
+        "15"
+      ]
+    }
+  ],
+  "source": "/Users/ahmed/PatentCouncil/matters/valve-oc-20260930/runs/r1/P4/20a.md"
+}

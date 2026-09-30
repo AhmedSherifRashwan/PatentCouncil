@@ -1,0 +1,20 @@
+{
+ "score": "6 / 10",
+ "claims": 86,
+ "severity_rows": {
+  "critical": 0,
+  "high": 20,
+  "medium": 39,
+  "low": 34
+ },
+ "prior_art_rows": 21,
+ "fix_pass_rows_marked": 7,
+ "claims_needs_rows": 1,
+ "assessment_check_ok": true,
+ "files": [
+  "/Users/ahmed/PatentCouncil/matters/sim-valve/runs/r1/package/readable/sim-valve-patent-application.docx",
+  "/Users/ahmed/PatentCouncil/matters/sim-valve/runs/r1/package/readable/sim-valve-patent-application.pdf",
+  "/Users/ahmed/PatentCouncil/matters/sim-valve/runs/r1/package/readable/prosecution-assessment.docx",
+  "/Users/ahmed/PatentCouncil/matters/sim-valve/runs/r1/package/readable/prosecution-assessment.pdf"
+ ]
+}

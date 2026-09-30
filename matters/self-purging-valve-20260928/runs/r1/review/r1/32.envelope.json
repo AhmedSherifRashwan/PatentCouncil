@@ -1,0 +1,543 @@
+{
+  "prompt": "32",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-32-1",
+      "source_prompt": "32",
+      "category": "enablement",
+      "severity": "critical",
+      "title": "Radial expansion of an interference-fitted seat ring cannot open a gap against its own bore, and the gap has no outlet",
+      "claim_refs": [
+        "16",
+        "17",
+        "40",
+        "41"
+      ],
+      "spec_refs": [
+        "[0031]",
+        "[0035]",
+        "[0109]",
+        "[0111]"
+      ],
+      "attack": "Claim 16 'opens when the seat ring expands' and claim 17 'the radial expansion opening the purge gap (60)' place the gap between the outer surface 38 and the core bore 22 in which the seat ring is interference-fitted ([0035]); expansion drives the surface into the bore and closes the gap, and no outlet past the locating shoulder 24 to the inflatable body is described.",
+      "least_narrowing_action": "Add the prototype's actual gap geometry and outlet path from the inventors' sketches or records, and draw it; delete or recast only if unavailable.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-2",
+      "source_prompt": "32",
+      "category": "enablement",
+      "severity": "high",
+      "title": "The directions of seat, sealing face, purge shoulder and spring cannot all be true at once",
+      "claim_refs": [
+        "7",
+        "14",
+        "17",
+        "39",
+        "41"
+      ],
+      "spec_refs": [
+        "[0029]",
+        "[0030]",
+        "[0033]",
+        "[0084]",
+        "[0111]"
+      ],
+      "attack": "With 'upper' towards the inflation device ([0084]), a valve member opening downward cannot lift from an upward-facing 'upper edge (32)' seat; a spring 'acting under the valve member' ([0033]) pushes it away from such a seat; and a purge shoulder 'below the sealing face' moves away from, not onto, the upper edge during further travel. The first embodiment cannot be reconstructed.",
+      "least_narrowing_action": "Correct the orientation words to the inventors' actual construction and state the direction of the normal stroke relative to the upper edge; claims 7, 14, 17, 39, 41 follow.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-3",
+      "source_prompt": "32",
+      "category": "enablement",
+      "severity": "high",
+      "title": "The wiper-ring purge gap lies below the rigid valve seat, so it is in series with the main flow passage, not in parallel",
+      "claim_refs": [
+        "27",
+        "28",
+        "29",
+        "45",
+        "58",
+        "60"
+      ],
+      "spec_refs": [
+        "[0046]",
+        "[0094]",
+        "[0094a]",
+        "Fig. 3"
+      ],
+      "attack": "Claim 28 'positioned below the rigid valve seat (132), towards the inflatable body' means gas reaching the wiper-ring gap has already passed between the sealing face and the rigid seat, i.e. in series, which [0046] excludes from 'purge gap'; no bypass is described.",
+      "least_narrowing_action": "Add a described purge gap inlet that bypasses the rigid valve seat if conceived; otherwise delete the wiper-ring claims or reframe that embodiment on the recovery wipe alone.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-4",
+      "source_prompt": "32",
+      "category": "enablement",
+      "severity": "high",
+      "title": "The genus is claimed on a principle with no coherently disclosed embodiment",
+      "claim_refs": [
+        "1",
+        "2",
+        "4"
+      ],
+      "spec_refs": [
+        "[0116]",
+        "[0026]",
+        "[0093]"
+      ],
+      "attack": "Claim 1 covers any deflectable element, gap location and deflection direction on a principle 'of general application' ([0116]); the first embodiment is incoherent (F-32-1, F-32-2), the second is a material change only, the third is in series (F-32-3). Support and sufficiency across the breadth fail.",
+      "least_narrowing_action": "Cure F-32-1 to F-32-3 with disclosure; narrowing claim 1 to a named topology only as a fallback, for the human to decide.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-5",
+      "source_prompt": "32",
+      "category": "novelty",
+      "severity": "high",
+      "title": "Obvious over US20080188352A1 in view of US3417778A; under broadest reasonable interpretation, possible anticipation",
+      "claim_refs": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "spec_refs": [
+        "[0048]",
+        "[0046]"
+      ],
+      "attack": "Ref. 4 [25], [26], [31], [37], [38]: ball 3 stroke limited by shuttle 4 of poppet 2; at a higher second pressure the poppet and ball travel further, opening a parallel orifice at seat 11 that recloses as pressure falls. The difference is rigid displacement instead of deflection; ref. 3 claim 1 supplies a resilient seat element flexed 'radially outwardly'. Under BRI 'deflects' may mean displaces, exposing claim 1 to anticipation by ref. 4.",
+      "least_narrowing_action": "Recite in claim 1 that the deflectable element is 'elastically deflected from an undeflected shape' and that the purge gap is 'bounded at least in part by a surface of the deflectable element' ([0046], [0048]); no described embodiment is lost.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-6",
+      "source_prompt": "32",
+      "category": "formal",
+      "severity": "high",
+      "title": "No drawing sheets; the figure files are drafting instructions admitting the gap's opening is unexplained",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0018]",
+        "[0025]",
+        "figures.md",
+        "registry.md"
+      ],
+      "attack": "FIG. 1 to FIG. 8 are referred to but absent; figures.md cites CONFIRMED.md and 'PF-1' and states 'the disclosure does not explain how the purge gap opens'; registry.md carries draftsperson's notes. Engages 35 USC 113, Rule 56 EPC, UK s.15, and would record a sufficiency admission.",
+      "least_narrowing_action": "Produce drawing sheets with the purge gap region from the inventors' sketches; never file the plan or instructions.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-7",
+      "source_prompt": "32",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Sealant-accumulation surfaces is a use-defined label with no limiting effect",
+      "claim_refs": [
+        "1",
+        "2",
+        "4"
+      ],
+      "spec_refs": [
+        "[0058]"
+      ],
+      "attack": "'along sealant-accumulation surfaces bounding the purge gap' identifies surfaces by exposure in use; in a product claim it is unclear or non-limiting.",
+      "least_narrowing_action": "Recite 'along surfaces bounding the purge gap'.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-8",
+      "source_prompt": "32",
+      "category": "novelty",
+      "severity": "medium",
+      "title": "The seat ring fallbacks add features known from US3417778A",
+      "claim_refs": [
+        "9",
+        "11",
+        "14",
+        "39"
+      ],
+      "spec_refs": [
+        "[0030]"
+      ],
+      "attack": "Ref. 3 [14]-[15]: 'a tubular sleeve-like element of resilient material \u2026 the sole valve seat and being radially expandable', flexed 'radially outwardly' by the valve member; claims 9, 11 and 14 add nothing beyond one document and are weak fallbacks.",
+      "least_narrowing_action": "No amendment now; treat claims 6, 17 and 20 as the real fallback rungs and consider combining claim 14 with claim 17.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-9",
+      "source_prompt": "32",
+      "category": "novelty",
+      "severity": "medium",
+      "title": "The recovery wipe is known in kind from US4050473A and US4236547A",
+      "claim_refs": [
+        "5",
+        "35",
+        "52",
+        "57",
+        "59"
+      ],
+      "spec_refs": [
+        "[0034a]",
+        "[0055]",
+        "[0103]",
+        "[0131]"
+      ],
+      "attack": "Ref. 5 [13] (flexible disk wiping the seat as it moves past) and ref. 6 [6] (cutting edge cleaning the skirt on closing) show wiping sealing surfaces by sliding contact on closing; adding it to claim 1 is an aggregation absent shown synergy, and [0103], [0131] say contributions were not isolated.",
+      "least_narrowing_action": "If the inventors can state it, add how the element's recovery produces the sliding (direction, moving surfaces) in the first embodiment.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-10",
+      "source_prompt": "32",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "The technical effect rests on an audible snap and the inventors' attribution",
+      "claim_refs": [
+        "1",
+        "4"
+      ],
+      "spec_refs": [
+        "[0017]",
+        "[0102]",
+        "[0111]",
+        "[0131]"
+      ],
+      "attack": "'Over-travel was confirmed \u2026 by an audible snap on removal of the inflation device 84' ([0102]); no differential, travel or flow was measured and the cleaning attribution is 'their statement rather than a measured result' ([0131]), inviting reformulation of the problem as an alternative two-stage valve.",
+      "least_narrowing_action": "Add any existing measurement; otherwise keep statements tied to the bench outcome. Nothing is to be invented.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-11",
+      "source_prompt": "32",
+      "category": "support",
+      "severity": "medium",
+      "title": "Ranges are claimed for alternatives the description says have none",
+      "claim_refs": [
+        "19",
+        "25",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "47"
+      ],
+      "spec_refs": [
+        "[0093]",
+        "[0124]"
+      ],
+      "attack": "Claim 25 via claim 19, claims 30 to 34 over claims 25-29 and claim 47 over 44-45 recite ranges for the polymer and wiper alternatives, which [0093] and [0124] say are 'not stated'.",
+      "least_narrowing_action": "Restructure dependencies so the ranges hang from the superelastic seat ring claims or claim 1 only.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-12",
+      "source_prompt": "32",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Af parameter with an open measuring method",
+      "claim_refs": [
+        "21",
+        "38",
+        "42"
+      ],
+      "spec_refs": [
+        "[0074]",
+        "[0128]"
+      ],
+      "attack": "'an austenite finish temperature below 5 \u00b0C' measured by 'a thermal analysis method, for example differential scanning calorimetry' leaves the boundary method-dependent; the prototype Af is not recorded.",
+      "least_narrowing_action": "Name the measuring method the inventors used.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-13",
+      "source_prompt": "32",
+      "category": "support",
+      "severity": "medium",
+      "title": "Deflectable element: 112(f) placeholder, and a displacement reading",
+      "claim_refs": [
+        "1",
+        "2",
+        "4"
+      ],
+      "spec_refs": [
+        "[0048]",
+        "[0088]"
+      ],
+      "attack": "'a deflectable element' with purely functional qualifiers risks 112(f) construction limited to the seat ring 30 and wiper ring 130; otherwise 'deflection' may be read as displacement.",
+      "least_narrowing_action": "Amend as in F-32-5 and list structural forms in [0048].",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-14",
+      "source_prompt": "32",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Pressure thresholds are claimed with no measuring condition",
+      "claim_refs": [
+        "1",
+        "2",
+        "4",
+        "32",
+        "33",
+        "34",
+        "47"
+      ],
+      "spec_refs": [
+        "[0039]",
+        "[0042]"
+      ],
+      "attack": "'the over-travel threshold is from 2.5 bar to 5.0 bar' is a differential on the valve member whose value under flow depends on flow rate and passage geometry; [0039] fixes the quantity but not the condition (static or flowing).",
+      "least_narrowing_action": "State in [0039] the condition under which the values are determined, as the inventors actually set them.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-15",
+      "source_prompt": "32",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "Undeflected at rest, although the seating load bears on the upper edge that converts axial load into expansion",
+      "claim_refs": [
+        "1",
+        "2"
+      ],
+      "spec_refs": [
+        "[0030]",
+        "[0044]",
+        "[0048]"
+      ],
+      "attack": "Claim 1(a) 'the deflectable element is undeflected' at rest, yet the sealing face seats on the upper edge under the biasing member and the inflatable body's pressure, and by [0030] any axial load on the upper edge is converted into radial expansion; 'undeflected' has no reference condition.",
+      "least_narrowing_action": "Define 'undeflected' in [0048] as the shape in which the purge gap is closed whatever seating load acts, and rely on 'the purge gap is closed' as the operative limitation.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-16",
+      "source_prompt": "32",
+      "category": "formal",
+      "severity": "medium",
+      "title": "US multiple dependent claims depend on other multiple dependent claims",
+      "claim_refs": [
+        "8",
+        "22",
+        "49",
+        "54"
+      ],
+      "spec_refs": [],
+      "attack": "Claim 8 'any one of claims 1 to 7' includes multiple dependent claim 6; claim 22 depends on claim 21; claims 49 and 54 on claim 48 among others, contrary to 37 CFR 1.75(c).",
+      "least_narrowing_action": "File a US claim set with single dependencies.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-17",
+      "source_prompt": "32",
+      "category": "formal",
+      "severity": "low",
+      "title": "The method recites events and parts' behaviour rather than steps",
+      "claim_refs": [
+        "4"
+      ],
+      "spec_refs": [
+        "[0111]"
+      ],
+      "attack": "Claim 4 'the valve member making a normal stroke', 'the pressure differential falling', 'the deflectable element recovering' are apparatus responses, not acts, inviting a clarity objection on category and actor.",
+      "least_narrowing_action": "Recast as acts (applying, increasing above the threshold, ceasing to apply) with the valve's responses as whereby clauses.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-18",
+      "source_prompt": "32",
+      "category": "formal",
+      "severity": "low",
+      "title": "Product-by-process with process parameters",
+      "claim_refs": [
+        "24"
+      ],
+      "spec_refs": [
+        "[0108]",
+        "Fig. 6"
+      ],
+      "attack": "Claim 24 defines the seat ring by laser cutting, shape-setting at 500 \u00b0C for 10 minutes, quenching and electropolishing; EPO requires product novelty per se and US scope is limited to the process.",
+      "least_narrowing_action": "Keep as a low-value rung or add a method-of-making claim supported by [0108] and FIG. 6.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-19",
+      "source_prompt": "32",
+      "category": "formal",
+      "severity": "low",
+      "title": "According to the inventors attributions and has been considered in the specification",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0010]",
+        "[0029]",
+        "[0034]",
+        "[0093]",
+        "[0117]",
+        "[0131]"
+      ],
+      "attack": "'each is stated here as the inventors state it', 'According to the inventors' and 'Hard-anodised aluminium has been considered' distance the applicant from its own teaching and are read as unsupported assertions or non-disclosure.",
+      "least_narrowing_action": "State teachings positively and keep the observed/expected distinction through the Examples.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-32-20",
+      "source_prompt": "32",
+      "category": "formal",
+      "severity": "low",
+      "title": "Lettered paragraph numbering",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0034a]",
+        "[0094a]",
+        "[0132a]"
+      ],
+      "attack": "Non-consecutive paragraph numbering contrary to 37 CFR 1.52(b)(6).",
+      "least_narrowing_action": "Renumber.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. AI drafting and analysis aid, not legal advice; qualified patent counsel signs off.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. No abstract, drawing sheets or priority document in the package; figures.md and registry.md read as what would be filed for the figures.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. CGK: radial expansion inside a fixed bore narrows the gap; an inflation valve opens in the direction of the inflating flow; under flow the differential on a valve member depends on flow rate and passage geometry.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. References cited only from the saved set (refs 1, 3, 4, 5, 6), AI-retrieved and not human-verified; the set is thin and no professional search has been run.",
+      "blocking": false
+    },
+    {
+      "id": "A5",
+      "text": "A5. Legal authorities are named for counsel to check, not applied as conclusions.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. What is the prototype's actual geometry (seat end, purge shoulder side, separating surfaces, gap outlet); do the inventors' sketches show it?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. In the wiper-ring embodiment, how does gas reach the purge gap without passing the rigid valve seat?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. Was the pressure differential, travel or flow measured during any inflation?",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. Under what condition were the opening pressure and over-travel threshold set or measured?",
+      "blocks": []
+    },
+    {
+      "id": "Q5",
+      "text": "Q5. By which method was Af specified?",
+      "blocks": []
+    },
+    {
+      "id": "Q6",
+      "text": "Q6. What produces the recovery-wipe sliding in the first embodiment, and in which direction?",
+      "blocks": []
+    }
+  ]
+}

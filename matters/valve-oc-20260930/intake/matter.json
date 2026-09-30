@@ -1,0 +1,14 @@
+{
+ "title": "Self-purging bicycle tube valve",
+ "jurisdictions": [
+  "US",
+  "EP",
+  "GB"
+ ],
+ "profile": "full",
+ "mode": "unattended",
+ "flow": "fast",
+ "platform": "openclaw",
+ "created": "2026-09-30T10:52:40",
+ "fictional_test": true
+}

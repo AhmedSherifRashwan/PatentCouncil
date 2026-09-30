@@ -1,0 +1,46 @@
+{
+ "rulings": [
+  {
+   "id": "F-38-7",
+   "ruling": "rejected",
+   "severity": "low",
+   "reason": "The caveat in [0206] goes to compatibility with an ammonia-bearing sealant, a use condition that neither claim 27 ('the seat ring is of a superelastic material') nor claim 70 recites, and it says the compatibility 'is not established', not that the species fails. The claimed mechanical function (axial load, radial expansion opening the purge gap, shape recovery) is enabled across the genus: 'superelastic' is defined functionally in [0077]; binary NiTi is built and tested ([0140], [0184], [0203]); ternary Ni-Ti-Cr and Ni-Ti-Cu are described in [0205]; Cu-based alloys in [0206]. An enablement or written-description objection would need evidence that the Cu-based species cannot perform the claimed function (US: a few possibly inoperative species do not defeat a genus; EPO: serious doubts must be substantiated by verifiable facts). None is in the package. The suggested clarifying sentence is harmless but not required; at most low."
+  },
+  {
+   "id": "F-38-8",
+   "ruling": "rejected",
+   "reason": "Premise false. [0049] reads 'FIG. 13B is an axial section of an embodiment in which the valve core is integral with the valve stem.' The string 'FIGS. 13' does not occur in description.md, claims.md, figures.md or registry.md. The real defect at [0049] is the missing FIG. 13A, which is F-38-5."
+  },
+  {
+   "id": "F-38-9",
+   "ruling": "rejected",
+   "reason": "The premise is correct about the dossier: terminology/LOCKED.md has no row for 'slotted sleeve', 'split seat ring', 'tapered seat ring' or 'matching taper'. But LOCKED.md is not part of the application, and no examiner or opponent can raise it. On the application text the terms are introduced with numerals and structure in [0176] (slotted sleeve 170, fingers 172), [0177] (split seat ring 180, axial split 182) and [0178] (tapered seat ring 190, taper 192, matching taper 194), are listed in [0047] and [0100], and are used the same way in claims 40 to 43. The bare phrase 'split seat' never appears in description.md or claims.md; the two-piece seat is always 'two-piece seat', so there is no ambiguity in the filed text. Process note for the Orchestrator: add the rows to LOCKED.md so the terms check stops producing the 'split seat' hit; this is dossier hygiene, not a deficiency the application faces."
+  },
+  {
+   "id": "F-38-10",
+   "ruling": "upheld",
+   "severity": "low",
+   "reason": "registry.md note 1 (line 128) states that 'description.md and claims.md do not yet exist in this run' and that the cross-check 'must be re-run with pc numerals once both exist'. Both files are in the package, so the note is false as it stands and a drafting-process statement has reached the blind package. It does not affect the description or claims, and nothing in the filed application needs amending: update or remove the note in the registry once pc numerals has been run against the current description and claims."
+  },
+  {
+   "id": "F-40a-1",
+   "ruling": "rejected",
+   "reason": "Duplicate of F-38-5 (same defect, same anchor [0049]); also covered by F-28-13 and F-30-16. The substance is correct: figures.md and registry.md define FIG. 13A with numeral 220 (registry 'FIG. 13A: ... Schrader-pattern core body (220)'), while [0049] describes only FIG. 13B and no paragraph of description.md mentions FIG. 13A or 220. It should be ruled and routed once, under F-38-5."
+  },
+  {
+   "id": "F-40a-2",
+   "ruling": "rejected",
+   "reason": "Duplicate of F-38-8, and the premise is false: [0049] reads 'FIG. 13B is an axial section ...'; 'FIGS. 13B' does not occur in the package."
+  },
+  {
+   "id": "F-40a-3",
+   "ruling": "rejected",
+   "reason": "Claims 1 and 3 in single-part form are not a defect. Rule 43(1) EPC calls for two-part form only 'wherever appropriate', and the finding itself says 'No correction needed at filing'. Single-part form is accepted at the USPTO and the UKIPO. Whether to recast claim 1 against US4044791A or US3473561A is a prosecution response, made if and when the EPO examiner asks, not an amendment of the text now. Nothing on the text needs correcting."
+  },
+  {
+   "id": "F-40a-4",
+   "ruling": "rejected",
+   "reason": "Duplicate of F-37-5 ('Claim cross-references embedded in the claim body rather than the dependency clause', same claims 47, 61, 77, 86). On the text, each of these claims states its category in its own preamble ('A tyre valve (1) comprising ... the valve core (5) of any one of claims 1 and 5 to 44' in claim 47; 'The method of claim 2, wherein the valve core is the valve core of any one of claims 1 and 5 to 46' in claim 61; 'A valve core (5) comprising ... the seat ring (30) of any one of claims 3 and 62 to 76' in claim 77; 'The method of claim 4, wherein the seat ring is the seat ring of any one of claims 62 to 69' in claim 86), which is the conventional way to claim a different category incorporating another claim. The US issue with these claims (multiple dependent claims depending on multiple dependent claims, e.g. claim 47 via claim 44) is F-37-3. The reference to 'F-40a-1' for claim 61 is misdirected: F-40a-1 concerns FIG. 13A, not claim format."
+  }
+ ]
+}

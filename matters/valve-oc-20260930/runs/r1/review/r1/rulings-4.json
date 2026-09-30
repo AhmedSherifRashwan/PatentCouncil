@@ -1,0 +1,188 @@
+{
+  "rulings": [
+    {
+      "id": "F-35-6",
+      "ruling": "upheld",
+      "reason": "Claim 79 requires 'raising the pressure differential above an over-travel threshold'. A method in which a depressor in the head or adaptor pushes the poppet into over-travel 'whatever the pressure differential' ([0066]) does not perform that step. Claim 46 covers the depressor only as a product feature, and claim 88 covers pressing only during deflation. Best defence: claim 79 still reads where the pump also exceeds the threshold. That does not reach a depressor used with a low-pressure device. A method claim can be added from [0066]/[0067] without new matter. Overlaps F-36-16, which is the broader independent-claim version."
+    },
+    {
+      "id": "F-36-1",
+      "ruling": "upheld",
+      "reason": "The text does not give the axial arrangement or the purge route for the FIG. 1 embodiment. [0079] puts the sealing edge at the end opposite the internal shoulder. [0116] makes the chamber-side end of the ring 'remote from the sealing edge', so the internal shoulder and the interference band ([0036], [0053]) sit at the chamber-side end, which is the end the purge gas must leave by ([0056], [0059]). No paragraph says how gas in the outer-surface gap passes that band. The mechanism also does not cohere as described: [0040] and [0053] place the gap at the outer surface, closed at rest and opened when the surface 'moves away from' the bore, yet [0020], [0053] and [0093] (and FIG. 3 in the plan) give the illustrated deflection as outward, which moves the outer surface towards the bore. [0103] concedes that this location needs inward movement. The figure plan (FIG. 6) calls the band convention a drawing convention 'adopted to reconcile' the disclosure, not something taken from the inventor. Best defence: claim 1 is generic, and the third arrangement ([0105], inner-surface gap opened by outward deflection) is coherent and supports it. That saves claim 1's scope, but not the enablement of the illustrated embodiment, and claims 4, 30 and 21 read directly on it. Only the inventor's sketches can resolve this, so it needs an answer at the gate, not a drafting assumption."
+    },
+    {
+      "id": "F-36-2",
+      "ruling": "upheld",
+      "reason": "The package holds only figures.md, a 'Figure Plan' that expressly says no inventor image has been seen and that FIGs. 2 and 4–15 are new. The description relies on drawings throughout ([0030], [0053], [0081], [0093], [0109], [0120], [0137]). The plan text carries internal working references ('01 Q22', 'DA-7, DA-23, DA-24', 'Prompt 16', '14.md'), which must not be filed. Without drawings, US 35 USC 113 is engaged and the EP figure references are exposed. There is also no Brief Description of the Drawings. The FIG. 1, 3 and 6 geometry depends on F-36-1 being resolved first."
+    },
+    {
+      "id": "F-36-3",
+      "ruling": "upheld",
+      "reason": "[0065] discloses the wipe-only form ('sealed at its periphery so that no inflation gas flows past it'), and [0061], [0092] and [0124] describe the wipe independently of any flow. Every product and method independent claim (1, 58, 79) requires the purge gap and purge flow path, so claims 25 and 80 cannot reach a sealed-periphery ring. Best defence: a claim without the purge gap moves closer to closing-stroke wipers (INDEX #3 US 4,719,938; #7 US 6,006,954). That is a reason to draft it with care, not a reason to leave it unclaimed. Severity corrected to medium: this is a design-around gap in claim coverage that existing text can close, not a rejection of any pending claim. A drawing of the sealed-periphery form would help, but it is not needed for claim support.",
+      "severity": "medium"
+    },
+    {
+      "id": "F-36-4",
+      "ruling": "upheld",
+      "reason": "[0025] defines 'inflatable chamber' as the volume 'of a bicycle inner tube or of a tubeless bicycle tyre set-up', and [0001] applies that definition to the claims, so claim 79 ('an inflatable chamber which holds liquid sealant') is confined to bicycle chambers. In claim 58 the phrase is a statement of purpose, but its scope is still read through the definition. The only basis for a wider reading is the general sentence in [0139]. The definition can be widened on the strength of [0139] alone. Naming other chambers (e-scooter, motorcycle) needs the inventor to confirm them."
+    },
+    {
+      "id": "F-36-5",
+      "ruling": "unclear",
+      "reason": "The enablement objection is answered in part. [0069] and [0179] already say that whether an inflation event reaches the purge state 'depends on the pressure differential that the inflation device produces', and [0068] limits 'once per inflation event' to an event 'that reaches the purge state' and names the tested event as 'from fully deflated to 6 bar'. Claims 79 and 87 are conditional on exceeding the threshold. What remains is a fact outside the package: whether a floor-pump top-up from riding pressure reaches a 3.5 bar differential across the poppet ([0011]). The inventor's knowledge or a test would resolve it. If the answer is no, the technical effect relied on for inventive step is narrower than [0064] implies. Severity corrected to low, because no claim is at risk on the text.",
+      "severity": "low"
+    },
+    {
+      "id": "F-36-6",
+      "ruling": "upheld",
+      "reason": "Checked against the figure plan: none of FIGs. 1–15 shows the integral flexure (claim 24, [0096]), the second return formation (claim 28, [0099]), the inner-surface purge gap (claim 31, [0105]), the over-travel stop (claim 45, [0049]) or the depressor (claim 46, [0066]; FIG. 7 is only a state diagram). Claim 32's openings are only arguably shown in FIG. 12B/12C, which the plan draws as conversion geometries and not as purge openings. 37 CFR 1.83(a) applies. The EPO/UK part of the attack is overstated: support under Art. 84 comes from the description, and [0096], [0099], [0105], [0049] and [0066] describe these features in words. Medium stands on the US point. The figures can be drawn from the existing text."
+    },
+    {
+      "id": "F-36-7",
+      "ruling": "rejected",
+      "reason": "As an enablement point this fails. A skilled person makes a fit that interferes only over an axial band by ordinary means, relieving the bore or the ring, and [0033] and [0151] state that the core body is turned 'by ordinary machining'. Claim 21 recites a result that a turner achieves routinely. The real defect is how purge gas passes that band, and whether the convolution itself interferes. That is F-36-1, upheld, and is dealt with there. If the inventor's answer to F-36-1 names the means, it can go in [0036] in the same fix."
+    },
+    {
+      "id": "F-36-8",
+      "ruling": "upheld",
+      "reason": "Claim 64 is limited to 'a bicycle inner tube or a tubeless bicycle tyre set-up', and no claim covers the kit of [0141] (seat ring, poppet and two-stage return spring matched for spacing) or the valve plus depressor head or adaptor of [0066]. Claim 46 recites only that the poppet 'is additionally movable' by a depressor. The premise that these claims cannot be added after filing is overstated: claims supported by [0066] and [0141] can be added in prosecution, subject in the EPO to Rule 137(5). They are still cheaper and safer to include now. The generic-chamber part overlaps F-36-4 and depends on [0139]."
+    },
+    {
+      "id": "F-36-9",
+      "ruling": "unclear",
+      "reason": "The text answers only part of this. The conical annular disc in [0082] flattens under axial load, but its rim moves radially and [0020] defines radial deflection. No paragraph discloses a diaphragm lifting a lip axially to open the purge path. Whether that form is within the inventor's conception is a fact outside the package. The inventor should be asked at the gate whether an axially flexing element opening a purge path only in over-travel was conceived; nothing may be added otherwise."
+    },
+    {
+      "id": "F-36-10",
+      "ruling": "unclear",
+      "reason": "Correct on the text: claims 1, 58 and 79 all require a normal-open state, and [0051] discloses only a short normal stroke with the threshold 'close to the crack pressure' ('substantially every opening'), not purging from first lift. Whether zero-stroke purging was conceived is for the inventor. The normal-open/over-travel sequence is also part of what separates the claims from INDEX #13 (US 4,408,632) and #16 (US 8,043,186), so counsel must weigh any claim without it against those references. Resolved by the inventor's confirmation, then counsel's judgement."
+    },
+    {
+      "id": "F-36-11",
+      "ruling": "upheld",
+      "reason": "Claims 1, 58, 67 and 79 recite shape recovery 'to its at-rest form', but [0013], [0014] and [0071] say 'towards', and [0099] admits residual set. A defendant whose ring keeps some set argues the claim is not met. Only the third arrangement ([0105]) gives a 'no significant flow' test for 'closed'; [0018] and [0102] have none, and metal-on-metal closure always leaks slightly. Best defence: [0013] defines shape recovery as 'return towards its at-rest shape', which a court would read into the claim term. The literal wording 'to its at-rest form' still invites the argument. The 'towards' amendment needs no new disclosure. A general 'closed' test for every location is a new definition and should go in now."
+    },
+    {
+      "id": "F-36-12",
+      "ruling": "upheld",
+      "reason": "Correct on the text: [0046] and [0090] give the normal stroke only as 0.6 mm, the rest clearance of the purge shoulder has no value, and [0022] and [0039] say only that the second stage is 'higher'. Best defence: [0088] states the governing relationship ('spaced from the deflectable ring element by at least the normal stroke at rest'), which gives a qualitative fallback. Severity corrected to low: no pending claim depends on these ranges, and numeric ranges may be added only if the inventor supplies them. [0006] does not permit the team to choose them.",
+      "severity": "low"
+    },
+    {
+      "id": "F-36-13",
+      "ruling": "upheld",
+      "reason": "Mostly rejected for claim 46: [0066] says the depressor 'pushes the poppet beyond the normal stroke into over-travel', and with [0090] (normal stroke 0.6 mm, over-travel 0.5 mm) a skilled person can set the depressor travel without further guidance. The Schrader point survives. [0137] says the Schrader poppet 'may be depressed by the head of the inflation device', but nothing explains how claim 57's pressure-driven normal-open state coexists with a standard head that always depresses the pin. Severity corrected to low, confined to the Schrader operating sequence, which the inventor should confirm.",
+      "severity": "low"
+    },
+    {
+      "id": "F-36-14",
+      "ruling": "rejected",
+      "reason": "The combination already has direct basis. [0143] discloses each alternative 'in combination with each of the others', and the claims as filed chain it: claim 40 (single-rate spring, threshold set by ring stiffness, [0122]) depends on claims 1–35, which include claim 34 (flutes, [0110]), which in turn depends on claims 1–33, which include claim 24 (integral flexure in a resilient-polymer core body, [0096]). Moulding is disclosed at [0096] and [0131]. [0122] explains how the threshold is set without a second stage. The EPO treats original claim dependencies as disclosure. Caution for F-37-1: that basis is kept only if the EP and UK claim sets keep their multiple dependencies."
+    },
+    {
+      "id": "F-36-15",
+      "ruling": "upheld",
+      "reason": "The tension is real. [0118] says that below the threshold 'the deflectable ring element is not touched'. [0122] sets the threshold by the force needed to deflect the ring along a plateau 'after an initial elastic rise', and [0050] has the ring contribute 'once the purge shoulder bears on' it. With a single-rate spring (claim 40), contact and elastic loading therefore happen below the threshold, while claim 1's normal-open state requires the ring 'in its at-rest form', and [0010] treats 'at rest' as 'not deflected by the purge shoulder'. Claim 40 read with claim 1 is exposed on clarity and support. Rewording [0118] ('not deflected so as to open the purge gap') needs no new disclosure. The claim 1 alignment should be coordinated with F-33-1."
+    },
+    {
+      "id": "F-36-16",
+      "ruling": "upheld",
+      "reason": "Each of these modes is disclosed and each falls outside claims 1, 58 and 79, which require the three states driven by the pressure differential: the near-two-state form of [0051] (single rate), depressor over-travel 'whatever the pressure differential' in [0066], and deflation-only purging in [0067] ('each inflation event using the normal stroke alone'). Claim 88 depends on claim 79, so it does not cover deflation-only purging. An independent claim that defines the purge state by poppet displacement beyond the normal stroke is supported by [0012], [0066] and [0067] without new matter. It would sit closer to INDEX #13 and #14, and counsel should weigh that. Overlaps F-35-6."
+    },
+    {
+      "id": "F-36-17",
+      "ruling": "unclear",
+      "reason": "This turns on whether the inventor holds data beyond Example 1. [0159] and [0165] record what was not tested: beyond 40 cycles, temperatures other than 22 °C, CO2 cold shock, and PEEK and wiper variants (Examples 2–3 are prophetic, [0154]). The inventor should be asked whether any further results exist. Nothing is to be added without them."
+    },
+    {
+      "id": "F-36-18",
+      "ruling": "upheld",
+      "reason": "The separate purge actuator of [0123] is outside claim 1: there 'the poppet (40) perform[s] only its normal stroke', while claim 1 requires that the poppet 'is in over-travel ... and produces a radial deflection'. The inverted arrangement of [0117] is partly answered by the text: [0005] reads 'carried by' as including indirect carriage, so a skirt on a poppet guided by the core body is arguably 'carried by the core body', and the poppet's travel produces the deflection. That argument is contestable, and an explicit fallback supported by [0112], [0117] and [0123] costs nothing. Low stands."
+    },
+    {
+      "id": "F-36-19",
+      "ruling": "unclear",
+      "reason": "[0073] states that 'No value below 5 °C is specified herein', and [0171] that no martensite start temperature is asserted. A ladder below claims 48 and 74 needs values the inventor has chosen, which is a fact outside the package. The inventor should be asked whether target austenite finish or martensite start values exist. None may be invented."
+    },
+    {
+      "id": "F-36-20",
+      "ruling": "unclear",
+      "reason": "Correct on the text: claims 1 and 58 recite a return spring, and [0022] defines it as a 'biasing member'. [0122] keeps a single-rate return spring even where the ring sets the threshold, and chamber pressure is not a member. Whether a springless poppet closed by chamber pressure alone was conceived is for the inventor. If it was not, counsel should record this boundary in the assessment."
+    },
+    {
+      "id": "F-36-21",
+      "ruling": "upheld",
+      "reason": "[0028] measures the seat ring diameters 'at a portion of the wall free of convolutions'. [0079] allows three or more convolutions, and 'a helical or circumferential wave', between the sealing edge and the retained end, and [0085] requires only that the sealing-edge band be continuous, not free of convolutions. A ring convoluted along its whole length therefore has no measuring location for claims 16 and 67. A fallback convention added now is a clarification. Added after filing, it would be new matter."
+    },
+    {
+      "id": "F-37-1",
+      "ruling": "upheld",
+      "reason": "Correct for the US only. Examples: claim 10 ('any one of claims 1 to 9') takes in claims 8 and 9, each dependent on 'any one of claims 1 to 7', and claim 14 ('11 to 13') takes in claim 13 ('11 or 12'). 37 CFR 1.75(c) bars a multiple dependent claim from serving as the basis for another multiple dependent claim. The finding's statement of EP and UK law is wrong: Rule 43(4) EPC requires only a reference to the claim relied on, and EPO and UKIPO practice accept multiple dependent claims that refer to other multiple dependent claims. Severity corrected from critical to medium. No claim falls: in the US the improper claims are objected to and cured by a preliminary amendment with no loss of scope. The EP and UK sets should keep their dependencies, which give the combination basis relied on in F-36-14. Recommended fix: a US-specific restructured claim set, not a change to the master set.",
+      "severity": "medium"
+    },
+    {
+      "id": "F-37-2",
+      "ruling": "rejected",
+      "reason": "'Bears' is a verb and needs no antecedent. Claim 28 introduces its own noun with the indefinite article ('a side on which the poppet bears in over-travel'). Claim 1 already has the poppet in over-travel 'produc[ing] a radial deflection of the deflectable ring element', which implies the poppet acts on the ring. [0005] reads 'bears on' as covering direct or indirect contact. Read with claim 1 alone, the side is identifiable."
+    },
+    {
+      "id": "F-37-3",
+      "ruling": "upheld",
+      "reason": "[0025] defines an inflatable chamber as 'the volume ... of a bicycle inner tube or of a tubeless bicycle tyre set-up', and [0001] applies that definition to the claims. Claim 64, however, claims 'An inflatable chamber comprising a bicycle inner tube ... fitted with an inflation valve', which makes a volume comprise a physical article. That is a credible clarity objection. It can be cured without new disclosure by recasting claim 64 as 'A bicycle inner tube or tubeless bicycle tyre set-up fitted with...', with basis in [0139] ('the inflatable chamber so formed ... together with the inflation valve forms a further aspect')."
+    },
+    {
+      "id": "F-37-4",
+      "ruling": "rejected",
+      "reason": "The EPO accepts a claim that refers to a claim of another category ('form a valve core according to any one of claims 1 to 57' in claim 61; claims 89 and 99 likewise). The only live defect is US multiple dependency within the referenced ranges, which is F-37-1. The finding itself proposes no action beyond F-37-1. Duplicate."
+    },
+    {
+      "id": "F-37-5",
+      "ruling": "upheld",
+      "reason": "Claim 1 ends '...; the deflectable ring element undergoing shape recovery ... when the pressure differential falls below the over-travel threshold' after the list introduced by 'the valve core having:'. The clause is a limitation in any reading and its meaning is plain, so scope is unaffected. Its grammatical status, and whether it belongs to the purge-state limb, is still loose, and 'and wherein the deflectable ring element undergoes shape recovery...' fixes it in place. The same wording is in claim 58. Severity corrected to low: an examiner is unlikely to object, and the fix is cosmetic.",
+      "severity": "low"
+    },
+    {
+      "id": "F-37-6",
+      "ruling": "rejected",
+      "reason": "Duplicate of F-37-4, which covers claims 61, 89 and 99. Incorporating a sub-combination by claim reference is an accepted construction, and the only defect in the incorporated ranges is the US one in F-37-1. The finding itself proposes no wording change."
+    },
+    {
+      "id": "F-37-7",
+      "ruling": "upheld",
+      "reason": "Claims 1 and 58 give the genus 'deflectable ring element (30)' the seat ring's numeral, while claim 9 makes the wiper ring (132) the deflectable ring element. Rule 43(7) EPC provides that reference signs are not to be construed as limiting, so there is no legal effect, and the premise of a 'conflict' is overstated. Changing to '(30, 132)' or deleting the numeral removes an argument for free. Severity corrected to low.",
+      "severity": "low"
+    },
+    {
+      "id": "F-37-8",
+      "ruling": "upheld",
+      "reason": "Correct: claims 79–89 carry no numerals, whereas claims 1, 58, 67 and 90–102 do. Rule 43(7) EPC expects reference signs where the application has drawings, and the EPO may ask for them. Numerals should be added only once the drawings exist and are cross-checked (F-36-2). Severity corrected to low: this is formal, with no effect on scope.",
+      "severity": "low"
+    },
+    {
+      "id": "F-37-9",
+      "ruling": "rejected",
+      "reason": "Dependent claims 20, 44 and 101 use 'approximately' or 'about'. [0007] explains the term, and the exact values are separately disclosed ([0156]: '1.0 bar', '3.5 bar'; [0090]: 'in the worked example 1.0 bar ... 3.5 bar'), so the qualifier can be deleted if the EPO objects, with no loss of basis. Adding a stated tolerance now would mean inventing a value the inventor has not given ([0172]: 'The working range of the interference has not been determined'). The proposed fix is barred, and the risk is already covered."
+    },
+    {
+      "id": "F-37-10",
+      "ruling": "upheld",
+      "reason": "[0010] defines 'chamber side' only 'of the poppet'. Claim 9 ('the chamber side of the fixed seat') and claim 33 ('the chamber side of the purge gap') use the definite article with no antecedent for that usage, and claim 3 ('the chamber side of the sealing face') has the same pattern. The meaning is clear from [0010] ('open to the inflatable chamber') and [0093], but an antecedent objection is credible. The cure is to restate [0010] as a direction within the valve or to use 'a chamber side' in the claims. Neither needs new disclosure."
+    },
+    {
+      "id": "F-37-11",
+      "ruling": "upheld",
+      "reason": "Correct, and understated. 'Threshold-setting arrangement' (claim 36) pairs a nonce word with a function and is a likely 35 USC 112(f) term. 'Deflecting formation' (claim 2) is closer to the line. The corresponding structures are disclosed ([0112]–[0116], [0119]–[0122], FIGs. 11 and 14), so the claims are not indefinite. However, [0009] itself says these terms refer to structure 'consistent with the corresponding structures described in this specification and their equivalents', which reads as a 112(f) concession, and it applies the same wording to 'deflectable ring element', the core term of claim 1. Severity corrected to medium: counsel should decide whether to keep that sentence of [0009], because it could narrow claim 1 in the US.",
+      "severity": "medium"
+    },
+    {
+      "id": "F-37-12",
+      "ruling": "rejected",
+      "reason": "Duplicate of F-37-9 (claim 44, 'about'). It is answered the same way: the exact values of 1.0 bar and 3.5 bar are disclosed in [0090] and [0156], so the qualifier can be deleted in prosecution if objected to. The finding itself proposes no pre-emptive action."
+    },
+    {
+      "id": "F-37-13",
+      "ruling": "rejected",
+      "reason": "Claims 1 and 58 introduce each state by its name and its pressure condition ('the closed state, at a pressure differential below a crack pressure, in which...; a normal-open state, at ...; and a purge state, at ...'). Each limitation therefore sits plainly under its named state, and the semicolon-separated list is standard claim form. Numbering (i)–(iii) is optional polish, not a clarity defect."
+    }
+  ]
+}

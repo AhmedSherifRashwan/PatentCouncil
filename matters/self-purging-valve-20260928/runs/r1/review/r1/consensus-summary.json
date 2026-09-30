@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-09-29T10:29:01+00:00",
+  "reviewers": [
+    "ip-reviewer"
+  ],
+  "counts": {
+    "consensus": 0,
+    "a_only": 78,
+    "b_only": 0
+  },
+  "by_severity": {
+    "critical": {
+      "consensus": 0,
+      "a_only": 2,
+      "b_only": 0
+    },
+    "high": {
+      "consensus": 0,
+      "a_only": 19,
+      "b_only": 0
+    },
+    "medium": {
+      "consensus": 0,
+      "a_only": 35,
+      "b_only": 0
+    },
+    "low": {
+      "consensus": 0,
+      "a_only": 22,
+      "b_only": 0
+    }
+  }
+}

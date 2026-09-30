@@ -1,0 +1,182 @@
+{
+ "rulings": [
+  {
+   "id": "F-32-15",
+   "ruling": "upheld",
+   "reason": "Best defence is [0147]: 'the convoluted wall (32) may be defined by the laser-cut profile ... the disclosure ... does not depend on which of these steps imparts the convolution'. That asserts the alternative but does not enable it. [0017], [0028] and [0079] define a convolution as a radial excursion of the wall measured from its mean radius. Cutting through a tube wall removes material and does not displace the wall radially, and no paragraph explains how a cut profile alone produces that excursion. [0148] (fixture 'constrains the convoluted wall to its intended wave geometry') enables the shape-setting route, and [0150] (roll-forming) enables another. Claim 90 therefore recites one alternative ('by the laser cutting') that the text does not support, and [0156] does not say which step formed the convolution of Example 1. Deleting 'by the laser cutting' from claim 90 needs no new matter. Stating the Example 1 forming step needs the inventor."
+  },
+  {
+   "id": "F-32-16",
+   "ruling": "rejected",
+   "reason": "Duplicate. The deflation-only purge of [0067] is raised, with the same claims and the same remedy, in F-33-4, and the inverted skirt-on-poppet arrangement of [0117] in F-33-9. Both are ruled there."
+  },
+  {
+   "id": "F-32-17",
+   "ruling": "upheld",
+   "reason": "The description itself limits the ranges. [0088] gives them as 'the ranges within which the mechanism is expected to operate with a seat ring (30) of that material and wall geometry'. [0091] says 'The ranges correspond to the superelastic seat ring (30) with a convoluted wall (32). A person skilled in the art will adapt them' to polymer, resilient-metal, other-geometry and wiper-ring forms, and [0146] repeats this. Yet claims 16-17, 35, 41-43 hang from claim 1, which covers any material and geometry. Independent claim 67 (no material) and claims 76-77 (a PEEK ring) recite the NiTi-derived inner diameter and wall thickness. The drafter's reply that [0006] makes each range an operating window does not help, because [0088] ties that window to one material. On the text this is a credible Art. 84 EPC / written-description objection. The fix is either inventor confirmation that the ranges hold across materials, or re-dependency on claims 47/73 and 11."
+  },
+  {
+   "id": "F-32-18",
+   "ruling": "rejected",
+   "reason": "Duplicate for claims 25 and 79. Claim 25 ('shears sealant film') is ruled under F-32-19, and claim 79 ('across surfaces on which sealant film accumulates') under F-33-12. For claim 81 alone the objection fails. Claim 81 is a method-of-use claim whose parent claim 79 recites 'an inflatable chamber which holds liquid sealant'. In a method of operation, a result produced by the recited step on material present in the method is a legitimate limitation, supported by [0056]."
+  },
+  {
+   "id": "F-32-19",
+   "ruling": "upheld",
+   "reason": "Claim 25 is a product claim that defines the ring by a result on material outside the claimed article: 'shears sealant film from that surface'. The description makes shearing a matter of degree. [0063]: the superelastic ring 'shears ... rather than riding over it', while PEEK gives a 'weaker' wipe. [0158]: the audible snap 'is not a measurement ... of the extent of the snap-back wipe'. Whether a ring that partly rides over the film infringes is therefore unclear (EPO result-to-be-achieved; proof requires used product). The drafter's best defence, a capability reading, is weakened by [0063]'s own contrast. [0124] states that the snap-back wipe 'is defined by that movement and not by its speed or force', so the kinematic recast ('moves across and in contact with a surface of the poppet during shape recovery') is fully supported and loses nothing. Keep 'shears' in method claim 80."
+  },
+  {
+   "id": "F-32-20",
+   "ruling": "upheld",
+   "reason": "Upheld. Severity is raised because the text, as written, puts the core mechanism of claims 3, 4 and 22 into an arrangement that cannot work. [0046]: on opening, 'the poppet (40) moves ... towards the chamber side, lifting the sealing face (42) from the sealing edge (34)'. So the sealing edge lies on the supply side of the sealing face. [0038], [0052] and claim 3 place the purge shoulder 'on the chamber side of the sealing face'. A shoulder there moves away from the seat ring as the poppet opens, and could bear on it only through a supply-facing ring surface lying further chamber-wards. No paragraph or figure description discloses such a surface. [0116] puts the retainer contact at 'the chamber-side end of the seat ring ... remote from the sealing edge', which places the sealing edge at the supply-side end, and that is hard to reconcile with [0046]. The axial order of internal shoulder (24), sealing edge (34), convolutions (32a, 32b) and purge shoulder (44) is never stated. As drafted, claim 3 faces a credible support and enablement objection, and the ordering must come from the inventor's sketches or prototype before filing, because it cannot be added afterwards.",
+   "severity": "high"
+  },
+  {
+   "id": "F-32-21",
+   "ruling": "upheld",
+   "reason": "Upheld as a disclosure gap. The premise that the dimensions cannot fit is overstated, but the gap is real. The arithmetic is right: [0089] inner diameter 2.3 mm, wall 0.20 mm and outer diameter 2.7 mm give a mean radius of 1.25 mm. A 0.12 mm outward crest gives an outer diameter of about 2.94 mm, which cannot enter a bore sized for 0.03 mm interference on 2.7 mm ([0036]) unless the bore is relieved over the convoluted length. An inward trough gives about 2.06 mm at the trough. The values are consistent with inward convolutions and a stem under about 2.06 mm, or with a relieved bore. [0036] ('not in interference with the core body bore') hints at a relief but gives no dimension. The package states neither the convolution direction, nor any bore relief, nor the diameter of the poppet stem (41). Claim 78 recites the exact values, and filling this after filing would be new matter. Related tension: [0040] and FIG. 3 describe outward deflection opening a gap at the outer surface, which is coherent only on the [0103] reading."
+  },
+  {
+   "id": "F-32-22",
+   "ruling": "upheld",
+   "reason": "Verified on the text. [0030]-[0041] use unbracketed numerals ('seat ring 30'), while [0042] onwards brackets them. Claim 58 recites 'deflectable ring element (30)', but the stem-carried ring of [0138] and claim 62 is 730. Claims 100-102 add a step of pressing into a core body, which lies outside a 'method of manufacturing a seat ring' preamble (claim 90). The registry rows 12, 32, 62 and 64 are not in the review package, so that part could not be checked here and is left to the registry check. Formal and low, fixable in place."
+  },
+  {
+   "id": "F-33-1",
+   "ruling": "upheld",
+   "reason": "Upheld. Severity is corrected because the premise is partly overstated. [0051] as written keeps a short normal stroke and a threshold 'close to' but still above the crack pressure, and claim 40 covers the single-rate spring. The embodiment literally described is therefore inside claim 1. The real escape is the variant [0051] points to ('purge state ... reached on substantially every opening'): a deflecting formation that meets the ring at the crack pressure, so there is no normal-open state and no threshold higher than the crack pressure, as claims 1, 58 and 79 require. An independent claim reciting only the closed and purge states, with the three-state claim kept as the fallback, is supported by [0014], [0051] and [0065], and costs nothing in support. Counsel should weigh novelty: the normal-stroke/over-travel sequence is part of what distinguishes index #13, #14 and #16.",
+   "severity": "medium"
+  },
+  {
+   "id": "F-33-2",
+   "ruling": "upheld",
+   "reason": "The normal-open state of claims 1, 58 and 79 requires 'the deflectable ring element is in its at-rest form'. [0010] ('at rest when it is not deflected by the purge shoulder'), [0047] ('not loaded ... retains its at-rest form') and [0118] ('the deflectable ring element is not touched') support a narrow reading, which a light-contact formation escapes. The finding also exposes an internal conflict. Under claim 40 and [0122], with a single-rate spring and the threshold set by ring stiffness, the formation must load the ring through its 'initial elastic rise' while the pressure differential is still below the threshold, that is, in the normal-open state. Claim 40 therefore sits uneasily with claim 1. Deleting 'the deflectable ring element is in its at-rest form and' from the normal-open state is broadening and is supported by [0043] and [0102] ('purge gap ... closed in ... the normal-open state'). Amending [0118] and [0122] needs inventor confirmation that sub-threshold contact is within the conception."
+  },
+  {
+   "id": "F-33-3",
+   "ruling": "rejected",
+   "reason": "Duplicate of F-33-4: same escape (over-travel by a depressor, [0066] and [0137]), same claims (1, 58, 79, 46) and an equivalent remedy. The claim 46 'additionally' and [0058] construction points raised here are carried in the ruling on F-33-4."
+  },
+  {
+   "id": "F-33-4",
+   "ruling": "upheld",
+   "reason": "Claim 79 requires 'raising the pressure differential above an over-travel threshold', which a depressor-actuated purge never performs. [0066] discloses over-travel by a depressor 'whatever the pressure differential', [0137] says this is how a Schrader poppet is operated, and [0067] discloses a deflation-only purge. For claims 1 and 58 the drafter's best defence is a capability reading: any sprung poppet has some pressure at which it over-travels. The defendant answers with [0058] (threshold 'within the pressure differential that the intended inflation device produces') and with claim 46's 'additionally', which implies that a pressure-driven purge is required. Both are credible. The disclosed but unclaimed routes also invite a US dedication argument. A position-defined purge state ('poppet displaced beyond the normal stroke into over-travel'), with pressure, depressor and deflation as dependents, is supported by [0012], [0066] and [0067]."
+  },
+  {
+   "id": "F-33-5",
+   "ruling": "unclear",
+   "reason": "Claims 1, 58 and 79 require a return spring. [0022] defines 'return spring' as 'the biasing member that biases the poppet towards the closed state', and [0122] describes threshold-setting by ring stiffness only 'with a return spring (50) of a single rate'. No paragraph discloses a poppet closed by chamber pressure alone, without a biasing member, and pressure is not a 'member' even under [0009]. The escape is real only if such a product can reach a distinct crack pressure and over-travel threshold. Whether the inventor conceived a spring-less poppet, and whether it works, is outside the package. It is resolved by inventor confirmation, followed by disclosure before filing if confirmed. The wording point (species against genus) is ruled separately under F-33-19."
+  },
+  {
+   "id": "F-33-6",
+   "ruling": "upheld",
+   "reason": "Upheld. Severity is corrected. The ranges in claim 67 ('from 2.0 mm to 2.6 mm', 'from 0.15 mm to 0.30 mm') exclude the Schrader-scale rings of [0137] and the scaled rings of [0091]. A dimension-free ring claim (sealing edge, axial-to-radial conversion wall, shape recovery) is supported by [0034], [0078] and [0084]. The loss is confined to the stand-alone ring channel of [0141], because claims 1 and 58 do not carry the ranges. The ranges may also be doing novelty work against index #1, a NiTi wave-section ring with radial displacement. Broadening is therefore a counsel trade-off after a fresh read of #1, not a required fix. See F-32-17 on the support limits of the ranges themselves.",
+   "severity": "medium"
+  },
+  {
+   "id": "F-33-7",
+   "ruling": "rejected",
+   "reason": "Duplicate of F-33-2: the same 'at-rest form' limitation in the normal-open state of claims 1 and 58, the same pre-loaded-ring escape and the same deletion remedy."
+  },
+  {
+   "id": "F-33-8",
+   "ruling": "rejected",
+   "reason": "Duplicate of F-33-13. Both attack the 'radial deflection' limitation ([0020]) through a ring that deforms axially or out of plane to open a port, and both depend on the same unconfirmed conception. The axially collapsing, bellows-like variant is covered in the ruling on F-33-13."
+  },
+  {
+   "id": "F-33-9",
+   "ruling": "upheld",
+   "reason": "Claim 1 requires that 'the poppet ... produces a radial deflection' and that the ring be 'carried by the core body'. The separate purge actuator of [0123] ('the poppet (40) performing only its normal stroke') does not meet the first. The inverted skirt 'carried by the poppet' of [0117] meets the second only on a strained indirect-carriage reading of [0005], since the poppet is guided by the core body, not fixed to it. Both are disclosed and unclaimed. A formulation in which a deflecting member moved in response to the pressure differential produces the deflection, and the ring is carried by the core body or the poppet, is supported by [0112], [0117] and [0123]. Counsel should check the broader deflecting-member wording against index #16 (separately moving members opening a second path)."
+  },
+  {
+   "id": "F-33-10",
+   "ruling": "rejected",
+   "reason": "Duplicate of F-33-11: the same claim 90 limitations ('laser cutting', 'water quenching'), the same alternative routes ([0150]), the same point that electropolishing removes the trace ([0149]), and the same remedy."
+  },
+  {
+   "id": "F-33-11",
+   "ruling": "upheld",
+   "reason": "Claim 90 recites 'laser cutting a profile ... from the tube stock' and 'then water quenching'. [0148] discloses only water quenching, and [0150] discloses roll-forming, split-die forming, photochemical etching and stamping as other routes. [0149] states that electropolishing removes 'the heat-affected edge left by laser cutting', so the claimed process leaves little trace on the product, and it may be performed abroad. Moving 'water quenching' to claim 94 is literally supported by claim 94 and [0148]. The description never says the quench is optional, however, so the EPO intermediate-generalisation risk the finding flags is real, and counsel must weigh it. Reciting cutting generically with laser cutting as a dependent is supported by [0147] and [0150]."
+  },
+  {
+   "id": "F-33-12",
+   "ruling": "upheld",
+   "reason": "Every step of claim 79 ('coupling an inflation device', 'raising', 'removing') is the user's act, so a competitor is reached only by inducement or contributory infringement, or under UK s.60(2). 'Across surfaces on which sealant film accumulates' ties infringement to the state of the accused valve in use. [0056] names those surfaces structurally ('the outer surface of the seat ring (30) and the adjoining region of the core body bore (22)'), so 'across a surface of the deflectable ring element' is supported and removes the condition that depends on use. The film condition can move to a dependent claim."
+  },
+  {
+   "id": "F-33-13",
+   "ruling": "unclear",
+   "reason": "On the text the escape is real. [0020] limits 'radial deflection' to in-place wall deformation, 'not a bodily displacement', and [0079] excludes a wall that 'merely shortens'. [0082], a conical disc whose flattening moves the free rim radially, is the nearest disclosure, but it still opens the gap radially. No embodiment discloses out-of-plane flexure lifting a lip from an axial face, or axial collapse uncovering a port (which also covers F-33-8). Whether these fall within the inventors' conception is outside the package. Bodily axial displacement of a rigid ring also lies near index #13 and #16, which counsel must weigh. It is resolved by inventor confirmation of an axial-flexure embodiment before filing; a claim to 'elastic deformation' without 'radial' then follows."
+  },
+  {
+   "id": "F-33-14",
+   "ruling": "upheld",
+   "reason": "[0018] defines the purge gap generically as 'closed in the closed state and in the normal-open state'. The 'closed, or ... sufficiently small to carry no significant flow' alternative appears only for the third arrangement in [0105], so a permanent small clearance in series with the sealing edge escapes the generic definition in claims 1, 58 and 79. The text makes the point sharper. [0036] and [0053] say the rest of the seat-ring outer surface is 'not in interference' with and 'free of' the core body bore, which in the illustrated embodiment itself suggests a clearance at rest where [0040] calls the gap closed. Extending the [0105] wording into [0018] is a definitional change the drafter can make before filing, with inventor confirmation of what 'no significant flow' means for the prototype."
+  },
+  {
+   "id": "F-33-15",
+   "ruling": "upheld",
+   "reason": "[0028] measures the seat ring inner diameter and outer diameter 'at a portion of the wall free of convolutions'. For a ring convoluted end to end there is no such portion, so the inner-diameter limitation of claim 67 cannot be determined and becomes an escape as well as a clarity point. A fallback convention (for example, at the sealing edge (34)) is a definition the drafter can add before filing. The broader proposal for a dimension-free ring claim is ruled under F-33-6."
+  },
+  {
+   "id": "F-33-16",
+   "ruling": "rejected",
+   "reason": "Duplicate of F-33-9: the same purge actuator ([0123]) and inverted arrangement ([0117]), the same limitations ('the poppet ... produces', 'carried by the core body') and an equivalent remedy."
+  },
+  {
+   "id": "F-33-17",
+   "ruling": "upheld",
+   "reason": "Claims 1, 58, 67 and 79 recite shape recovery 'to its at-rest form' and closing 'when the pressure differential falls below the over-travel threshold'. [0013] and [0014] use 'towards its at-rest shape/form', and [0099] concedes 'residual set of the ring element after many cycles', so a cycled ring may not return exactly to its at-rest form. [0074] acknowledges transformation hysteresis, and [0122] notes that the threshold depends on temperature, which supports the argument that the gap closes below the threshold rather than on reaching it. The drafter can point to [0060] and [0098] ('to its at-rest form'), but the description is inconsistent and the claim takes the narrow word. The [0014] wording ('towards', 'when the pressure differential falls') is supported and costs nothing."
+  },
+  {
+   "id": "F-33-18",
+   "ruling": "upheld",
+   "reason": "Claim 1 requires a core body (20), and claim 67 covers the ring only inside its dimensional window. A matched ring, poppet and spring supplied without a core body ([0141], [0180], FIG. 5) is at most an indirect infringement, which needs knowledge. [0141] discloses the kit 'matched so that, when assembled into the core body (20), the purge shoulder (44) is spaced ... throughout the normal stroke and bears ... only in over-travel, and the purge gap (60) is closed in the closed state and the normal-open state', which supports a kit claim directly. For the kit claim's states, the fixes from F-33-2 and F-33-4 should be adopted."
+  },
+  {
+   "id": "F-33-19",
+   "ruling": "upheld",
+   "reason": "[0022] defines 'return spring' as 'the biasing member that biases the poppet', but [0009] calls the return spring 'the species described in detail' of the genus 'biasing member'. The two paragraphs give opposing grounds for a plain-meaning argument that 'spring' excludes a non-spring bias. Reciting 'a biasing member (50)' in the independent claims is supported by [0009] and [0022] and costs nothing. Low. See F-33-5 for the spring-less poppet, which this wording does not cover."
+  },
+  {
+   "id": "F-33-20",
+   "ruling": "rejected",
+   "reason": "The text already answers it. [0019] states that the main passage and purge gap 'are different flow paths: the main passage is opened by lifting of the sealing face ... whereas the purge gap is opened only by radial deflection'. [0043] uses 'separate' in the same sense. [0105] addresses exactly the stem-path case the finding raises: the clearance 'remains a flow path distinct from the main passage (64)'. Merging downstream in the chamber ([0056]) is described and does not defeat separateness as defined. Harmonising 'separate' to 'distinct' is optional polish."
+  },
+  {
+   "id": "F-33-21",
+   "ruling": "upheld",
+   "reason": "Upheld on its second point only; the user-infringer point duplicates F-33-12. [0025] defines 'inflatable chamber' as the volume 'of a bicycle inner tube or of a tubeless bicycle tyre set-up'. That lexicography confines claim 79, the 'for an inflatable chamber' preamble of claim 58, and claim 64 to bicycles. It contradicts [0139], which applies the mechanism 'to inflation valves for other inflatable chambers that hold liquid sealant', and it leaves claim 85 adding nothing. Recasting [0025] as an example ('for example a bicycle inner tube ...') removes the confinement. Low, because the bicycle application is the one built and tested."
+  },
+  {
+   "id": "F-33-22",
+   "ruling": "rejected",
+   "reason": "Duplicate of F-32-19: the same result language in claim 25 ('shears sealant film'), the same proof problem ([0158]) and the same kinematic remedy resting on [0124]."
+  },
+  {
+   "id": "F-35-1",
+   "ruling": "rejected",
+   "reason": "Duplicate. It is a scoring restatement of F-33-15 (the [0028] measurement convention and the dimensional window of claim 67) and F-33-6 (the dimension-free ring claim, subject to index #1), with the same remedies."
+  },
+  {
+   "id": "F-35-2",
+   "ruling": "rejected",
+   "reason": "Duplicate. It is a scoring restatement of F-33-11 on claim 90 ('laser cutting', 'then water quenching', the trace removed by electropolishing per [0149]), with an identical remedy."
+  },
+  {
+   "id": "F-35-3",
+   "ruling": "rejected",
+   "reason": "Duplicate. It aggregates escapes ruled individually: the two-state variant of [0051] (F-33-1), the depressor-actuated purge of [0066] (F-33-4), the separate purge actuator of [0123] and the inverted arrangement of [0117] (F-33-9), and 'biasing member' (F-33-19, F-33-5). The remedies proposed are the union of those rulings."
+  },
+  {
+   "id": "F-35-4",
+   "ruling": "rejected",
+   "reason": "Duplicate of F-33-12: claim 79 is performed by the user and carries the sealant-film condition, with the same [0056] remedy. The added point that proof depends on the user's pump exceeding the threshold ([0179]) follows from the pressure-defined purge state and is answered by the position-defined formulation ruled under F-33-4."
+  },
+  {
+   "id": "F-35-5",
+   "ruling": "rejected",
+   "reason": "Duplicate of F-33-6: the same ranges in claim 67 and the same Schrader-scale and marginal-range escapes. Its proposal to recite the axial-to-radial conversion wall in place of 'convoluted wall' ([0078], [0081]) is already the remedy in F-33-6, where it is ruled together with the index #1 caveat."
+  }
+ ]
+}

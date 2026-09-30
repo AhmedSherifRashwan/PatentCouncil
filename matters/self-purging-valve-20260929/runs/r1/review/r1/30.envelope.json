@@ -1,0 +1,375 @@
+{
+  "prompt": "30",
+  "status": "complete",
+  "findings": [
+    {
+      "id": "F-30-1",
+      "source_prompt": "30",
+      "category": "support",
+      "severity": "high",
+      "title": "\"Closed at rest\" is defined so that it has no limiting content",
+      "claim_refs": [
+        "1",
+        "2",
+        "67"
+      ],
+      "spec_refs": [
+        "[0067]",
+        "[0124]",
+        "[0187]",
+        "Fig. 4A"
+      ],
+      "attack": "[0067] defines 'closed at rest' as the rest position of the bounding surfaces, without gas-tight closure, so every gap is 'closed' at rest. The FIG. 4A instruction draws a radial clearance at rest, which contradicts [0124]/[0187]. US 112(b): no reasonable certainty whether a permanent, widening bypass infringes. EPO/UK: G 1/24 applies the definition, widening claim 1 to read on arrangements that merely enlarge an existing clearance (e.g. US5924444A).",
+      "least_narrowing_action": "Redefine 'closed at rest' in [0067] functionally (bounding surfaces in contact, or spaced by no more than a stated clearance, so no substantial flow passes at rest). Exclude a clearance that already passes flow. Redraw the FIG. 4A instruction to show the contact line of [0187]. Needs the inventor's confirmation of the at-rest condition.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-2",
+      "source_prompt": "30",
+      "category": "novelty",
+      "severity": "high",
+      "title": "Inventive step: the only purpose-specific effect is not shown by the application's own data",
+      "claim_refs": [
+        "1",
+        "2"
+      ],
+      "spec_refs": [
+        "[0016]",
+        "[0136]",
+        "[0140]",
+        "[0287]",
+        "[0289]"
+      ],
+      "attack": "The cleaning is attributed to the air purge, but [0287] reports cured sealant film on the seat-ring outer surface in the purge-gap region, and [0140]/[0289] say the test does not isolate the air purge from the snap-back wipe. The examiner recasts the problem as an alternative second flow path at a higher differential, and combines US4044791A or US5918628A (staged second opening) with US5924444A (seal deformed radially outward to open a gap, then returning), treating mechanical actuation as common general knowledge.",
+      "least_narrowing_action": "Add disclosure explaining how the air purge acts on the purge-gap surfaces and why film remains there, plus any data separating the two cleaning actions. Otherwise reframe the stated effect around what the data show (clean sealing surfaces after 40 cycles against failures at 12-18) as the result of over-travel plus shape recovery. No claim narrowing proposed.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-3",
+      "source_prompt": "30",
+      "category": "support",
+      "severity": "high",
+      "title": "Subject matter recorded as unconfirmed candidates is drawn and claimed",
+      "claim_refs": [
+        "26",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "66",
+        "67"
+      ],
+      "spec_refs": [
+        "Fig. 4",
+        "Fig. 11A",
+        "Fig. 11B",
+        "Fig. 11C",
+        "Fig. 12A",
+        "Fig. 12B",
+        "Fig. 13A",
+        "[0176]",
+        "[0177]",
+        "[0178]",
+        "[0186]",
+        "[0190]"
+      ],
+      "attack": "figures.md says FIGS. 11, 12 and 13A show constructions 'not stated in the inventor's disclosure \u2026 pending inventor confirmation', and that the FIG. 4 fit band is a drafting resolution. Claims directed to subject matter that no named natural person conceived are exposed on inventorship in the US (Thaler v. Vidal), the UK ([2023] UKSC 49) and at the EPO (J 8/20).",
+      "least_narrowing_action": "Put each candidate to the inventor at the embodiment gate. Keep what is confirmed; delete what is not, or record its real contributor. Remove the provenance captions in every case. No narrowing if confirmed.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P3",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-4",
+      "source_prompt": "30",
+      "category": "formal",
+      "severity": "high",
+      "title": "Background attributes content to a publication number that the record marks as fictional",
+      "claim_refs": [],
+      "spec_refs": [
+        "[0007]",
+        "[0013]"
+      ],
+      "attack": "[0007] describes 'US2019/0123456A1'. The prior-art index lists that number only as requester item S1, marked as a fictional test reference that was never fetched. If a real document of that number exists, the description misstates it: a US duty-of-candour problem (37 CFR 1.56) and, at the EPO and UK, an admission that the listed features were known. Must be corrected before filing.",
+      "least_narrowing_action": "Delete [0007], or rewrite it without a publication number only if the inventor or counsel confirms the approaches are known. Recheck [0013] afterwards.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-5",
+      "source_prompt": "30",
+      "category": "formal",
+      "severity": "medium",
+      "title": "US multiple-dependency form and claims fees in all three offices",
+      "claim_refs": [
+        "13",
+        "16",
+        "20",
+        "33",
+        "47",
+        "61",
+        "69",
+        "77",
+        "86"
+      ],
+      "spec_refs": [
+        "[0240]",
+        "[0249]"
+      ],
+      "attack": "US: a multiple dependent claim may not rest on another multiple dependent claim (35 USC 112(e), 37 CFR 1.75(c)); claims such as 13 (via claim 11) and 86 (via 65-69) are improper and would not be examined; proper ones attract a surcharge. EPO: claims fees for claims 16-50, higher from 51 (Rule 45). UK: excess-claims fee over 25. 86 claims are filed.",
+      "least_narrowing_action": "Prepare a US claim set with single dependencies that keeps the chosen fallback chains. For the EPO and UK, consolidate range and material fallbacks that already have description basis in [0240]-[0249].",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-6",
+      "source_prompt": "30",
+      "category": "support",
+      "severity": "medium",
+      "title": "Functional genus terms invite a US 112(f) construction",
+      "claim_refs": [
+        "1",
+        "3",
+        "6"
+      ],
+      "spec_refs": [
+        "[0099]",
+        "[0101]",
+        "[0104]",
+        "[0106]"
+      ],
+      "attack": "'Radially deflectable element', 'return bias' and 'load-converting geometry' are generic nouns defined by function, and [0106] says each covers 'each structure described herein that performs the function'. A US court may apply 112(f), limiting each term to the disclosed structures and equivalents, with an indefiniteness risk if the linkage is unclear.",
+      "least_narrowing_action": "Give each term structural content that avoids 112(f) without narrowing the genus (e.g. 'having a wall that bounds the purge gap'; 'comprising at least one spring'). State the linked structures expressly in [0106]. Counsel may instead accept the 112(f) reading in the US.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-7",
+      "source_prompt": "30",
+      "category": "enablement",
+      "severity": "medium",
+      "title": "Sufficiency across the breadth of the genus claims",
+      "claim_refs": [
+        "1",
+        "20",
+        "21",
+        "22",
+        "30",
+        "31",
+        "74",
+        "75"
+      ],
+      "spec_refs": [
+        "[0184]",
+        "[0208]",
+        "[0210]",
+        "[0230]",
+        "[0290]"
+      ],
+      "attack": "Only the NiTi convoluted seat ring has been built. [0210] says spring-tempered metal 'is not proposed for a continuous convoluted wall', yet claims 20-26 have no material limit. [0290] gives no purge gap width for PEEK. UK breadth-of-claim sufficiency, EPO Art 83 serious doubts from the application's own words, and US Wands factors.",
+      "least_narrowing_action": "Add disclosure within the inventor's conception on material suitability per form, with an estimated PEEK strain and recovery. Recast the [0210] exclusion as guidance by required recoverable strain. Narrowing claims 20-26 by material is the last resort and would give up non-NiTi metal seat rings.",
+      "requires_new_disclosure": true,
+      "suggested_target": "P4",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-8",
+      "source_prompt": "30",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Second independent valve-core claim (claim 77), unity a posteriori, and US restriction",
+      "claim_refs": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "77"
+      ],
+      "spec_refs": [
+        "[0020]",
+        "[0022]"
+      ],
+      "attack": "Claim 77 is a second independent valve-core claim outside claim 1's scope (EPO Rule 43(2)). If claim 3 is read as a bare undulating tubular ring, claims 1-2 and 3-4 share no special technical feature (Art 82). In the US, restriction among claims 1, 2, 3 and 4 is likely.",
+      "least_narrowing_action": "Recast claim 77 as dependent on claim 20 via the seat ring of claim 3, or delete it. Keep claim 3's special technical feature aligned with claim 1 (see F-32-2). Budget for a possible US divisional.",
+      "requires_new_disclosure": false,
+      "suggested_target": "P5",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-9",
+      "source_prompt": "30",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Claims 45, 49 and 50 are defined by, or contradict, entities outside the claimed category",
+      "claim_refs": [
+        "45",
+        "47",
+        "49",
+        "50"
+      ],
+      "spec_refs": [
+        "[0125]",
+        "[0159]",
+        "[0189]",
+        "[0327]"
+      ],
+      "attack": "Claim 45 bounds the purge gap of a valve core by a valve stem that the valve core does not contain. Claim 49 ('formed in the valve stem') contradicts claim 47 ('received in a bore of the valve stem'). Claim 50 defines a tyre valve by the sealant in the tube. US 112(b)/(d); EPO Art 84.",
+      "least_narrowing_action": "Move claim 45 under claim 47. Amend claim 47 to 'received in, or formed in, the valve stem'. Recast claim 50 as a tyre-chamber claim, following statement 2.5 in [0327].",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-10",
+      "source_prompt": "30",
+      "category": "formal",
+      "severity": "medium",
+      "title": "Drawings: FIG. 13A undescribed, numerals missing from the description, text legends in captions",
+      "claim_refs": [
+        "1"
+      ],
+      "spec_refs": [
+        "[0036]",
+        "[0049]",
+        "Fig. 10",
+        "Fig. 11",
+        "Fig. 12",
+        "Fig. 13A"
+      ],
+      "attack": "FIG. 13A and numeral 220 are absent from the description (37 CFR 1.74; Rule 42(1)(d) EPC). Numeral 146, used in claim 1, is absent from the description. Captions such as 'Candidate \u2026 not built or tested' are non-indispensable text in drawings (Rule 46(2)(f) EPC) and put the provenance problem on the face of the patent.",
+      "least_narrowing_action": "Describe FIG. 13A once it is confirmed, or drop it and renumber FIG. 13B. Introduce numeral 146 in [0181]-[0182]. Reduce captions to view titles.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-11",
+      "source_prompt": "30",
+      "category": "formal",
+      "severity": "low",
+      "title": "Relative orientation terms without a frame of reference",
+      "claim_refs": [
+        "14"
+      ],
+      "spec_refs": [
+        "[0112]",
+        "[0113]",
+        "[0117]"
+      ],
+      "attack": "'Below' and 'upper' have no reference when every axial view is drawn with the valve axis horizontal. [0117] glosses 'below' as spacing along the axis, but claim 14 does not use the gloss.",
+      "least_narrowing_action": "Claim 14: replace 'located below the sealing face' with 'spaced from the sealing face along the axis of the poppet'. Define 'upper' in [0112] by the pump-head or tyre-chamber side.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    },
+    {
+      "id": "F-30-12",
+      "source_prompt": "30",
+      "category": "formal",
+      "severity": "low",
+      "title": "Approximate and nominal values in claims",
+      "claim_refs": [
+        "73",
+        "85"
+      ],
+      "spec_refs": [
+        "[0056]",
+        "[0250]",
+        "[0259]"
+      ],
+      "attack": "'About 0.03 mm' and 'nominal composition' invite an EPO clarity objection. [0056] defines 'about' by tolerance but gives no figure.",
+      "least_narrowing_action": "State a tolerance in [0250]/[0259] if the inventor has one, or delete 'about' and 'nominal' in the European claim set.",
+      "requires_new_disclosure": false,
+      "suggested_target": "in-place",
+      "reviewers": [],
+      "sources": [],
+      "consensus": false
+    }
+  ],
+  "corrections": [],
+  "gate14": [],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "A1. Common general knowledge: a thin undulating or bowed tubular wall under axial compression changes its diameter.",
+      "blocking": false
+    },
+    {
+      "id": "A2",
+      "text": "A2. Common general knowledge (examiner's likely position): mechanical actuation of a seal element in place of fluid actuation is an ordinary design alternative.",
+      "blocking": false
+    },
+    {
+      "id": "A3",
+      "text": "A3. The package is the complete filing text; no abstract and no priority document, so no priority or new-matter baseline.",
+      "blocking": false
+    },
+    {
+      "id": "A4",
+      "text": "A4. The drawings will follow the figure instructions in figures.md, including the captions quoted.",
+      "blocking": false
+    },
+    {
+      "id": "A5",
+      "text": "A5. G 1/24, G 1/25 and the UK excess-claims fee threshold were checked against public commentary on 2026-09-29; counsel to confirm current fees.",
+      "blocking": false
+    }
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "text": "Q1. At rest in the prototypes, did the seat ring's free portion touch the core body bore, or was there a clearance, and how large?",
+      "blocks": []
+    },
+    {
+      "id": "Q2",
+      "text": "Q2. Does the inventor have any observation separating the air purge from the snap-back wipe?",
+      "blocks": []
+    },
+    {
+      "id": "Q3",
+      "text": "Q3. Which of the FIG. 4 fit band, FIG. 11A-11C, FIG. 12A-12B, FIG. 13A constructions and the claim 15 collar did the inventor conceive?",
+      "blocks": []
+    },
+    {
+      "id": "Q4",
+      "text": "Q4. Is the [0007] description of a known valve core true of any real document or product the inventor knows?",
+      "blocks": []
+    },
+    {
+      "id": "Q5",
+      "text": "Q5. Which claim chains does counsel want to keep as claims in the US set, and which as description-only fallbacks?",
+      "blocks": []
+    }
+  ]
+}
