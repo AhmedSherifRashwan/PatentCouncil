@@ -52,8 +52,9 @@ says otherwise, and say when a point differs between them.
 
 <!-- observed: 2026-09-16 | status: active -->
 - Always treat disclosure content, prior-art selections, data and every drafting
-  output as confidential. Nothing leaves the dossier; no external tool or service
-  is used.
+  output as confidential. Nothing from the dossier leaves the machine. Web search
+  and page fetching are allowed for research, with generic technical queries only:
+  never disclosure text, claim text or invention-specific phrasing.
 
 <!-- observed: 2026-09-16 | status: active -->
 - Never state that a generated embodiment, range or alternative is confirmed.

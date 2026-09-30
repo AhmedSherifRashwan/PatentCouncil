@@ -2,17 +2,17 @@
  "agents": {
   "defaults": {
    "models": {
+    "anthropic/claude-fable-5-1": {
+     "agentRuntime": {
+      "id": "claude-cli"
+     }
+    },
     "anthropic/claude-sonnet-5": {
      "agentRuntime": {
       "id": "claude-cli"
      }
     },
     "anthropic/claude-opus-5-5": {
-     "agentRuntime": {
-      "id": "claude-cli"
-     }
-    },
-    "anthropic/claude-fable-5-1": {
      "agentRuntime": {
       "id": "claude-cli"
      }
